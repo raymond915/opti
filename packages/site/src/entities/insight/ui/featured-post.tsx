@@ -21,7 +21,7 @@ export const FeaturedPost = ({ className, slug, category, ...props }: FeaturedPo
 					<div className="absolute inset-0 z-9 bg-radial from-beige-1/0 to-beige-1 opacity-50" />
 					<div className="absolute inset-0 z-9 bg-linear-180 from-beige-1/0 to-80% to-beige-1" />
 					<Image
-						alt={props.title}
+						alt={props.title ?? ""}
 						className="object-cover"
 						fill={true}
 						src={props.featureImage}
