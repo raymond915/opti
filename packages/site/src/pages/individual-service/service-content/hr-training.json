@@ -1,0 +1,304 @@
+{
+	"title": "HR Training",
+	"description": "Systems fail when people don't know how to use them — giving managers a disciplinary policy without training them to chair hearings is like handing someone car keys without teaching them to drive. HR training and development in South Africa turn policies into practice, managers into confident leaders, and compliance obligations into business advantages. OptiHR delivers practical, scenario-based training rooted in real South African case law — not textbook theory.",
+	"whyOptiHR": [
+		{
+			"title": "Manager training programmes",
+			"subtitle": "discipline, performance, and grievances",
+			"body": "Most CCMA losses happen because managers are untrained — they don't know how to investigate properly, chair disciplinary hearings fairly, apply progressive discipline consistently, or document decisions correctly. Our manager training covers disciplinary hearing chairing, workplace investigations, performance management, grievance handling, and labour law essentials — practical skills your managers can use immediately.",
+			"buttonText": "Learn More",
+			"buttonHref": "/contact",
+			"background": "white",
+			"mediaPosition": "right"
+		},
+		{
+			"title": "Skills development compliance",
+			"subtitle": "WSPs, ATRs, and SETA levy recovery",
+			"body": "Companies paying Skills Development Levy must submit Workplace Skills Plans and Annual Training Reports to their SETA. Do it correctly and you recover mandatory grants (20% of your levy) plus discretionary grants and maximum BEE skills development points. OptiHR manages your WSP and ATR submissions and ensures your training qualifies.",
+			"buttonText": "Learn More",
+			"buttonHref": "/contact",
+			"background": "white",
+			"mediaPosition": "left"
+		},
+		{
+			"title": "Up-to-date training for 2025 law changes",
+			"subtitle": "current knowledge, not old rules",
+			"body": "Labour law changed significantly in 2025 — the new Code of Good Practice: Dismissal, revised Employment Equity Act requirements, updated parental leave provisions, and 2025 sectoral EE targets. Training from 2023 or 2024 is already outdated. OptiHR training reflects current law and current CCMA case outcomes.",
+			"buttonText": "Learn More",
+			"buttonHref": "/contact",
+			"background": "white",
+			"mediaPosition": "right"
+		}
+	],
+	"legalConsiderations": [
+		{
+			"title": "Code of Good Practice: Dismissal (2025)",
+			"subtitle": "updated procedural requirements.",
+			"body": "The 2025 Code of Good Practice unified dismissal procedures and placed greater emphasis on substantive fairness. Managers chairing hearings must understand the current requirements — not procedures from earlier versions of the Code.",
+			"buttonText": "Learn More",
+			"buttonHref": "/contact",
+			"background": "white",
+			"mediaPosition": "right"
+		},
+		{
+			"title": "Skills Development Act",
+			"subtitle": "WSPs, ATRs and levy recovery.",
+			"body": "Employers paying Skills Development Levy (1% of payroll) must submit Workplace Skills Plans and Annual Training Reports to their SETA. Correct submission unlocks 20% mandatory grants, eligibility for discretionary grants, and maximum BEE points for skills development.",
+			"buttonText": "Learn More",
+			"buttonHref": "/contact",
+			"background": "white",
+			"mediaPosition": "left"
+		}
+	],
+	"faq": [
+		{
+			"question": "What training topics does OptiHR cover?",
+			"answer": "Manager training covers disciplinary hearing chairing, workplace investigations, performance management conversations, progressive discipline, grievance handling, labour law essentials, leave and absenteeism management, conflict resolution, and managing remote teams. HR practitioner training covers advanced labour law, IR strategy, CCMA procedure, and compliance management. We also run employment equity awareness and wellness programmes."
+		},
+		{
+			"question": "Why do managers cause most CCMA losses?",
+			"answer": "Most unfair dismissal awards happen because managers don't know how to investigate properly, chair disciplinary hearings fairly, apply progressive discipline consistently, document decisions correctly, or follow the Code of Good Practice. Training prevents these mistakes before they cost the company — which is always cheaper than a CCMA award."
+		},
+		{
+			"question": "Can training be done on-site at our premises?",
+			"answer": "Yes. We deliver training on-site, online, or in a hybrid format. On-site delivery allows for real-time role-play and scenario work using your actual workplace context — significantly more effective than classroom-style theory sessions."
+		},
+		{
+			"question": "How does training connect to our SETA levy claims?",
+			"answer": "Employers paying Skills Development Levy can claim back a portion through SETA-aligned training. We help you submit your Workplace Skills Plan, align training to your WSP, submit Annual Training Reports, and maximise your grant recovery — as well as BEE skills development scorecard points from your training investment."
+		}
+	],
+	"cta": "Book an HR Training Session",
+	"faqSubtitle": "Common questions about HR training",
+	"faqBody": "Questions we hear from managers and business owners about investing in people skills and staying compliant.",
+	"faqCta": {
+		"text": "Contact us",
+		"navigateTo": "/contact"
+	},
+	"sections": [
+		{
+			"type": "para",
+			"text": "HR training isn't a nice-to-have—it's a must-have for South African businesses wanting to stay compliant, avoid CCMA disasters, and meet Skills Development Act obligations . Training transforms managers who avoid difficult conversations into leaders who manage performance, discipline, and workplace conflicts confidently and legally ."
+		},
+		{
+			"type": "para",
+			"text": "Why HR training and development matter in South Africa:"
+		},
+		{
+			"type": "warning",
+			"text": "Managers cause most CCMA losses—not because they're bad people, but because they're untrained — Most unfair dismissal awards happen because managers don't know how to investigate properly, chair disciplinary hearings fairly, apply progressive discipline consistently, or document decisions correctly . Training fixes this before it costs you ."
+		},
+		{
+			"type": "warning",
+			"text": "Skills development is legally required—and financially rewarded — Companies paying Skills Development Levy (1% of payroll if annual payroll exceeds R500,000 or you have 50+ employees) must submit Workplace Skills Plans (WSPs) and Annual Training Reports (ATRs) to their SETA . Do it right and you get mandatory grants (20% of your levy back) plus eligibility for discretionary grants and maximum BEE points for skills development ."
+		},
+		{
+			"type": "warning",
+			"text": "Training is a BEE scorecard requirement — You cannot score skills development points on your BEE scorecard without submitting a WSP and proving training spend . No WSP = no skills development points = lower BEE level = lost business ."
+		},
+		{
+			"type": "warning",
+			"text": "Labour law changes constantly—2025 brought major updates — The new Code of Good Practice: Dismissal (2025), revised Employment Equity Act requirements, updated parental leave provisions, and evolving CCMA case law mean training from 2023 or 2024 is already outdated . Managers need current knowledge, not old rules ."
+		},
+		{
+			"type": "warning",
+			"text": "Practical training beats theoretical training every time — Managers don't need academic lectures—they need to know what to do when an employee is late again, caught stealing, posts something inappropriate on Facebook, or claims harassment . Training must be practical, scenario-based, and immediately applicable ."
+		},
+		{
+			"type": "para",
+			"text": "What we train:"
+		},
+		{
+			"type": "para",
+			"text": "Manager Training Programs:"
+		},
+		{
+			"type": "item",
+			"text": "Disciplinary Hearing Chairing — How to chair fair disciplinary hearings, apply rules of evidence, assess witness credibility, determine appropriate sanctions, and write defensible outcomes"
+		},
+		{
+			"type": "item",
+			"text": "Workplace Investigations — How to conduct fair investigations into misconduct allegations, interview witnesses, gather evidence, and document findings"
+		},
+		{
+			"type": "item",
+			"text": "Performance Management — How to set KPIs, conduct performance reviews, have difficult performance conversations, manage underperformance, and implement Performance Improvement Plans (PIPs) legally"
+		},
+		{
+			"type": "item",
+			"text": "Grievance Handling — How to receive grievances, investigate complaints, facilitate resolutions, and document outcomes"
+		},
+		{
+			"type": "item",
+			"text": "Progressive Discipline — Understanding when to issue verbal warnings, written warnings, final written warnings, and when dismissal is appropriate"
+		},
+		{
+			"type": "item",
+			"text": "Labour Law Essentials for Managers — Practical understanding of the Labour Relations Act, BCEA, disciplinary procedures, fair dismissal requirements, and CCMA processes"
+		},
+		{
+			"type": "item",
+			"text": "Managing Leave and Absences — Applying leave policies correctly, managing absenteeism, and dealing with suspicious sick leave patterns"
+		},
+		{
+			"type": "item",
+			"text": "Conflict Resolution and Mediation — Managing workplace conflicts, facilitating resolutions between employees, and knowing when to escalate"
+		},
+		{
+			"type": "item",
+			"text": "Managing Remote and Hybrid Teams — Setting expectations, measuring performance, maintaining engagement, and managing discipline for remote workers"
+		},
+		{
+			"type": "para",
+			"text": "HR Practitioner Training:"
+		},
+		{
+			"type": "item",
+			"text": "Advanced Labour Law and IR — Deep-dive training on the Labour Relations Act, BCEA, EEA, OHS Act, and current case law"
+		},
+		{
+			"type": "item",
+			"text": "CCMA Representation Skills — How to represent employers at conciliation and arbitration, present evidence, cross-examine witnesses, and draft heads of argument"
+		},
+		{
+			"type": "item",
+			"text": "Retrenchment Process Management — Section 189 compliance, meaningful consultation, alternatives assessment, and avoiding Labour Court reviews"
+		},
+		{
+			"type": "item",
+			"text": "Employment Equity Compliance — EEA reporting (EEA2/EEA4), sectoral targets, pay equity analysis, and 2025 regulatory updates"
+		},
+		{
+			"type": "item",
+			"text": "HR Policy Development — Writing legally compliant policies, implementing policies effectively, and ensuring enforceability"
+		},
+		{
+			"type": "item",
+			"text": "Workplace Skills Plan (WSP) and Annual Training Report (ATR) Compilation — How to conduct skills audits, compile WSPs, complete ATRs, and submit to SETAs for grant eligibility"
+		},
+		{
+			"type": "para",
+			"text": "Compliance Training:"
+		},
+		{
+			"type": "item",
+			"text": "Skills Development Act Compliance — Understanding WSP and ATR obligations, SETA grant applications, and BEE skills development scoring"
+		},
+		{
+			"type": "item",
+			"text": "Employment Equity Compliance — Meeting reporting deadlines, understanding sectoral targets, and avoiding Department of Labour penalties"
+		},
+		{
+			"type": "item",
+			"text": "POPIA Compliance for HR — Managing employee personal information, consent requirements, and data protection obligations"
+		},
+		{
+			"type": "para",
+			"text": "Customized Training:"
+		},
+		{
+			"type": "item",
+			"text": "Industry-Specific Training — Tailored programs for private schools, healthcare, manufacturing, retail, or any other sector with unique HR challenges"
+		},
+		{
+			"type": "item",
+			"text": "Organization-Specific Training — Training based on your policies, procedures, and real workplace scenarios"
+		},
+		{
+			"type": "para",
+			"text": "What you get:"
+		},
+		{
+			"type": "benefit",
+			"text": "Confident managers who handle discipline, performance, and conflicts correctly the first time"
+		},
+		{
+			"type": "benefit",
+			"text": "Reduced CCMA claims because managers know how to follow fair processes"
+		},
+		{
+			"type": "benefit",
+			"text": "Skills Development Act compliance with WSP and ATR submissions meeting SETA deadlines"
+		},
+		{
+			"type": "benefit",
+			"text": "SETA grant eligibility (20% mandatory grants + discretionary grants)"
+		},
+		{
+			"type": "benefit",
+			"text": "BEE skills development points maximized"
+		},
+		{
+			"type": "benefit",
+			"text": "Current knowledge reflecting 2025 labour law changes"
+		},
+		{
+			"type": "benefit",
+			"text": "Practical, scenario-based learning managers can apply immediately"
+		},
+		{
+			"type": "benefit",
+			"text": "Training certificates for compliance and BEE verification"
+		},
+		{
+			"type": "audience",
+			"text": "Managers and supervisors in Gauteng and across South Africa responsible for managing staff but untrained in labour law, discipline, or performance management"
+		},
+		{
+			"type": "audience",
+			"text": "HR practitioners needing to upskill on 2025 labour law changes, CCMA representation, or compliance requirements"
+		},
+		{
+			"type": "audience",
+			"text": "Small businesses without HR departments where managers handle discipline, performance, and leave themselves"
+		},
+		{
+			"type": "audience",
+			"text": "Companies paying Skills Development Levy needing WSP and ATR training to claim grants and score BEE points"
+		},
+		{
+			"type": "audience",
+			"text": "Organizations with high CCMA referral rates because managers don't know how to handle discipline correctly"
+		},
+		{
+			"type": "audience",
+			"text": "Private schools needing specialized training on managing educators, SACE compliance, and school-specific HR issues"
+		},
+		{
+			"type": "audience",
+			"text": "Businesses preparing managers for promotion into leadership roles"
+		},
+		{
+			"type": "audience",
+			"text": "Companies wanting to build internal HR capability without hiring full-time HR staff"
+		},
+		{
+			"type": "warning",
+			"text": "We train from experience, not textbooks — Our training is led by practitioners who chair disciplinary hearings, represent employers at the CCMA, and manage real workplace disputes daily . We teach what works in reality, not theory ."
+		},
+		{
+			"type": "warning",
+			"text": "Legal authority built in — Our owner is an admitted attorney with Labour Court rights. Our training reflects current case law, not outdated practices ."
+		},
+		{
+			"type": "warning",
+			"text": "Practical, scenario-based training — We don't lecture—we work through real workplace scenarios: the employee caught stealing, the manager who doesn't show up, the harassment complaint, the social media post . Participants leave knowing exactly what to do ."
+		},
+		{
+			"type": "warning",
+			"text": "We train for CCMA success — Our programs focus on what CCMA commissioners scrutinize: procedural fairness, documentation, consistency, and substantive fairness . Managers trained by us win cases"
+		},
+		{
+			"type": "warning",
+			"text": "We handle WSP and ATR compliance — We don't just train—we help you compile Workplace Skills Plans, conduct skills audits, complete Annual Training Reports, and submit to SETAs for grant eligibility and BEE compliance ."
+		},
+		{
+			"type": "warning",
+			"text": "Current with 2025 changes — Our training reflects the new Code of Good Practice: Dismissal (2025), Employment Equity Act amendments, and latest CCMA case law ."
+		},
+		{
+			"type": "warning",
+			"text": "Flexible delivery — We offer in-person training at your workplace, virtual training via Zoom/Teams, public workshops, and online self-paced courses . You choose what works for your team ."
+		}
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"name": "@opti/sanity",
+	"private": true,
+	"version": "1.0.0",
+	"description": "Sanity CMS workspace for OptiHR",
+	"main": "./index.ts",
+	"scripts": {
+		"dev": "sanity dev --turbopack --no-cache",
+		"start": "sanity start",
+		"build": "sanity build",
+		"deploy": "sanity deploy",
+		"deploy-graphql": "sanity graphql deploy",
+		"check-types": "tsc --noEmit",
+		"lint": "biome check --write",
+		"format": "biome format . --write",
+		"sanity-types": "bunx sanity schema extract && bunx sanity typegen generate"
+	},
+	"keywords": [
+		"sanity"
+	],
+	"dependencies": {
+		"@portabletext/react": "^4.0.3",
+		"@sanity/client": "^7.13.0",
+		"@sanity/image-url": "^1.2.0",
+		"@sanity/vision": "^4.16.0",
+		"react": "19.1.0",
+		"react-dom": "19.1.0",
+		"sanity": "^4.16.0",
+		"styled-components": "^6.1.18"
+	},
+	"devDependencies": {
+		"@sanity/eslint-config-studio": "^5.0.2",
+		"@types/react": "^19.1",
+		"typescript": "^5.8"
+	}
+}

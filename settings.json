@@ -1,0 +1,10 @@
+{
+  "lsp": {
+    "biome": {
+      "binary": {
+        "path": "~/.bun/bin/biome",
+        "arguments": ["lsp"]
+      }
+    }
+  }
+}

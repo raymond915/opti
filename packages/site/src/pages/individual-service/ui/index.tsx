@@ -1,0 +1,267 @@
+import { ContainedLayout } from "@shared/components/layout/contained-layout"
+import { PageBanner } from "@shared/components/page-banner"
+import { SectionSubtitle } from "@shared/components/section-subtitle"
+import { H2, H3, P } from "@shared/components/typography"
+import { ClientLogos } from "@widgets/client-logos"
+import { FaqSection } from "@widgets/faq-section"
+import { TestimonialSection } from "@widgets/testimonial/ui"
+import { notFound } from "next/navigation"
+import type { ServiceContent } from "../model/schema"
+
+import companySecretaryServices from "../service-content/company-secretary-services.json"
+import compliance from "../service-content/compliance.json"
+import employmentEquity from "../service-content/employment-equity.json"
+import hrPolicyDevelopment from "../service-content/hr-policy-development.json"
+import hrSupportForIndependentSchools from "../service-content/hr-support-for-independent-schools.json"
+import hrTraining from "../service-content/hr-training.json"
+import industrialRelations from "../service-content/industrial-relations.json"
+import jobEvaluation from "../service-content/job-evaluation.json"
+import labourAudits from "../service-content/labour-audits.json"
+import performanceManagement from "../service-content/performance-management.json"
+import retrenchments from "../service-content/retrenchments.json"
+import workplaceDiscipline from "../service-content/workplace-discipline.json"
+import workplaceWellnessPrograms from "../service-content/workplace-wellness-programs.json"
+
+type SectionItem = { type: string; text: string }
+type ExtendedServiceContent = ServiceContent & { sections?: SectionItem[] }
+
+const serviceMap: Record<string, unknown> = {
+	"company-secretary-services": companySecretaryServices,
+	"compliance": compliance,
+	"employment-equity": employmentEquity,
+	"hr-policy-development": hrPolicyDevelopment,
+	"hr-support-for-independent-schools": hrSupportForIndependentSchools,
+	"hr-training": hrTraining,
+	"industrial-relations": industrialRelations,
+	"job-evaluation": jobEvaluation,
+	"labour-audits": labourAudits,
+	"performance-management": performanceManagement,
+	"retrenchments": retrenchments,
+	"workplace-discipline": workplaceDiscipline,
+	"workplace-wellness-programs": workplaceWellnessPrograms,
+}
+
+export const ServicePage = ({ slug }: { slug: string }) => {
+	if (!slug) {
+		notFound()
+	}
+
+	const raw = serviceMap[slug]
+	if (!raw) {
+		notFound()
+	}
+	const data = raw as ExtendedServiceContent
+
+	const sections = data.sections ?? []
+	const itemSections = sections.filter((s) => s.type === "item")
+	const benefitSections = sections.filter((s) => s.type === "benefit")
+	const audienceSections = sections.filter((s) => s.type === "audience")
+	const warningSections = sections.filter((s) => s.type === "warning")
+
+	return (
+		<>
+			<PageBanner
+				anchorId="services"
+				anchorText="View services"
+				body={data.description}
+				title={data.title}
+			/>
+
+			{data.whyOptiHR && data.whyOptiHR.length > 0 && (
+				<ContainedLayout className="max-h-none flex flex-col gap-fluid-4 bg-muted-1">
+					<div className="col-span-full flex flex-col gap-fluid-1">
+						<SectionSubtitle isDark title="Why OptiHR" />
+						<H2>How we help</H2>
+					</div>
+					<div className="col-span-full grid grid-cols-1 gap-inner-padding md:grid-cols-3">
+						{data.whyOptiHR.map((item) => (
+							<div
+								className="flex flex-col gap-fluid-2 rounded-inner bg-white p-inner-padding"
+								key={item.title}
+							>
+								<div className="flex flex-col gap-fluid-1">
+									<P className="text-mint-4 text-sm font-medium uppercase tracking-wider">
+										{item.subtitle}
+									</P>
+									<H3 className="text-mint-6">{item.title}</H3>
+								</div>
+								<P className="text-mint-5/90 grow">{item.body}</P>
+							</div>
+						))}
+					</div>
+				</ContainedLayout>
+			)}
+
+			{itemSections.length > 0 && (
+				<ContainedLayout className="max-h-none flex flex-col gap-fluid-4 bg-white">
+					<div className="col-span-full flex flex-col gap-fluid-1">
+						<SectionSubtitle isDark title="Our Process" />
+						<H2 className="text-mint-6">What we cover</H2>
+					</div>
+					<div className="col-span-full grid grid-cols-1 gap-x-inner-padding gap-y-fluid-2 md:grid-cols-2">
+						{itemSections.map((item, i) => (
+							<div className="flex items-start gap-3" key={i}>
+								<span className="mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-mint-4/20 text-mint-4">
+									<svg viewBox="0 0 16 16" fill="none" className="h-3 w-3" aria-hidden="true">
+										<path d="M3 8l3.5 3.5L13 4.5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+									</svg>
+								</span>
+								<P className="text-mint-5/90">{item.text}</P>
+							</div>
+						))}
+					</div>
+				</ContainedLayout>
+			)}
+
+			{benefitSections.length > 0 && (
+				<ContainedLayout className="max-h-none flex flex-col gap-fluid-4 bg-muted-1">
+					<div className="col-span-full flex flex-col gap-fluid-1">
+						<SectionSubtitle isDark title="Deliverables" />
+						<H2>What you get</H2>
+					</div>
+					<div className="col-span-full grid grid-cols-1 gap-x-inner-padding gap-y-fluid-2 md:grid-cols-2">
+						{benefitSections.map((item, i) => (
+							<div className="flex items-start gap-3" key={i}>
+								<span className="mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-mint-6/20 text-mint-6">
+									<svg viewBox="0 0 16 16" fill="none" className="h-3 w-3" aria-hidden="true">
+										<path d="M3 8l3.5 3.5L13 4.5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+									</svg>
+								</span>
+								<P className="text-mint-5/90">{item.text}</P>
+							</div>
+						))}
+					</div>
+				</ContainedLayout>
+			)}
+
+			{audienceSections.length > 0 && (
+				<ContainedLayout className="max-h-none flex flex-col gap-fluid-4 bg-white">
+					<div className="col-span-full flex flex-col gap-fluid-1">
+						<SectionSubtitle isDark title="Ideal For" />
+						<H2 className="text-mint-6">Who we work with</H2>
+					</div>
+					<div className="col-span-full grid grid-cols-1 gap-inner-padding sm:grid-cols-2 lg:grid-cols-3">
+						{audienceSections.map((item, i) => (
+							<div
+								className="rounded-inner border border-mint-2/30 bg-muted-1 p-inner-padding"
+								key={i}
+							>
+								<P className="text-mint-5/90 text-sm">{item.text}</P>
+							</div>
+						))}
+					</div>
+				</ContainedLayout>
+			)}
+
+			{warningSections.length > 0 && (
+				<ContainedLayout className="max-h-none flex flex-col gap-fluid-4 bg-mint-1/30">
+					<div className="col-span-full flex flex-col gap-fluid-1">
+						<SectionSubtitle isDark title="Our Advantage" />
+						<H2 className="text-mint-6">Why choose OptiHR</H2>
+					</div>
+					<div className="col-span-full grid grid-cols-1 gap-inner-padding md:grid-cols-2">
+						{warningSections.map((item, i) => (
+							<div
+								className="flex flex-col gap-fluid-1 rounded-inner bg-white p-inner-padding shadow-sm"
+								key={i}
+							>
+								<P className="text-mint-5/90">{item.text}</P>
+							</div>
+						))}
+					</div>
+				</ContainedLayout>
+			)}
+
+			{data.legalConsiderations && data.legalConsiderations.length > 0 && (
+				<ContainedLayout className="max-h-none flex flex-col gap-fluid-4 bg-mint-6">
+					<div className="col-span-full flex flex-col gap-fluid-1">
+						<SectionSubtitle isDark={false} title="Legal Framework" />
+						<H2 className="text-white">Legislation that applies</H2>
+					</div>
+					<div className="col-span-full grid grid-cols-1 gap-inner-padding md:grid-cols-2">
+						{data.legalConsiderations.map((item) => (
+							<div
+								className="flex flex-col gap-fluid-2 rounded-inner bg-white/10 p-inner-padding"
+								key={item.title}
+							>
+								<div className="flex flex-col gap-fluid-1">
+									<P className="text-mint-2 text-sm font-medium uppercase tracking-wider">
+										{item.subtitle}
+									</P>
+									<H3 className="text-white">{item.title}</H3>
+								</div>
+								<P className="text-white/80 grow">{item.body}</P>
+							</div>
+						))}
+					</div>
+				</ContainedLayout>
+			)}
+
+			<FaqSection
+				data={{
+					title: "FAQ",
+					subtitle: data.faqSubtitle,
+					body: data.faqBody,
+					cta: data.faqCta,
+					questions: data.faq,
+				}}
+			/>
+			<TestimonialSection
+				sectionTitle="Client Success Stories"
+				testimonials={[
+					{
+						_type: "testimonial",
+						_id: "1",
+						_createdAt: "2024-01-01T00:00:00Z",
+						_updatedAt: "2024-01-01T00:00:00Z",
+						_rev: "1",
+						name: "Sarah Johnson",
+						role: "HR Director",
+						company: "Tech Innovations SA",
+						testimonial: [
+							{
+								_type: "block",
+								children: [
+									{
+										_type: "span",
+										marks: [],
+										text: "OptiHR\'s service streamlined our compliance and boosted team morale.",
+										_key: "a",
+									},
+								],
+								_key: "b",
+								style: "normal",
+							},
+						],
+					},
+					{
+						_type: "testimonial",
+						_id: "2",
+						_createdAt: "2024-01-01T00:00:00Z",
+						_updatedAt: "2024-01-01T00:00:00Z",
+						_rev: "1",
+						name: "Michael Brown",
+						role: "CEO",
+						company: "Growth Corp",
+						testimonial: [
+							{
+								_type: "block",
+								children: [
+									{
+										_type: "span",
+										marks: [],
+										text: "Exceptional expertise in labour law \u2013 saved us thousands in fines.",
+										_key: "c",
+									},
+								],
+								_key: "d",
+								style: "normal",
+							},
+						],
+					},
+				]}
+			/>
+			<ClientLogos />
+		</>
+	)
+}

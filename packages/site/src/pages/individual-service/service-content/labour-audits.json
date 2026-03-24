@@ -1,0 +1,220 @@
+{
+	"title": "Labour Audits",
+	"description": "A Labour Audit is the best starting point for any business. It shows you exactly where you stand today, what risks you're facing, and what needs to be fixed first. Think of it as a health check for your business — it highlights problems before they become expensive disasters and gives you a clear action plan to move forward. Many businesses think they're compliant until an inspector arrives, a CCMA case is filed, or a penalty notice lands. A Labour Audit removes the guesswork.",
+	"whyOptiHR": [
+		{
+			"title": "Comprehensive compliance review",
+			"subtitle": "contracts, policies, payroll, processes",
+			"body": "We review your employment contracts, workplace policies, payroll registrations (SARS, UIF, SDL, Compensation Fund), leave records, working hours, record-keeping, hiring and termination processes, health and safety compliance, employment equity obligations, and training records — giving you a complete picture of where you stand.",
+			"buttonText": "Learn More",
+			"buttonHref": "/contact",
+			"background": "white",
+			"mediaPosition": "right"
+		},
+		{
+			"title": "Priority action plan with ready-to-use documents",
+			"subtitle": "not just a list of problems",
+			"body": "You receive a clear report identifying what's working and what isn't, a prioritised risk list, and a step-by-step action plan telling you what to fix first. Unlike consultants who only find problems, OptiHR provides ready-to-use contracts, policies, and forms you can implement immediately — backed by our admitted attorney principal.",
+			"buttonText": "Learn More",
+			"buttonHref": "/contact",
+			"background": "white",
+			"mediaPosition": "left"
+		},
+		{
+			"title": "DOL inspection readiness",
+			"subtitle": "prepared at all times",
+			"body": "Department of Labour inspectors can arrive without notice. OptiHR prepares your business for unannounced inspections — ensuring contracts are compliant, mandatory posters are displayed, registers are maintained, and your records are in order. We've conducted audits and represented employers during government inspections, so we know exactly what inspectors look for.",
+			"buttonText": "Learn More",
+			"buttonHref": "/contact",
+			"background": "white",
+			"mediaPosition": "right"
+		}
+	],
+	"legalConsiderations": [
+		{
+			"title": "BCEA & LRA",
+			"subtitle": "baseline compliance for every employer.",
+			"body": "The Basic Conditions of Employment Act and Labour Relations Act set minimum standards for every employment relationship. A Labour Audit verifies your contracts, payroll, leave, working hours, and dismissal procedures meet these standards — before an inspector or CCMA case reveals that they don't.",
+			"buttonText": "Learn More",
+			"buttonHref": "/contact",
+			"background": "white",
+			"mediaPosition": "right"
+		},
+		{
+			"title": "Occupational Health & Safety Act",
+			"subtitle": "workplace safety compliance.",
+			"body": "The OHSA requires employers to provide a safe working environment, maintain safety committees (50+ employees), keep accident records, and comply with health and safety regulations specific to their industry. Non-compliance can result in DOL enforcement action and director liability.",
+			"buttonText": "Learn More",
+			"buttonHref": "/contact",
+			"background": "white",
+			"mediaPosition": "left"
+		}
+	],
+	"faq": [
+		{
+			"question": "What does a Labour Audit actually review?",
+			"answer": "A comprehensive Labour Audit covers employment contracts, workplace policies, payroll compliance (SARS, UIF, SDL, Compensation Fund), working hours and overtime, leave records, record-keeping practices, hiring and termination processes, performance management systems, health and safety compliance, employment equity obligations (for 50+ employee businesses), and training records."
+		},
+		{
+			"question": "How do we know if we need a Labour Audit?",
+			"answer": "If you've never had your HR checked by a professional, you need one. If you have staff complaints, high turnover, or disciplinary problems that keep recurring, you need one. If you're preparing for a BEE verification, tender application, or investor review, you need one. Most businesses that think they're fine are surprised by what a Labour Audit reveals."
+		},
+		{
+			"question": "What's the difference between a Labour Audit and a compliance check?",
+			"answer": "A compliance check typically reviews whether you meet specific legal requirements. A Labour Audit is broader — it also assesses whether your HR systems and processes are effective, identifies operational HR risks, and provides a practical improvement roadmap. You get not just a legal compliance report but a plan for fixing what's wrong."
+		},
+		{
+			"question": "Do you only find problems or do you help fix them?",
+			"answer": "We don't just find problems — we fix them. A Labour Audit with OptiHR includes ready-to-use updated employment contracts, revised policies, and practical forms you can implement immediately. We also offer ongoing support to help you work through the action plan, or you can implement the recommendations yourself with our guidance."
+		}
+	],
+	"cta": "Schedule a Labour Audit Today",
+	"faqSubtitle": "Common questions about Labour Audits",
+	"faqBody": "Questions we hear from business owners about what a Labour Audit covers and why their business needs one.",
+	"faqCta": {
+		"text": "Contact us",
+		"navigateTo": "/contact"
+	},
+	"sections": [
+		{
+			"type": "para",
+			"text": "A Labour Audit reviews everything related to your staff and compliance. We check your contracts, policies, payroll, record-keeping, and processes to find gaps and risks . At the end, you'll know exactly where you stand and what to do next ."
+		},
+		{
+			"type": "para",
+			"text": "Why a Labour Audit is the right starting point:"
+		},
+		{
+			"type": "benefit",
+			"text": "It tells you where you are — Many businesses think they're fine until something goes wrong. An audit shows you the reality of your situation ."
+		},
+		{
+			"type": "benefit",
+			"text": "It identifies your risks — We find the problems that could cost you money, time, or your reputation ."
+		},
+		{
+			"type": "benefit",
+			"text": "It prioritizes what matters — Not everything needs to be fixed at once. We tell you what's urgent and what can wait ."
+		},
+		{
+			"type": "benefit",
+			"text": "It gives you a clear plan — You'll get a step-by-step action plan showing exactly what to do and in what order ."
+		},
+		{
+			"type": "benefit",
+			"text": "It sets you up for success — Once you know your priorities, you can work towards real goals instead of guessing ."
+		},
+		{
+			"type": "para",
+			"text": "What we review in a Labour Audit:"
+		},
+		{
+			"type": "item",
+			"text": "Employment contracts — Are they legal? Do they protect you? Are all the important details included?"
+		},
+		{
+			"type": "item",
+			"text": "Workplace policies — Do you have the right policies in place? Are staff actually following them?"
+		},
+		{
+			"type": "item",
+			"text": "Payroll and payments — Are you registered with SARS, UIF, and SDL? Are you paying correctly?"
+		},
+		{
+			"type": "item",
+			"text": "Leave and working hours — Are you giving the right leave? Are working hours legal?"
+		},
+		{
+			"type": "item",
+			"text": "Record-keeping — Do you have the documents you need? Can you find them if an inspector asks?"
+		},
+		{
+			"type": "item",
+			"text": "Hiring and firing — Are you following the law when you bring people in or let them go?"
+		},
+		{
+			"type": "item",
+			"text": "Performance management — Do you have a fair system to measure and manage performance?"
+		},
+		{
+			"type": "item",
+			"text": "Health and safety — Are your workplaces safe? Do you have the right policies and committees?"
+		},
+		{
+			"type": "item",
+			"text": "Employment Equity — Are you meeting your obligations if you have 50 or more employees?"
+		},
+		{
+			"type": "item",
+			"text": "Training records — Are you submitting the required training plans and reports?"
+		},
+		{
+			"type": "para",
+			"text": "What you get at the end:"
+		},
+		{
+			"type": "benefit",
+			"text": "A clear report showing what's working and what's not"
+		},
+		{
+			"type": "benefit",
+			"text": "A list of risks so you know where trouble could come from"
+		},
+		{
+			"type": "benefit",
+			"text": "A priority action plan telling you what to fix first"
+		},
+		{
+			"type": "benefit",
+			"text": "Ready-to-use documents like contracts, policies, and forms you can start using immediately"
+		},
+		{
+			"type": "benefit",
+			"text": "Peace of mind knowing you're prepared for inspections, disputes, or audits"
+		},
+		{
+			"type": "audience",
+			"text": "Small business owners who don't have HR staff and want to know if they're doing things right"
+		},
+		{
+			"type": "audience",
+			"text": "Growing businesses that need to get their house in order before problems start"
+		},
+		{
+			"type": "audience",
+			"text": "Companies facing a Department of Labour inspection and unsure if they'll pass"
+		},
+		{
+			"type": "audience",
+			"text": "Businesses preparing for tenders, BEE verification, or investor reviews"
+		},
+		{
+			"type": "audience",
+			"text": "Private schools managing staff without dedicated HR support"
+		},
+		{
+			"type": "audience",
+			"text": "Anyone who's never had their HR checked by a professional"
+		},
+		{
+			"type": "audience",
+			"text": "Businesses with high staff turnover, complaints, or problems that keep happening"
+		},
+		{
+			"type": "warning",
+			"text": "Legal expertise you can trust — Our owner is an admitted attorney with Labour Court rights, so our advice is backed by law ."
+		},
+		{
+			"type": "warning",
+			"text": "We don't just find problems—we fix them — You'll get ready-to-use documents, not just a list of what's wrong ."
+		},
+		{
+			"type": "warning",
+			"text": "We make it simple — No jargon, no confusion. We explain everything in plain language so you understand exactly what to do ."
+		},
+		{
+			"type": "warning",
+			"text": "We've seen it from both sides — We've done audits for businesses and represented employers during government inspections, so we know what to look for ."
+		}
+	]
+}
