@@ -35,9 +35,9 @@ export interface ServicePageProps extends Props {}
 
 export const validateService = (content: unknown): ServiceContent => {
 	const result = ServiceSchema(content)
-	if (result.problems) {
-		console.error("Service content validation failed:", result.problems)
+	if (result instanceof type.errors) {
+		console.error("Service content validation failed:", result)
 		throw new Error("Invalid service content structure")
 	}
-	return result.data
+	return result
 }
