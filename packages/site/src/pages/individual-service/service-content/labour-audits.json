@@ -7,7 +7,7 @@
 			"subtitle": "contracts, policies, payroll, processes",
 			"body": "We review your employment contracts, workplace policies, payroll registrations (SARS, UIF, SDL, Compensation Fund), leave records, working hours, record-keeping, hiring and termination processes, health and safety compliance, employment equity obligations, and training records — giving you a complete picture of where you stand.",
 			"buttonText": "Learn More",
-			"buttonHref": "/contact",
+			"buttonHref": "https://www.optihr.co.za/contact",
 			"background": "white",
 			"mediaPosition": "right"
 		},
@@ -16,7 +16,7 @@
 			"subtitle": "not just a list of problems",
 			"body": "You receive a clear report identifying what's working and what isn't, a prioritised risk list, and a step-by-step action plan telling you what to fix first. Unlike consultants who only find problems, OptiHR provides ready-to-use contracts, policies, and forms you can implement immediately — backed by our admitted attorney principal.",
 			"buttonText": "Learn More",
-			"buttonHref": "/contact",
+			"buttonHref": "https://www.optihr.co.za/contact",
 			"background": "white",
 			"mediaPosition": "left"
 		},
@@ -25,7 +25,7 @@
 			"subtitle": "prepared at all times",
 			"body": "Department of Labour inspectors can arrive without notice. OptiHR prepares your business for unannounced inspections — ensuring contracts are compliant, mandatory posters are displayed, registers are maintained, and your records are in order. We've conducted audits and represented employers during government inspections, so we know exactly what inspectors look for.",
 			"buttonText": "Learn More",
-			"buttonHref": "/contact",
+			"buttonHref": "https://www.optihr.co.za/contact",
 			"background": "white",
 			"mediaPosition": "right"
 		}
@@ -36,7 +36,7 @@
 			"subtitle": "baseline compliance for every employer.",
 			"body": "The Basic Conditions of Employment Act and Labour Relations Act set minimum standards for every employment relationship. A Labour Audit verifies your contracts, payroll, leave, working hours, and dismissal procedures meet these standards — before an inspector or CCMA case reveals that they don't.",
 			"buttonText": "Learn More",
-			"buttonHref": "/contact",
+			"buttonHref": "https://www.optihr.co.za/contact",
 			"background": "white",
 			"mediaPosition": "right"
 		},
@@ -45,7 +45,7 @@
 			"subtitle": "workplace safety compliance.",
 			"body": "The OHSA requires employers to provide a safe working environment, maintain safety committees (50+ employees), keep accident records, and comply with health and safety regulations specific to their industry. Non-compliance can result in DOL enforcement action and director liability.",
 			"buttonText": "Learn More",
-			"buttonHref": "/contact",
+			"buttonHref": "https://www.optihr.co.za/contact",
 			"background": "white",
 			"mediaPosition": "left"
 		}

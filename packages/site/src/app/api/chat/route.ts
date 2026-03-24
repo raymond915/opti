@@ -1,7 +1,7 @@
 import type { NextRequest } from "next/server"
 import { Resend } from "resend"
 
-const resend = new Resend(process.env.RESEND_API_KEY)
+const resend = process.env.RESEND_API_KEY ? new Resend(process.env.RESEND_API_KEY) : null
 
 // ── System prompt ──────────────────────────────────────────────────────────────
 const SYSTEM_PROMPT = `You are the virtual assistant for OptiHR and OptiAI, a South African HR and AI consultancy based in Pretoria. Your role is to warmly engage website visitors, help them understand how OptiHR and OptiAI can help their specific situation, and — naturally through conversation — gather their contact details so a consultant can follow up.
@@ -105,6 +105,10 @@ function extractLead(text: string): { clean: string; lead: LeadData | null } {
 }
 
 async function sendLeadEmail(lead: LeadData) {
+	if (!resend) {
+		console.warn("RESEND_API_KEY not set — skipping lead email")
+		return
+	}
 	try {
 		await resend.emails.send({
 			from: "onboarding@resend.dev",

@@ -7,7 +7,7 @@
 			"subtitle": "inspection-ready, always",
 			"body": "We prepare your business for DOL inspections — reviewing contracts, mandatory posters, attendance registers, leave records, UIF and SDL registration, and OHSA compliance. When the inspector arrives, you're ready.",
 			"buttonText": "Learn More",
-			"buttonHref": "/contact",
+			"buttonHref": "https://www.optihr.co.za/contact",
 			"background": "white",
 			"mediaPosition": "right"
 		},
@@ -16,7 +16,7 @@
 			"subtitle": "deadlines met, penalties avoided",
 			"body": "EEA2, EEA4, and EEA9 report preparation and submission, Employment Equity Plan development, Workplace Skills Plans (WSPs) and Annual Training Reports (ATRs) submitted to your SETA by 30 April — all handled correctly and on time.",
 			"buttonText": "Learn More",
-			"buttonHref": "/contact",
+			"buttonHref": "https://www.optihr.co.za/contact",
 			"background": "white",
 			"mediaPosition": "left"
 		},
@@ -25,7 +25,7 @@
 			"subtitle": "all obligations managed",
 			"body": "We manage BEE verification preparation, POPIA data protection compliance, SACE registration for schools, and ongoing legislative monitoring — translating regulatory changes into practical updates for your business before they become problems.",
 			"buttonText": "Learn More",
-			"buttonHref": "/contact",
+			"buttonHref": "https://www.optihr.co.za/contact",
 			"background": "white",
 			"mediaPosition": "right"
 		}
@@ -36,7 +36,7 @@
 			"subtitle": "reporting and plan obligations.",
 			"body": "Designated employers (50+ employees) must submit annual EE reports and maintain 5-year Employment Equity Plans. Non-submission results in fines up to 10% of annual turnover from the 2025 amendments.",
 			"buttonText": "Learn More",
-			"buttonHref": "/contact",
+			"buttonHref": "https://www.optihr.co.za/contact",
 			"background": "white",
 			"mediaPosition": "right"
 		},
@@ -45,7 +45,7 @@
 			"subtitle": "WSPs, ATRs and SETA levies.",
 			"body": "Employers paying Skills Development Levy must submit Workplace Skills Plans and Annual Training Reports to their SETA by 30 April each year. Correct submission unlocks mandatory grants and BEE skills development points.",
 			"buttonText": "Learn More",
-			"buttonHref": "/contact",
+			"buttonHref": "https://www.optihr.co.za/contact",
 			"background": "white",
 			"mediaPosition": "left"
 		},
@@ -54,7 +54,7 @@
 			"subtitle": "data protection obligations.",
 			"body": "The Protection of Personal Information Act requires lawful processing of employee and customer data, breach reporting, and proper consent mechanisms. Non-compliance results in fines up to R10 million.",
 			"buttonText": "Learn More",
-			"buttonHref": "/contact",
+			"buttonHref": "https://www.optihr.co.za/contact",
 			"background": "white",
 			"mediaPosition": "right"
 		},
@@ -63,7 +63,7 @@
 			"subtitle": "baseline employment standards.",
 			"body": "The Basic Conditions of Employment Act and Labour Relations Act set the floor for every employment relationship in South Africa — covering working hours, leave, contracts, dismissals, and dispute resolution.",
 			"buttonText": "Learn More",
-			"buttonHref": "/contact",
+			"buttonHref": "https://www.optihr.co.za/contact",
 			"background": "white",
 			"mediaPosition": "left"
 		}

@@ -2,12 +2,13 @@ import { decode } from "decode-formdata"
 import { Resend } from "resend"
 import type { ContactFormSchema } from "../model"
 
-if (!process.env.RESEND_API_KEY) {
-	throw new Error("RESEND_API_KEY environment variable is missing")
-}
-const resend = new Resend(process.env.RESEND_API_KEY)
+const resend = process.env.RESEND_API_KEY ? new Resend(process.env.RESEND_API_KEY) : null
 
 export const sendContactEmail = async (value: FormData) => {
+	if (!resend) {
+		console.warn("RESEND_API_KEY not set — skipping contact email")
+		return { success: false, error: "Email service not configured" }
+	}
 	const { ContactEmailTemplate } = await import("@opti/transactional/emails/contact-email-template")
 	const values: typeof ContactFormSchema.infer = decode(value)
 	const from = "enquiries@contact.optihr.co.za"

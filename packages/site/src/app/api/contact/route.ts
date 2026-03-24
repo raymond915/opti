@@ -1,10 +1,10 @@
 import type { NextRequest } from "next/server"
 import { Resend } from "resend"
 
-const resend = new Resend(process.env.RESEND_API_KEY)
+const resend = process.env.RESEND_API_KEY ? new Resend(process.env.RESEND_API_KEY) : null
 
 export const POST = async (request: NextRequest) => {
-	if (!resend) throw new Error("Resend API key not found")
+	if (!resend) return Response.json({ error: "Email service not configured" }, { status: 503 })
 	try {
 		const { data, error } = await resend.emails.send({
 			from: "onboarding@resend.dev",

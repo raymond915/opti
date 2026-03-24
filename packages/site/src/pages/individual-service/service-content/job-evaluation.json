@@ -7,7 +7,7 @@
 			"subtitle": "South Africa's most trusted method",
 			"body": "We analyse each role, write clear job descriptions signed by both employee and manager, and grade every position using the Paterson Job Grading System from the bottom up — ensuring internal fairness across your entire organisation. The Paterson System is recognised by unions, government, and the CCMA, making your pay structure legally defensible.",
 			"buttonText": "Learn More",
-			"buttonHref": "/contact",
+			"buttonHref": "https://www.optihr.co.za/contact",
 			"background": "white",
 			"mediaPosition": "right"
 		},
@@ -16,7 +16,7 @@
 			"subtitle": "current market data, your industry",
 			"body": "We compare your salaries against current South African market data for similar roles in your industry and region. You'll know exactly where you're overpaying, underpaying, or positioned correctly — with a clear roadmap showing which salaries to adjust and when.",
 			"buttonText": "Learn More",
-			"buttonHref": "/contact",
+			"buttonHref": "https://www.optihr.co.za/contact",
 			"background": "white",
 			"mediaPosition": "left"
 		},
@@ -25,7 +25,7 @@
 			"subtitle": "defensible, fair, and documented",
 			"body": "The Employment Equity Amendment Act requires equal pay for work of equal value. Without a formal grading structure, equal pay claims are extremely difficult to defend. Our job evaluation process creates the documented rationale required to prove your pay decisions are based on objective job content — not favouritism or discrimination.",
 			"buttonText": "Learn More",
-			"buttonHref": "/contact",
+			"buttonHref": "https://www.optihr.co.za/contact",
 			"background": "white",
 			"mediaPosition": "right"
 		}
@@ -36,7 +36,7 @@
 			"subtitle": "equal pay for work of equal value.",
 			"body": "The EEA Amendment Act requires employers to eliminate unjustifiable pay differentials between employees performing work of equal value. Without a formal job grading structure, you cannot demonstrate your pay decisions are defensible — leaving you exposed to CCMA equal pay disputes.",
 			"buttonText": "Learn More",
-			"buttonHref": "/contact",
+			"buttonHref": "https://www.optihr.co.za/contact",
 			"background": "white",
 			"mediaPosition": "right"
 		},
@@ -45,7 +45,7 @@
 			"subtitle": "pay disputes and unfair labour practices.",
 			"body": "Pay-related disputes — including equal pay claims and remuneration disputes — can be referred to the CCMA as unfair labour practices. A documented, objective job evaluation structure is your primary defence against such claims.",
 			"buttonText": "Learn More",
-			"buttonHref": "/contact",
+			"buttonHref": "https://www.optihr.co.za/contact",
 			"background": "white",
 			"mediaPosition": "left"
 		}

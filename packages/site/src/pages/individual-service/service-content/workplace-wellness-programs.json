@@ -7,7 +7,7 @@
 			"subtitle": "support when it matters most",
 			"body": "30% of South African employees show signs of depression, and 25% are diagnosed with stress-related issues. We design and implement Employee Assistance Programmes (EAPs) providing professional counselling for personal and work-related problems, mental health awareness training, crisis counselling after traumatic workplace events, and stress management workshops.",
 			"buttonText": "Learn More",
-			"buttonHref": "/contact",
+			"buttonHref": "https://www.optihr.co.za/contact",
 			"background": "white",
 			"mediaPosition": "right"
 		},
@@ -16,7 +16,7 @@
 			"subtitle": "prevention over treatment",
 			"body": "We organise on-site health screenings including blood pressure, cholesterol, glucose, and BMI assessments for early detection of health risks. We design fitness programmes, facilitate corporate gym memberships, run chronic disease management support, and create nutritional awareness initiatives — building healthier employees who perform better and take fewer sick days.",
 			"buttonText": "Learn More",
-			"buttonHref": "/contact",
+			"buttonHref": "https://www.optihr.co.za/contact",
 			"background": "white",
 			"mediaPosition": "left"
 		},
@@ -25,7 +25,7 @@
 			"subtitle": "addressing South African workplace realities",
 			"body": "South African employees face significant financial stress — debt, family support obligations, and economic uncertainty affect productivity and wellbeing daily. We design financial literacy programmes, facilitate debt counselling access, develop support networks for employees facing personal hardship, and create social cohesion initiatives that build connection and resilience across your workforce.",
 			"buttonText": "Learn More",
-			"buttonHref": "/contact",
+			"buttonHref": "https://www.optihr.co.za/contact",
 			"background": "white",
 			"mediaPosition": "right"
 		}
@@ -36,7 +36,7 @@
 			"subtitle": "employer duty of care.",
 			"body": "The OHSA requires employers to provide a safe working environment — which includes addressing psychological health risks like chronic stress and workplace conflict. Failure to address foreseeable mental health risks in the workplace can constitute an OHSA violation, particularly for high-stress roles or environments.",
 			"buttonText": "Learn More",
-			"buttonHref": "/contact",
+			"buttonHref": "https://www.optihr.co.za/contact",
 			"background": "white",
 			"mediaPosition": "right"
 		},
@@ -45,7 +45,7 @@
 			"subtitle": "wellness training and SETA claims.",
 			"body": "Wellness-related training — stress management, mental health awareness, financial literacy — can qualify as skills development expenditure and contribute to your Workplace Skills Plan, BEE skills development scorecard points, and SETA grant recovery. OptiHR helps you structure wellness programmes to maximise your SETA benefits.",
 			"buttonText": "Learn More",
-			"buttonHref": "/contact",
+			"buttonHref": "https://www.optihr.co.za/contact",
 			"background": "white",
 			"mediaPosition": "left"
 		}
