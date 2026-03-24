@@ -16,10 +16,11 @@ export const FeaturedPostSchema = type({
 
 export type FeaturedPostType = typeof FeaturedPostSchema.infer
 
-export interface FeaturedPostProps extends Pick<Post, keyof Omit<FeaturedPostType, "slug" | "category">> {
+export interface FeaturedPostProps extends Omit<Pick<Post, keyof Omit<FeaturedPostType, "slug" | "category">>, "featureImage"> {
 	className?: string
 	slug?: string
 	category?: string
+	featureImage?: string
 }
 
 export const BlogPostThumbnailSchema = type({
