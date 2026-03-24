@@ -3,6 +3,7 @@ import type { NextConfig } from "next"
 
 const nextConfig: NextConfig = {
 	distDir: "/tmp/optihr-next",
+	pageExtensions: ["tsx", "jsx", "js"],
 	turbopack: {
 		resolveAlias: {
 			// @react-email/render imports prettier for HTML formatting.
