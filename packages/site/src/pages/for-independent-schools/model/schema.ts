@@ -7,10 +7,10 @@ export const ForIndependentSchoolsPageSchema = type({
 			title: "string",
 			body: "string",
 		},
-		// @ts-expect-error\n		highlightBlocks: "array",
+		highlightBlocks: "unknown[]",
 		faqSection: {
 			subtitle: "string",
-			// @ts-expect-error\n			items: "array",
+			items: "unknown[]",
 		},
 		cta: {
 			body: "string",
