@@ -2,7 +2,6 @@ import path from "path"
 import type { NextConfig } from "next"
 
 const nextConfig: NextConfig = {
-	distDir: "/tmp/optihr-next",
 	pageExtensions: ["page.tsx", "page.ts", "page.jsx", "page.js"],
 	turbopack: {
 		resolveAlias: {
