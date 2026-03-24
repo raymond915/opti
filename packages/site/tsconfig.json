@@ -22,7 +22,7 @@
 		"paths": {
 			"@entities/*": ["../site/src/entities/*"],
 			"@features/*": ["../site/src/features/*"],
-			"@pages/*": ["../site/src/pages/*"],
+			"@pages/*": ["../site/src/views/*"],
 			"@widgets/*": ["../site/src/widgets/*"],
 			"@shared/*": ["../site/src/shared/*"],
 			"@opti/sanity": ["../sanity/src"]
