@@ -24,7 +24,7 @@ export const FeaturedPost = ({ className, slug, category, ...props }: FeaturedPo
 						alt={props.title ?? ""}
 						className="object-cover"
 						fill={true}
-						src={props.featureImage}
+						src={props.featureImage ?? ""}
 					/>
 				</div>
 			) : (
