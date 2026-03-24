@@ -35,4 +35,3 @@ export const AboutPageSchema = type({
 
 export type AboutPageProps = typeof AboutPageSchema.infer
 
-export default AboutPageSchema
