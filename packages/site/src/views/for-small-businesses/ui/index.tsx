@@ -48,7 +48,7 @@ export const ForSmallBusinessesPage: NextPage<ForSmallBusinessesProps> = ({
 				body="Running a small business is already demanding — HR compliance shouldn't be another weight on your shoulders. OptiHR gives you professional HR support without the cost of a full-time hire."
 				title="HR & Compliance Support for Small Businesses in South Africa"
 			/>
-			<ContainedLayout className="grid grid-cols-2 gap-section-gap">
+			<ContainedLayout className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-section-gap">
 				<H2>Every business deserves proper HR — no matter its size.</H2>
 				<P className="text-mint-5/80 text-lg leading-relaxed">
 					Too often, businesses hand HR to someone unqualified and only discover the risk when they're hit with a costly CCMA award. OptiHR exists to remove that risk. We don't stop at compliance — competent HR builds trust, lifts morale, and strengthens loyalty among your staff.
@@ -223,7 +223,7 @@ export const ForSmallBusinessesPage: NextPage<ForSmallBusinessesProps> = ({
 				body="Don't wait for the CCMA, a bargaining council, or a trade union to show you where things went wrong. Get ahead of the risk. Book a free compliance consultation with OptiHR today and put proper HR in place before issues escalate."
 				buttonHref="/contact"
 				buttonText="Book your free consultation"
-				className={"h-[80dvh]"}
+				className={"h-[50dvh] md:h-[80dvh]"}
 				media={{
 					type: "component",
 					mediaNode: (

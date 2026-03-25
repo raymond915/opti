@@ -33,7 +33,7 @@ export const Footer = () => {
 							</div>
 						</div>
 						{/*FOOTER COLUMNS*/}
-						<nav className="u-grid col-start-2 mt-8 mb-fluid-9 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+						<nav className="u-grid md:col-start-2 mt-8 mb-fluid-9 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
 							{menuItems.map((list) => {
 								return (
 									<FooterList

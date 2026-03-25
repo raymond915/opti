@@ -16,10 +16,10 @@ export const LargeParagraph = ({
 	return (
 		<ContainedLayout className={cn("items-start", className)}>
 			<SectionSubtitle
-				className="col-span-6"
+				className="col-span-full md:col-span-6"
 				title={title}
 			/>
-			<div className="col-span-6 col-start-7 flex flex-col gap-fluid-2">
+			<div className="col-span-full md:col-span-6 md:col-start-7 flex flex-col gap-fluid-2">
 				<H2 className="wrap-normal block [&>span]:shrink-0 [&>span]:text-mint-4">{heading}</H2>
 				<P>{description}</P>
 				<Button href={ctaHref}>{ctaLabel}</Button>

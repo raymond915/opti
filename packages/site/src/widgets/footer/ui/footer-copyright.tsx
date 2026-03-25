@@ -2,7 +2,7 @@ import Link from "next/link"
 
 export const Copyright = () => {
 	return (
-		<div className="grid grid-cols-2 items-center gap-x-gutter text-fluid-n1 text-mint-1">
+		<div className="grid grid-cols-1 md:grid-cols-2 items-center gap-2 md:gap-x-gutter text-fluid-n1 text-mint-1">
 			<div>
 				{`©Copyright OptiHR ${new Date().getFullYear()} . All rights reserved. Designed & Developed by `}
 				<span className="font-semibold underline underline-offset-3 hover:text-mint-3">

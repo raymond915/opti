@@ -111,15 +111,15 @@ export const HighlightBlock = ({ ...props }: HighlightBlockProps) => {
 					props.className,
 				)}
 			>
-				<div className="col-span-6 grid grid-cols-subgrid items-center gap-inner-padding">
-					<div className="col-span-4 col-start-2 flex flex-col gap-fluid-3 py-section-gap">
+				<div className="col-span-full md:col-span-6 grid md:grid-cols-subgrid items-center gap-inner-padding">
+					<div className="col-span-full md:col-span-4 md:col-start-2 flex flex-col gap-fluid-3 py-4 md:py-section-gap">
 						{props.children}
 					</div>
 				</div>
 				<div
 					className={cn(
 						[
-							"relative col-span-6 flex h-full w-full overflow-clip rounded-inner",
+							"relative col-span-full md:col-span-6 flex h-full w-full overflow-clip rounded-inner min-h-[250px]",
 						],
 						highlightBlockVariants({
 							mediaPosition: props.mediaPosition,

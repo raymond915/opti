@@ -13,8 +13,8 @@ export const FaqSection = ({ data }: { data: FaqSectionProps }) => {
 	const { title, subtitle, body, cta, questions } = data
 	const [openIndex, setOpenIndex] = useState<number | null>(null)
 	return (
-		<ContainedLayout className="w-full grid-cols-2 bg-beige-1">
-			<div className="col-span-1 flex max-w-3/4 flex-col gap-fluid-1 px-inner-padding py-inner-padding">
+		<ContainedLayout className="w-full grid-cols-1 lg:grid-cols-2 bg-beige-1">
+			<div className="col-span-full lg:col-span-1 flex max-w-full lg:max-w-3/4 flex-col gap-fluid-1 px-inner-padding py-inner-padding">
 				<SectionSubtitle
 					isDark={true}
 					title={subtitle}
@@ -29,7 +29,7 @@ export const FaqSection = ({ data }: { data: FaqSectionProps }) => {
 				</Button>
 			</div>
 			<motion.div
-				className="col-start-2 flex flex-col gap-inner-padding"
+				className="col-span-full lg:col-start-2 flex flex-col gap-inner-padding"
 				layout={true}
 			>
 				{questions.map((q: QuestionProps, index: number) => (

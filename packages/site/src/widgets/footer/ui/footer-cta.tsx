@@ -5,7 +5,7 @@ import { H2, P } from "@shared/components/typography"
 
 export const FooterCta = () => {
 	return (
-		<div className="grid grid-cols-2 items-center gap-x-gutter rounded-inner bg-mint-1/10 p-inner-padding">
+		<div className="grid grid-cols-1 sm:grid-cols-2 items-center gap-4 sm:gap-x-gutter rounded-inner bg-mint-1/10 p-inner-padding">
 			<div className="flex flex-col gap-1 *:text-white">
 				<H2 className="font-medium text-fluid-1">Begin Your Journey Today</H2>
 				<P className="text-fluid-0">Book a free consultation and find out exactly where your business stands — no commitment, no pressure.</P>

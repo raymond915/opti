@@ -50,7 +50,7 @@ export const TestimonialSection = ({
 								<TestimonialCard
 									key={testimonial._id}
 									{...testimonial}
-									className={cn("mr-inner-padding", useCarousel ? "min-w-1/3" : "min-w-0 flex-1")}
+									className={cn("mr-inner-padding", useCarousel ? "min-w-[85%] sm:min-w-1/2 md:min-w-1/3" : "min-w-0 flex-1")}
 								/>
 							)
 						})}

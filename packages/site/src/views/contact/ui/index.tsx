@@ -10,16 +10,16 @@ export const ContactPage: NextPage = () => {
 	return (
 		<div
 			className={
-				"contained-height relative col-span-full grid grid-cols-12 gap-inner-place-items-end rounded-outer"
+				"contained-height relative col-span-full grid grid-cols-1 md:grid-cols-12 gap-inner-place-items-end rounded-outer"
 			}
 		>
-			<div className="nav-padding relative col-span-6 grid grid-cols-subgrid overflow-clip rounded-outer bg-mint-6 px-inner-padding">
+			<div className="nav-padding relative col-span-full md:col-span-6 grid md:grid-cols-subgrid overflow-clip rounded-outer bg-mint-6 px-inner-padding">
 				<Logo
 					className="absolute -right-[5vw] -bottom-[10vh] w-[45vw] select-none fill-mint-5 opacity-18"
 					logomark={true}
 				/>
 				{/*TODO: Refactor Section Subtitle & Badge component so that copy is not defined in the prop "title"*/}
-				<div className="z-10 col-span-4 col-start-2 mt-section-gap flex h-full flex-col gap-inner-padding">
+				<div className="z-10 col-span-full md:col-span-4 md:col-start-2 mt-section-gap flex h-full flex-col gap-inner-padding">
 					<Badge
 						icon={<Inbox />}
 						label={"Contact Us"}
@@ -30,7 +30,7 @@ export const ContactPage: NextPage = () => {
 					</P>
 					{/*<Button href={""}>Book a consultation</Button>*/}
 				</div>
-				<div className="z-10 col-span-4 col-start-2 flex flex-col justify-start gap-inner-padding pb-inner-padding text-base leading-tight">
+				<div className="z-10 col-span-full md:col-span-4 md:col-start-2 flex flex-col justify-start gap-inner-padding pb-inner-padding text-base leading-tight">
 					<P className="font-medium text-mint-2">Prefer to reach out directly?</P>
 					<div className="flex flex-col gap-4 text-base leading-tight">
 						<a
@@ -82,8 +82,8 @@ export const ContactPage: NextPage = () => {
 					</a>
 				</div>
 			</div>
-			<div className="nav-padding col-span-6 grid grid-cols-subgrid">
-				<div className="col-span-4 col-start-2 flex h-full w-full flex-col py-section-gap">
+			<div className="nav-padding col-span-full md:col-span-6 grid md:grid-cols-subgrid">
+				<div className="col-span-full md:col-span-4 md:col-start-2 flex h-full w-full flex-col py-4 md:py-section-gap">
 					<ContactForm />
 				</div>
 			</div>

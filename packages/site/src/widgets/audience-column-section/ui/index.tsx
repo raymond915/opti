@@ -38,7 +38,7 @@ const audienceContent: AudienceCardProps[] = [
 
 export const AudienceColumnSection = () => {
 	return (
-		<ContainedLayout className="grid grid-cols-3 gap-inner-padding p-0">
+		<ContainedLayout className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-inner-padding p-0">
 			{audienceContent.map((props) => (
 				<AudienceCard
 					key={props.title}

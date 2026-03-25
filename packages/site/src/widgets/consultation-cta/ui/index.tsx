@@ -8,8 +8,8 @@ import type { ConsultationCtaProps } from "../model/schema"
 export const ConsultationCta = ({ ...props }: ConsultationCtaProps) => {
 	return (
 		<ContainedLayout className="bg-mint-6">
-			<div className="col-span-6 grid grid-cols-subgrid justify-center place-self-center">
-				<div className="col-span-4 col-start-2 flex flex-col gap-fluid-1 py-section-gap *:text-white">
+			<div className="col-span-full md:col-span-6 grid md:grid-cols-subgrid justify-center place-self-center">
+				<div className="col-span-full md:col-span-4 md:col-start-2 flex flex-col gap-fluid-1 py-4 md:py-section-gap *:text-white">
 					<SectionSubtitle
 						isDark={false}
 						title={props.subtitle}
@@ -24,7 +24,7 @@ export const ConsultationCta = ({ ...props }: ConsultationCtaProps) => {
 					</Button>
 				</div>
 			</div>
-			<div className="relative col-span-6 flex items-center justify-center overflow-clip rounded-inner bg-mint-1">
+			<div className="relative col-span-full md:col-span-6 flex items-center justify-center overflow-clip rounded-inner bg-mint-1 min-h-[200px]">
 				<div className="absolute inset-0 bg-radial from-mint-2/40 via-mint-1/60 to-mint-1" />
 				<Logo
 					className="relative z-10 w-2/3 opacity-20"

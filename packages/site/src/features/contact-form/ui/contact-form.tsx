@@ -104,7 +104,7 @@ export const ContactForm = () => {
 						. You may withdraw consent at any time by emailing hello@optihr.co.za.
 					</p>
 				)}
-				<div className="grid w-full grid-cols-2 gap-inner-padding">
+				<div className="grid w-full grid-cols-1 sm:grid-cols-2 gap-inner-padding">
 					{step > 1 && (
 						<ActionButton
 							background={"muted"}
@@ -136,7 +136,7 @@ export const ContactForm = () => {
 							}
 							const text = isNextStep ? "Next" : isSubmitting ? "Submitting..." : "Submit"
 							return (
-								<div className="col-start-2 flex items-center gap-inner-padding place-self-end">
+								<div className="sm:col-start-2 flex items-center gap-inner-padding place-self-end">
 									<P className="text-fluid-n1 text-mint-1 opacity-60.">{`Step ${String(step)} of 3`}</P>
 									<ActionButton
 										className={cn(

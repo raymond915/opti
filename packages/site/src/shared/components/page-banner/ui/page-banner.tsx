@@ -5,8 +5,8 @@ import type { PageBannerProps } from "../model/schema"
 
 export const PageBanner = ({ ...props }: PageBannerProps) => {
 	return (
-		<section className="nav-padding relative col-span-full grid grid-cols-subgrid overflow-clip rounded-outer bg-mint-6">
-			<div className="col-span-7 flex flex-col gap-fluid-5 p-section-gap">
+		<section className="nav-padding relative col-span-full grid md:grid-cols-subgrid overflow-clip rounded-outer bg-mint-6">
+			<div className="col-span-full md:col-span-7 flex flex-col gap-fluid-5 p-4 md:p-section-gap">
 				<div className="flex flex-col gap-fluid-2 *:text-white">
 					<H1>{props.title}</H1>
 					<P>{props.body}</P>
@@ -15,7 +15,7 @@ export const PageBanner = ({ ...props }: PageBannerProps) => {
 			</div>
 			<div className="absolute top-section-gap right-section-gap">
 				<Logo
-					className="size-[60vh] opacity-5"
+					className="size-[30vh] md:size-[60vh] opacity-5"
 					logomark={true}
 				/>
 			</div>

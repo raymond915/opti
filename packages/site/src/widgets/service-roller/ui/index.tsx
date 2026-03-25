@@ -21,7 +21,7 @@ export const ServiceRoller = () => {
 					return (
 						<ServiceCard
 							callToAction={service.callToAction}
-							className="embla__slide aspect-square w-[calc((100%-var(--spacing-inner-padding)*3)/4)] shrink-0"
+							className="embla__slide aspect-square w-[85%] sm:w-[calc((100%-var(--spacing-inner-padding)*1)/2)] md:w-[calc((100%-var(--spacing-inner-padding)*3)/4)] shrink-0"
 							description={service.description}
 							hasIcon={true}
 							href={service.href}

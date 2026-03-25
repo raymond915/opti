@@ -19,7 +19,7 @@ export const ComparisonSection = ({ ...props }: ComparisonSectionProps) => {
 					Why clients choose OptiHR <br />
 					over other service providers
 				</H2>
-				<div className="grid w-full max-w-6xl grid-cols-2 gap-inner-padding *:flex *:flex-col *:gap-fluid-5 *:rounded-outer *:p-section-gap">
+				<div className="grid w-full max-w-6xl grid-cols-1 md:grid-cols-2 gap-inner-padding *:flex *:flex-col *:gap-fluid-5 *:rounded-outer *:p-4 md:*:p-section-gap">
 					<div className="bg-mint-6">
 						<Logo className="h-fluid-5 w-fit" />
 						<ul className="flex flex-col gap-fluid-4">
