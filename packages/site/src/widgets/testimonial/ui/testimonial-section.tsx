@@ -44,13 +44,13 @@ export const TestimonialSection = ({
 					className={cn("col-span-full", useCarousel ? "select-none" : "")}
 					ref={useCarousel ? emblaRef : undefined}
 				>
-					<div className="flex">
+					<div className={cn("flex", useCarousel ? "" : "flex-col md:flex-row")}>
 						{testimonials.map((testimonial) => {
 							return (
 								<TestimonialCard
 									key={testimonial._id}
 									{...testimonial}
-									className={cn("mr-inner-padding", useCarousel ? "min-w-[85%] sm:min-w-1/2 md:min-w-1/3" : "min-w-0 flex-1")}
+									className={cn("mr-inner-padding", useCarousel ? "min-w-[85%] sm:min-w-1/2 md:min-w-1/3" : "min-w-0 md:flex-1")}
 								/>
 							)
 						})}
