@@ -6,10 +6,10 @@ import { H2, P } from "@shared/components/typography"
 export const AboutSection = () => {
 	return (
 		<ContainedLayout>
-			<div className="col-span-6">
+			<div className="col-span-full md:col-span-6">
 				<SectionSubtitle title={"Who we are"} />
 			</div>
-			<div className="col-span-6 flex flex-col gap-gutter">
+			<div className="col-span-full md:col-span-6 flex flex-col gap-gutter">
 				<H2 className="wrap-normal block [&>span]:shrink-0 [&>span]:text-mint-4">
 					You run your business.
 					<br />
