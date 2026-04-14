@@ -1,0 +1,376 @@
+{
+	"title": "Industrial Relations",
+	"description": "Unions don't negotiate — they fight for their members, and without equal representation you're outmatched. Industrial relations in South Africa requires navigating bargaining councils, interpreting collective agreements, managing unionised workforces, handling strikes, and negotiating wages with organised labour. OptiHR is a member of a registered employers organisation — meaning your business can join, giving you collective bargaining power and expert representation that acts like a union for employers.",
+	"whyOptiHR": [
+		{
+			"title": "Employers organisation membership",
+			"subtitle": "collective bargaining power for employers",
+			"body": "Just as unions represent employees collectively, employers organisations represent employers at bargaining councils, industry negotiations, and sectoral forums. Through OptiHR's membership in a registered employers organisation, your business gains access to collective bargaining representation, expert negotiation support, and a voice in sectoral wage negotiations.",
+			"buttonText": "Learn More",
+			"buttonHref": "/contact",
+			"background": "white",
+			"mediaPosition": "right"
+		},
+		{
+			"title": "Bargaining council compliance & collective agreements",
+			"subtitle": "obligations understood and met",
+			"body": "If your industry has a registered bargaining council — ELRC, MEIBC, or others — collective agreements bind you even if you're not a member. We interpret what collective agreements mean for your business, ensure you comply with wage determinations and working conditions, and represent you in council proceedings.",
+			"buttonText": "Learn More",
+			"buttonHref": "/contact",
+			"background": "white",
+			"mediaPosition": "left"
+		},
+		{
+			"title": "Union engagement, strikes & CCMA representation",
+			"subtitle": "disputes resolved, strikes prevented",
+			"body": "We manage union recognition agreements, handle organisational rights disputes, facilitate workplace forum establishment, and advise on strike prevention and management. When disputes reach the CCMA or Labour Court, our admitted attorney principal represents your interests with the authority and expertise unions bring to the table for employees.",
+			"buttonText": "Learn More",
+			"buttonHref": "/contact",
+			"background": "white",
+			"mediaPosition": "right"
+		}
+	],
+	"legalConsiderations": [
+		{
+			"title": "Labour Relations Act",
+			"subtitle": "collective agreements, strikes, and forums.",
+			"body": "The LRA governs collective bargaining, trade union rights, workplace forums, strike procedures, and employer obligations toward organised labour. Collective agreements have the same legal force as contracts — breach them and face Labour Court action.",
+			"buttonText": "Learn More",
+			"buttonHref": "/contact",
+			"background": "white",
+			"mediaPosition": "right"
+		},
+		{
+			"title": "Bargaining Council Agreements",
+			"subtitle": "binding even on non-members.",
+			"body": "Collective agreements concluded at bargaining councils extend to all employers and employees in that sector, whether they are members of the council or not. Not knowing your sectoral obligations doesn't exempt you from compliance — and penalties for non-compliance can be significant.",
+			"buttonText": "Learn More",
+			"buttonHref": "/contact",
+			"background": "white",
+			"mediaPosition": "left"
+		}
+	],
+	"faq": [
+		{
+			"question": "Do bargaining council agreements apply to us if we're not a member?",
+			"answer": "Yes. If your industry has a registered bargaining council and the collective agreement has been extended to the sector, it binds all employers and employees in that sector — including non-members. This commonly affects industries like hospitality, metal and engineering, motor industry, and education. Not knowing your obligations is not a defence."
+		},
+		{
+			"question": "How can we prevent strike action in our workplace?",
+			"answer": "Most strikes happen because employers don't engage constructively with union concerns, violate collective agreements, or ignore legitimate grievances. Proactive industrial relations — regular engagement with union representatives, transparent communication about business decisions, fair application of agreements, and quick grievance resolution — prevent strikes before they start. OptiHR builds these systems."
+		},
+		{
+			"question": "What is a workplace forum and do we need one?",
+			"answer": "Under the Labour Relations Act, employees can establish workplace forums to participate in decisions affecting the workplace — restructuring, work organisation, productivity, and training. Workplace forums apply to businesses with 100+ employees. Poorly managed forums become platforms for ongoing disputes; well-managed ones improve communication and reduce conflict."
+		},
+		{
+			"question": "How does the employers organisation membership work?",
+			"answer": "OptiHR is a member of a registered employers organisation. Your business can affiliate through our membership, gaining access to collective bargaining representation at council level, strategic industrial relations support, and expert negotiation assistance — giving you the equivalent of what a union provides for employees, but on the employer side."
+		}
+	],
+	"cta": "Strengthen Your IR Strategy",
+	"faqSubtitle": "Common questions about industrial relations",
+	"faqBody": "Questions we hear from business owners about managing unions, bargaining councils, and workplace disputes in South Africa.",
+	"faqCta": {
+		"text": "Contact us",
+		"navigateTo": "/contact"
+	},
+	"sections": [
+		{
+			"type": "para",
+			"text": "Industrial relations govern the relationship between employers, employees, and trade unions . In South Africa, this means navigating bargaining councils, interpreting collective agreements, managing unionized workforces, handling strikes, establishing workplace forums, and negotiating wages and conditions with organized labour ."
+		},
+		{
+			"type": "para",
+			"text": "Why employers need industrial relations support:"
+		},
+		{
+			"type": "warning",
+			"text": "Unions have expertise—most employers don't — Trade unions employ full-time negotiators, labour law specialists, and industrial relations experts. Small and medium businesses rarely have equivalent expertise, leaving them disadvantaged at the negotiating table ."
+		},
+		{
+			"type": "warning",
+			"text": "Bargaining councils set the rules—and you must follow them — If your industry or sector has a registered bargaining council (like ELRC for public education, MEIBC for metal and engineering, etc.), collective agreements negotiated at council level bind you—even if you're not a member . Not knowing your obligations doesn't exempt you from compliance ."
+		},
+		{
+			"type": "warning",
+			"text": "Collective agreements are contracts—break them and face legal consequences — Collective agreements have the same legal force as contracts. Violating agreed wage rates, working conditions, or procedures can result in Labour Court action, CCMA disputes, and union grievances ."
+		},
+		{
+			"type": "warning",
+			"text": "Strike action can cripple your business—but it's preventable — Protected strikes are legal in South Africa when unions follow correct procedures. But many strikes happen because employers don't engage constructively, ignore union concerns, or violate collective agreements . Strategic industrial relations prevent strikes before they start ."
+		},
+		{
+			"type": "warning",
+			"text": "Workplace forums give employees a voice—manage them correctly or face constant conflict — The Labour Relations Act allows for workplace forums where employees participate in workplace decision-making on issues like restructuring, work organization, and productivity . Poorly managed forums become platforms for ongoing disputes ."
+		},
+		{
+			"type": "warning",
+			"text": "You need collective bargaining power—not just legal advice — When unions organize your workforce and demand recognition agreements, wage negotiations, or improved conditions, legal advice isn't enough. You need representation, strategy, and collective employer strength ."
+		},
+		{
+			"type": "para",
+			"text": "What OptiHR offers through registered employers organization membership:"
+		},
+		{
+			"type": "para",
+			"text": "Employers Organization Membership"
+		},
+		{
+			"type": "item",
+			"text": "Join a registered employers organization through OptiHR — We are members of a registered employers organization, and your business can join through our membership, giving you collective bargaining representation and industrial relations support"
+		},
+		{
+			"type": "item",
+			"text": "Collective bargaining power — Just as unions represent employees collectively, employers organizations represent employers collectively at bargaining councils, industry negotiations, and sectoral forums"
+		},
+		{
+			"type": "item",
+			"text": "Act as your \"union\" for employers — We provide the same level of representation, negotiation expertise, and strategic support for employers that unions provide for employees"
+		},
+		{
+			"type": "item",
+			"text": "Access to industry-wide negotiations — Through employers organization membership, you have a voice in sectoral wage negotiations, working condition standards, and industry agreements"
+		},
+		{
+			"type": "para",
+			"text": "Bargaining Council Support"
+		},
+		{
+			"type": "item",
+			"text": "Interpretation of collective agreements — We explain what collective agreements mean for your business, which clauses apply to you, and how to implement them correctly"
+		},
+		{
+			"type": "item",
+			"text": "Bargaining council compliance — We ensure you comply with wage determinations, working hours, leave entitlements, and other provisions set by bargaining councils in your sector"
+		},
+		{
+			"type": "item",
+			"text": "Representation at bargaining council hearings — When disputes are referred to bargaining councils for conciliation or arbitration, we represent you"
+		},
+		{
+			"type": "item",
+			"text": "Sectoral determination compliance — For industries without bargaining councils, we ensure compliance with government-set sectoral determinations"
+		},
+		{
+			"type": "para",
+			"text": "Union Recognition & Organizational Rights"
+		},
+		{
+			"type": "item",
+			"text": "Recognition agreement negotiation — When unions seek recognition at your workplace, we negotiate fair recognition agreements protecting your operational flexibility while respecting union rights"
+		},
+		{
+			"type": "item",
+			"text": "Organizational rights management — We advise on and manage union organizational rights (access to premises, stop orders, meetings during work hours, trade union representatives)"
+		},
+		{
+			"type": "item",
+			"text": "Threshold calculations — Determining when unions reach representativeness thresholds triggering organizational rights or collective bargaining obligations"
+		},
+		{
+			"type": "para",
+			"text": "Collective Bargaining & Wage Negotiations"
+		},
+		{
+			"type": "item",
+			"text": "Wage negotiation strategy — We prepare you for annual wage negotiations with data, industry benchmarks, affordability assessments, and negotiation tactics"
+		},
+		{
+			"type": "item",
+			"text": "Collective bargaining representation — We represent you at the negotiating table with unions, ensuring agreements are fair, affordable, and operationally viable"
+		},
+		{
+			"type": "item",
+			"text": "Multi-union environments — Managing negotiations when multiple unions represent different employee groups"
+		},
+		{
+			"type": "item",
+			"text": "Deadlock management — When negotiations reach deadlock, we facilitate resolution through conciliation, mediation, or referring disputes to the CCMA or bargaining councils"
+		},
+		{
+			"type": "para",
+			"text": "Workplace Forum Establishment & Management"
+		},
+		{
+			"type": "item",
+			"text": "Workplace forum setup — Establishing workplace forums when required by law or requested by employees"
+		},
+		{
+			"type": "item",
+			"text": "Forum constitution drafting — Creating workplace forum constitutions defining roles, responsibilities, and consultation procedures"
+		},
+		{
+			"type": "item",
+			"text": "Managing forum consultations — Facilitating consultations on retrenchments, restructuring, work organization, and productivity without undermining management authority"
+		},
+		{
+			"type": "item",
+			"text": "Preventing forum overreach — Ensuring workplace forums stay within their legal mandate (consultation, not decision-making)"
+		},
+		{
+			"type": "para",
+			"text": "Strike Management & Prevention"
+		},
+		{
+			"type": "item",
+			"text": "Strike preparedness planning — Preparing contingency plans for protected strikes including operational continuity, security, communication, and legal compliance"
+		},
+		{
+			"type": "item",
+			"text": "Pre-strike engagement — Intervening before strikes through meaningful negotiation, addressing grievances, and exploring alternatives"
+		},
+		{
+			"type": "item",
+			"text": "Protected vs. unprotected strike assessment — Determining whether strike action is legally protected and advising on appropriate responses"
+		},
+		{
+			"type": "item",
+			"text": "Post-strike dispute resolution — Managing the aftermath of strikes, addressing disciplinary issues, and rebuilding workplace relationships"
+		},
+		{
+			"type": "item",
+			"text": "Interdict applications — Coordinating with legal partners to obtain Labour Court interdicts against unprotected or violent strike action"
+		},
+		{
+			"type": "para",
+			"text": "Lockout Strategy & Implementation"
+		},
+		{
+			"type": "item",
+			"text": "Lockout legality assessment — Advising when lockouts are lawful responses to strike action"
+		},
+		{
+			"type": "item",
+			"text": "Lockout implementation — Managing lockout procedures, communication, and legal compliance"
+		},
+		{
+			"type": "para",
+			"text": "Dispute Resolution (IR-Specific)"
+		},
+		{
+			"type": "item",
+			"text": "Mutual interest disputes — Disputes over new demands (wages, conditions) not covered by existing agreements"
+		},
+		{
+			"type": "item",
+			"text": "Rights disputes — Disputes over interpretation or application of existing collective agreements"
+		},
+		{
+			"type": "item",
+			"text": "Union-related unfair labour practices — Disputes about organizational rights, union deductions, recognition, or victimization"
+		},
+		{
+			"type": "para",
+			"text": "Strategic Industrial Relations Advisory"
+		},
+		{
+			"type": "item",
+			"text": "Union avoidance strategies — Lawful approaches to maintaining non-unionized workplaces through fair treatment, competitive conditions, and open communication (where appropriate)"
+		},
+		{
+			"type": "item",
+			"text": "Constructive union relationships — Building productive relationships with unions where unionization exists, preventing adversarial dynamics"
+		},
+		{
+			"type": "item",
+			"text": "Industry intelligence — Monitoring sectoral trends, union strategies, wage movement benchmarks, and bargaining council developments"
+		},
+		{
+			"type": "para",
+			"text": "What you get:"
+		},
+		{
+			"type": "benefit",
+			"text": "Employers organization membership giving you collective bargaining power"
+		},
+		{
+			"type": "benefit",
+			"text": "Expert representation acting as your \"union\" for employers"
+		},
+		{
+			"type": "benefit",
+			"text": "Compliance with bargaining council agreements and sectoral determinations"
+		},
+		{
+			"type": "benefit",
+			"text": "Strategic wage negotiation support with unions"
+		},
+		{
+			"type": "benefit",
+			"text": "Strike prevention through proactive engagement"
+		},
+		{
+			"type": "benefit",
+			"text": "Workplace forum management preventing constant conflict"
+		},
+		{
+			"type": "benefit",
+			"text": "Protection from union overreach while respecting employee rights"
+		},
+		{
+			"type": "benefit",
+			"text": "Reduced industrial action through constructive relationships"
+		},
+		{
+			"type": "audience",
+			"text": "Businesses in Gauteng and across South Africa with unionized workforces"
+		},
+		{
+			"type": "audience",
+			"text": "Employers covered by bargaining council agreements needing interpretation and compliance support"
+		},
+		{
+			"type": "audience",
+			"text": "Companies facing union recognition demands or organizational rights claims"
+		},
+		{
+			"type": "audience",
+			"text": "Businesses preparing for annual wage negotiations with unions"
+		},
+		{
+			"type": "audience",
+			"text": "Employers wanting collective bargaining representation equal to what unions provide employees"
+		},
+		{
+			"type": "audience",
+			"text": "Organizations establishing or managing workplace forums"
+		},
+		{
+			"type": "audience",
+			"text": "Companies facing strike threats or ongoing industrial action"
+		},
+		{
+			"type": "audience",
+			"text": "Private schools dealing with educator unions and ELRC collective agreements"
+		},
+		{
+			"type": "audience",
+			"text": "Small and medium businesses without internal industrial relations expertise"
+		},
+		{
+			"type": "warning",
+			"text": "We give you the same power unions give employees — Through our registered employers organization membership, you get collective bargaining representation, expert negotiators, and strategic support—leveling the playing field ."
+		},
+		{
+			"type": "warning",
+			"text": "We act as your union for employers — While unions fight for employees, we fight for you—with the same expertise, dedication, and strategic capability ."
+		},
+		{
+			"type": "warning",
+			"text": "Legal expertise meets negotiation strategy — Our owner is an admitted attorney who understands labour law. But we also understand industrial relations strategy, union tactics, and how to negotiate outcomes protecting your interests ."
+		},
+		{
+			"type": "warning",
+			"text": "We've negotiated with unions across sectors — From private schools dealing with SADTU and ELRC agreements, to manufacturing facing NUMSA demands, to retail managing SACCAWU—we've represented employers in every context ."
+		},
+		{
+			"type": "warning",
+			"text": "We prevent strikes before they happen — Strategic industrial relations mean engaging early, addressing concerns genuinely, and building relationships that reduce conflict ."
+		},
+		{
+			"type": "warning",
+			"text": "We know the bargaining councils — From ELRC (education) to MEIBC (metal and engineering) to Bargaining Council for the Restaurant, Catering and Allied Trades—we understand sectoral agreements and how to apply them"
+		}
+	]
+}

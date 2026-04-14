@@ -1,0 +1,292 @@
+{
+	"title": "Retrenchments",
+	"description": "Retrenchments are the highest-risk dismissals you can make in South Africa — and the biggest mistake employers make is treating consultation as a rubber stamp exercise instead of genuine engagement. One procedural mistake, one sham consultation, and you're facing reinstatement orders, massive back pay, or both. Section 189 of the Labour Relations Act requires meaningful consultation in good faith, genuine exploration of alternatives, and strict procedural compliance. OptiHR guides you through every stage — correctly.",
+	"whyOptiHR": [
+		{
+			"title": "Meaningful Section 189 consultation",
+			"subtitle": "genuine, not procedural",
+			"body": "Consultation must begin before any decisions are made — not after. Courts can tell when consultation is genuine and when it's a box-ticking exercise. We manage the consultation process: drafting the Section 189(3) notice, facilitating joint consensus-seeking meetings, genuinely exploring alternatives, responding to employee proposals, and documenting everything in a way that withstands Labour Court scrutiny.",
+			"buttonText": "Learn More",
+			"buttonHref": "/contact",
+			"background": "white",
+			"mediaPosition": "right"
+		},
+		{
+			"title": "Selection criteria & alternatives exploration",
+			"subtitle": "fair, documented, and defensible",
+			"body": "Retrenchment selection criteria must be fair and objective — LIFO (last in, first out), skills retention, or a combination of criteria agreed in consultation. We also help you genuinely explore alternatives: voluntary severance packages, early retirement, reduced hours, temporary layoffs, redeployment, retraining, and salary reductions — documenting why each alternative is or isn't viable.",
+			"buttonText": "Learn More",
+			"buttonHref": "/contact",
+			"background": "white",
+			"mediaPosition": "left"
+		},
+		{
+			"title": "CCMA representation & Labour Court support",
+			"subtitle": "when disputes arise",
+			"body": "If retrenched employees refer unfair dismissal disputes to the CCMA or apply to the Labour Court, OptiHR represents your business — preparing your evidence, presenting your case at conciliation and arbitration, and, where necessary, briefing counsel for Labour Court proceedings. Our admitted attorney principal provides legal authority, not just HR advice.",
+			"buttonText": "Learn More",
+			"buttonHref": "/contact",
+			"background": "white",
+			"mediaPosition": "right"
+		}
+	],
+	"legalConsiderations": [
+		{
+			"title": "Section 189 — Labour Relations Act",
+			"subtitle": "operational requirements dismissals.",
+			"body": "Section 189 governs individual and small-scale retrenchments. It requires consultation to be a genuine joint consensus-seeking process that begins before decisions are made, discloses full information, explores alternatives, and considers employee proposals. Section 189A applies to large-scale retrenchments (10+ employees at companies with 50+ employees) with a minimum 60-day consultation period.",
+			"buttonText": "Learn More",
+			"buttonHref": "/contact",
+			"background": "white",
+			"mediaPosition": "right"
+		},
+		{
+			"title": "Code of Good Practice: Dismissal (2025)",
+			"subtitle": "substantive fairness requirements.",
+			"body": "The 2025 Code of Good Practice emphasises that operational requirements dismissals must be substantively fair — courts scrutinise not just whether consultation occurred, but whether it was genuinely meaningful and whether alternatives were seriously explored. Failing on substantive fairness can result in reinstatement orders.",
+			"buttonText": "Learn More",
+			"buttonHref": "/contact",
+			"background": "white",
+			"mediaPosition": "left"
+		}
+	],
+	"faq": [
+		{
+			"question": "When must we start the consultation process?",
+			"answer": "Consultation must begin when you first contemplate retrenchment — before any decisions are finalised. The Section 189(3) notice must be issued at the start of the consultation process, not after you've already decided who is being retrenched. Courts have consistently found that a notice making retrenchment sound like a done deal undermines the entire process and can result in a finding of procedural unfairness."
+		},
+		{
+			"question": "What alternatives to retrenchment must we consider?",
+			"answer": "South African labour law requires genuine consideration of: voluntary severance packages, early retirement options, reduced working hours, temporary layoffs, redeployment to other positions, retraining for available roles, salary reductions, reduced overtime, and natural attrition. You must disclose what alternatives you considered and explain with reasons why each isn't viable. Simply stating 'no alternatives exist' won't hold up."
+		},
+		{
+			"question": "What is the difference between Section 189 and Section 189A?",
+			"answer": "Section 189 applies to individual and small-scale retrenchments. Section 189A applies to large-scale retrenchments — where an employer with 50 or more employees proposes to retrench 10 or more employees. Section 189A requires a minimum 60-day consultation period, allows the CCMA to facilitate the consultation process, and permits a protected strike or lockout if no agreement is reached."
+		},
+		{
+			"question": "What severance pay are retrenched employees entitled to?",
+			"answer": "The Basic Conditions of Employment Act requires a minimum severance payment of one week's remuneration for each completed year of continuous service. Collective agreements or employment contracts may require higher amounts. Severance pay is separate from notice pay (or pay in lieu of notice), any accrued leave pay owing, and any other contractual benefits."
+		}
+	],
+	"cta": "Get Expert Retrenchment Support",
+	"faqSubtitle": "Common questions about retrenchments",
+	"faqBody": "Questions we hear from employers about managing retrenchments legally and fairly under South African labour law.",
+	"faqCta": {
+		"text": "Contact us",
+		"navigateTo": "/contact"
+	},
+	"sections": [
+		{
+			"type": "para",
+			"text": "Retrenchment isn't firing someone—it's dismissing them because their position is no longer needed, not because they did anything wrong . South Africa's Labour Relations Act treats retrenchments as operational requirements dismissals requiring meaningful consultation, fair selection criteria, genuine consideration of alternatives, and statutory severance pay . Skip consultation, rush it, or fake it, and the Labour Court will declare your retrenchment unfair ."
+		},
+		{
+			"type": "para",
+			"text": "Why meaningful consultation is non-negotiable:"
+		},
+		{
+			"type": "warning",
+			"text": "Consultation is not a box-ticking exercise—it's a legal requirement — Section 189 requires consultation to be a joint consensus-seeking process where both employer and employees work together to avoid dismissals, minimize numbers, change timing, mitigate adverse effects, and explore alternatives . Courts can tell when consultation is genuine and when it's a sham ."
+		},
+		{
+			"type": "warning",
+			"text": "Consultation must start BEFORE you make any decisions — The duty to consult is triggered when you contemplate retrenchment, not after you've decided . If your Section 189(3) notice makes retrenchment sound like a done deal, you've already undermined the process and courts will declare it unfair ."
+		},
+		{
+			"type": "warning",
+			"text": "You must genuinely explore alternatives—and explain why they won't work — South African labour law requires you to consider alternatives like voluntary severance packages, early retirement, reduced working hours, temporary layoffs, salary reductions, redeployment, retraining, natural attrition, and reduced overtime before resorting to forced retrenchments . You must disclose what alternatives you considered and explain why they're not viable . Simply stating \"no alternatives exist\" without evidence won't hold up ."
+		},
+		{
+			"type": "warning",
+			"text": "Employees must be given a real opportunity to propose alternatives — Consultation means listening to employee proposals and responding to them with reasons if you disagree . If employees suggest alternatives that could work, you must seriously consider them—not dismiss them out of hand ."
+		},
+		{
+			"type": "warning",
+			"text": "The new Code of Good Practice: Dismissal (2025) emphasizes substantive fairness — As of September 2025, operational requirements dismissals are covered in the unified Code of Good Practice, meaning courts scrutinize not just whether you consulted, but whether the consultation was substantively meaningful and whether alternatives were genuinely explored ."
+		},
+		{
+			"type": "para",
+			"text": "What meaningful consultation looks like in practice:"
+		},
+		{
+			"type": "item",
+			"text": "Start early — Begin consultation when you first contemplate retrenchment, before making any final decisions"
+		},
+		{
+			"type": "item",
+			"text": "Provide full information — Disclose reasons for retrenchment, financial information (if relevant), alternatives already considered, proposed selection criteria, timing, and severance calculations"
+		},
+		{
+			"type": "item",
+			"text": "Allow sufficient time — Consultation typically takes 4-8 weeks minimum; large-scale retrenchments (Section 189A) require a minimum 60-day consultation period"
+		},
+		{
+			"type": "item",
+			"text": "Genuinely explore alternatives — Discuss voluntary packages, reduced hours, redeployment, salary reductions, and any other proposals employees raise"
+		},
+		{
+			"type": "item",
+			"text": "Respond to representations — If employees or unions make written submissions, you must respond in writing with reasons if you disagree"
+		},
+		{
+			"type": "item",
+			"text": "Seek consensus on selection criteria — You cannot unilaterally impose selection criteria without consulting first . If consensus isn't reached, you can decide—but you must show the criteria are fair and objective"
+		},
+		{
+			"type": "item",
+			"text": "Document everything — Keep attendance registers, meeting minutes, proposals made, alternatives discussed, and reasons for rejecting alternatives"
+		},
+		{
+			"type": "item",
+			"text": "Consider facilitation — For large-scale or contentious retrenchments, appoint an independent facilitator (CCMA or private) to ensure consultation is fair"
+		},
+		{
+			"type": "para",
+			"text": "What we do:"
+		},
+		{
+			"type": "para",
+			"text": "Pre-Consultation Strategy — We help you identify genuine alternatives to retrenchment before the consultation process starts, so you can present credible options and explain why forced retrenchments are necessary ."
+		},
+		{
+			"type": "para",
+			"text": "Section 189 Process Management — We manage the entire retrenchment consultation process from start to finish, ensuring meaningful engagement, good faith negotiation, and legal compliance with the Labour Relations Act and the 2025 Code of Good Practice: Dismissal ."
+		},
+		{
+			"type": "para",
+			"text": "Section 189(3) Notice Preparation — We draft comprehensive Section 189(3) notices that don't treat retrenchment as a foregone conclusion, provide full disclosure of information, explain alternatives considered, and invite genuine consultation ."
+		},
+		{
+			"type": "para",
+			"text": "Consultation Facilitation — We facilitate meaningful consultation meetings with employees, unions, or employee representatives, ensuring all required issues are discussed, alternatives are explored, representations are responded to, and everything is documented ."
+		},
+		{
+			"type": "para",
+			"text": "Alternatives Assessment & Implementation — We help you genuinely explore and implement alternatives like voluntary severance packages, early retirement schemes, reduced working hours, temporary layoffs, salary reductions, redeployment, retraining programs, and natural attrition strategies"
+		},
+		{
+			"type": "para",
+			"text": "Selection Criteria Development — We work with you and consulting parties to establish fair, objective selection criteria (e.g., LIFO, skills, qualifications, performance) that will hold up under scrutiny ."
+		},
+		{
+			"type": "para",
+			"text": "Severance Pay Calculations — We calculate severance pay correctly, including all benefits and allowances required by the Basic Conditions of Employment Act and case law ."
+		},
+		{
+			"type": "para",
+			"text": "Bumping Analysis — We assess whether \"bumping\" (moving a retrenched employee into another role and dismissing that incumbent instead) is feasible and legally required ."
+		},
+		{
+			"type": "para",
+			"text": "Union and Bargaining Council Liaison — We manage communications with unions and bargaining councils, ensuring all notice and consultation obligations are met and negotiations happen in good faith ."
+		},
+		{
+			"type": "para",
+			"text": "Independent Facilitation Services — For large-scale retrenchments, we act as independent facilitators ensuring consultation is fair, balanced, and legally compliant ."
+		},
+		{
+			"type": "para",
+			"text": "Labour Court Support & Legal Coordination — If employees or unions challenge the retrenchment, we coordinate with our network of specialist labour law attorneys who defend and appeal cases in the Labour Court, providing all documentation, consultation records, and expert input to support your defense ."
+		},
+		{
+			"type": "para",
+			"text": "Restructuring Strategy — Beyond compliance, we help you design organizational restructures that achieve business objectives while minimizing legal risk and exploring all viable alternatives to forced dismissals ."
+		},
+		{
+			"type": "para",
+			"text": "What you get:"
+		},
+		{
+			"type": "benefit",
+			"text": "Legally compliant Section 189 consultation process from start to finish"
+		},
+		{
+			"type": "benefit",
+			"text": "Meaningful consultation in good faith—not rubber stamp exercises"
+		},
+		{
+			"type": "benefit",
+			"text": "Genuine exploration and documentation of alternatives to dismissal"
+		},
+		{
+			"type": "benefit",
+			"text": "Comprehensive Section 189(3) notices that don't predetermine outcomes"
+		},
+		{
+			"type": "benefit",
+			"text": "Fair, defensible selection criteria developed through consultation"
+		},
+		{
+			"type": "benefit",
+			"text": "Correct severance pay calculations including all benefits"
+		},
+		{
+			"type": "benefit",
+			"text": "Documented responses to all employee representations"
+		},
+		{
+			"type": "benefit",
+			"text": "Access to specialist labour law attorneys through our legal network when challenges arise"
+		},
+		{
+			"type": "benefit",
+			"text": "Protection from unfair dismissal claims, reinstatement orders, and back pay awards"
+		},
+		{
+			"type": "audience",
+			"text": "Businesses in Gauteng and across South Africa contemplating retrenchments and wanting to do it legally from the start"
+		},
+		{
+			"type": "audience",
+			"text": "Companies facing financial difficulty and needing to genuinely explore alternatives before resorting to forced dismissals"
+		},
+		{
+			"type": "audience",
+			"text": "Employers restructuring operations, closing departments, or relocating functions"
+		},
+		{
+			"type": "audience",
+			"text": "Organizations implementing technology or automation that makes positions redundant"
+		},
+		{
+			"type": "audience",
+			"text": "Businesses with unionized workforces requiring bargaining council compliance and meaningful union consultation"
+		},
+		{
+			"type": "audience",
+			"text": "Private schools facing declining enrollment and needing to reduce educator numbers while exploring alternatives"
+		},
+		{
+			"type": "audience",
+			"text": "Companies that have already started retrenchments and realized consultation hasn't been meaningful"
+		},
+		{
+			"type": "audience",
+			"text": "Employers facing Labour Court reviews or union challenges alleging sham consultation"
+		},
+		{
+			"type": "warning",
+			"text": "We know what meaningful consultation actually means — We've seen countless retrenchments fail because consultation was rushed, superficial, or treated as a formality. We ensure your consultation is genuine, well-documented, and defensible ."
+		},
+		{
+			"type": "warning",
+			"text": "We help you genuinely explore alternatives—not just tick boxes — We work with you to identify viable alternatives (voluntary packages, reduced hours, redeployment) and document why forced dismissals are the last resort ."
+		},
+		{
+			"type": "warning",
+			"text": "Legal network you can trust — Through our established relationships with specialist labour law attorneys, we ensure you have expert legal representation in Labour Court reviews when consultation processes or alternatives assessment are challenged ."
+		},
+		{
+			"type": "warning",
+			"text": "We prepare cases that win in court — We manage the entire retrenchment process, document every consultation and alternative explored, and work with our legal partners to build bulletproof cases that survive Labour Court scrutiny ."
+		},
+		{
+			"type": "warning",
+			"text": "We know the new 2025 Code — The Code of Good Practice: Dismissal changed fundamentally in September 2025. We're up to date on the new substantive fairness requirements and how courts interpret meaningful consultation ."
+		},
+		{
+			"type": "warning",
+			"text": "We manage the entire process—including the hard parts — From facilitating difficult consultation meetings to responding to union proposals to documenting why alternatives won't work, we handle everything"
+		}
+	]
+}

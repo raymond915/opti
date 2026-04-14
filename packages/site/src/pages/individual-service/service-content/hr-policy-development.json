@@ -1,0 +1,368 @@
+{
+	"title": "HR Policy Development",
+	"description": "\"It's just common sense\" won't protect you at the CCMA — if the rule isn't written down, communicated to employees, and consistently applied, you can't enforce it. HR policies in South Africa aren't optional paperwork — they're your legal proof that employees knew the rules, understood the consequences, and were treated fairly. OptiHR develops custom HR policies built for your business context: from social media and remote work to disciplinary procedures and POPIA compliance.",
+	"whyOptiHR": [
+		{
+			"title": "Social media & technology policies",
+			"subtitle": "protection your business needs",
+			"body": "Employees posting about your company, clients, or colleagues — even on personal accounts outside work hours — can create serious legal and reputational risks without a clear social media policy. We draft policies that define what's prohibited, protect your reputation, ensure POPIA compliance, and give you enforceable grounds to act when things go wrong.",
+			"buttonText": "Learn More",
+			"buttonHref": "/contact",
+			"background": "white",
+			"mediaPosition": "right"
+		},
+		{
+			"title": "Full HR policy suite",
+			"subtitle": "no copy-paste templates",
+			"body": "We develop the complete range of HR policies your business needs — disciplinary codes, leave policies, grievance procedures, performance management frameworks, remote work policies, confidentiality agreements, and employee handbooks — each built specifically for your operations, not copied from generic templates.",
+			"buttonText": "Learn More",
+			"buttonHref": "/contact",
+			"background": "white",
+			"mediaPosition": "left"
+		},
+		{
+			"title": "Policy implementation & staff communication",
+			"subtitle": "policies that actually work",
+			"body": "A policy no one knows about is a policy that can't be enforced. We manage policy implementation — conducting awareness sessions, obtaining written acknowledgements, and training managers to apply policies consistently. South African courts require that employees knew the rules. We make sure they do.",
+			"buttonText": "Learn More",
+			"buttonHref": "/contact",
+			"background": "white",
+			"mediaPosition": "right"
+		}
+	],
+	"legalConsiderations": [
+		{
+			"title": "Labour Relations Act",
+			"subtitle": "rules must be known and consistently applied.",
+			"body": "The LRA requires that workplace rules are known to employees, or that employees could reasonably be expected to know them. You cannot dismiss an employee for breaking a rule they've never been told about. Written, communicated policies are your first line of defence.",
+			"buttonText": "Learn More",
+			"buttonHref": "/contact",
+			"background": "white",
+			"mediaPosition": "right"
+		},
+		{
+			"title": "POPIA",
+			"subtitle": "confidentiality and data protection policies.",
+			"body": "The Protection of Personal Information Act requires businesses to protect employee and customer data, obtain consent, and report breaches. Employees must be told what data is confidential and what sharing online can expose the company to liability. POPIA-compliant policies are essential.",
+			"buttonText": "Learn More",
+			"buttonHref": "/contact",
+			"background": "white",
+			"mediaPosition": "left"
+		}
+	],
+	"faq": [
+		{
+			"question": "Do we need a social media policy if our employees use personal accounts?",
+			"answer": "Yes. South African courts have upheld dismissals for social media misconduct where employees posted defamatory, discriminatory, or confidential content online — even on personal accounts, outside work hours. But only if the employer had a clear, communicated policy defining what's prohibited. Without a policy, you cannot enforce the rules."
+		},
+		{
+			"question": "What HR policies does every South African business need?",
+			"answer": "At minimum: an employment contract template, disciplinary code, leave policy, grievance procedure, and IT/technology use policy. Growing businesses also need performance management policies, social media policies, remote work policies, confidentiality policies, and a health and safety policy. The right policies depend on your size, industry, and specific workplace risks."
+		},
+		{
+			"question": "Can we just download HR policy templates online?",
+			"answer": "Generic templates create false confidence. A policy must reflect your specific workplace, industry, South African legislation, and be correctly implemented. Courts regularly see employers who had policies but couldn't enforce them because they were copied templates that didn't match their actual operations, or were never properly communicated to staff."
+		},
+		{
+			"question": "How often should HR policies be reviewed?",
+			"answer": "Policies should be reviewed at least annually and whenever there are significant changes in legislation, your workforce, or business operations. The 2025 Employment Equity amendments, the updated Code of Good Practice: Dismissal, and POPIA requirements all have direct policy implications for South African businesses."
+		}
+	],
+	"cta": "Get Your Policies Right",
+	"faqSubtitle": "Common questions about HR policies",
+	"faqBody": "Questions we hear from business owners about getting their HR policies right in South Africa.",
+	"faqCta": {
+		"text": "Contact us",
+		"navigateTo": "/contact"
+	},
+	"sections": [
+		{
+			"type": "para",
+			"text": "HR policies define workplace rules, standards, procedures, and consequences—but only if employees actually know about them . South Africa's Labour Relations Act is clear: a rule must be known, or employees must have a reasonable expectation that they should know it . You cannot dismiss someone for breaking a rule they've never been told about, and you cannot rely on \"common sense\" to fill the gaps ."
+		},
+		{
+			"type": "para",
+			"text": "HR policies in 2025 go far beyond leave and dress codes:"
+		},
+		{
+			"type": "warning",
+			"text": "Social media policies are essential, not optional — Employees who post about your company, clients, or colleagues on social media—even on personal accounts, outside work hours, on their own devices—can create massive legal and reputational risks for your business . Without a clear social media policy, you cannot discipline employees for posts that damage your reputation, breach confidentiality, or create hostile work environments ."
+		},
+		{
+			"type": "warning",
+			"text": "Your reputation is on the line every time an employee posts online — South African courts have upheld dismissals for social media misconduct where employees posted defamatory, discriminatory, or confidential content online—even outside working hours—because the posts harmed the employer's reputation or workplace relationships . But only if the employer had a clear, communicated policy defining what's prohibited ."
+		},
+		{
+			"type": "warning",
+			"text": "Confidentiality and POPIA compliance require policies — Employees sharing customer data, internal information, photos of products, or personal information about colleagues on social media can violate the Protection of Personal Information Act (POPIA), creating serious liability for you . Policies must explicitly prohibit this and explain the consequences ."
+		},
+		{
+			"type": "warning",
+			"text": "You can be held liable for employee posts in certain circumstances — Under South Africa's \"chain of publication\" principle, if you associate with an offending post (e.g., on your company Facebook page, in a WhatsApp group where you're the admin, or where employees comment inappropriately), you can be held liable for the fallout . Policies protect you by setting clear standards for what employees can post on company platforms ."
+		},
+		{
+			"type": "warning",
+			"text": "Freedom of expression has limits in the workplace — While employees have constitutional rights to freedom of expression and privacy, these rights are not absolute when posts harm the employer, breach confidentiality, discriminate, harass, or disrupt the workplace . But you can only enforce limits if they're clearly stated in a written, communicated policy"
+		},
+		{
+			"type": "para",
+			"text": "Modern HR policies must cover far more than traditional workplace rules:"
+		},
+		{
+			"type": "item",
+			"text": "Social media and online conduct — Acceptable social media use during work hours, what can/cannot be posted about the company, clients, colleagues, or work matters, confidentiality obligations, disclaimer requirements (\"views are my own\"), consequences for defamatory or discriminatory posts, and monitoring practices ."
+		},
+		{
+			"type": "item",
+			"text": "Reputation and brand protection — Rules about representing the company online, speaking to media, making public comments about competitors or industry matters, and protecting the company's public image ."
+		},
+		{
+			"type": "item",
+			"text": "Confidentiality and data protection — What information is confidential, POPIA compliance obligations, prohibitions on sharing customer data or internal information online, and photo/video sharing restrictions ."
+		},
+		{
+			"type": "item",
+			"text": "Technology and device use — Acceptable use of company devices, internet access during work hours, personal device use (BYOD), email and messaging standards, and monitoring of electronic communications ."
+		},
+		{
+			"type": "item",
+			"text": "Remote work and flexible work — Expectations for remote workers, working hours, availability, communication standards, home office safety, and data security when working from home ."
+		},
+		{
+			"type": "item",
+			"text": "Harassment and discrimination — Definitions of harassment (including online harassment), reporting procedures, investigation processes, and protections for complainants ."
+		},
+		{
+			"type": "item",
+			"text": "Whistleblowing and protected disclosures — How employees can safely report misconduct, protections against retaliation, and proper channels for raising concerns ."
+		},
+		{
+			"type": "item",
+			"text": "Traditional workplace standards — Disciplinary codes, grievance procedures, leave policies, performance management, dress codes, timekeeping, substance abuse, health and safety, and workplace conduct ."
+		},
+		{
+			"type": "para",
+			"text": "Why \"common sense\" doesn't work in South African labour law:"
+		},
+		{
+			"type": "warning",
+			"text": "Common sense isn't a defense at the CCMA — Courts don't accept \"everyone knows you can't post that\" or \"obviously you can't share confidential information\" as proof employees knew the rules . You must prove the rule existed in writing, was communicated to employees, and they understood the consequences ."
+		},
+		{
+			"type": "warning",
+			"text": "A rule must be lawful, valid, reasonable, AND known — The Labour Relations Act requires four things: the rule must be lawful (not illegal), valid (linked to business operations), reasonable (not arbitrary), and employees must be made aware of it . Miss any one and the rule is unenforceable ."
+		},
+		{
+			"type": "warning",
+			"text": "Policies provide certainty and clarity for everyone — Without written policies, managers apply rules inconsistently, employees don't know what's expected, and disputes escalate because there's no clear standard . Policies eliminate guesswork and protect both employer and employee by making expectations clear ."
+		},
+		{
+			"type": "warning",
+			"text": "Policies determine procedures for everything — From how to apply for leave, to how disciplinary hearings work, to what you can post on Facebook, policies provide step-by-step procedures ensuring fairness, consistency, and legal compliance ."
+		},
+		{
+			"type": "warning",
+			"text": "You cannot change the rules mid-game — If you implement a new policy (like a social media policy) or change an existing standard, you must communicate it properly and give employees reasonable time to adjust . Simply posting a policy on a noticeboard isn't enough—you must ensure employees actually know about it"
+		},
+		{
+			"type": "para",
+			"text": "What makes a policy enforceable in South Africa:"
+		},
+		{
+			"type": "item",
+			"text": "Written and accessible — Policies must be in writing, not just verbal instructions or \"the way we've always done things\""
+		},
+		{
+			"type": "item",
+			"text": "Communicated effectively — Employees must be informed about policies through induction, training, signed acknowledgments, or regular reminders"
+		},
+		{
+			"type": "item",
+			"text": "Linked to business operations — Every policy must serve a legitimate business purpose (safety, efficiency, harmony, reputation protection, legal compliance)—you can't create arbitrary rules"
+		},
+		{
+			"type": "item",
+			"text": "Consistently applied — You must enforce policies the same way for everyone. Inconsistency makes policies unenforceable"
+		},
+		{
+			"type": "item",
+			"text": "Reasonable and fair — Policies cannot be so strict they're unreasonable, and sanctions must be proportionate to the offense"
+		},
+		{
+			"type": "item",
+			"text": "Balanced with employee rights — Policies must protect company interests while respecting employees' constitutional rights to freedom of expression, privacy, and dignity"
+		},
+		{
+			"type": "para",
+			"text": "What we do:"
+		},
+		{
+			"type": "para",
+			"text": "Policy Audit & Gap Analysis — We review your existing policies (if any) to identify what's missing, what's outdated, what's unenforceable, and what exposes you to legal risk—including whether you have modern policies covering social media, remote work, data protection, and online conduct ."
+		},
+		{
+			"type": "para",
+			"text": "Custom Policy Development — We write comprehensive HR policies tailored to your South African business including:"
+		},
+		{
+			"type": "para",
+			"text": "- Social media and online conduct policies — Covering acceptable social media use, reputation protection, confidentiality obligations, personal vs. professional online presence, disclaimer requirements, and consequences for inappropriate posts"
+		},
+		{
+			"type": "para",
+			"text": "- Technology and device use policies — Internet access, personal device use, email standards, monitoring practices, and data security"
+		},
+		{
+			"type": "para",
+			"text": "- Confidentiality and POPIA compliance policies — Defining confidential information, data protection obligations, and social media-specific confidentiality rules"
+		},
+		{
+			"type": "para",
+			"text": "- Remote work and flexible work policies — Expectations, communication standards, and home office requirements"
+		},
+		{
+			"type": "para",
+			"text": "- Harassment and discrimination policies — Including online harassment and cyberbullying provisions"
+		},
+		{
+			"type": "para",
+			"text": "- Traditional workplace policies — Disciplinary codes, grievance procedures, leave policies, performance management, dress codes, timekeeping, substance abuse, and health and safety"
+		},
+		{
+			"type": "para",
+			"text": "-"
+		},
+		{
+			"type": "para",
+			"text": "Legal Compliance Review — We ensure every policy complies with the Labour Relations Act, Basic Conditions of Employment Act, Employment Equity Act, Occupational Health and Safety Act, POPIA, and relevant case law—including recent social media dismissal cases ."
+		},
+		{
+			"type": "para",
+			"text": "Clear Procedures for Everything — We build step-by-step procedures into policies so managers and employees know exactly what to do in every situation: how to request leave, report grievances, handle poor performance, manage discipline, investigate misconduct, resolve disputes, and use social media appropriately ."
+		},
+		{
+			"type": "para",
+			"text": "Communication & Implementation Strategy — We don't just hand you policies—we help you roll them out through induction programs, training sessions, signed acknowledgment forms, manager briefings, and employee handbooks ."
+		},
+		{
+			"type": "para",
+			"text": "Employee Acknowledgment Systems — We create signed acknowledgment processes proving employees received, read, and understood policies—critical evidence if disputes reach the CCMA, especially for social media dismissals ."
+		},
+		{
+			"type": "para",
+			"text": "Consistency Training for Managers — We train managers to apply policies consistently, document decisions, monitor social media risks appropriately, and avoid creating dangerous precedents ."
+		},
+		{
+			"type": "para",
+			"text": "Policy Updates & Maintenance — South African labour law and social media landscapes change constantly. We keep your policies current with legislative updates, new case law (especially social media dismissal cases), and evolving best practices ."
+		},
+		{
+			"type": "para",
+			"text": "What you get:"
+		},
+		{
+			"type": "benefit",
+			"text": "Comprehensive, legally compliant HR policies written for South African workplaces—covering modern issues like social media, reputation protection, and data privacy, not just leave and dress codes"
+		},
+		{
+			"type": "benefit",
+			"text": "Clear procedures eliminating ambiguity and \"common sense\" assumptions"
+		},
+		{
+			"type": "benefit",
+			"text": "Protection from reputational damage caused by employee social media posts"
+		},
+		{
+			"type": "benefit",
+			"text": "Enforceable rules for online conduct, confidentiality, and brand protection"
+		},
+		{
+			"type": "benefit",
+			"text": "Proof that employees were informed of rules—critical CCMA protection for social media and other dismissals"
+		},
+		{
+			"type": "benefit",
+			"text": "Consistent standards applied fairly across your organization"
+		},
+		{
+			"type": "benefit",
+			"text": "Certainty and clarity for managers and employees about expectations and consequences—online and offline"
+		},
+		{
+			"type": "benefit",
+			"text": "Reduced disputes because everyone knows the rules"
+		},
+		{
+			"type": "benefit",
+			"text": "Legal defensibility when enforcement is challenged"
+		},
+		{
+			"type": "audience",
+			"text": "Small businesses in Gauteng and across South Africa with no formal HR policies relying on \"common sense\""
+		},
+		{
+			"type": "audience",
+			"text": "Companies that have dismissed employees for social media posts and lost CCMA cases because they had no written, communicated policy"
+		},
+		{
+			"type": "audience",
+			"text": "Employers concerned about employees posting about the company, clients, or colleagues on social media"
+		},
+		{
+			"type": "audience",
+			"text": "Businesses with outdated policies written before social media, remote work, and POPIA became major workplace issues"
+		},
+		{
+			"type": "audience",
+			"text": "Growing companies needing to formalize rules as they scale beyond 10-20 employees"
+		},
+		{
+			"type": "audience",
+			"text": "Organizations where managers apply rules inconsistently causing employee complaints"
+		},
+		{
+			"type": "audience",
+			"text": "Private schools needing policies for educators, support staff, learners, and parents—including social media conduct policies"
+		},
+		{
+			"type": "audience",
+			"text": "Businesses preparing for Department of Labour inspections or CCMA disputes"
+		},
+		{
+			"type": "audience",
+			"text": "Companies implementing new workplace practices (remote work, flexible hours, social media engagement) and needing written policies"
+		},
+		{
+			"type": "audience",
+			"text": "Employers worried about reputational damage from employee online conduct"
+		},
+		{
+			"type": "warning",
+			"text": "We know what makes policies enforceable — Our policies aren't just templates—they're designed to survive CCMA scrutiny with clear rules, communication proof, and consistent application guidelines ."
+		},
+		{
+			"type": "warning",
+			"text": "We eliminate \"common sense\" assumptions — We make expectations explicit, document procedures, and ensure nothing is left to interpretation or guesswork—especially for complex areas like social media conduct and reputation protection ."
+		},
+		{
+			"type": "warning",
+			"text": "We understand modern workplace risks — We don't just write policies about leave and dress codes. We address the issues causing problems in 2025: social media posts damaging reputations, confidentiality breaches online, remote work management, and POPIA compliance ."
+		},
+		{
+			"type": "warning",
+			"text": "Legal expertise built in — Our owner is an admitted attorney. Every policy complies with South Africa's Labour Relations Act, BCEA, EEA, POPIA, and relevant case law—including recent social media dismissal cases ."
+		},
+		{
+			"type": "warning",
+			"text": "We implement policies, not just write them — Policies only work if employees know about them. We build communication and acknowledgment systems ensuring rules are known—critical for enforcing social media and online conduct policies ."
+		},
+		{
+			"type": "warning",
+			"text": "We focus on consistency — We train managers to apply policies the same way every time, avoiding precedents that undermine enforcement ."
+		},
+		{
+			"type": "warning",
+			"text": "We keep you current — South African labour law and social media case law changed significantly in 2024 and 2025. We ensure your policies reflect the latest requirements"
+		}
+	]
+}

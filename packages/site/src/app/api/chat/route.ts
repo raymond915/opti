@@ -1,10 +1,64 @@
 import type { NextRequest } from "next/server"
 import { Resend } from "resend"
+import { logConversation } from "@/lib/chat-logger"
 
 const resend = process.env.RESEND_API_KEY ? new Resend(process.env.RESEND_API_KEY) : null
 
-// ── System prompt ──────────────────────────────────────────────────────────────
-const SYSTEM_PROMPT = `You are the virtual assistant for OptiHR and OptiAI, a South African HR and AI consultancy based in Pretoria. Your role is to warmly engage website visitors, help them understand how OptiHR and OptiAI can help their specific situation, and — naturally through conversation — gather their contact details so a consultant can follow up.
+// ── System prompts ────────────────────────────────────────────────────────────
+const RFH_SYSTEM_PROMPT = `You are the virtual assistant for RFH Inc Attorneys, a South African law firm based in Pretoria. Your role is to warmly engage website visitors, help them understand how RFH Inc can help with their legal matter, and — naturally through conversation — gather their contact details so Raymond Hauptfleisch (Director) can follow up.
+
+## About RFH Inc
+RFH Inc is a Pretoria-based law firm directed by Raymond Hauptfleisch. The firm provides the following legal services:
+
+- **Divorce & Family Law**: Contested and uncontested divorces, maintenance, parenting plans, forfeiture of benefits, and protection orders.
+- **Labour & Employment**: Unfair dismissal, CCMA representation, retrenchments, disciplinary hearings, and employment contracts.
+- **Civil Litigation**: Debt collection, interdicts, declaratory orders, judicial reviews, and urgent applications.
+- **Contracts**: Drafting and reviewing all commercial agreements. Core principle: if it's not in the contract, it's very difficult to rely on it later.
+- **Deceased Estates**: Estate administration, will drafting, estate planning, and inter vivos trusts. Executor's fee: 3.5% of gross estate value.
+- **Liquidation & Sequestration**: Sequestration (individuals) and liquidation (companies/CCs), including director and CC member personal liability.
+- **Corporate Law**: Company registration, MOIs, shareholders' agreements, directors' duties, and CIPC compliance.
+- **Commercial Law**: Share sales, business acquisitions, loan agreements, T&Cs, supply contracts, and CPA/NCA compliance.
+- **Education Law**: Advising SGBs and school boards on governance, staff employment, discipline, and SASA compliance.
+
+## Key Facts
+- Consultation fee: R750 for approximately 30 minutes — real legal advice, not a sales call.
+- Raymond is a SACE-registered teacher with experience in public and independent schools.
+- Raymond has personal experience of the sequestration process.
+- The firm is registered with the FIC (AI/140818/00029) and compliant with FICA.
+
+## Contact Details
+- Phone / WhatsApp: +27 87 550 0932
+- Email: raymond@rfhinc.co.za
+- Address: 36 Alcade Rd, Lynnwood Glen, Pretoria, 0081
+
+## Your conversation style
+- Warm, professional, and direct — like speaking to a knowledgeable colleague
+- Ask open questions to understand the visitor's legal situation
+- Tailor explanations to their specific matter
+- Use plain language — avoid unnecessary legal jargon
+- Be honest: if something is outside RFH Inc's scope, say so
+- Keep responses concise — 2–4 short paragraphs maximum
+- South African context: reference relevant SA legislation (Companies Act, Labour Relations Act, CCMA, etc.)
+
+## Lead capture
+Your goal is to naturally gather the following during conversation:
+1. Their first name (ask early — "Who am I speaking with?")
+2. The nature of their legal matter
+3. Their email address OR phone number (explain Raymond will follow up)
+
+Do NOT make it feel like a form. Weave the questions naturally into the conversation. Once you have their name and at least one contact method (email or phone), signal this by appending the following block to the END of one of your responses. This block will be automatically removed before the user sees it — do not reference it or explain it:
+
+[[LEAD_DATA]]{"name":"THEIR_NAME","email":"EMAIL_OR_EMPTY","phone":"PHONE_OR_EMPTY","summary":"ONE_SENTENCE_SUMMARY_OF_THEIR_ENQUIRY"}[[/LEAD_DATA]]
+
+Only include this block once. Continue the conversation naturally after including it.
+
+## Important
+- Do not fabricate case outcomes, success rates, or pricing beyond the consultation fee
+- Always encourage a consultation as the natural next step
+- If a matter sounds urgent (e.g. upcoming court date, emergency), emphasise calling Raymond directly
+`
+
+const OPTIHR_SYSTEM_PROMPT = `You are the virtual assistant for OptiHR and OptiAI, a South African HR and AI consultancy based in Pretoria. Your role is to warmly engage website visitors, help them understand how OptiHR and OptiAI can help their specific situation, and — naturally through conversation — gather their contact details so a consultant can follow up.
 
 ## About OptiHR
 OptiHR is an HR consulting firm that helps businesses and schools get their people strategy right. Services include:
@@ -104,50 +158,51 @@ function extractLead(text: string): { clean: string; lead: LeadData | null } {
 	return { clean, lead }
 }
 
-async function sendLeadEmail(lead: LeadData) {
+async function sendLeadEmail(lead: LeadData, site: "optihr" | "rfhinc" = "optihr") {
 	if (!resend) {
 		console.warn("RESEND_API_KEY not set — skipping lead email")
 		return
 	}
+
+	const isRFH = site === "rfhinc"
+	const recipients = isRFH
+		? ["raymond@rfhinc.co.za"]
+		: ["raymond@optihr.co.za", "rhodene@optihr.co.za"]
+	const brandName = isRFH ? "RFH Inc Attorneys" : "OptiHR"
+	const brandColor = isRFH ? "#C95520" : "#053c43"
+	const accentColor = isRFH ? "#fff5f0" : "#e4f8ed"
+
 	try {
 		await resend.emails.send({
 			from: "onboarding@resend.dev",
-			to: ["raymond@optihr.co.za", "rhodene@optihr.co.za"],
-			subject: `New website lead: ${lead.name}`,
+			to: recipients,
+			subject: `New ${brandName} website lead: ${lead.name}`,
 			html: `
 				<div style="font-family: sans-serif; max-width: 600px; margin: 0 auto;">
-					<h2 style="color: #053c43; border-bottom: 2px solid #adeacb; padding-bottom: 8px;">
-						New Lead from OptiHR Chat Widget
+					<h2 style="color: ${brandColor}; border-bottom: 2px solid ${accentColor}; padding-bottom: 8px;">
+						New Lead from ${brandName} Chat Widget
 					</h2>
 					<table style="width: 100%; border-collapse: collapse; margin-top: 16px;">
 						<tr>
-							<td style="padding: 8px 12px; background: #e4f8ed; font-weight: 600; width: 140px; color: #1e5056;">Name</td>
-							<td style="padding: 8px 12px; border-bottom: 1px solid #e4f8ed;">${lead.name || "—"}</td>
+							<td style="padding: 8px 12px; background: ${accentColor}; font-weight: 600; width: 140px; color: ${brandColor};">Name</td>
+							<td style="padding: 8px 12px; border-bottom: 1px solid ${accentColor};">${lead.name || "—"}</td>
 						</tr>
 						<tr>
-							<td style="padding: 8px 12px; background: #e4f8ed; font-weight: 600; color: #1e5056;">Email</td>
-							<td style="padding: 8px 12px; border-bottom: 1px solid #e4f8ed;">${lead.email || "—"}</td>
+							<td style="padding: 8px 12px; background: ${accentColor}; font-weight: 600; color: ${brandColor};">Email</td>
+							<td style="padding: 8px 12px; border-bottom: 1px solid ${accentColor};">${lead.email || "—"}</td>
 						</tr>
 						<tr>
-							<td style="padding: 8px 12px; background: #e4f8ed; font-weight: 600; color: #1e5056;">Phone</td>
-							<td style="padding: 8px 12px; border-bottom: 1px solid #e4f8ed;">${lead.phone || "—"}</td>
+							<td style="padding: 8px 12px; background: ${accentColor}; font-weight: 600; color: ${brandColor};">Phone</td>
+							<td style="padding: 8px 12px; border-bottom: 1px solid ${accentColor};">${lead.phone || "—"}</td>
 						</tr>
 						<tr>
-							<td style="padding: 8px 12px; background: #e4f8ed; font-weight: 600; color: #1e5056;">Enquiry</td>
+							<td style="padding: 8px 12px; background: ${accentColor}; font-weight: 600; color: ${brandColor};">Enquiry</td>
 							<td style="padding: 8px 12px;">${lead.summary || "—"}</td>
 						</tr>
 					</table>
-					<p style="margin-top: 24px; color: #1e5056; font-size: 13px;">
-						This lead was captured via the OptiHR website chat widget.
+					<p style="margin-top: 24px; color: ${brandColor}; font-size: 13px;">
+						This lead was captured via the ${brandName} website chat widget.
 					</p>
-					<hr style="border: none; border-top: 1px solid #e4f8ed; margin: 24px 0;" />
-					<table style="font-size: 12px; color: #555; border-collapse: collapse;">
-						<tr><td style="padding: 2px 0; font-weight: 600; color: #1e5056; padding-right: 12px;">OptiHR</td><td></td></tr>
-						<tr><td style="padding: 2px 0; padding-right: 12px;">Raymond Hauptfleisch</td><td>raymond@optihr.co.za &nbsp;·&nbsp; 082 805 5050</td></tr>
-						<tr><td style="padding: 2px 0; padding-right: 12px;">Rhodene Duncan</td><td>rhodene@optihr.co.za &nbsp;·&nbsp; 071 880 7971</td></tr>
-						<tr><td style="padding: 2px 0; padding-right: 12px;">Office</td><td>087 550 0932 &nbsp;·&nbsp; hello@optihr.co.za</td></tr>
-						<tr><td colspan="2" style="padding-top: 4px;"><a href="https://www.optihr.co.za" style="color: #0d937c; text-decoration: none;">www.optihr.co.za</a></td></tr>
-					</table>
 				</div>
 			`,
 		})
@@ -156,14 +211,51 @@ async function sendLeadEmail(lead: LeadData) {
 	}
 }
 
+// ── CORS (allows RFH Inc static site to call this API) ─────────────────────
+const ALLOWED_ORIGINS = [
+	"https://www.rfhinc.co.za",
+	"https://rfhinc.co.za",
+	"http://localhost:3000",
+	"http://127.0.0.1:5500",
+]
+
+function corsHeaders(origin: string | null) {
+	const headers: Record<string, string> = {
+		"Access-Control-Allow-Methods": "POST, OPTIONS",
+		"Access-Control-Allow-Headers": "Content-Type",
+		"Access-Control-Max-Age": "86400",
+	}
+	if (origin && ALLOWED_ORIGINS.some((o) => origin.startsWith(o))) {
+		headers["Access-Control-Allow-Origin"] = origin
+	}
+	return headers
+}
+
+export const OPTIONS = async (request: NextRequest) => {
+	const origin = request.headers.get("origin")
+	return new Response(null, { status: 204, headers: corsHeaders(origin) })
+}
+
 // ── Handler ─────────────────────────────────────────────────────────────────
 export const POST = async (request: NextRequest) => {
+	const origin = request.headers.get("origin")
+	const cors = corsHeaders(origin)
+
 	try {
-		const { messages } = (await request.json()) as { messages: Message[] }
+		const { messages, sessionId, site } = (await request.json()) as {
+			messages: Message[]
+			sessionId?: string
+			site?: "optihr" | "rfhinc"
+		}
+
+		const activeSite = site === "rfhinc" ? "rfhinc" : "optihr"
 
 		if (!process.env.ANTHROPIC_API_KEY) {
-			return Response.json({ error: "ANTHROPIC_API_KEY not configured" }, { status: 500 })
+			return Response.json({ error: "ANTHROPIC_API_KEY not configured" }, { status: 500, headers: cors })
 		}
+
+		// Resolve session ID — use client-provided or generate one
+		const chatSessionId = sessionId || `${activeSite}-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`
 
 		const anthropicResponse = await fetch("https://api.anthropic.com/v1/messages", {
 			method: "POST",
@@ -175,7 +267,7 @@ export const POST = async (request: NextRequest) => {
 			body: JSON.stringify({
 				model: "claude-haiku-4-5-20251001",
 				max_tokens: 1024,
-				system: SYSTEM_PROMPT,
+				system: activeSite === "rfhinc" ? RFH_SYSTEM_PROMPT : OPTIHR_SYSTEM_PROMPT,
 				messages: messages.map((m) => ({ role: m.role, content: m.content })),
 			}),
 		})
@@ -183,7 +275,7 @@ export const POST = async (request: NextRequest) => {
 		if (!anthropicResponse.ok) {
 			const err = await anthropicResponse.json()
 			console.error("Anthropic API error:", err)
-			return Response.json({ error: "AI service error" }, { status: 502 })
+			return Response.json({ error: "AI service error" }, { status: 502, headers: cors })
 		}
 
 		const anthropicData = await anthropicResponse.json()
@@ -194,12 +286,38 @@ export const POST = async (request: NextRequest) => {
 		let leadCaptured = false
 		if (lead) {
 			leadCaptured = true
-			await sendLeadEmail(lead)
+			await sendLeadEmail(lead, activeSite)
 		}
 
-		return Response.json({ message, leadCaptured, lead: leadCaptured ? lead : null })
+		// Get the latest user message for logging
+		const latestUserMessage = messages[messages.length - 1]?.content ?? ""
+
+		// Log conversation (non-blocking — don't fail the response if logging errors)
+		const ip = request.headers.get("x-forwarded-for") || request.headers.get("x-real-ip") || undefined
+		const userAgent = request.headers.get("user-agent") || undefined
+
+		logConversation({
+			sessionId: chatSessionId,
+			site: activeSite,
+			userMessage: latestUserMessage,
+			assistantMessage: message,
+			ip: ip || undefined,
+			userAgent: userAgent || undefined,
+			leadCaptured,
+			leadName: lead?.name,
+			leadEmail: lead?.email,
+			leadPhone: lead?.phone,
+			leadSummary: lead?.summary,
+		}).catch((err) => console.error("Chat logging error:", err))
+
+		return Response.json({
+			message,
+			sessionId: chatSessionId,
+			leadCaptured,
+			lead: leadCaptured ? lead : null,
+		}, { headers: cors })
 	} catch (error) {
 		console.error("Chat route error:", error)
-		return Response.json({ error: "Internal server error" }, { status: 500 })
+		return Response.json({ error: "Internal server error" }, { status: 500, headers: cors })
 	}
 }
