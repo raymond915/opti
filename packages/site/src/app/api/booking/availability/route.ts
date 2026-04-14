@@ -4,7 +4,7 @@ import { getAvailableSlots, getGoogleBusyTimes, CONSULTATION } from "@/lib/booki
 // CORS for RFH Inc static site
 const ALLOWED_ORIGINS = [
   "https://www.rfhinc.co.za", "https://rfhinc.co.za",
-  "http://localhost:3000", "http://127.0.0.1:5500",
+  "http://localhost:3000", "http://localhost:5500", "http://127.0.0.1:5500",
 ]
 
 function cors(origin: string | null) {
