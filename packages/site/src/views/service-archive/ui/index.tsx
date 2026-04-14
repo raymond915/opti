@@ -109,7 +109,7 @@ export const ServicesPage: NextPage = () => {
 				body="From compliance and dispute resolution to training and wellness — OptiHR covers every dimension of modern HR for South African businesses and independent schools. And through OptiAI, we help you put AI to work in ways that make your people more capable and your processes more efficient."
 				title={content.title}
 			/>
-			<ContainedLayout className="max-h-none grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-inner-padding">
+			<ContainedLayout className="max-h-none grid-cols-3 gap-inner-padding">
 				{Services.map((service) => (
 					<ServiceCard
 						callToAction={service.callToAction}

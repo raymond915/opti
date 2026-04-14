@@ -10,10 +10,10 @@ import { stats } from "../model/hero-stats"
 
 export const HeroBanner = () => {
 	return (
-		<section className="contained-height nav-padding relative grid w-full grid-cols-1 md:grid-cols-12 gap-inner-padding overflow-clip rounded-outer bg-mint-6 p-inner-padding">
+		<section className="contained-height nav-padding relative grid w-full grid-cols-12 gap-inner-padding overflow-clip rounded-outer bg-mint-6 p-inner-padding">
 			{/*Main Content*/}
-			<div className="col-span-full md:col-span-7 grid md:grid-cols-subgrid items-stretch p-inner-padding">
-				<div className="z-10 col-span-full md:col-span-6 flex flex-col justify-center gap-fluid-4">
+			<div className="col-span-7 grid grid-cols-subgrid items-stretch p-inner-padding">
+				<div className="z-10 col-span-6 flex flex-col justify-center gap-fluid-4">
 					<div className="flex flex-col gap-fluid-3">
 						<Badge
 							icon={<CircleCheck />}
@@ -36,7 +36,7 @@ export const HeroBanner = () => {
 					</Button>
 				</div>
 				{/*Stats*/}
-				<div className="col-span-full md:col-span-7 flex h-full items-end gap-4 md:gap-section-gap text-white flex-wrap">
+				<div className="col-span-7 flex h-full items-end gap-section-gap text-white">
 					{stats.map((stat: StatType) => (
 						<Stat
 							className="col-span-2"
@@ -47,7 +47,7 @@ export const HeroBanner = () => {
 					))}
 				</div>
 			</div>
-			<div className="col-span-full md:col-span-5 grid md:grid-cols-subgrid justify-end">
+			<div className="col-span-5 grid grid-cols-subgrid justify-end">
 				{/*AudienceDirector*/}
 				<AudienceDirectorPanel
 					className="z-30 col-end-6 place-self-end"
@@ -55,7 +55,7 @@ export const HeroBanner = () => {
 				/>
 			</div>
 			<Logo
-				className="-bottom-[10vh] absolute right-[5vw] w-[70vw] md:w-[45vw] select-none text-mint-5/30"
+				className="-bottom-[10vh] absolute right-[5vw] w-[45vw] select-none text-mint-5/30"
 				logomark={true}
 			/>
 		</section>

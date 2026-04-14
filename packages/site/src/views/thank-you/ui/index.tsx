@@ -17,8 +17,8 @@ export const ThankYouPage: NextPage = () => {
 
 	return (
 		// TODO: Copy
-		<section className="contained-height nav-padding relative col-span-full grid w-full md:grid-cols-subgrid gap-gutter overflow-clip rounded-outer bg-mint-6">
-			<div className="col-span-full md:col-span-6 row-span-full flex flex-col justify-center gap-fluid-4 px-inner-padding md:pl-section-gap">
+		<section className="contained-height nav-padding relative col-span-full grid w-full grid-cols-subgrid gap-gutter overflow-clip rounded-outer bg-mint-6">
+			<div className="col-span-6 row-span-full flex flex-col justify-center gap-fluid-4 px-inner-padding pl-section-gap">
 				<div className="flex flex-col gap-fluid-3">
 					<Badge
 						icon={<Heart />}
@@ -30,7 +30,7 @@ export const ThankYouPage: NextPage = () => {
 						Your message has been received. A member of the OptiHR team will be in touch with you shortly. In the meantime, explore our insights or browse our full range of services.
 					</P>
 				</div>
-				<div className="flex flex-col sm:flex-row items-start sm:items-center gap-3 sm:gap-fluid-3">
+				<div className="flex items-center gap-fluid-3">
 					<Button
 						href="/insights"
 						size="lg"
@@ -43,12 +43,12 @@ export const ThankYouPage: NextPage = () => {
 			</div>
 			<FeaturedPost
 				_id="thank-you-featured"
-				className="absolute right-inner-padding bottom-inner-padding h-2/5 hidden md:block w-1/4"
+				className="absolute right-inner-padding bottom-inner-padding h-2/5 w-1/4"
 				excerpt="Explore OptiHR services while you wait."
 				title={content.title}
 			/>
 			<Logo
-				className="absolute top-[10vh] right-[5vw] w-[80vw] md:w-[55vw] select-none opacity-2"
+				className="absolute top-[10vh] right-[5vw] w-[55vw] select-none opacity-2"
 				logomark={true}
 			/>
 		</section>

@@ -99,7 +99,7 @@ export const AiInTheWorkplacePage: NextPage<AiInTheWorkplaceProps> = ({
 			/>
 
 			{/* Intro */}
-			<ContainedLayout className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-section-gap">
+			<ContainedLayout className="grid grid-cols-2 gap-section-gap">
 				<H2>AI isn't a threat to your people. Used well, it makes them better at everything they do.</H2>
 				<div className="flex flex-col gap-fluid-2">
 					<P className="text-mint-5/80 text-lg leading-relaxed">
@@ -576,7 +576,7 @@ export const AiInTheWorkplacePage: NextPage<AiInTheWorkplaceProps> = ({
 				body="Whether you're just beginning to explore AI or managing an adoption already underway, OptiAI — powered by OptiHR — gives you the strategy, frameworks, and people expertise to move forward with confidence. Book a free consultation and find out exactly where your organisation stands."
 				buttonHref="/contact"
 				buttonText="Book your free consultation"
-				className={"h-[50dvh] md:h-[80dvh]"}
+				className={"h-[80dvh]"}
 				media={{
 					type: "image",
 					imageProps: {
