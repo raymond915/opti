@@ -1,9 +1,10 @@
 "use client"
 
-import { Mail } from "lucide-react"
+import { Mail, Phone } from "lucide-react"
 
 const WHATSAPP_NUMBER = "27686362218"
 const CONTACT_EMAIL = "hello@optihr.co.za"
+const OFFICE_NUMBER_TEL = "+27875511622"
 
 const WhatsAppIcon = () => (
 	<svg viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5 shrink-0" aria-hidden="true">
@@ -27,6 +28,20 @@ export const FloatingContact = () => {
 				</span>
 				<span className="flex h-12 w-12 shrink-0 items-center justify-center">
 					<WhatsAppIcon />
+				</span>
+			</a>
+
+			{/* Call button — expands left on hover to reveal label */}
+			<a
+				href={`tel:${OFFICE_NUMBER_TEL}`}
+				aria-label="Call OptiHR office"
+				className="group flex h-12 w-12 items-center justify-end overflow-hidden rounded-full bg-[#0d937c] text-white shadow-[0_4px_16px_rgba(13,147,124,0.40)] transition-[width,box-shadow] duration-300 ease-in-out hover:w-44 hover:shadow-[0_4px_24px_rgba(13,147,124,0.55)] active:scale-95"
+			>
+				<span className="mr-0 flex-1 overflow-hidden pl-4 opacity-0 transition-opacity duration-200 group-hover:opacity-100">
+					<span className="whitespace-nowrap text-sm font-semibold">087 551 1622</span>
+				</span>
+				<span className="flex h-12 w-12 shrink-0 items-center justify-center">
+					<Phone className="h-5 w-5 shrink-0" />
 				</span>
 			</a>
 

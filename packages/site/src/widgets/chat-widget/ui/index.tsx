@@ -192,7 +192,7 @@ export const ChatWidget = () => {
 				{
 					role: "assistant",
 					content:
-						"I'm having a technical hiccup right now — apologies! You can reach us directly at raymond@optihr.co.za or call 012 753 9385.",
+						"I'm having a technical hiccup right now — apologies! You can reach us directly at hello@optihr.co.za or call 087 551 1622.",
 				},
 			])
 		} finally {

@@ -49,13 +49,6 @@ export const ContactPage: NextPage = () => {
 						</a>
 						<a
 							className="flex items-center gap-2 text-white hover:underline"
-							href="tel:+27828055050"
-						>
-							<Phone className="size-4 text-mint-3" />
-							Raymond: 082 805 5050
-						</a>
-						<a
-							className="flex items-center gap-2 text-white hover:underline"
 							href="tel:+27718807971"
 						>
 							<Phone className="size-4 text-mint-3" />

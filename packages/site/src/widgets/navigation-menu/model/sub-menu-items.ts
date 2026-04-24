@@ -13,6 +13,10 @@ export const subMenuItems: SubMenuItemType[] = [
 		href: "/services",
 	},
 	{
+		label: "AI in the Workplace",
+		href: "/ai-in-the-workplace",
+	},
+	{
 		label: "Pricing",
 		href: "/pricing",
 	},
@@ -31,10 +35,6 @@ export const subMenuItems: SubMenuItemType[] = [
 	{
 		label: "Contact Us",
 		href: "/contact",
-	},
-	{
-		label: "AI in the Workplace",
-		href: "/ai-in-the-workplace",
 	},
 	{
 		label: "Book a Consultation",
