@@ -197,22 +197,16 @@ const additionalHoursInfo = {
 
 const companySecretarialIncludes = [
 	"Annual return preparation and submission to CIPC — deadlines managed on your behalf",
-	"Director appointment, resignation, and change notifications to CIPC",
+	"Director appointments, resignations, and changes filed with CIPC",
 	"Share allotment, transfer, and buyback registrations",
 	"MOI amendments, special resolutions, and business name changes",
 	"Beneficial ownership disclosures and CIPC compliance monitoring",
-	"Maintenance of register of directors and prescribed officers",
-	"Maintenance of register of shareholders and securities holders",
-	"Maintenance of register of beneficial owners",
+	"Maintenance of statutory registers — directors, shareholders, and beneficial owners",
 	"Share certificates and transfer documentation",
-	"Drafting of board resolutions for all company decisions",
-	"Board meeting notices, agendas, and minute-taking",
-	"Shareholder meeting support — notices, resolutions, and minutes",
-	"Proxy appointments and voting management",
-	"Corporate governance advisory — fiduciary duties, Companies Act compliance",
-	"MOI and shareholder agreement review for governance gaps",
-	"Director service agreements and powers of attorney",
-	"Proactive regulatory deadline tracking (CIPC, relevant filings)",
+	"Board meeting support — notices, agendas, minutes, and resolutions",
+	"AGM and shareholder meeting support — proxies and voting included",
+	"Document drafting and review — MOIs, shareholder agreements, director service agreements",
+	"Corporate governance advisory — fiduciary duties and Companies Act compliance",
 ]
 
 const popiaImplementationTiers = [
@@ -698,23 +692,19 @@ export const PricingPage = () => {
 						{[
 							{
 								heading: "CIPC penalties add up fast",
-								body: "Annual returns must be filed within 30 business days of your company's anniversary. Late filings attract escalating penalties and can ultimately trigger deregistration — which means you cannot legally trade, open bank accounts, or enter contracts.",
+								body: "Annual returns must be filed within 30 business days of your company's anniversary. Late filings attract escalating penalties and can ultimately trigger deregistration — meaning you cannot legally trade, open bank accounts, or enter contracts.",
 							},
 							{
 								heading: "Board resolutions are your legal proof",
-								body: "Every significant company decision — appointing a director, issuing shares, approving a major contract — requires a properly drafted and signed board resolution. WhatsApp messages and verbal agreements have no legal standing. Proper resolutions protect directors personally.",
+								body: "Significant company decisions require properly drafted, signed board resolutions. WhatsApp messages and verbal agreements have no legal standing. Proper resolutions protect directors personally.",
 							},
 							{
-								heading: "Statutory registers are not optional",
-								body: "Your registers of directors, shareholders, and beneficial owners must be accurate, current, and available for inspection. Missing or incorrect registers expose directors to personal liability — and cause expensive delays when investors, lenders, or auditors ask for them.",
-							},
-							{
-								heading: "Governance becomes commercially critical",
-								body: "When you raise investment, apply for significant bank finance, or sell the business, your governance records will be scrutinised. Poor records delay deals, reduce valuations, and sometimes kill transactions entirely.",
+								heading: "Investor- and audit-ready governance",
+								body: "Statutory registers and governance records get scrutinised when you raise investment, apply for finance, or sell the business. Missing or incorrect records delay deals, reduce valuations, and sometimes kill transactions outright.",
 							},
 							{
 								heading: "Legal expertise built in",
-								body: "OptiHR's founder is an admitted attorney with direct knowledge of the Companies Act, corporate law, and governance requirements. This is not form-filing — it is legal-grade governance support at a fraction of the cost of a full-time appointment.",
+								body: "OptiHR's founder is an admitted attorney with direct knowledge of the Companies Act and governance requirements. This is legal-grade governance support at a fraction of the cost of a full-time appointment.",
 							},
 						].map((item) => (
 							<div key={item.heading} className="flex flex-col gap-2 rounded-inner bg-white/10 p-inner-padding">
