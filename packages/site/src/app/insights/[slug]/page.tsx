@@ -18,8 +18,13 @@ export async function generateMetadata({ params }: PageProps) {
 	const article = articles.find((a) => a.slug === slug)
 	if (!article) return {}
 	return {
-		title: `${article.title} | OptiHR OptiBuzz`,
+		title: { absolute: `${article.title} — OptiBuzz | OptiHR` },
 		description: article.excerpt,
+		openGraph: {
+			title: `${article.title} — OptiBuzz | OptiHR`,
+			description: article.excerpt,
+			type: "article",
+		},
 	}
 }
 

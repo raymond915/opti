@@ -67,8 +67,8 @@ export const menuItems: FooterListProps[] = [
 				href: "mailto:hello@optihr.co.za",
 			},
 			{
-				label: "087 550 0932",
-				href: "tel:+27686362218",
+				label: "087 551 1622",
+				href: "tel:+27875511622",
 			},
 			{
 				label: "Chat on WhatsApp",

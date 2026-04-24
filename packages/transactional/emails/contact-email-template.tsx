@@ -117,7 +117,7 @@ export const ContactEmailTemplate = (value:  typeof ContactFormSchema.infer) => 
 							<Text className="font-semibold text-neutral-700 mb-1">OptiHR</Text>
 							<Text className="mb-0">Raymond Hauptfleisch — raymond@optihr.co.za · 082 805 5050</Text>
 							<Text className="mb-0">Rhodene Duncan — rhodene@optihr.co.za · 071 880 7971</Text>
-							<Text className="mb-0">Office: 087 550 0932 · hello@optihr.co.za</Text>
+							<Text className="mb-0">Office: 087 551 1622 · hello@optihr.co.za</Text>
 							<Text className="mb-0">www.optihr.co.za</Text>
 						</Section>
 					</Container>

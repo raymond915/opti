@@ -23,9 +23,9 @@ import workplaceDiscipline from "../service-content/workplace-discipline.json"
 import workplaceWellnessPrograms from "../service-content/workplace-wellness-programs.json"
 
 type SectionItem = { type: string; text: string }
-type ExtendedServiceContent = ServiceContent & { sections?: SectionItem[] }
+export type ExtendedServiceContent = ServiceContent & { sections?: SectionItem[] }
 
-const serviceMap: Record<string, unknown> = {
+export const serviceMap: Record<string, unknown> = {
 	"company-secretary-services": companySecretaryServices,
 	"compliance": compliance,
 	"employment-equity": employmentEquity,

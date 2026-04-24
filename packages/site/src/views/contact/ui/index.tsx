@@ -42,10 +42,10 @@ export const ContactPage: NextPage = () => {
 						</a>
 						<a
 							className="flex items-center gap-2 text-white hover:underline"
-							href="tel:+27875500932"
+							href="tel:+27875511622"
 						>
 							<Phone className="size-4 text-mint-3" />
-							087 550 0932 (office)
+							087 551 1622 (office)
 						</a>
 						<a
 							className="flex items-center gap-2 text-white hover:underline"
@@ -61,7 +61,7 @@ export const ContactPage: NextPage = () => {
 							<Phone className="size-4 text-mint-3" />
 							Rhodene: 071 880 7971
 						</a>
-						</div>
+					</div>
 					<div className="mt-4 flex gap-2">
 						<SocialIcon
 							href={"https://wa.me/27686362218"}

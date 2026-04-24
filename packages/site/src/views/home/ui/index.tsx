@@ -23,7 +23,7 @@ export const HomePage: NextPage = () => {
 			<LargeParagraph
 				ctaHref="/services"
 				ctaLabel="Explore our services"
-				description="Founded by Raymond Hauptfleisch — an admitted attorney, qualified HR practitioner, and former educator — OptiHR exists to remove the risk from HR. We don't just give advice on paper; we implement practical, legally sound solutions that protect your business, build trust, and free you to focus on growth. And through OptiAI, our AI consulting arm, we help businesses harness intelligent automation tailored to how they actually work — putting the right technology to work for their people."
+				description="Founded by Raymond Hauptfleisch — admitted attorney, qualified HR practitioner, and former educator — OptiHR removes the risk from HR. We don't stop at advice on paper; we implement practical, legally sound solutions that protect your business and free you to focus on growth. Through OptiAI, our AI consulting arm, we help organisations put intelligent automation to work in ways that fit how they actually operate."
 				heading={
 					<>
 						You run your business.

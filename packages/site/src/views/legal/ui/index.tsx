@@ -40,7 +40,7 @@ export const LegalPage: NextPage = () => {
 				title="Legal & Privacy Information"
 			/>
 
-			<div className="container mx-auto max-w-3xl px-inner-padding py-section-gap">
+			<div className="container mx-auto max-w-3xl px-inner-padding py-section-gap" id="policies">
 
 				{/* Table of contents */}
 				<nav className="mb-10 rounded-lg border border-mint-2/30 bg-muted-1 p-6">
@@ -195,7 +195,7 @@ export const LegalPage: NextPage = () => {
 							</p>
 							<p>
 								<strong>Phone:</strong>{" "}
-								<a className="text-mint-6 underline" href="tel:+27875500932">087 550 0932</a>
+								<a className="text-mint-6 underline" href="tel:+27875511622">087 551 1622</a>
 							</p>
 						</div>
 					</div>
@@ -257,7 +257,7 @@ export const LegalPage: NextPage = () => {
 							</p>
 							<p>
 								Phone:{" "}
-								<a className="text-mint-6 underline" href="tel:+27875500932">087 550 0932</a>
+								<a className="text-mint-6 underline" href="tel:+27875511622">087 551 1622</a>
 							</p>
 						</div>
 					</div>

@@ -234,8 +234,12 @@ export const PopiaPage = () => {
 				buttonHref="/contact"
 				buttonText="Book your POPIA compliance consultation"
 				media={{
-					type: "component",
-					mediaNode: <div />,
+					type: "image",
+					imageProps: {
+						alt: "POPIA compliance — protecting personal information",
+						src: "/optihr-illustration-compliance.svg",
+					},
+					containerClassnames: undefined,
 				}}
 				mediaPosition="right"
 				title="Get POPIA compliant — before the Regulator comes knocking."

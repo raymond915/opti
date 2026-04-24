@@ -14,25 +14,7 @@ export const metadata: Metadata = {
 }
 
 const Page: NextPage = () => {
-	return (
-		<ForSmallBusinessesPage
-			content={{
-				pageBanner: {
-					title: "",
-					subtitle: "",
-				},
-				introSection: {
-					title: "",
-					body: "",
-				},
-				highlightBlocks: [],
-				faqSection: {
-					title: "",
-					faqs: [],
-				},
-			}}
-		/>
-	)
+	return <ForSmallBusinessesPage />
 }
 
 export default Page

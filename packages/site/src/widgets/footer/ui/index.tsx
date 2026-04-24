@@ -17,7 +17,7 @@ export const Footer = () => {
 						<div className="flex flex-col items-start gap-fluid-2">
 							<Logo className="h-12" />
 							<H2 className="font-normal text-fluid-n1 text-mint-1">
-								Your company. Your People. Our Expertise.
+								Your company. Your people. Our expertise.
 							</H2>
 							{/*SOCIAL ICON*/}
 							<div className="mt-fluid-1 grid grid-cols-2 gap-4">

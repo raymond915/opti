@@ -7,12 +7,11 @@ import {
 } from "@shared/components/layout/highlight-block"
 import { PageBanner } from "@shared/components/page-banner"
 import { SectionSubtitle } from "@shared/components/section-subtitle"
-import { H2, H3, P } from "@shared/components/typography"
+import { H2, P } from "@shared/components/typography"
 import { ClientLogos } from "@widgets/client-logos/ui"
 import { FaqSection } from "@widgets/faq-section/ui"
 import { ServiceRoller } from "@widgets/service-roller/ui"
 import type { NextPage } from "next"
-import type { ForSmallBusinessesProps } from "../model/schema"
 
 const myths = [
 	{
@@ -37,9 +36,7 @@ const myths = [
 	},
 ]
 
-export const ForSmallBusinessesPage: NextPage<ForSmallBusinessesProps> = ({
-	...props
-}: ForSmallBusinessesProps) => {
+export const ForSmallBusinessesPage: NextPage = () => {
 	return (
 		<>
 			<PageBanner

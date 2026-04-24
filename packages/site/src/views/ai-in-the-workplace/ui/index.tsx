@@ -12,7 +12,6 @@ import { ClientLogos } from "@widgets/client-logos/ui"
 import { FaqSection } from "@widgets/faq-section/ui"
 import { ServiceRoller } from "@widgets/service-roller/ui"
 import type { NextPage } from "next"
-import type { AiInTheWorkplaceProps } from "../model/schema"
 
 const myths = [
 	{
@@ -86,9 +85,7 @@ const caseStudyOutcomes = [
 	"Phased rollout completed on time with no formal grievances",
 ]
 
-export const AiInTheWorkplacePage: NextPage<AiInTheWorkplaceProps> = ({
-	...props
-}: AiInTheWorkplaceProps) => {
+export const AiInTheWorkplacePage: NextPage = () => {
 	return (
 		<>
 			<PageBanner

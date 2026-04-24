@@ -30,7 +30,7 @@ export const FaqPage: NextPage = () => {
 							{
 								question: "Who do you work with?",
 								answer:
-									"We work with small businesses that need HR support without a full-time hire, large businesses and HR departments that need specialist IR and compliance depth, and independent schools navigating the unique HR challenges of the education sector.",
+									"We work with small businesses that need HR support without the cost of a full-time hire, large businesses and HR departments that need specialist IR and compliance depth, and independent schools navigating the unique HR challenges of the education sector.",
 							},
 							{
 								question: "Do you work across South Africa or only in specific regions?",

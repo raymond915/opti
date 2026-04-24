@@ -24,7 +24,7 @@ export const HeroBanner = () => {
 						</H1>
 						<P className="max-w-full text-pretty text-white/90 lg:max-w-3/4">
 							Navigate CCMA disputes and HR compliance with confidence. OptiHR strengthens your team
-							with practical, preventative support — no full-time hire needed.
+							with practical, preventative support — without the cost of a full-time hire.
 						</P>
 					</div>
 					<Button

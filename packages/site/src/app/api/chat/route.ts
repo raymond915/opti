@@ -93,7 +93,7 @@ OptiAI is the AI consultancy arm of OptiHR. The mission is NOT to sell software 
 
 ## Contact Details
 - Email: hello@optihr.co.za
-- Office: 087 550 0932
+- Office: 087 551 1622
 - Raymond: raymond@optihr.co.za · 082 805 5050
 - Rhodene: rhodene@optihr.co.za · 071 880 7971
 - WhatsApp: +27 68 636 2218 (available via the WhatsApp button in the chat)

@@ -24,8 +24,8 @@ export const AboutPage: NextPage = () => {
 			<PageBanner
 				anchorId="/contact"
 				anchorText="Book Free Consultation"
-				body="Raymond Hauptfleisch brings unique legal, HR, and education expertise to help SA organisations achieve seamless labour law compliance and risk management."
-				title="About OptiHR: Premier HR Consulting & Labour Law Experts in South Africa"
+				body="OptiHR was founded by Raymond Hauptfleisch — admitted attorney, qualified HR practitioner, and former educator. A rare combination of legal authority, HR expertise, and sector insight, built to help South African businesses and independent schools handle HR with confidence."
+				title="About OptiHR — Specialist HR & Labour Law for South Africa"
 			/>
 			<LargeParagraph
 				ctaHref="/contact"
@@ -42,7 +42,7 @@ export const AboutPage: NextPage = () => {
 				media={{
 					type: "component",
 					mediaNode: (
-						<div className="relative w-full bg-red-500">
+						<div className="relative w-full">
 							<div className="absolute inset-0 z-10 bg-radial-[at_50%_35%] from-0% from-mint-1/0 via-60% via-mint-1/50 to-100% to-mint-1 opacity-70" />
 							<div className="absolute inset-0 z-10 bg-mint-2 opacity-40 mix-blend-darken" />
 							<div className="relative h-full w-full">

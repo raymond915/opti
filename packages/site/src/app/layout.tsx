@@ -22,8 +22,20 @@ const beVietnamPro = Be_Vietnam_Pro({
 })
 
 export const metadata: Metadata = {
-	title: "OptiHR",
-	description: "Website Description",
+	title: {
+		default: "OptiHR — Specialist HR, Labour Law & AI Consulting | South Africa",
+		template: "%s | OptiHR",
+	},
+	description:
+		"Specialist HR, labour law, and AI consulting for South African businesses and independent schools. CCMA representation, compliance, and practical HR support — without the cost of a full-time hire.",
+	openGraph: {
+		title: "OptiHR — Specialist HR, Labour Law & AI Consulting",
+		description:
+			"Specialist HR, labour law, and AI consulting for South African businesses and independent schools.",
+		type: "website",
+		locale: "en_ZA",
+		siteName: "OptiHR",
+	},
 }
 
 export default function RootLayout({
