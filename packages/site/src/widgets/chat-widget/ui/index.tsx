@@ -18,6 +18,22 @@ type LeadData = {
 	summary: string
 }
 
+// Mirror of lib/chat-logger.ts ChatSession — sent to /api/chat/end on unload
+type SessionSnapshot = {
+	id: string
+	site: "optihr"
+	startedAt: string
+	lastActivityAt: string
+	messages: { role: "user" | "assistant"; content: string; timestamp: string }[]
+	metadata: {
+		leadCaptured?: boolean
+		leadName?: string
+		leadEmail?: string
+		leadPhone?: string
+		leadSummary?: string
+	}
+}
+
 // ── Constants ────────────────────────────────────────────────────────────────
 
 const WHATSAPP_NUMBER = "27686362218"
@@ -64,6 +80,34 @@ export const ChatWidget = () => {
 	const inputRef = useRef<HTMLInputElement>(null)
 	const panelRef = useRef<HTMLDivElement>(null)
 
+	// Session snapshot held in a ref so the unload handler always sees the latest
+	// state (state inside event listeners gets stale).
+	const sessionRef = useRef<SessionSnapshot | null>(null)
+	const transcriptSentRef = useRef(false)
+
+	// Send the transcript to /api/chat/end on tab close. Uses sendBeacon so the
+	// request goes out even as the page is being torn down.
+	useEffect(() => {
+		const flush = () => {
+			const session = sessionRef.current
+			if (!session || session.messages.length === 0) return
+			if (transcriptSentRef.current) return
+			transcriptSentRef.current = true
+			try {
+				const blob = new Blob([JSON.stringify(session)], { type: "application/json" })
+				navigator.sendBeacon("/api/chat/end", blob)
+			} catch {
+				// Best-effort — ignore if the browser blocks beacons.
+			}
+		}
+		window.addEventListener("pagehide", flush)
+		window.addEventListener("beforeunload", flush)
+		return () => {
+			window.removeEventListener("pagehide", flush)
+			window.removeEventListener("beforeunload", flush)
+		}
+	}, [])
+
 	// Greeting on first open
 	useEffect(() => {
 		if (isOpen && messages.length === 0) {
@@ -99,19 +143,46 @@ export const ChatWidget = () => {
 		setInput("")
 		setIsLoading(true)
 
+		const userTimestamp = new Date().toISOString()
+
 		try {
 			const res = await fetch("/api/chat", {
 				method: "POST",
 				headers: { "Content-Type": "application/json" },
-				body: JSON.stringify({ messages: nextMessages }),
+				body: JSON.stringify({
+					messages: nextMessages,
+					sessionId: sessionRef.current?.id,
+					site: "optihr",
+				}),
 			})
 
 			if (!res.ok) throw new Error("API error")
 
 			const data = await res.json()
 
+			// Initialise the session snapshot on first response, or update activity.
+			const assistantTimestamp = new Date().toISOString()
+			if (!sessionRef.current) {
+				sessionRef.current = {
+					id: data.sessionId ?? `optihr-${Date.now()}`,
+					site: "optihr",
+					startedAt: userTimestamp,
+					lastActivityAt: assistantTimestamp,
+					messages: [],
+					metadata: {},
+				}
+			}
+			sessionRef.current.lastActivityAt = assistantTimestamp
+			sessionRef.current.messages.push({ role: "user", content: text, timestamp: userTimestamp })
+			sessionRef.current.messages.push({ role: "assistant", content: data.message, timestamp: assistantTimestamp })
+
 			if (data.leadCaptured && data.lead) {
 				setLead(data.lead)
+				sessionRef.current.metadata.leadCaptured = true
+				sessionRef.current.metadata.leadName = data.lead.name
+				sessionRef.current.metadata.leadEmail = data.lead.email
+				sessionRef.current.metadata.leadPhone = data.lead.phone
+				sessionRef.current.metadata.leadSummary = data.lead.summary
 			}
 
 			setMessages((prev) => [...prev, { role: "assistant", content: data.message }])

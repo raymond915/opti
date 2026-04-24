@@ -167,14 +167,14 @@ async function sendLeadEmail(lead: LeadData, site: "optihr" | "rfhinc" = "optihr
 	const isRFH = site === "rfhinc"
 	const recipients = isRFH
 		? ["raymond@rfhinc.co.za"]
-		: ["raymond@optihr.co.za", "rhodene@optihr.co.za"]
+		: ["raymond@optihr.co.za"]
 	const brandName = isRFH ? "RFH Inc Attorneys" : "OptiHR"
 	const brandColor = isRFH ? "#C95520" : "#053c43"
 	const accentColor = isRFH ? "#fff5f0" : "#e4f8ed"
 
 	try {
 		await resend.emails.send({
-			from: "onboarding@resend.dev",
+			from: process.env.EMAIL_FROM || "OptiHR <hello@optihr.co.za>",
 			to: recipients,
 			subject: `New ${brandName} website lead: ${lead.name}`,
 			html: `

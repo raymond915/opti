@@ -1,225 +1,180 @@
-import { promises as fs } from "fs"
-import path from "path"
+import { Resend } from "resend"
 
 // ── Types ────────────────────────────────────────────────────────────────────
 export type ChatMessage = {
-  role: "user" | "assistant"
-  content: string
-  timestamp: string
+	role: "user" | "assistant"
+	content: string
+	timestamp: string
+}
+
+export type ChatSessionMetadata = {
+	ip?: string
+	userAgent?: string
+	leadCaptured?: boolean
+	leadName?: string
+	leadEmail?: string
+	leadPhone?: string
+	leadSummary?: string
 }
 
 export type ChatSession = {
-  id: string
-  site: "optihr" | "rfhinc"
-  startedAt: string
-  lastActivityAt: string
-  messages: ChatMessage[]
-  metadata: {
-    ip?: string
-    userAgent?: string
-    leadCaptured?: boolean
-    leadName?: string
-    leadEmail?: string
-    leadPhone?: string
-    leadSummary?: string
-  }
+	id: string
+	site: "optihr" | "rfhinc"
+	startedAt: string
+	lastActivityAt: string
+	messages: ChatMessage[]
+	metadata: ChatSessionMetadata
 }
 
-type LogStore = {
-  sessions: ChatSession[]
-}
+// ── Resend client ────────────────────────────────────────────────────────────
+const resend = process.env.RESEND_API_KEY ? new Resend(process.env.RESEND_API_KEY) : null
 
-// ── Config ───────────────────────────────────────────────────────────────────
-const LOG_DIR = process.env.CHAT_LOG_DIR || path.join(process.cwd(), "chat-logs")
-const LOG_FILE = path.join(LOG_DIR, "conversations.json")
+const FROM = process.env.EMAIL_FROM || "OptiHR <hello@optihr.co.za>"
 
-// ── Helpers ──────────────────────────────────────────────────────────────────
-async function ensureLogDir() {
-  try {
-    await fs.mkdir(LOG_DIR, { recursive: true })
-  } catch {
-    // directory exists
-  }
-}
+const TRANSCRIPT_RECIPIENTS = {
+	optihr: ["raymond@optihr.co.za"],
+	rfhinc: ["raymond@rfhinc.co.za"],
+} as const
 
-async function readStore(): Promise<LogStore> {
-  try {
-    const data = await fs.readFile(LOG_FILE, "utf-8")
-    return JSON.parse(data) as LogStore
-  } catch {
-    return { sessions: [] }
-  }
-}
-
-async function writeStore(store: LogStore) {
-  await ensureLogDir()
-  await fs.writeFile(LOG_FILE, JSON.stringify(store, null, 2), "utf-8")
-}
-
-// ── Public API ───────────────────────────────────────────────────────────────
-
+// ── No-op (kept for backwards compatibility with api/chat/route.ts) ─────────
 /**
- * Log a full conversation exchange (user message + assistant response).
- * Creates a new session if the sessionId doesn't exist yet.
+ * Per-message logging is a no-op in the serverless deployment.
+ * Lead emails fire from api/chat/route.ts via sendLeadEmail; full transcripts
+ * fire from api/chat/end via sendTranscriptEmail when the session ends.
  */
-export async function logConversation(opts: {
-  sessionId: string
-  site: "optihr" | "rfhinc"
-  userMessage: string
-  assistantMessage: string
-  ip?: string
-  userAgent?: string
-  leadCaptured?: boolean
-  leadName?: string
-  leadEmail?: string
-  leadPhone?: string
-  leadSummary?: string
-}) {
-  const store = await readStore()
-  const now = new Date().toISOString()
-
-  let session = store.sessions.find((s) => s.id === opts.sessionId)
-
-  if (!session) {
-    session = {
-      id: opts.sessionId,
-      site: opts.site,
-      startedAt: now,
-      lastActivityAt: now,
-      messages: [],
-      metadata: {
-        ip: opts.ip,
-        userAgent: opts.userAgent,
-      },
-    }
-    store.sessions.push(session)
-  }
-
-  session.lastActivityAt = now
-
-  session.messages.push({
-    role: "user",
-    content: opts.userMessage,
-    timestamp: now,
-  })
-
-  session.messages.push({
-    role: "assistant",
-    content: opts.assistantMessage,
-    timestamp: now,
-  })
-
-  // Update lead info if captured
-  if (opts.leadCaptured) {
-    session.metadata.leadCaptured = true
-    if (opts.leadName) session.metadata.leadName = opts.leadName
-    if (opts.leadEmail) session.metadata.leadEmail = opts.leadEmail
-    if (opts.leadPhone) session.metadata.leadPhone = opts.leadPhone
-    if (opts.leadSummary) session.metadata.leadSummary = opts.leadSummary
-  }
-
-  await writeStore(store)
+export async function logConversation(_opts: {
+	sessionId: string
+	site: "optihr" | "rfhinc"
+	userMessage: string
+	assistantMessage: string
+	ip?: string
+	userAgent?: string
+	leadCaptured?: boolean
+	leadName?: string
+	leadEmail?: string
+	leadPhone?: string
+	leadSummary?: string
+}): Promise<void> {
+	// Intentionally empty — see file header.
+	return
 }
 
-/**
- * Get all sessions, optionally filtered by site.
- * Returns newest first, with pagination.
- */
-export async function getSessions(opts?: {
-  site?: "optihr" | "rfhinc"
-  limit?: number
-  offset?: number
-  search?: string
-}): Promise<{ sessions: ChatSession[]; total: number }> {
-  const store = await readStore()
-  let sessions = store.sessions
+// ── Transcript email (called from /api/chat/end) ─────────────────────────────
+function escapeHtml(text: string): string {
+	return text
+		.replace(/&/g, "&amp;")
+		.replace(/</g, "&lt;")
+		.replace(/>/g, "&gt;")
+		.replace(/"/g, "&quot;")
+		.replace(/'/g, "&#39;")
+}
 
-  // Filter by site
-  if (opts?.site) {
-    sessions = sessions.filter((s) => s.site === opts.site)
-  }
+function formatTranscriptHtml(session: ChatSession): string {
+	const startedLocal = new Date(session.startedAt).toLocaleString("en-ZA", { timeZone: "Africa/Johannesburg" })
+	const endedLocal = new Date(session.lastActivityAt).toLocaleString("en-ZA", { timeZone: "Africa/Johannesburg" })
+	const durationMins = Math.round(
+		(new Date(session.lastActivityAt).getTime() - new Date(session.startedAt).getTime()) / 60000,
+	)
 
-  // Search in messages or lead name
-  if (opts?.search) {
-    const q = opts.search.toLowerCase()
-    sessions = sessions.filter(
-      (s) =>
-        s.metadata.leadName?.toLowerCase().includes(q) ||
-        s.metadata.leadEmail?.toLowerCase().includes(q) ||
-        s.messages.some((m) => m.content.toLowerCase().includes(q))
-    )
-  }
+	const meta = session.metadata
+	const leadBlock = meta.leadCaptured
+		? `<div style="background:#e4f8ed;border-left:4px solid #053c43;padding:12px 16px;margin:0 0 16px;border-radius:6px;">
+				<div style="font-weight:600;color:#053c43;margin-bottom:6px;">Lead captured</div>
+				${meta.leadName ? `<div><strong>Name:</strong> ${escapeHtml(meta.leadName)}</div>` : ""}
+				${meta.leadEmail ? `<div><strong>Email:</strong> ${escapeHtml(meta.leadEmail)}</div>` : ""}
+				${meta.leadPhone ? `<div><strong>Phone:</strong> ${escapeHtml(meta.leadPhone)}</div>` : ""}
+				${meta.leadSummary ? `<div style="margin-top:6px;"><strong>Summary:</strong> ${escapeHtml(meta.leadSummary)}</div>` : ""}
+			</div>`
+		: `<div style="background:#f5f5f5;border-left:4px solid #999;padding:12px 16px;margin:0 0 16px;border-radius:6px;color:#555;">
+				No lead captured during this session.
+			</div>`
 
-  // Sort newest first
-  sessions.sort(
-    (a, b) => new Date(b.lastActivityAt).getTime() - new Date(a.lastActivityAt).getTime()
-  )
+	const messagesHtml = session.messages
+		.map((m) => {
+			const isUser = m.role === "user"
+			const bg = isUser ? "#f3f6f8" : "#ffffff"
+			const border = isUser ? "#cbd5d8" : "#e4f8ed"
+			const label = isUser ? "Visitor" : "OptiHR Assistant"
+			return `<div style="background:${bg};border:1px solid ${border};border-radius:6px;padding:10px 14px;margin-bottom:8px;">
+				<div style="font-size:12px;font-weight:600;color:#053c43;margin-bottom:4px;">${label}</div>
+				<div style="font-size:14px;color:#222;white-space:pre-wrap;">${escapeHtml(m.content)}</div>
+			</div>`
+		})
+		.join("")
 
-  const total = sessions.length
-  const limit = opts?.limit ?? 50
-  const offset = opts?.offset ?? 0
+	return `<!doctype html><html><body style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;color:#222;background:#fafafa;padding:24px;">
+		<div style="max-width:640px;margin:0 auto;background:#ffffff;padding:24px;border-radius:8px;border:1px solid #e5e7eb;">
+			<h2 style="margin:0 0 4px;color:#053c43;">Chat transcript — ${session.site === "optihr" ? "OptiHR" : "RFH Inc"}</h2>
+			<div style="font-size:13px;color:#666;margin-bottom:20px;">
+				Session ${session.id}<br/>
+				Started: ${startedLocal}<br/>
+				Ended: ${endedLocal} (${durationMins} min)<br/>
+				${meta.ip ? `IP: ${escapeHtml(meta.ip)}<br/>` : ""}
+				${meta.userAgent ? `User-Agent: ${escapeHtml(meta.userAgent.slice(0, 120))}` : ""}
+			</div>
+			${leadBlock}
+			<div>${messagesHtml}</div>
+		</div>
+	</body></html>`
+}
 
-  return {
-    sessions: sessions.slice(offset, offset + limit),
-    total,
-  }
+function formatTranscriptText(session: ChatSession): string {
+	const lines = [
+		`Chat transcript — ${session.site === "optihr" ? "OptiHR" : "RFH Inc"}`,
+		`Session: ${session.id}`,
+		`Started: ${session.startedAt}`,
+		`Ended: ${session.lastActivityAt}`,
+		"",
+	]
+	const meta = session.metadata
+	if (meta.leadCaptured) {
+		lines.push("LEAD CAPTURED:")
+		if (meta.leadName) lines.push(`  Name: ${meta.leadName}`)
+		if (meta.leadEmail) lines.push(`  Email: ${meta.leadEmail}`)
+		if (meta.leadPhone) lines.push(`  Phone: ${meta.leadPhone}`)
+		if (meta.leadSummary) lines.push(`  Summary: ${meta.leadSummary}`)
+		lines.push("")
+	}
+	for (const m of session.messages) {
+		lines.push(m.role === "user" ? "── Visitor ──" : "── Assistant ──")
+		lines.push(m.content)
+		lines.push("")
+	}
+	return lines.join("\n")
 }
 
 /**
- * Get a single session by ID.
+ * Email a full chat transcript when a session ends.
+ * Called from /api/chat/end (which the chat widget pings on unload).
  */
-export async function getSession(sessionId: string): Promise<ChatSession | null> {
-  const store = await readStore()
-  return store.sessions.find((s) => s.id === sessionId) ?? null
-}
+export async function sendTranscriptEmail(session: ChatSession): Promise<{ ok: boolean; reason?: string }> {
+	if (!resend) {
+		console.warn("RESEND_API_KEY not set — skipping transcript email")
+		return { ok: false, reason: "no_resend_key" }
+	}
 
-/**
- * Delete a session by ID.
- */
-export async function deleteSession(sessionId: string): Promise<boolean> {
-  const store = await readStore()
-  const idx = store.sessions.findIndex((s) => s.id === sessionId)
-  if (idx === -1) return false
-  store.sessions.splice(idx, 1)
-  await writeStore(store)
-  return true
-}
+	// Skip empty sessions (e.g. widget opened but no message exchanged).
+	if (!session.messages || session.messages.length === 0) {
+		return { ok: false, reason: "empty_session" }
+	}
 
-/**
- * Export all sessions as CSV.
- */
-export async function exportSessionsCSV(site?: "optihr" | "rfhinc"): Promise<string> {
-  const { sessions } = await getSessions({ site, limit: 10000 })
+	const recipients = TRANSCRIPT_RECIPIENTS[session.site] ?? TRANSCRIPT_RECIPIENTS.optihr
+	const subjectPrefix = session.metadata.leadCaptured ? "🟢 Chat transcript" : "Chat transcript"
+	const subject = session.metadata.leadCaptured && session.metadata.leadName
+		? `${subjectPrefix} — ${session.metadata.leadName}`
+		: `${subjectPrefix} — anonymous visitor (${session.messages.length} msgs)`
 
-  const rows = [
-    [
-      "Session ID",
-      "Site",
-      "Started",
-      "Last Activity",
-      "Messages",
-      "Lead Name",
-      "Lead Email",
-      "Lead Phone",
-      "Lead Summary",
-    ].join(","),
-  ]
-
-  for (const s of sessions) {
-    rows.push(
-      [
-        s.id,
-        s.site,
-        s.startedAt,
-        s.lastActivityAt,
-        s.messages.length,
-        `"${(s.metadata.leadName || "").replace(/"/g, '""')}"`,
-        `"${(s.metadata.leadEmail || "").replace(/"/g, '""')}"`,
-        `"${(s.metadata.leadPhone || "").replace(/"/g, '""')}"`,
-        `"${(s.metadata.leadSummary || "").replace(/"/g, '""')}"`,
-      ].join(",")
-    )
-  }
-
-  return rows.join("\n")
+	try {
+		await resend.emails.send({
+			from: FROM,
+			to: [...recipients],
+			subject,
+			html: formatTranscriptHtml(session),
+			text: formatTranscriptText(session),
+		})
+		return { ok: true }
+	} catch (err) {
+		console.error("Transcript email error:", err)
+		return { ok: false, reason: (err as Error).message }
+	}
 }
