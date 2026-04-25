@@ -147,14 +147,12 @@ export const NavigationMenu = () => {
 					id="main-menu"
 				>
 					<Link
-						className="size-fit rounded-full bg-mint-7 p-inner-padding"
+						className="size-fit rounded-full bg-mint-7 px-inner-padding py-3"
 						href="/"
 					>
 						{/*TODO: LOGO animation*/}
-						{/*<Logo className={cn("h-10", pathname === "/contact" && "")} />*/}
 						<Logo
-							className={cn("h-10 bg-mint-7", pathname === "/contact" && "")}
-							logomark={true}
+							className={cn("h-9 bg-mint-7", pathname === "/contact" && "")}
 						/>
 					</Link>
 					<motion.div
