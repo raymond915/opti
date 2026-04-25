@@ -15,6 +15,9 @@ export const HeroBanner = () => {
 			<div className="col-span-7 grid grid-cols-subgrid items-stretch p-inner-padding">
 				<div className="z-10 col-span-6 flex flex-col justify-center gap-fluid-4">
 					<div className="flex flex-col gap-fluid-3">
+						<span className="text-mint-3 text-sm font-semibold uppercase tracking-[0.28em]">
+							OptiHR
+						</span>
 						<Badge
 							icon={<CircleCheck />}
 							label={"SASLAW & AHI Member"}
