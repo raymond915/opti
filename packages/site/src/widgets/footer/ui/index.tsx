@@ -19,6 +19,9 @@ export const Footer = () => {
 							<H2 className="font-normal text-fluid-n1 text-mint-1">
 								Your company. Your people. Our expertise.
 							</H2>
+							<p className="text-fluid-n1 font-medium text-mint-2">
+								On-site in Gauteng and Cape Town. Remote nationwide.
+							</p>
 							{/*SOCIAL ICON*/}
 							<div className="mt-fluid-1 grid grid-cols-2 gap-4">
 								{socialIcons.map((icon) => {

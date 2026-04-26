@@ -35,6 +35,29 @@ export const fieldConfig = {
 				},
 			],
 		} satisfies FieldConfig,
+		location: {
+			label: "Where are you based?",
+			placeholder: "Select your location",
+			options: [
+				{
+					label: "Gauteng",
+					value: "Gauteng",
+				},
+				{
+					label: "Cape Town and Surrounds",
+					value: "Cape Town and Surrounds",
+				},
+				{
+					label: "Other — please specify",
+					value: "Other",
+				},
+			],
+		} satisfies FieldConfig,
+		locationOther: {
+			label: "Please specify your location",
+			placeholder: "e.g. Durban, KwaZulu-Natal",
+			optional: true,
+		} satisfies FieldConfig,
 	},
 	stepTwo: {
 		primaryServiceInterest: {

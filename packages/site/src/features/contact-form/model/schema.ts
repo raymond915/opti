@@ -95,6 +95,23 @@ export const UrgencyLevelSchema = type("string").narrow((value, ctx) => {
 
 export const ChallengeDescriptionSchema = type("string").optional()
 
+export const LocationSchema = type("string").narrow((value, ctx) => {
+	if (value === undefined || value === null || value === "") {
+		return ctx.reject({
+			message: "Please tell us where you're based.",
+		})
+	}
+	const validOptions = ["Gauteng", "Cape Town and Surrounds", "Other"]
+	if (!validOptions.includes(value)) {
+		return ctx.reject({
+			message: "Invalid location",
+		})
+	}
+	return true
+})
+
+export const LocationOtherSchema = type("string").optional()
+
 export const FullNameSchema = type("string").narrow((value, ctx) => {
 	if (value === undefined || value === null) {
 		return ctx.reject({
@@ -157,6 +174,8 @@ export const PhoneNumberSchema = type("string").narrow((value, ctx) => {
 export const StepOneSchema = type({
 	companyName: CompanyNameSchema,
 	businessType: BusinessTypeSchema,
+	location: LocationSchema,
+	locationOther: LocationOtherSchema,
 })
 
 export const StepTwoSchema = type({

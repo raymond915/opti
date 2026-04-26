@@ -14,6 +14,7 @@ export type ChatSessionMetadata = {
 	leadName?: string
 	leadEmail?: string
 	leadPhone?: string
+	leadLocation?: string
 	leadSummary?: string
 }
 
@@ -83,6 +84,7 @@ function formatTranscriptHtml(session: ChatSession): string {
 				${meta.leadName ? `<div><strong>Name:</strong> ${escapeHtml(meta.leadName)}</div>` : ""}
 				${meta.leadEmail ? `<div><strong>Email:</strong> ${escapeHtml(meta.leadEmail)}</div>` : ""}
 				${meta.leadPhone ? `<div><strong>Phone:</strong> ${escapeHtml(meta.leadPhone)}</div>` : ""}
+				${meta.leadLocation ? `<div><strong>Location:</strong> ${escapeHtml(meta.leadLocation)}</div>` : ""}
 				${meta.leadSummary ? `<div style="margin-top:6px;"><strong>Summary:</strong> ${escapeHtml(meta.leadSummary)}</div>` : ""}
 			</div>`
 		: `<div style="background:#f5f5f5;border-left:4px solid #999;padding:12px 16px;margin:0 0 16px;border-radius:6px;color:#555;">
@@ -132,6 +134,7 @@ function formatTranscriptText(session: ChatSession): string {
 		if (meta.leadName) lines.push(`  Name: ${meta.leadName}`)
 		if (meta.leadEmail) lines.push(`  Email: ${meta.leadEmail}`)
 		if (meta.leadPhone) lines.push(`  Phone: ${meta.leadPhone}`)
+		if (meta.leadLocation) lines.push(`  Location: ${meta.leadLocation}`)
 		if (meta.leadSummary) lines.push(`  Summary: ${meta.leadSummary}`)
 		lines.push("")
 	}

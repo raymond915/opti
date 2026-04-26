@@ -5,6 +5,8 @@ export const defaultValues: typeof ContactFormSchema.infer = {
 	stepOne: {
 		companyName: "",
 		businessType: "",
+		location: "",
+		locationOther: "",
 	},
 	stepTwo: {
 		primaryServiceInterest: "",

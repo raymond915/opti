@@ -15,6 +15,7 @@ type LeadData = {
 	name: string
 	email: string
 	phone: string
+	location?: string
 	summary: string
 }
 
@@ -30,6 +31,7 @@ type SessionSnapshot = {
 		leadName?: string
 		leadEmail?: string
 		leadPhone?: string
+		leadLocation?: string
 		leadSummary?: string
 	}
 }
@@ -182,6 +184,7 @@ export const ChatWidget = () => {
 				sessionRef.current.metadata.leadName = data.lead.name
 				sessionRef.current.metadata.leadEmail = data.lead.email
 				sessionRef.current.metadata.leadPhone = data.lead.phone
+				sessionRef.current.metadata.leadLocation = data.lead.location
 				sessionRef.current.metadata.leadSummary = data.lead.summary
 			}
 

@@ -51,6 +51,18 @@ export const ContactEmailTemplate = (value:  typeof ContactFormSchema.infer) => 
 									<Text>{value?.stepOne.businessType || "Business Type"}</Text>
 								</Column>
 							</Row>
+							<Row>
+								<Column className="w-1/2 font-semibold text-neutral-800">
+									<Text>Location:</Text>
+								</Column>
+								<Column className="w-1/2">
+									<Text>
+										{value?.stepOne.location === "Other"
+											? value?.stepOne.locationOther || "Other (not specified)"
+											: value?.stepOne.location || "—"}
+									</Text>
+								</Column>
+							</Row>
 						</Section>
 
 						<Hr className="my-4" />
@@ -115,7 +127,7 @@ export const ContactEmailTemplate = (value:  typeof ContactFormSchema.infer) => 
 
 						<Section className="text-neutral-500 text-sm">
 							<Text className="font-semibold text-neutral-700 mb-1">OptiHR</Text>
-							<Text className="mb-0">Raymond Hauptfleisch — raymond@optihr.co.za · 082 805 5050</Text>
+							<Text className="mb-0">Raymond Hauptfleisch — raymond@optihr.co.za</Text>
 							<Text className="mb-0">Rhodene Duncan — rhodene@optihr.co.za · 071 880 7971</Text>
 							<Text className="mb-0">Office: 087 551 1622 · hello@optihr.co.za</Text>
 							<Text className="mb-0">www.optihr.co.za</Text>

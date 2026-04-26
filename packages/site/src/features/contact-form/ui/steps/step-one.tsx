@@ -1,8 +1,12 @@
 import { defaultValues } from "@features/contact-form/config"
 import { withForm } from "@features/contact-form/lib/form"
 import { fieldConfig } from "@features/contact-form/model/field-config"
-import { BusinessTypeSchema, CompanyNameSchema } from "@features/contact-form/model/schema"
-import { FormField, RadioGroupInput, TextInput } from "@shared/components/form-components"
+import {
+	BusinessTypeSchema,
+	CompanyNameSchema,
+	LocationSchema,
+} from "@features/contact-form/model/schema"
+import { FormField, RadioGroupInput, SelectInput, TextInput } from "@shared/components/form-components"
 import { contactFormVariants, createAsyncValidator, createValidator } from "../../lib"
 import { ContactFormLayout } from "../contact-form-layout"
 
@@ -73,6 +77,57 @@ export const StepOne = withForm({
 						</FormField>
 					)}
 				</form.AppField>
+				<form.AppField
+					key="stepOne.location"
+					name="stepOne.location"
+					validators={{
+						onBlur: createValidator(LocationSchema),
+						onChangeAsync: createAsyncValidator(LocationSchema),
+						onChangeAsyncDebounceMs: 500,
+					}}
+				>
+					{(field) => (
+						<FormField
+							field={field}
+							label={fieldConfig.stepOne.location.label}
+						>
+							{({ field: f, isInvalid }) => (
+								<SelectInput
+									invalid={isInvalid}
+									items={fieldConfig.stepOne.location.options}
+									onBlur={() => f.handleBlur()}
+									onValueChange={(value) => f.handleChange(value?.value)}
+									placeholder={fieldConfig.stepOne.location.placeholder}
+									value={f.state.value || null}
+								/>
+							)}
+						</FormField>
+					)}
+				</form.AppField>
+				<form.Subscribe selector={(state) => state.values.stepOne.location}>
+					{(location) =>
+						location === "Other" ? (
+							<form.AppField key="stepOne.locationOther" name="stepOne.locationOther">
+								{(field) => (
+									<FormField
+										field={field}
+										label={fieldConfig.stepOne.locationOther.label}
+									>
+										{({ field: f, isInvalid }) => (
+											<TextInput
+												invalid={isInvalid}
+												onBlur={() => f.handleBlur()}
+												onChange={(e) => f.handleChange(e.target.value)}
+												placeholder={fieldConfig.stepOne.locationOther.placeholder}
+												value={f.state.value ?? ""}
+											/>
+										)}
+									</FormField>
+								)}
+							</form.AppField>
+						) : null
+					}
+				</form.Subscribe>
 			</ContactFormLayout>
 		)
 	},
