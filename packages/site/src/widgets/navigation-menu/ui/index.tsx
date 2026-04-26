@@ -12,7 +12,7 @@ import {
 } from "motion/react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import { featuredItems } from "../model/featured-items"
 import { Connect } from "./connect"
 import { FeaturedItem } from "./featured-item"
@@ -23,6 +23,12 @@ import { MenuButton } from "./menu-button"
 export const NavigationMenu = () => {
 	const pathname = usePathname()
 	const [isMenuOpen, setIsMenuOpen] = useState(false)
+
+	// Auto-close the dropdown whenever the route changes (e.g. user taps a nav
+	// link). On mobile the open menu was overlaying the destination page.
+	useEffect(() => {
+		setIsMenuOpen(false)
+	}, [pathname])
 	const { scrollYProgress } = useScroll()
 	const [isFeaturedItemsVisible, setFeatureItemsVisible] = useState(true)
 	const [isTop, setIsTop] = useState(true)
