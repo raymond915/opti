@@ -49,7 +49,7 @@ export const ForIndependentSchoolsPage: NextPage = () => {
 				body="Unlike public schools, independent schools must manage everything themselves: educators, support staff, policies, governance, and accountability to parents and boards. OptiHR is uniquely positioned to help — our founder is an admitted attorney, qualified HR practitioner, and former educator."
 				title="HR & Labour Compliance for Independent Schools in South Africa"
 			/>
-			<ContainedLayout className="grid grid-cols-2 gap-section-gap">
+			<ContainedLayout className="grid grid-cols-1 gap-section-gap md:grid-cols-2">
 				<H2>We understand both the classroom and the courtroom.</H2>
 				<P className="text-mint-5/80 text-lg leading-relaxed">
 					Independent schools face unique HR challenges that traditional HR support rarely covers — SACE requirements, staff unions, CCMA disputes, and governance obligations. OptiHR brings a rare combination of legal, HR, and educational expertise to protect your school and your reputation.

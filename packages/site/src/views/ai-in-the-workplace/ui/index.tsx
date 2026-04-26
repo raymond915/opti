@@ -96,7 +96,7 @@ export const AiInTheWorkplacePage: NextPage = () => {
 			/>
 
 			{/* Intro */}
-			<ContainedLayout className="grid grid-cols-2 gap-section-gap">
+			<ContainedLayout className="grid grid-cols-1 gap-section-gap md:grid-cols-2">
 				<H2>AI isn't a threat to your people. Used well, it makes them better at everything they do.</H2>
 				<div className="flex flex-col gap-fluid-2">
 					<P className="text-mint-5/80 text-lg leading-relaxed">

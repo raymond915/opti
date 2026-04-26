@@ -45,7 +45,7 @@ export const ForLargeBusinessesPage: NextPage = () => {
 				body="Even strong HR teams can't do it all. OptiHR partners with your HR department as a trusted extension of your team — shouldering the compliance burden, reducing legal risk, and giving your practitioners the breathing room to focus on strategy."
 				title="Specialist HR & IR Support for Large Businesses in South Africa"
 			/>
-			<ContainedLayout className="grid grid-cols-2 gap-section-gap">
+			<ContainedLayout className="grid grid-cols-1 gap-section-gap md:grid-cols-2">
 				<H2>We don't replace your HR team — we strengthen it.</H2>
 				<P className="text-mint-5/80 text-lg leading-relaxed">
 					Large businesses face complex labour relations, bargaining councils, unions, and high-stakes disputes where the margin for error is small. OptiHR adds specialist depth where it's needed most — from compliance and case law to union negotiations and CCMA representation.

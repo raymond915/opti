@@ -45,7 +45,7 @@ export const ForSmallBusinessesPage: NextPage = () => {
 				body="Running a small business is already demanding — HR compliance shouldn't be another weight on your shoulders. OptiHR gives you professional HR support without the cost of a full-time hire."
 				title="HR & Compliance Support for Small Businesses in South Africa"
 			/>
-			<ContainedLayout className="grid grid-cols-2 gap-section-gap">
+			<ContainedLayout className="grid grid-cols-1 gap-section-gap md:grid-cols-2">
 				<H2>Every business deserves proper HR — no matter its size.</H2>
 				<P className="text-mint-5/80 text-lg leading-relaxed">
 					Too often, businesses hand HR to someone unqualified and only discover the risk when they're hit with a costly CCMA award. OptiHR exists to remove that risk. We don't stop at compliance — competent HR builds trust, lifts morale, and strengthens loyalty among your staff.
