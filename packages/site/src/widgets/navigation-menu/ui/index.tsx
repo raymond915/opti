@@ -138,7 +138,7 @@ export const NavigationMenu = () => {
 			className={cn("fixed inset-x-0 top-0 z-40")}
 			id="menu-container"
 		>
-			<div className="mx-auto flex h-full w-full max-w-450 flex-col">
+			<div className="mx-auto flex h-full w-full max-w-[1800px] flex-col">
 				<div
 					className={cn(
 						"flex w-full items-start justify-between rounded-outer p-inner-padding",

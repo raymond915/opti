@@ -13,7 +13,7 @@ export const PageBanner = ({ ...props }: PageBannerProps) => {
 				</div>
 				<Button href={props.anchorId}>{props.anchorText}</Button>
 			</div>
-			<div className="absolute top-section-gap right-section-gap">
+			<div className="pointer-events-none absolute top-section-gap right-section-gap hidden md:block">
 				<Logo
 					className="size-[30vh] md:size-[60vh] opacity-5"
 					logomark={true}

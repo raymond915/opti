@@ -21,7 +21,7 @@ export const FloatingContact = () => {
 				target="_blank"
 				rel="noopener noreferrer"
 				aria-label="Chat with OptiHR on WhatsApp"
-				className="group flex h-12 w-12 items-center justify-end overflow-hidden rounded-full bg-[#25D366] text-white shadow-[0_4px_16px_rgba(37,211,102,0.40)] transition-[width,box-shadow] duration-300 ease-in-out hover:w-40 hover:shadow-[0_4px_24px_rgba(37,211,102,0.55)] active:scale-95"
+				className="group flex h-12 w-12 items-center justify-end overflow-hidden rounded-full bg-[#25D366] text-white shadow-[0_4px_16px_rgba(37,211,102,0.40)] transition-[width,box-shadow] duration-300 ease-in-out md:hover:w-40 hover:shadow-[0_4px_24px_rgba(37,211,102,0.55)] active:scale-95"
 			>
 				<span className="mr-0 flex-1 overflow-hidden pl-4 opacity-0 transition-opacity duration-200 group-hover:opacity-100">
 					<span className="whitespace-nowrap text-sm font-semibold">WhatsApp us</span>
@@ -35,7 +35,7 @@ export const FloatingContact = () => {
 			<a
 				href={`tel:${OFFICE_NUMBER_TEL}`}
 				aria-label="Call OptiHR office"
-				className="group flex h-12 w-12 items-center justify-end overflow-hidden rounded-full bg-[#0d937c] text-white shadow-[0_4px_16px_rgba(13,147,124,0.40)] transition-[width,box-shadow] duration-300 ease-in-out hover:w-44 hover:shadow-[0_4px_24px_rgba(13,147,124,0.55)] active:scale-95"
+				className="group flex h-12 w-12 items-center justify-end overflow-hidden rounded-full bg-[#0d937c] text-white shadow-[0_4px_16px_rgba(13,147,124,0.40)] transition-[width,box-shadow] duration-300 ease-in-out md:hover:w-44 hover:shadow-[0_4px_24px_rgba(13,147,124,0.55)] active:scale-95"
 			>
 				<span className="mr-0 flex-1 overflow-hidden pl-4 opacity-0 transition-opacity duration-200 group-hover:opacity-100">
 					<span className="whitespace-nowrap text-sm font-semibold">087 551 1622</span>
@@ -49,7 +49,7 @@ export const FloatingContact = () => {
 			<a
 				href={`mailto:${CONTACT_EMAIL}?subject=Enquiry from OptiHR website`}
 				aria-label="Email OptiHR"
-				className="group flex h-12 w-12 items-center justify-end overflow-hidden rounded-full bg-[#053c43] text-white shadow-[0_4px_16px_rgba(5,60,67,0.35)] transition-[width,background-color,box-shadow] duration-300 ease-in-out hover:w-36 hover:bg-[#0d937c] hover:shadow-[0_4px_24px_rgba(13,147,124,0.45)] active:scale-95"
+				className="group flex h-12 w-12 items-center justify-end overflow-hidden rounded-full bg-[#053c43] text-white shadow-[0_4px_16px_rgba(5,60,67,0.35)] transition-[width,background-color,box-shadow] duration-300 ease-in-out md:hover:w-36 hover:bg-[#0d937c] hover:shadow-[0_4px_24px_rgba(13,147,124,0.45)] active:scale-95"
 			>
 				<span className="mr-0 flex-1 overflow-hidden pl-4 opacity-0 transition-opacity duration-200 group-hover:opacity-100">
 					<span className="whitespace-nowrap text-sm font-semibold">Email us</span>

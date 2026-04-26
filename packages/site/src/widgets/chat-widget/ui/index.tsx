@@ -280,7 +280,7 @@ export const ChatWidget = () => {
 										</div>
 									)}
 									<div
-										className={`max-w-[78%] rounded-2xl px-3.5 py-2.5 text-sm leading-relaxed ${
+										className={`max-w-[88%] rounded-2xl px-3.5 py-2.5 text-sm leading-relaxed sm:max-w-[78%] ${
 											msg.role === "user"
 												? "rounded-br-sm bg-[#053c43] text-white"
 												: "rounded-bl-sm bg-white text-[#1e5056] shadow-sm border border-[#e4f8ed]"

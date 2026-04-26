@@ -10,10 +10,10 @@ import { stats } from "../model/hero-stats"
 
 export const HeroBanner = () => {
 	return (
-		<section className="contained-height nav-padding relative grid w-full grid-cols-12 gap-inner-padding overflow-clip rounded-outer bg-mint-6 p-inner-padding">
+		<section className="contained-height nav-padding relative grid w-full grid-cols-1 gap-inner-padding overflow-clip rounded-outer bg-mint-6 p-4 md:grid-cols-12 md:p-inner-padding">
 			{/*Main Content*/}
-			<div className="col-span-7 grid grid-cols-subgrid items-stretch p-inner-padding">
-				<div className="z-10 col-span-6 flex flex-col justify-center gap-fluid-4">
+			<div className="col-span-full grid grid-cols-1 items-stretch gap-fluid-4 p-2 md:col-span-7 md:grid-cols-subgrid md:p-inner-padding">
+				<div className="z-10 col-span-full flex flex-col justify-center gap-fluid-4 md:col-span-6">
 					<div className="flex flex-col gap-fluid-3">
 						<Badge
 							icon={<CircleCheck />}
@@ -35,11 +35,11 @@ export const HeroBanner = () => {
 						Book your free consultation
 					</Button>
 				</div>
-				{/*Stats*/}
-				<div className="col-span-7 flex h-full items-end gap-section-gap text-white">
+				{/*Stats — stacked on mobile (3 rows), inline on tablet+ */}
+				<div className="col-span-full grid grid-cols-3 items-end gap-4 text-white md:col-span-7 md:flex md:gap-section-gap">
 					{stats.map((stat: StatType) => (
 						<Stat
-							className="col-span-2"
+							className="col-span-1"
 							key={stat.label}
 							label={stat.label}
 							value={stat.value}
@@ -47,15 +47,15 @@ export const HeroBanner = () => {
 					))}
 				</div>
 			</div>
-			<div className="col-span-5 grid grid-cols-subgrid justify-end">
-				{/*AudienceDirector*/}
+			{/*AudienceDirector — hidden on mobile to save space; mobile users get the in-flow CTA above */}
+			<div className="hidden md:col-span-5 md:grid md:grid-cols-subgrid md:justify-end">
 				<AudienceDirectorPanel
 					className="z-30 col-end-6 place-self-end"
 					heading={"How can we help you"}
 				/>
 			</div>
 			<Logo
-				className="-bottom-[10vh] absolute right-[5vw] w-[45vw] select-none text-mint-5/30"
+				className="-bottom-[10vh] pointer-events-none absolute right-[5vw] w-[60vw] select-none text-mint-5/20 md:w-[45vw] md:text-mint-5/30"
 				logomark={true}
 			/>
 		</section>
