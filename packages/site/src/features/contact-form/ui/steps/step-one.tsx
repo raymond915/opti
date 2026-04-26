@@ -104,7 +104,7 @@ export const StepOne = withForm({
 						</FormField>
 					)}
 				</form.AppField>
-				<form.Subscribe selector={(state) => state.values.stepOne.location}>
+				<form.Subscribe selector={(state) => state?.values?.stepOne?.location}>
 					{(location) =>
 						location === "Other" ? (
 							<form.AppField key="stepOne.locationOther" name="stepOne.locationOther">
