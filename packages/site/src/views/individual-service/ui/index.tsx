@@ -4,7 +4,6 @@ import { SectionSubtitle } from "@shared/components/section-subtitle"
 import { H2, H3, P } from "@shared/components/typography"
 import { ClientLogos } from "@widgets/client-logos"
 import { FaqSection } from "@widgets/faq-section"
-import { TestimonialSection } from "@widgets/testimonial/ui"
 import { notFound } from "next/navigation"
 import type { ServiceContent } from "../model/schema"
 
@@ -205,61 +204,6 @@ export const ServicePage = ({ slug }: { slug: string }) => {
 					cta: data.faqCta,
 					questions: data.faq,
 				}}
-			/>
-			<TestimonialSection
-				sectionTitle="Client Success Stories"
-				testimonials={[
-					{
-						_type: "testimonial",
-						_id: "1",
-						_createdAt: "2024-01-01T00:00:00Z",
-						_updatedAt: "2024-01-01T00:00:00Z",
-						_rev: "1",
-						name: "Sarah Johnson",
-						role: "HR Director",
-						company: "Tech Innovations SA",
-						testimonial: [
-							{
-								_type: "block",
-								children: [
-									{
-										_type: "span",
-										marks: [],
-										text: "OptiHR\'s service streamlined our compliance and boosted team morale.",
-										_key: "a",
-									},
-								],
-								_key: "b",
-								style: "normal",
-							},
-						],
-					},
-					{
-						_type: "testimonial",
-						_id: "2",
-						_createdAt: "2024-01-01T00:00:00Z",
-						_updatedAt: "2024-01-01T00:00:00Z",
-						_rev: "1",
-						name: "Michael Brown",
-						role: "CEO",
-						company: "Growth Corp",
-						testimonial: [
-							{
-								_type: "block",
-								children: [
-									{
-										_type: "span",
-										marks: [],
-										text: "Exceptional expertise in labour law \u2013 saved us thousands in fines.",
-										_key: "c",
-									},
-								],
-								_key: "d",
-								style: "normal",
-							},
-						],
-					},
-				]}
 			/>
 			<ClientLogos />
 		</>

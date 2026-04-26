@@ -414,7 +414,7 @@ export const PricingPage = () => {
 					<SectionSubtitle isDark title="Engagement Models" />
 					<H2 className="text-mint-6">Three ways to work with us</H2>
 				</div>
-				<div className="col-span-full grid grid-cols-1 gap-inner-padding md:grid-cols-3">
+				<div className="col-span-full grid grid-cols-1 gap-inner-padding sm:grid-cols-2 md:grid-cols-3">
 					{[
 						{
 							num: "01",
@@ -473,7 +473,7 @@ export const PricingPage = () => {
 				</div>
 
 				{/* Prepaid package cards */}
-				<div className="col-span-full grid grid-cols-1 gap-inner-padding md:grid-cols-3">
+				<div className="col-span-full grid grid-cols-1 gap-inner-padding sm:grid-cols-2 md:grid-cols-3">
 					{prepaidPackages.map((pkg) => (
 						<div
 							key={pkg.name}
@@ -548,7 +548,7 @@ export const PricingPage = () => {
 						All packages are subject to a 12-month SLA. Monthly retainer is payable in advance on the 1st of each month. All amounts exclude VAT (15%).
 					</P>
 				</div>
-				<div className="col-span-full grid grid-cols-1 gap-inner-padding lg:grid-cols-2 xl:grid-cols-3">
+				<div className="col-span-full grid grid-cols-1 gap-inner-padding md:grid-cols-2 xl:grid-cols-3">
 					{packages.map((pkg) => (
 						<div
 							className={`flex flex-col gap-fluid-3 rounded-inner p-inner-padding relative ${pkg.highlight ? "bg-mint-6 text-white" : "bg-white border border-mint-2/20"} ${pkg.isNew ? "ring-2 ring-mint-4/40" : ""}`}
@@ -748,7 +748,7 @@ export const PricingPage = () => {
 						</P>
 					</div>
 
-					<div className="grid grid-cols-1 gap-inner-padding md:grid-cols-3">
+					<div className="grid grid-cols-1 gap-inner-padding sm:grid-cols-2 md:grid-cols-3">
 						{popiaImplementationTiers.map((tier) => (
 							<div
 								key={tier.label}
@@ -811,7 +811,7 @@ export const PricingPage = () => {
 						</P>
 					</div>
 
-					<div className="grid grid-cols-1 gap-inner-padding md:grid-cols-3">
+					<div className="grid grid-cols-1 gap-inner-padding sm:grid-cols-2 md:grid-cols-3">
 						{popiaRetainerTiers.map((tier, idx) => (
 							<div
 								key={tier.name}
@@ -965,8 +965,12 @@ export const PricingPage = () => {
 				buttonHref="/contact"
 				buttonText="Request your free pricing consultation"
 				media={{
-					type: "component",
-					mediaNode: <div />,
+					type: "image",
+					imageProps: {
+						alt: "Transparent OptiHR pricing — request a consultation",
+						src: "/optihr-illustration-compliance.svg",
+					},
+					containerClassnames: undefined,
 				}}
 				mediaPosition="right"
 				title="Transparent pricing for professional HR support"

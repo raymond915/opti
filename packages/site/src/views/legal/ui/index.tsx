@@ -1,22 +1,23 @@
 import { PageBanner } from "@shared/components/page-banner"
+import { H2, H3, P } from "@shared/components/typography"
 import type { NextPage } from "next"
 
 const Section = ({ id, title, children }: { id?: string; title: string; children: React.ReactNode }) => (
-	<section className="mt-10" id={id}>
-		<h2 className="mb-4 text-2xl font-semibold text-mint-6">{title}</h2>
+	<section className="mt-fluid-4" id={id}>
+		<H2 className="mb-fluid-2 text-mint-6">{title}</H2>
 		{children}
 	</section>
 )
 
 const Sub = ({ title, children }: { title: string; children: React.ReactNode }) => (
-	<div className="mt-6">
-		<h3 className="mb-2 text-lg font-semibold text-mint-6">{title}</h3>
+	<div className="mt-fluid-3">
+		<H3 className="mb-fluid-1 text-mint-6">{title}</H3>
 		{children}
 	</div>
 )
 
 const Body = ({ children }: { children: React.ReactNode }) => (
-	<p className="mb-3 text-base leading-relaxed text-mint-5/80">{children}</p>
+	<P className="mb-fluid-2 text-mint-5/80 leading-relaxed">{children}</P>
 )
 
 const Item = ({ children }: { children: React.ReactNode }) => (
