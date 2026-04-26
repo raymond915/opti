@@ -24,7 +24,7 @@ export async function OPTIONS(request: NextRequest) {
 
 /**
  * Receives a final ChatSession payload from the chat widget when it unloads.
- * Sends a transcript email via Resend (lib/chat-logger.sendTranscriptEmail).
+ * Sends a transcript email via MailerSend (lib/chat-logger.sendTranscriptEmail).
  *
  * The widget calls this via navigator.sendBeacon, so we accept JSON and reply
  * fast and small. We never block the widget — any error is logged server-side.

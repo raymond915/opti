@@ -1,8 +1,13 @@
 import type { NextRequest } from "next/server"
-import { Resend } from "resend"
+import { EmailParams, MailerSend, Recipient, Sender } from "mailersend"
 import { logConversation } from "@/lib/chat-logger"
 
-const resend = process.env.RESEND_API_KEY ? new Resend(process.env.RESEND_API_KEY) : null
+const mailer = process.env.MAILERSEND_API_TOKEN
+	? new MailerSend({ apiKey: process.env.MAILERSEND_API_TOKEN })
+	: null
+
+const FROM_ADDRESS = process.env.EMAIL_FROM_ADDRESS || "hello@optihr.co.za"
+const FROM_NAME = process.env.EMAIL_FROM_NAME || "OptiHR"
 
 // ── System prompts ────────────────────────────────────────────────────────────
 const RFH_SYSTEM_PROMPT = `You are the virtual assistant for RFH Inc Attorneys, a South African law firm based in Pretoria. Your role is to warmly engage website visitors, help them understand how RFH Inc can help with their legal matter, and — naturally through conversation — gather their contact details so Raymond Hauptfleisch (Director) can follow up.
@@ -161,25 +166,20 @@ function extractLead(text: string): { clean: string; lead: LeadData | null } {
 }
 
 async function sendLeadEmail(lead: LeadData, site: "optihr" | "rfhinc" = "optihr") {
-	if (!resend) {
-		console.warn("RESEND_API_KEY not set — skipping lead email")
+	if (!mailer) {
+		console.warn("MAILERSEND_API_TOKEN not set — skipping lead email")
 		return
 	}
 
 	const isRFH = site === "rfhinc"
 	const recipients = isRFH
-		? ["raymond@rfhinc.co.za"]
-		: ["raymond@optihr.co.za"]
+		? [new Recipient("raymond@rfhinc.co.za", "Raymond Hauptfleisch")]
+		: [new Recipient("raymond@optihr.co.za", "Raymond Hauptfleisch")]
 	const brandName = isRFH ? "RFH Inc Attorneys" : "OptiHR"
 	const brandColor = isRFH ? "#C95520" : "#053c43"
 	const accentColor = isRFH ? "#fff5f0" : "#e4f8ed"
 
-	try {
-		await resend.emails.send({
-			from: process.env.EMAIL_FROM || "OptiHR <hello@optihr.co.za>",
-			to: recipients,
-			subject: `New ${brandName} website lead: ${lead.name}`,
-			html: `
+	const html = `
 				<div style="font-family: sans-serif; max-width: 600px; margin: 0 auto;">
 					<h2 style="color: ${brandColor}; border-bottom: 2px solid ${accentColor}; padding-bottom: 8px;">
 						New Lead from ${brandName} Chat Widget
@@ -210,8 +210,16 @@ async function sendLeadEmail(lead: LeadData, site: "optihr" | "rfhinc" = "optihr
 						This lead was captured via the ${brandName} website chat widget.
 					</p>
 				</div>
-			`,
-		})
+			`
+
+	const params = new EmailParams()
+		.setFrom(new Sender(FROM_ADDRESS, FROM_NAME))
+		.setTo(recipients)
+		.setSubject(`New ${brandName} website lead: ${lead.name}`)
+		.setHtml(html)
+
+	try {
+		await mailer.email.send(params)
 	} catch (err) {
 		console.error("Failed to send lead email:", err)
 	}

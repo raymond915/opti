@@ -1,4 +1,4 @@
-import { Resend } from "resend"
+import { EmailParams, MailerSend, Recipient, Sender } from "mailersend"
 
 // ── Types ────────────────────────────────────────────────────────────────────
 export type ChatMessage = {
@@ -27,14 +27,19 @@ export type ChatSession = {
 	metadata: ChatSessionMetadata
 }
 
-// ── Resend client ────────────────────────────────────────────────────────────
-const resend = process.env.RESEND_API_KEY ? new Resend(process.env.RESEND_API_KEY) : null
+// ── MailerSend client ───────────────────────────────────────────────────────
+const mailer = process.env.MAILERSEND_API_TOKEN
+	? new MailerSend({ apiKey: process.env.MAILERSEND_API_TOKEN })
+	: null
 
-const FROM = process.env.EMAIL_FROM || "OptiHR <hello@optihr.co.za>"
+// EMAIL_FROM defaults to a sensible fallback, but split into address + name
+// because MailerSend wants them separate.
+const FROM_ADDRESS = process.env.EMAIL_FROM_ADDRESS || "hello@optihr.co.za"
+const FROM_NAME = process.env.EMAIL_FROM_NAME || "OptiHR"
 
 const TRANSCRIPT_RECIPIENTS = {
-	optihr: ["raymond@optihr.co.za"],
-	rfhinc: ["raymond@rfhinc.co.za"],
+	optihr: [{ email: "raymond@optihr.co.za", name: "Raymond Hauptfleisch" }],
+	rfhinc: [{ email: "raymond@rfhinc.co.za", name: "Raymond Hauptfleisch" }],
 } as const
 
 // ── No-op (kept for backwards compatibility with api/chat/route.ts) ─────────
@@ -151,9 +156,9 @@ function formatTranscriptText(session: ChatSession): string {
  * Called from /api/chat/end (which the chat widget pings on unload).
  */
 export async function sendTranscriptEmail(session: ChatSession): Promise<{ ok: boolean; reason?: string }> {
-	if (!resend) {
-		console.warn("RESEND_API_KEY not set — skipping transcript email")
-		return { ok: false, reason: "no_resend_key" }
+	if (!mailer) {
+		console.warn("MAILERSEND_API_TOKEN not set — skipping transcript email")
+		return { ok: false, reason: "no_mailersend_token" }
 	}
 
 	// Skip empty sessions (e.g. widget opened but no message exchanged).
@@ -167,14 +172,15 @@ export async function sendTranscriptEmail(session: ChatSession): Promise<{ ok: b
 		? `${subjectPrefix} — ${session.metadata.leadName}`
 		: `${subjectPrefix} — anonymous visitor (${session.messages.length} msgs)`
 
+	const params = new EmailParams()
+		.setFrom(new Sender(FROM_ADDRESS, FROM_NAME))
+		.setTo(recipients.map((r) => new Recipient(r.email, r.name)))
+		.setSubject(subject)
+		.setHtml(formatTranscriptHtml(session))
+		.setText(formatTranscriptText(session))
+
 	try {
-		await resend.emails.send({
-			from: FROM,
-			to: [...recipients],
-			subject,
-			html: formatTranscriptHtml(session),
-			text: formatTranscriptText(session),
-		})
+		await mailer.email.send(params)
 		return { ok: true }
 	} catch (err) {
 		console.error("Transcript email error:", err)

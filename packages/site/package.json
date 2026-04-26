@@ -15,6 +15,7 @@
 	},
 	"dependencies": {
 		"@base-ui/react": "^1.0.0",
+		"@react-email/components": "1.0.7",
 		"decode-formdata": "^0.9.0",
 		"@opti/sanity": "workspace:*",
 		"@opti/transactional": "workspace:*",
@@ -30,7 +31,7 @@
 		"react": "^19.2.3",
 		"react-dom": "^19.2.3",
 		"react-fast-marquee": "^1.6.5",
-		"resend": "^6.9.2",
+		"mailersend": "^2.6.0",
 		"tailwind-merge": "^3.3.1",
 		"zustand": "^5.0.8"
 	},
