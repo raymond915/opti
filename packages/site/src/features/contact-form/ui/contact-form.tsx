@@ -104,7 +104,7 @@ export const ContactForm = () => {
 						. You may withdraw consent at any time by emailing hello@optihr.co.za.
 					</p>
 				)}
-				<div className="grid w-full grid-cols-1 sm:grid-cols-2 gap-inner-padding">
+				<div className="grid w-full grid-cols-1 sm:grid-cols-2 gap-inner-padding pb-fluid-4">
 					{step > 1 && (
 						<ActionButton
 							background={"muted"}

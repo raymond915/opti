@@ -1,9 +1,17 @@
+"use client"
+
 import { Button } from "@shared/components/button"
 import { H2, P } from "@shared/components/typography"
+import { usePathname } from "next/navigation"
 
-// Could be an interesting excerise to adapt this according to the  activity?
+// Hidden on /contact and /thank-you — visitors already on those pages don't
+// need another "go to contact" CTA.
+const HIDE_ON_PATHS = ["/contact", "/thank-you"]
 
 export const FooterCta = () => {
+	const pathname = usePathname()
+	if (HIDE_ON_PATHS.includes(pathname)) return null
+
 	return (
 		<div className="grid grid-cols-1 sm:grid-cols-2 items-center gap-4 sm:gap-x-gutter rounded-inner bg-mint-1/10 p-inner-padding">
 			<div className="flex flex-col gap-1 *:text-white">
