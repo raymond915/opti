@@ -153,7 +153,14 @@
 }
 
 .contained-height {
-	height: calc(100svh - calc(var(--inner-padding) * 2));
+	min-height: calc(100svh - calc(var(--inner-padding) * 2));
+}
+
+@media (min-width: 768px) {
+	.contained-height {
+		height: calc(100svh - calc(var(--inner-padding) * 2));
+		min-height: 0;
+	}
 }
 
 .nav-padding {
