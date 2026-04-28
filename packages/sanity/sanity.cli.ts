@@ -7,9 +7,14 @@ export default defineCliConfig({
 	},
 	deployment: {
 		/**
-		 * Enable auto-updates for studios.
+		 * Auto-updates fetch the studio runtime from Sanity's CDN at build time.
+		 * Disabled so Vercel builds are deterministic — the studio bundle is
+		 * fully self-contained in `dist/` and doesn't depend on a network call
+		 * during build (which was occasionally producing an empty dist and
+		 * breaking deploys).
+		 *
 		 * Learn more at https://www.sanity.io/docs/cli#auto-updates
 		 */
-		autoUpdates: true,
+		autoUpdates: false,
 	},
 })
