@@ -1,15 +1,31 @@
 import FaqPage from "@pages/faq/ui"
-import type { Metadata } from "next"
+import type { Metadata, NextPage } from "next"
+import { getTranslations, setRequestLocale } from "next-intl/server"
 
-export const metadata: Metadata = {
-	title: "Frequently Asked Questions — HR, Labour Law & Compliance",
-	description:
-		"Answers to common questions about HR compliance, CCMA disputes, employment contracts, retrenchments, POPIA, and HR support for independent schools in South Africa.",
-	openGraph: {
-		title: "OptiHR FAQs — HR, Labour Law & Compliance",
-		description:
-			"Common questions about HR compliance, CCMA, employment contracts, retrenchments, and HR support for South African businesses and independent schools.",
-	},
+export async function generateMetadata({
+	params,
+}: {
+	params: Promise<{ locale: string }>
+}): Promise<Metadata> {
+	const { locale } = await params
+	const t = await getTranslations({ locale, namespace: "Faq" })
+
+	return {
+		title: t("metaTitle"),
+		description: t("metaDescription"),
+		openGraph: {
+			title: t("ogTitle"),
+			description: t("ogDescription"),
+		},
+	}
 }
 
-export default FaqPage
+const Page: NextPage<{ params: Promise<{ locale: string }> }> = async ({
+	params,
+}) => {
+	const { locale } = await params
+	setRequestLocale(locale)
+	return <FaqPage />
+}
+
+export default Page

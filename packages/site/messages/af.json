@@ -269,5 +269,90 @@
 			"t3Role": "Skoolhoof",
 			"t3Company": "Onafhanklike Skool, Pretoria"
 		}
+	},
+	"Faq": {
+		"metaTitle": "Gereelde Vrae — MH, Arbeidsreg & Nakoming",
+		"metaDescription": "Antwoorde op algemene vrae oor MH-nakoming, KVBA-geskille, diensskontrakte, afleggings, POPIA en MH-ondersteuning vir onafhanklike skole in Suid-Afrika.",
+		"ogTitle": "OptiHR Veelgevra — MH, Arbeidsreg & Nakoming",
+		"ogDescription": "Algemene vrae oor MH-nakoming, KVBA, diensskontrakte, afleggings en MH-ondersteuning vir Suid-Afrikaanse ondernemings en onafhanklike skole.",
+		"banner": {
+			"anchorText": "Sien gereelde vrae",
+			"title": "Gereelde Vrae",
+			"body": "Kry antwoorde op algemene navrae oor ons dienste."
+		},
+		"sectionCta": {
+			"contactUs": "Kontak ons",
+			"viewCompliance": "Sien nakomingsdienste",
+			"viewIR": "Sien BV-dienste",
+			"viewPolicy": "Sien beleidsontwikkeling",
+			"viewRetrenchment": "Sien aflegging-ondersteuning",
+			"viewSchools": "Sien MH-ondersteuning vir skole"
+		},
+		"about": {
+			"title": "Oor OptiHR",
+			"subtitle": "Leer ons beter ken",
+			"q1Question": "Wie is OptiHR en wat maak julle anders?",
+			"q1Answer": "OptiHR is 'n spesialis-MH- en bedryfsverhoudinge-konsultasiediens onder leiding van Raymond Hauptfleisch — 'n toegelate prokureur, gekwalifiseerde MH-praktisyn en SARO-geregistreerde voormalige opvoeder. Hierdie skaars kombinasie van regsgesag, MH-kundigheid en onderwysagtergrond gee OptiHR 'n duidelike voordeel om ondernemings en onafhanklike skole te help om komplekse MH- en arbeidsuitdagings te navigeer.",
+			"q2Question": "Met wie werk julle?",
+			"q2Answer": "Ons werk met klein ondernemings wat MH-ondersteuning nodig het sonder die koste van 'n voltydse aanstelling, groot ondernemings en MH-departemente wat spesialis-BV- en nakomingsdiepte benodig, en onafhanklike skole wat die unieke MH-uitdagings van die onderwyssektor navigeer.",
+			"q3Question": "Werk julle landswyd in Suid-Afrika of net in spesifieke streke?",
+			"q3Answer": "Ons bedien hoofsaaklik ondernemings in Gauteng maar werk met kliënte oor Suid-Afrika heen. Baie van ons dienste — insluitend beleidsontwikkeling, nakomings-oorsigte en KVBA-ondersteuning — kan op afstand gelewer word."
+		},
+		"labourLaw": {
+			"title": "Arbeidsreg & Nakoming",
+			"subtitle": "Verstaan jou regsverpligtinge",
+			"q1Question": "Watter arbeidswette geld vir my onderneming?",
+			"q1Answer": "Alle Suid-Afrikaanse werkgewers is onderhewig aan die Wet op Basiese Diensvoorwaardes (BCEA), die Wet op Arbeidsverhoudinge (LRA) en die Wet op Beroepsgesondheid en -veiligheid (OHSA). Aangewese werkgewers (50 of meer werknemers) moet ook voldoen aan die Wet op Gelyke Indiensneming (EEA). Alle ondernemings moet voldoen aan POPIA vir werknemersdata.",
+			"q2Question": "Geld arbeidswette ook vir klein ondernemings?",
+			"q2Answer": "Ja — vanaf die oomblik dat jy iemand in diens neem, geld arbeidsreg. Die BCEA-minimumstandaarde, LRA-ontslagbeskermings en OHSA-pligte geld ongeag onderneminggrootte. Selfs een KVBA-geskil wat verkeerd hanteer word, kan meer kos as 'n jaar se MH-ondersteuning.",
+			"q3Question": "Hoe weet ons of ons nakomend is?",
+			"q3Answer": "Die mees betroubare manier is 'n professionele arbeidsoudit. OptiHR hersien jou kontrakte, beleide, betaalstaatpraktyke en prosedures teen huidige wetgewing en identifiseer nakomingsgapings. Baie ondernemings ontdek beduidende risiko's waarvan hulle nie bewus was nie.",
+			"q4Question": "Wat gebeur as die Departement van Arbeid ons inspekteer?",
+			"q4Answer": "'n Onaangekondigde DvA-inspeksie kan diensskontrakte, betaalstaatrekords, werksure, verlofrekords, OHSA-nakoming en gelyke-indiensneming-verslae kontroleer. OptiHR verseker dat jy te eniger tyd vir inspeksie gereed is, met dokumentasie wat aan alle wetgewende vereistes voldoen."
+		},
+		"ccma": {
+			"title": "KVBA & Geskil-oplossing",
+			"subtitle": "Navigeer werkpleksgeskille",
+			"q1Question": "Wat is die KVBA?",
+			"q1Answer": "Die Kommissie vir Versoening, Bemiddeling en Arbitrasie (KVBA) is die primêre geskil-oplossingsliggaam vir arbeidsgeskille in Suid-Afrika. Werknemers kan geskille oor onbillike ontslag, onbillike arbeidspraktyke en loongeskille na die KVBA verwys, wat versoening probeer en, indien onopgelos, arbitrasie aanbied.",
+			"q2Question": "Wat is OptiHR se KVBA-suksessyfer?",
+			"q2Answer": "Bo 95%. Ons sukses kom van deeglike voorbereiding, kundige verteenwoordiging deur toegelate prokureurs, en strategiese bestuur van skikkings en arbitrasies. Ons bring beide regsgesag en praktiese MH-ervaring na elke KVBA-saak.",
+			"q3Question": "'n Werknemer het 'n geskil na die KVBA verwys. Wat moet ons doen?",
+			"q3Answer": "Tree onmiddellik op. Kontak OptiHR om die verwysing te hersien, die meriete van jou posisie te assesseer, jou reaksie en dokumentasie voor te berei, en jou by versoening en arbitrasie te verteenwoordig. Vroeë voorbereiding verbeter uitkomste aansienlik.",
+			"q4Question": "Kan 'n ontslag beide prosedureel en substantief billik wees?",
+			"q4Answer": "Ja — en dit moet beide wees. Prosedurele billikheid beteken die proses is korrek gevolg (kennisgewing, verhoor, geleentheid om te reageer). Substantiewe billikheid beteken die rede vir ontslag was geldig en die sanksie was gepas. 'n Ontslag kan op een of beide gronde by die KVBA misluk."
+		},
+		"policies": {
+			"title": "MH-beleide & Diensskontrakte",
+			"subtitle": "Bou die regte fondamente",
+			"q1Question": "Watter MH-beleide het elke onderneming nodig?",
+			"q1Answer": "Op 'n minimum: 'n diensskontrak-sjabloon, 'n dissiplinêre en griewe-beleid, 'n verlofbeleid en 'n gedragskode. Groter ondernemings het ook prestasiebestuurbeleide, aflegging-prosedures, sosiale media-beleide en sektor-spesifieke beleide nodig.",
+			"q2Question": "Kan ons 'n afgelaaide sjabloon gebruik?",
+			"q2Answer": "Generiese sjablone is beter as niks, maar dra risiko. 'n Sjabloon wat nie aangepas is by jou onderneming, sektor en huidige wetgewing nie, kan jou valse selfvertroue gee en faal wanneer jy dit die meeste nodig het. OptiHR se beleide word vir jou spesifieke konteks gebou en regstegnies geverifieer.",
+			"q3Question": "Wat moet 'n diensskontrak insluit?",
+			"q3Answer": "'n Wettige diensskontrak moet insluit: die werkgewer en werknemer se besonderhede, postitel en -beskrywing, vergoeding en voordele, werksure, verlofreg (wat aan BCEA-minimums voldoen), kennisgewingtydperk, en verwysing na die dissiplinêre beleid. Kontrakte wat nie aan BCEA-vereistes voldoen nie, word outomaties deur die wet opgegradeer — maar kan verwarring of geskille skep.",
+			"q4Question": "Hoe gereeld moet MH-beleide hersien word?",
+			"q4Answer": "Op 'n minimum jaarliks, en wanneer daar beduidende veranderinge is aan wetgewing, jou werkmagstruktuur of jou besigheidsbedrywighede. OptiHR moniteer die Suid-Afrikaanse arbeidslandskap deurlopend en adviseer kliënte oor vereiste beleidsopdaterings."
+		},
+		"retrenchments": {
+			"title": "Afleggings & Herstrukturering",
+			"subtitle": "Bestuur werkmagveranderinge korrek",
+			"q1Question": "Wat is die Artikel 189-proses?",
+			"q1Answer": "Artikel 189 van die Wet op Arbeidsverhoudinge vereis dat werkgewers wat afleggings oorweeg, met geraakte werknemers konsulteer voordat enige ontslag in werking tree. Die konsultasie moet die redes vir voorgestelde afleggings, alternatiewe wat oorweeg is, voorgestelde seleksiekriteria en skeidingsgeld dek. Versuim om hierdie proses te volg, lei tot prosedureel onbillike-ontslag-bevindings.",
+			"q2Question": "Watter skeidingsgeld is afgeleë werknemers geregtig op?",
+			"q2Answer": "Onder die BCEA is werknemers geregtig op ten minste een week se vergoeding vir elke voltooide jaar van diens, plus kennisgewinggeld, uitstaande verlof en enige ander kontraktuele aansprake. OptiHR verseker dat alle berekeninge akkuraat en korrek gedokumenteer is.",
+			"q3Question": "Watter alternatiewe vir aflegging moet ons oorweeg?",
+			"q3Answer": "Die Artikel 189-proses vereis opregte oorweging van alternatiewe, insluitend verminderde werksure, loonverlagings by ooreenkoms, vrywillige aflegging, tydelike afdanking en herontplooiing. OptiHR help om hierdie konsultasieproses korrek te struktureer sodat elke stap gedokumenteer en verdedigbaar is."
+		},
+		"schools": {
+			"title": "Onafhanklike Skole",
+			"subtitle": "MH vir die onderwyssektor",
+			"q1Question": "Moet onafhanklike skole aan Suid-Afrikaanse arbeidsreg voldoen?",
+			"q1Answer": "Ja — ten volle. Onafhanklike skole is privaat werkgewers onderhewig aan alle Suid-Afrikaanse arbeidswetgewing, insluitend die BCEA, LRA, EEA, OHSA en POPIA. Anders as openbare skole, kan hulle nie staatmaak op die ELRC of provinsiale onderwysdepartemente vir MH-ondersteuning nie.",
+			"q2Question": "Wat is SARO en hoe beïnvloed dit skool-MH?",
+			"q2Answer": "Die Suid-Afrikaanse Raad vir Opvoeders (SARO) reguleer die professionele gedrag en registrasie van alle opvoeders. Onafhanklike skole moet verseker dat alle onderrigpersoneel SARO-geregistreer is en dat dissiplinêre en gedragsprosesse ooreenstem met SARO se Kode van Professionele Etiek tesame met LRA-vereistes.",
+			"q3Question": "Wat maak OptiHR die regte keuse vir onafhanklike skole?",
+			"q3Answer": "Ons stigter is 'n toegelate prokureur met arbeidsreg-kundigheid, 'n gekwalifiseerde MH-praktisyn en 'n SARO-geregistreerde voormalige opvoeder. Hierdie skaars kombinasie beteken ons verstaan beide die klaskamer en die hofsaal — wat skole 'n vennoot gee wat bestuur, nakoming en geskille met diepgaande sektor-spesifieke insig kan bestuur."
+		}
 	}
 }
