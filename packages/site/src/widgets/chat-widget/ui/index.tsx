@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState, type KeyboardEvent } from "react"
 import { AnimatePresence, motion } from "motion/react"
 import { Loader2, MessageCircle, Send, X } from "lucide-react"
+import { useTranslations } from "next-intl"
 
 // ── Types ────────────────────────────────────────────────────────────────────
 
@@ -41,12 +42,6 @@ type SessionSnapshot = {
 const WHATSAPP_NUMBER = "27686362218"
 const CONTACT_EMAIL = "hello@optihr.co.za"
 
-const GREETING: Message = {
-	role: "assistant",
-	content:
-		"Hi there! 👋 I'm the OptiHR assistant. Whether you're looking for HR support, curious about how AI could help your business, or just exploring your options — I'm here to help.\n\nWhat brings you to OptiHR today?",
-}
-
 // ── Helpers ──────────────────────────────────────────────────────────────────
 
 function formatMessage(text: string) {
@@ -71,6 +66,7 @@ function formatMessage(text: string) {
 // ── Widget ───────────────────────────────────────────────────────────────────
 
 export const ChatWidget = () => {
+	const t = useTranslations("ChatWidget")
 	const [isOpen, setIsOpen] = useState(false)
 	const [messages, setMessages] = useState<Message[]>([])
 	const [input, setInput] = useState("")
@@ -113,7 +109,7 @@ export const ChatWidget = () => {
 	// Greeting on first open
 	useEffect(() => {
 		if (isOpen && messages.length === 0) {
-			setMessages([GREETING])
+			setMessages([{ role: "assistant", content: t("greeting") }])
 			setHasUnread(false)
 		}
 		if (isOpen) {
@@ -194,8 +190,7 @@ export const ChatWidget = () => {
 				...prev,
 				{
 					role: "assistant",
-					content:
-						"I'm having a technical hiccup right now — apologies! You can reach us directly at hello@optihr.co.za or call 087 551 1622.",
+					content: t("errorFallback"),
 				},
 			])
 		} finally {
@@ -358,12 +353,12 @@ export const ChatWidget = () => {
 								value={input}
 								onChange={(e) => setInput(e.target.value)}
 								onKeyDown={handleKeyDown}
-								placeholder="Type a message…"
+								placeholder={t("placeholder")}
 								disabled={isLoading}
 								className="flex-1 rounded-full bg-[#f7faf9] px-4 py-2 text-sm text-[#1e5056] placeholder-[#1e5056]/40 outline-none focus:ring-2 focus:ring-[#0d937c]/30 disabled:opacity-50"
 							/>
 							<button
-								aria-label="Send message"
+								aria-label={t("send")}
 								disabled={!input.trim() || isLoading}
 								onClick={sendMessage}
 								className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-[#053c43] text-white transition-all hover:bg-[#0d937c] disabled:opacity-40 disabled:cursor-not-allowed"

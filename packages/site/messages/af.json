@@ -98,5 +98,22 @@
 		"afrikaans": "Afrikaans",
 		"shortEnglish": "EN",
 		"shortAfrikaans": "AF"
+	},
+	"CookieBanner": {
+		"ariaLabel": "Koekie-toestemming",
+		"body": "Ons gebruik koekies om jou ervaring te verbeter en werfgebruik te ontleed. Deur op",
+		"acceptStrong": "Aanvaar",
+		"bodyContinued": "te klik, stem jy in tot ons gebruik van analitiese koekies. Streng noodsaaklike koekies kan nie gedeaktiveer word nie.",
+		"readPolicy": "Lees ons Koekiebeleid",
+		"decline": "Weier",
+		"accept": "Aanvaar koekies"
+	},
+	"ChatWidget": {
+		"greeting": "Hallo daar! 👋 Ek is die OptiHR-assistent. Of jy nou MH-ondersteuning soek, nuuskierig is oor hoe KI jou onderneming kan help, of net jou opsies verken — ek is hier om te help.\n\nWat bring jou vandag na OptiHR?",
+		"errorFallback": "Ek het op die oomblik 'n tegniese fout — verskoning! Jy kan ons direk bereik by hello@optihr.co.za of bel 087 551 1622.",
+		"placeholder": "Tik 'n boodskap...",
+		"send": "Stuur",
+		"openChat": "Maak klets oop",
+		"closeChat": "Maak klets toe"
 	}
 }

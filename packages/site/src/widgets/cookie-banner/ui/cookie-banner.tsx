@@ -1,10 +1,12 @@
 "use client"
+import { useTranslations } from "next-intl"
 import { useEffect, useState } from "react"
 
 const COOKIE_KEY = "optihr_cookie_consent"
 
 export const CookieBanner = () => {
 	const [visible, setVisible] = useState(false)
+	const t = useTranslations("CookieBanner")
 
 	useEffect(() => {
 		try {
@@ -32,18 +34,18 @@ export const CookieBanner = () => {
 			aria-live="polite"
 			className="fixed bottom-0 left-0 right-0 z-50 border-t border-mint-2/30 bg-white/95 shadow-lg backdrop-blur-sm"
 			role="region"
-			aria-label="Cookie consent"
+			aria-label={t("ariaLabel")}
 		>
 			<div className="mx-auto flex max-w-[1800px] flex-col gap-3 px-inner-padding py-4 sm:flex-row sm:items-center sm:justify-between">
 				<p className="text-sm leading-relaxed text-mint-5/80 max-w-2xl">
-					We use cookies to improve your experience and analyse site usage. By clicking{" "}
-					<strong>Accept</strong> you consent to our use of analytical cookies. Strictly necessary
-					cookies cannot be disabled.{" "}
+					{t("body")}{" "}
+					<strong>{t("acceptStrong")}</strong>{" "}
+					{t("bodyContinued")}{" "}
 					<a
 						className="text-mint-6 underline hover:text-mint-4"
 						href="/legal#cookies"
 					>
-						Read our Cookie Policy
+						{t("readPolicy")}
 					</a>
 					.
 				</p>
@@ -53,14 +55,14 @@ export const CookieBanner = () => {
 						onClick={decline}
 						type="button"
 					>
-						Decline
+						{t("decline")}
 					</button>
 					<button
 						className="rounded-inner bg-mint-6 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-mint-5"
 						onClick={accept}
 						type="button"
 					>
-						Accept cookies
+						{t("accept")}
 					</button>
 				</div>
 			</div>

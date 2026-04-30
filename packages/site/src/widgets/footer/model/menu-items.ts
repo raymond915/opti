@@ -1,83 +1,59 @@
-import type { FooterListProps } from "./schema"
+/**
+ * Footer column structure.
+ *
+ * `headingKey` references "Footer.{key}" in messages/{locale}.json.
+ * `labelKey` for each item references either "Footer.{key}" or "Nav.{key}"
+ * depending on `labelNamespace` (default: "Nav" for cross-reuse, "Footer" for
+ * footer-specific labels). Items with literal labels (email, phone) bypass
+ * translation by using `literal`.
+ *
+ * The rendering component looks up translations via useTranslations.
+ */
 
-export const menuItems: FooterListProps[] = [
+export type FooterMenuItem = {
+	href: string
+	labelKey?: string
+	/** "Nav" (default) or "Footer" — which message namespace to look up labelKey in */
+	labelNamespace?: "Nav" | "Footer"
+	/** If set, render this exact string instead of looking up labelKey (for emails, phones, brand strings) */
+	literal?: string
+}
+
+export type FooterMenuColumn = {
+	headingKey: string
+	items: FooterMenuItem[]
+}
+
+export const menuItems: FooterMenuColumn[] = [
 	{
-		heading: "Discover OptiHR",
+		headingKey: "discoverOptiHR",
 		items: [
-			{
-				label: "Home",
-				href: "/",
-			},
-			{
-				label: "About Us",
-				href: "/about-us",
-			},
-			{
-				label: "Services",
-				href: "/services",
-			},
-			{
-				label: "Pricing",
-				href: "/pricing",
-			},
-			{
-				label: "POPIA Compliance",
-				href: "/popia",
-			},
-			{
-				label: "OptiBuzz — Blog & Insights",
-				href: "/insights",
-			},
-			{
-				label: "FAQ",
-				href: "/faq",
-			},
-			{
-				label: "Contact Us",
-				href: "/contact",
-			},
+			{ href: "/", labelKey: "home" },
+			{ href: "/about-us", labelKey: "aboutUs" },
+			{ href: "/services", labelKey: "services" },
+			{ href: "/pricing", labelKey: "pricing" },
+			{ href: "/popia", labelKey: "popiaCompliance" },
+			{ href: "/insights", labelKey: "optiBuzzBlog", labelNamespace: "Footer" },
+			{ href: "/faq", labelKey: "faq" },
+			{ href: "/contact", labelKey: "contactUs" },
 		],
 	},
 	{
-		heading: "Who We Support",
+		headingKey: "whoWeSupport",
 		items: [
-			{
-				label: "For Small Businesses",
-				href: "/for-small-businesses",
-			},
-			{
-				label: "For Large Businesses",
-				href: "/for-large-businesses",
-			},
-			{
-				label: "For Independent Schools",
-				href: "/for-independent-schools",
-			},
-			{
-				label: "AI in the Workplace",
-				href: "/ai-in-the-workplace",
-			},
+			{ href: "/for-small-businesses", labelKey: "forSmallBusinesses", labelNamespace: "Footer" },
+			{ href: "/for-large-businesses", labelKey: "forLargeBusinesses", labelNamespace: "Footer" },
+			{ href: "/for-independent-schools", labelKey: "forIndependentSchools", labelNamespace: "Footer" },
+			{ href: "/ai-in-the-workplace", labelKey: "aiInTheWorkplace" },
 		],
 	},
 	{
-		heading: "Connect",
+		headingKey: "connect",
 		items: [
-			{
-				label: "hello@optihr.co.za",
-				href: "mailto:hello@optihr.co.za",
-			},
-			{
-				label: "087 551 1622",
-				href: "tel:+27875511622",
-			},
-			{
-				label: "Chat on WhatsApp",
-				href: "https://wa.me/27686362218",
-			},
-			{
-				label: "Book a consultation",
-				href: "/contact",
-			},
+			{ href: "mailto:hello@optihr.co.za", literal: "hello@optihr.co.za" },
+			{ href: "tel:+27875511622", literal: "087 551 1622" },
+			{ href: "https://wa.me/27686362218", labelKey: "chatWhatsApp", labelNamespace: "Footer" },
+			{ href: "/contact", labelKey: "bookConsultation", labelNamespace: "Footer" },
 		],
 	},
 ]

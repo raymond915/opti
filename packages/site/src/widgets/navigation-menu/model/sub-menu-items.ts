@@ -1,43 +1,20 @@
-import type { SubMenuItemType } from "./schema"
-export const subMenuItems: SubMenuItemType[] = [
-	{
-		label: "Home",
-		href: "/",
-	},
-	{
-		label: "About Us",
-		href: "/about-us",
-	},
-	{
-		label: "Services",
-		href: "/services",
-	},
-	{
-		label: "AI in the Workplace",
-		href: "/ai-in-the-workplace",
-	},
-	{
-		label: "Pricing",
-		href: "/pricing",
-	},
-	{
-		label: "POPIA Compliance",
-		href: "/popia",
-	},
-	{
-		label: "OptiBuzz",
-		href: "/insights",
-	},
-	{
-		label: "FAQ",
-		href: "/faq",
-	},
-	{
-		label: "Contact Us",
-		href: "/contact",
-	},
-	{
-		label: "Book a Consultation",
-		href: "/contact",
-	},
-]
+/**
+ * Items in the expanded nav dropdown.
+ *
+ * `labelKey` references a key in messages/{locale}.json under "Nav".
+ * The rendering component looks up the translation via useTranslations.
+ */
+export const subMenuItems = [
+	{ labelKey: "home", href: "/" },
+	{ labelKey: "aboutUs", href: "/about-us" },
+	{ labelKey: "services", href: "/services" },
+	{ labelKey: "aiInTheWorkplace", href: "/ai-in-the-workplace" },
+	{ labelKey: "pricing", href: "/pricing" },
+	{ labelKey: "popiaCompliance", href: "/popia" },
+	{ labelKey: "optiBuzz", href: "/insights" },
+	{ labelKey: "faq", href: "/faq" },
+	{ labelKey: "contactUs", href: "/contact" },
+	{ labelKey: "bookConsultation", href: "/contact" },
+] as const
+
+export type SubMenuItemKey = (typeof subMenuItems)[number]["labelKey"]

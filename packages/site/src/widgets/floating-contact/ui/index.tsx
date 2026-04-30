@@ -1,10 +1,12 @@
 "use client"
 
 import { Mail, Phone } from "lucide-react"
+import { useTranslations } from "next-intl"
 
 const WHATSAPP_NUMBER = "27686362218"
 const CONTACT_EMAIL = "hello@optihr.co.za"
 const OFFICE_NUMBER_TEL = "+27875511622"
+const OFFICE_NUMBER_DISPLAY = "087 551 1622"
 
 const WhatsAppIcon = () => (
 	<svg viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5 shrink-0" aria-hidden="true">
@@ -13,6 +15,8 @@ const WhatsAppIcon = () => (
 )
 
 export const FloatingContact = () => {
+	const t = useTranslations("FloatingContact")
+
 	return (
 		<div className="fixed bottom-[5.5rem] right-4 z-40 flex flex-col items-end gap-2.5">
 			{/* WhatsApp button — expands left on hover to reveal label */}
@@ -20,11 +24,11 @@ export const FloatingContact = () => {
 				href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent("Hi OptiHR! I'd like to find out more about your services.")}`}
 				target="_blank"
 				rel="noopener noreferrer"
-				aria-label="Chat with OptiHR on WhatsApp"
+				aria-label={t("chatWithOptiHR")}
 				className="group flex h-12 w-12 items-center justify-end overflow-hidden rounded-full bg-[#25D366] text-white shadow-[0_4px_16px_rgba(37,211,102,0.40)] transition-[width,box-shadow] duration-300 ease-in-out md:hover:w-40 hover:shadow-[0_4px_24px_rgba(37,211,102,0.55)] active:scale-95"
 			>
 				<span className="mr-0 flex-1 overflow-hidden pl-4 opacity-0 transition-opacity duration-200 group-hover:opacity-100">
-					<span className="whitespace-nowrap text-sm font-semibold">WhatsApp us</span>
+					<span className="whitespace-nowrap text-sm font-semibold">{t("whatsAppUs")}</span>
 				</span>
 				<span className="flex h-12 w-12 shrink-0 items-center justify-center">
 					<WhatsAppIcon />
@@ -34,11 +38,11 @@ export const FloatingContact = () => {
 			{/* Call button — expands left on hover to reveal label */}
 			<a
 				href={`tel:${OFFICE_NUMBER_TEL}`}
-				aria-label="Call OptiHR office"
+				aria-label={t("callOptiHR")}
 				className="group flex h-12 w-12 items-center justify-end overflow-hidden rounded-full bg-[#0d937c] text-white shadow-[0_4px_16px_rgba(13,147,124,0.40)] transition-[width,box-shadow] duration-300 ease-in-out md:hover:w-44 hover:shadow-[0_4px_24px_rgba(13,147,124,0.55)] active:scale-95"
 			>
 				<span className="mr-0 flex-1 overflow-hidden pl-4 opacity-0 transition-opacity duration-200 group-hover:opacity-100">
-					<span className="whitespace-nowrap text-sm font-semibold">087 551 1622</span>
+					<span className="whitespace-nowrap text-sm font-semibold">{OFFICE_NUMBER_DISPLAY}</span>
 				</span>
 				<span className="flex h-12 w-12 shrink-0 items-center justify-center">
 					<Phone className="h-5 w-5 shrink-0" />
@@ -48,11 +52,11 @@ export const FloatingContact = () => {
 			{/* Email button — expands left on hover to reveal label */}
 			<a
 				href={`mailto:${CONTACT_EMAIL}?subject=Enquiry from OptiHR website`}
-				aria-label="Email OptiHR"
+				aria-label={t("emailOptiHR")}
 				className="group flex h-12 w-12 items-center justify-end overflow-hidden rounded-full bg-[#053c43] text-white shadow-[0_4px_16px_rgba(5,60,67,0.35)] transition-[width,background-color,box-shadow] duration-300 ease-in-out md:hover:w-36 hover:bg-[#0d937c] hover:shadow-[0_4px_24px_rgba(13,147,124,0.45)] active:scale-95"
 			>
 				<span className="mr-0 flex-1 overflow-hidden pl-4 opacity-0 transition-opacity duration-200 group-hover:opacity-100">
-					<span className="whitespace-nowrap text-sm font-semibold">Email us</span>
+					<span className="whitespace-nowrap text-sm font-semibold">{t("emailUs")}</span>
 				</span>
 				<span className="flex h-12 w-12 shrink-0 items-center justify-center">
 					<Mail className="h-5 w-5 shrink-0" />

@@ -10,6 +10,7 @@ import {
 	useScroll,
 	type Variants,
 } from "motion/react"
+import { useTranslations } from "next-intl"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { useEffect, useState } from "react"
@@ -23,6 +24,7 @@ import { MenuButton } from "./menu-button"
 //NOTE: onScroll down threshold to decide if the menu should close
 export const NavigationMenu = () => {
 	const pathname = usePathname()
+	const tNav = useTranslations("Nav")
 	const [isMenuOpen, setIsMenuOpen] = useState(false)
 
 	// Auto-close the dropdown whenever the route changes (e.g. user taps a nav
@@ -191,10 +193,10 @@ export const NavigationMenu = () => {
 												<FeaturedItem
 													className="last:mr-inner-padding"
 													href={item.href}
-													key={item.label}
+													key={item.labelKey}
 													variants={featureNavItemsVariants}
 												>
-													{item.label}
+													{tNav(item.labelKey)}
 												</FeaturedItem>
 											)
 										})}
