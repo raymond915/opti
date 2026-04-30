@@ -16,29 +16,55 @@ import { ClientLogos } from "@widgets/client-logos/ui"
 import { ComparisonSection } from "@widgets/comparison-section/ui"
 import { TestimonialSection } from "@widgets/testimonial/ui/testimonial-section"
 import type { NextPage } from "next"
+import { useTranslations } from "next-intl"
 import Image from "next/image"
 
 export const AboutPage: NextPage = () => {
+	const t = useTranslations("About")
+
+	const whyChooseCards = [
+		{ icon: "⚖️", title: t("whyChoose.card1Title"), body: t("whyChoose.card1Body") },
+		{ icon: "🏆", title: t("whyChoose.card2Title"), body: t("whyChoose.card2Body") },
+		{ icon: "🎓", title: t("whyChoose.card3Title"), body: t("whyChoose.card3Body") },
+		{ icon: "🛡️", title: t("whyChoose.card4Title"), body: t("whyChoose.card4Body") },
+		{ icon: "🔍", title: t("whyChoose.card5Title"), body: t("whyChoose.card5Body") },
+		{ icon: "🤝", title: t("whyChoose.card6Title"), body: t("whyChoose.card6Body") },
+	]
+
+	const raymondBullets = [
+		t("raymond.bullet1"),
+		t("raymond.bullet2"),
+		t("raymond.bullet3"),
+		t("raymond.bullet4"),
+	]
+
+	const rhodeneBullets = [
+		t("rhodene.bullet1"),
+		t("rhodene.bullet2"),
+		t("rhodene.bullet3"),
+		t("rhodene.bullet4"),
+	]
+
 	return (
 		<>
 			<PageBanner
 				anchorId="/contact"
-				anchorText="Book Free Consultation"
-				body="OptiHR was founded by Raymond Hauptfleisch — admitted attorney, qualified HR practitioner, and former educator. A rare combination of legal authority, HR expertise, and sector insight, built to help South African businesses and independent schools handle HR with confidence."
-				title="About OptiHR — Specialist HR & Labour Law for South Africa"
+				anchorText={t("banner.anchorText")}
+				body={t("banner.body")}
+				title={t("banner.title")}
 			/>
 			<LargeParagraph
 				ctaHref="/contact"
-				ctaLabel="Schedule Consultation"
-				description="OptiHR partners with businesses and schools to handle HR compliance and industrial relations proactively. We prevent CCMA disputes and compliance issues, letting you focus on what you do best."
-				heading="Partnering for Proactive HR Compliance"
-				title="Our Mission"
+				ctaLabel={t("mission.cta")}
+				description={t("mission.description")}
+				heading={t("mission.heading")}
+				title={t("mission.title")}
 			/>
 			<HighlightBlock
 				background="white"
-				body="Meet the founder bringing legal, HR, and educational insights to SA businesses."
+				body={t("raymond.body")}
 				buttonHref="/contact"
-				buttonText="Consult Now"
+				buttonText={t("raymond.cta")}
 				media={{
 					type: "component",
 					mediaNode: (
@@ -57,22 +83,14 @@ export const AboutPage: NextPage = () => {
 					),
 				}}
 				mediaPosition={"left"}
-				subtitle="Unique Expertise Blend"
-				title="Raymond Hauptfleisch, Founder"
+				subtitle={t("raymond.subtitle")}
+				title={t("raymond.title")}
 			>
 				<HighlightBlockSubtitle />
 				<HighlightBlockTitle />
 				<HighlightBlockBody />
 				<ul className="mt-fluid-3 flex flex-col gap-fluid-3">
-					{[
-						"Admitted attorney specialising in Labour Court and CCMA representation",
-
-						"Former owner of specialist labour law firm with 200+ dispute resolutions",
-
-						"Qualified HR practitioner with hands-on experience",
-
-						"SACE-registered educator, understanding school-specific challenges",
-					].map((bullet) => (
+					{raymondBullets.map((bullet) => (
 						<BulletPoint
 							content={bullet}
 							key={bullet}
@@ -83,9 +101,9 @@ export const AboutPage: NextPage = () => {
 			</HighlightBlock>
 			<HighlightBlock
 				background="white"
-				body="Rhodene Duncan brings deep Cape Town-based HR expertise to OptiHR's growing national footprint."
+				body={t("rhodene.body")}
 				buttonHref="/contact"
-				buttonText="Connect with Rhodene"
+				buttonText={t("rhodene.cta")}
 				media={{
 					type: "component",
 					mediaNode: (
@@ -102,19 +120,14 @@ export const AboutPage: NextPage = () => {
 					),
 				}}
 				mediaPosition={"right"}
-				subtitle="OptiHR Cape Town"
-				title="Rhodene Duncan — Cape Town Director"
+				subtitle={t("rhodene.subtitle")}
+				title={t("rhodene.title")}
 			>
 				<HighlightBlockSubtitle />
 				<HighlightBlockTitle />
 				<HighlightBlockBody />
 				<ul className="mt-fluid-3 flex flex-col gap-fluid-3">
-					{[
-						"Based in Cape Town — serving the Western Cape and surrounding regions",
-						"Specialist HR practitioner with extensive experience across multiple industries",
-						"Expert in employment equity, disciplinary processes, and labour compliance",
-						"Trusted by Cape Town businesses to deliver practical, legally sound HR solutions",
-					].map((bullet) => (
+					{rhodeneBullets.map((bullet) => (
 						<BulletPoint
 							content={bullet}
 							key={bullet}
@@ -128,45 +141,14 @@ export const AboutPage: NextPage = () => {
 			{/* Why Choose OptiHR */}
 			<ContainedLayout className="max-h-none flex flex-col gap-fluid-4 bg-muted-1">
 				<div className="col-span-full flex flex-col gap-fluid-1">
-					<SectionSubtitle isDark title="Why Choose OptiHR" />
-					<H2 className="text-mint-6">The rare combination you won't find anywhere else</H2>
+					<SectionSubtitle isDark title={t("whyChoose.subtitle")} />
+					<H2 className="text-mint-6">{t("whyChoose.heading")}</H2>
 					<P className="text-mint-5/70 max-w-2xl">
-						Most HR consultants know HR. Most labour attorneys know law. OptiHR brings both together — along with deep insight into the education sector — to give your organisation a level of protection most businesses never access.
+						{t("whyChoose.body")}
 					</P>
 				</div>
 				<div className="col-span-full grid grid-cols-1 gap-inner-padding md:grid-cols-2 lg:grid-cols-3">
-					{[
-						{
-							icon: "⚖️",
-							title: "Legal Authority",
-							body: "Raymond is an admitted attorney with the right of appearance in the Labour Court and Labour Appeal Court — meaning every recommendation is backed by full legal authority, not just best-practice opinion.",
-						},
-						{
-							icon: "🏆",
-							title: "95%+ CCMA Success Rate",
-							body: "Our track record speaks for itself. With over 200 dispute resolutions handled and a CCMA success rate exceeding 95%, OptiHR consistently delivers results where it matters most.",
-						},
-						{
-							icon: "🎓",
-							title: "Education Sector Expertise",
-							body: "As a SACE-registered former educator, Raymond understands independent schools from the inside — SACE compliance, governance, and the unique pressures of the teaching profession.",
-						},
-						{
-							icon: "🛡️",
-							title: "Proactive Risk Management",
-							body: "We don't wait for disputes to land at the CCMA. By building sound policies, governance systems, and compliance frameworks upfront, we prevent costly problems before they arise.",
-						},
-						{
-							icon: "🔍",
-							title: "Fresh, External Perspective",
-							body: "Being external is a strength. We benchmark your practices across industries, exposing vulnerabilities that internal teams — too close to the situation — often miss.",
-						},
-						{
-							icon: "🤝",
-							title: "Integrated HR & Legal Under One Roof",
-							body: "No referrals, no handoffs. With HR, labour law, and IR expertise in one place, you get faster, more coherent support — and advice that accounts for the full picture.",
-						},
-					].map((item) => (
+					{whyChooseCards.map((item) => (
 						<div
 							className="flex flex-col gap-4 rounded-inner border border-mint-2/20 bg-white p-inner-padding"
 							key={item.title}
@@ -184,9 +166,9 @@ export const AboutPage: NextPage = () => {
 
 			<HighlightBlock
 				background="green"
-				body="Free consultation to assess your labour compliance needs and build a custom plan."
+				body={t("strengthen.body")}
 				buttonHref="/contact"
-				buttonText="Schedule Now"
+				buttonText={t("strengthen.cta")}
 				media={{
 					type: "image",
 					imageProps: {
@@ -196,7 +178,7 @@ export const AboutPage: NextPage = () => {
 					containerClassnames: undefined,
 				}}
 				mediaPosition={"right"}
-				title="Strengthen Your HR Today"
+				title={t("strengthen.title")}
 			>
 				<HighlightBlockSubtitle />
 				<HighlightBlockTitle />
@@ -212,9 +194,9 @@ export const AboutPage: NextPage = () => {
 						_createdAt: "",
 						_updatedAt: "",
 						_rev: "",
-						name: "Business Owner",
-						role: "Owner",
-						company: "Accounting Firm, Cape Town",
+						name: t("testimonials.t1Name"),
+						role: t("testimonials.t1Role"),
+						company: t("testimonials.t1Company"),
 						testimonial: [
 							{
 								_type: "block",
@@ -224,7 +206,7 @@ export const AboutPage: NextPage = () => {
 									{
 										_type: "span",
 										_key: "t1-span",
-										text: "We were hit with a CCMA unfair dismissal claim and had no idea what to do. OptiHR stepped in immediately, handled everything professionally, and we won. The relief was indescribable.",
+										text: t("testimonials.t1Quote"),
 									},
 								],
 							},
@@ -236,9 +218,9 @@ export const AboutPage: NextPage = () => {
 						_createdAt: "",
 						_updatedAt: "",
 						_rev: "",
-						name: "Group HR Director",
-						role: "HR Director",
-						company: "Retail Chain, Johannesburg",
+						name: t("testimonials.t2Name"),
+						role: t("testimonials.t2Role"),
+						company: t("testimonials.t2Company"),
 						testimonial: [
 							{
 								_type: "block",
@@ -248,7 +230,7 @@ export const AboutPage: NextPage = () => {
 									{
 										_type: "span",
 										_key: "t2-span",
-										text: "OptiHR overhauled our disciplinary process and trained our managers in three months. Our grievances dropped significantly and our HR team finally has the confidence to handle issues correctly.",
+										text: t("testimonials.t2Quote"),
 									},
 								],
 							},
@@ -260,9 +242,9 @@ export const AboutPage: NextPage = () => {
 						_createdAt: "",
 						_updatedAt: "",
 						_rev: "",
-						name: "School Principal",
-						role: "Principal",
-						company: "Independent School, Pretoria",
+						name: t("testimonials.t3Name"),
+						role: t("testimonials.t3Role"),
+						company: t("testimonials.t3Company"),
 						testimonial: [
 							{
 								_type: "block",
@@ -272,7 +254,7 @@ export const AboutPage: NextPage = () => {
 									{
 										_type: "span",
 										_key: "t3-span",
-										text: "Raymond understands schools in a way no other HR consultant does. He helped us navigate a union dispute that had been festering for years — without damaging our staff culture. We finally feel protected.",
+										text: t("testimonials.t3Quote"),
 									},
 								],
 							},

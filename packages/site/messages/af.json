@@ -196,5 +196,78 @@
 			"t3Role": "Onafhanklike Skool",
 			"t3Company": "Suid-Afrika"
 		}
+	},
+	"About": {
+		"metaTitle": "Oor OptiHR — Spesialis-MH & Arbeidsreg vir Suid-Afrika",
+		"metaDescription": "Ontmoet OptiHR — gestig deur Raymond Hauptfleisch, 'n toegelate prokureur, gekwalifiseerde MH-praktisyn en voormalige opvoeder. Spesialis-MH- en arbeidsreg-ondersteuning vir Suid-Afrikaanse ondernemings en onafhanklike skole.",
+		"ogTitle": "Oor OptiHR — Spesialis-MH & Arbeidsreg vir Suid-Afrika",
+		"ogDescription": "Gestig deur Raymond Hauptfleisch — toegelate prokureur, gekwalifiseerde MH-praktisyn en voormalige opvoeder. Spesialis-MH- en arbeidsreg-ondersteuning vir Suid-Afrikaanse ondernemings en onafhanklike skole.",
+		"banner": {
+			"anchorText": "Bespreek Gratis Konsultasie",
+			"title": "Oor OptiHR — Spesialis-MH & Arbeidsreg vir Suid-Afrika",
+			"body": "OptiHR is gestig deur Raymond Hauptfleisch — toegelate prokureur, gekwalifiseerde MH-praktisyn en voormalige opvoeder. 'n Skaars kombinasie van regsgesag, MH-kundigheid en sektor-insig, geskep om Suid-Afrikaanse ondernemings en onafhanklike skole te help om MH met selfvertroue te hanteer."
+		},
+		"mission": {
+			"title": "Ons missie",
+			"heading": "Vennote vir Proaktiewe MH-nakoming",
+			"description": "OptiHR werk saam met ondernemings en skole om MH-nakoming en bedryfsverhoudinge proaktief te hanteer. Ons voorkom KVBA-geskille en nakomingsprobleme sodat jy kan fokus op wat jy die beste doen.",
+			"cta": "Skeduleer Konsultasie"
+		},
+		"raymond": {
+			"subtitle": "Unieke Kombinasie van Kundigheid",
+			"title": "Raymond Hauptfleisch, Stigter",
+			"body": "Ontmoet die stigter wat regs-, MH- en onderwyskundigheid na SA-ondernemings bring.",
+			"cta": "Konsulteer Nou",
+			"bullet1": "Toegelate prokureur gespesialiseer in Arbeidshofverteenwoordiging en KVBA-verteenwoordiging",
+			"bullet2": "Voormalige eienaar van 'n spesialis-arbeidsregfirma met meer as 200 geskil-oplossings",
+			"bullet3": "Gekwalifiseerde MH-praktisyn met praktiese ondervinding",
+			"bullet4": "SARO-geregistreerde opvoeder met begrip van skool-spesifieke uitdagings"
+		},
+		"rhodene": {
+			"subtitle": "OptiHR Kaapstad",
+			"title": "Rhodene Duncan — Direkteur, Kaapstad",
+			"body": "Rhodene Duncan bring diepgaande Kaapstad-gebaseerde MH-kundigheid by OptiHR se groeiende nasionale teenwoordigheid.",
+			"cta": "Skakel met Rhodene",
+			"bullet1": "Gebaseer in Kaapstad — bedien die Wes-Kaap en omliggende streke",
+			"bullet2": "Spesialis-MH-praktisyn met uitgebreide ondervinding oor verskeie bedrywe",
+			"bullet3": "Kundige in gelyke indiensneming, dissiplinêre prosesse en arbeidsnakoming",
+			"bullet4": "Word vertrou deur Kaapstad-ondernemings om praktiese, regsgegronde MH-oplossings te lewer"
+		},
+		"whyChoose": {
+			"subtitle": "Waarom OptiHR Kies",
+			"heading": "Die seldsame kombinasie wat jy nêrens anders sal vind nie",
+			"body": "Die meeste MH-konsultante ken MH. Die meeste arbeidsprokureurs ken die reg. OptiHR bring albei bymekaar — saam met diepgaande insig in die onderwyssektor — om jou organisasie 'n vlak van beskerming te bied wat die meeste ondernemings nooit kry nie.",
+			"card1Title": "Regsgesag",
+			"card1Body": "Raymond is 'n toegelate prokureur met verskyningsreg in die Arbeidshof en Arbeidsappèlhof — dit beteken elke aanbeveling word gerugsteun deur volle regsgesag, nie net 'n beste-praktyk-mening nie.",
+			"card2Title": "Suksessyfer van 95%+ by die KVBA",
+			"card2Body": "Ons rekord praat vanself. Met meer as 200 opgeloste geskille en 'n KVBA-suksessyfer van bo 95%, lewer OptiHR konsekwent resultate waar dit die meeste tel.",
+			"card3Title": "Kundigheid in die Onderwyssektor",
+			"card3Body": "As 'n SARO-geregistreerde voormalige opvoeder verstaan Raymond onafhanklike skole van binne — SARO-nakoming, bestuur en die unieke druk van die onderwysberoep.",
+			"card4Title": "Proaktiewe Risikobestuur",
+			"card4Body": "Ons wag nie vir geskille om by die KVBA te beland nie. Deur deeglike beleide, bestuurstelsels en nakomingsraamwerke vooraf op te stel, voorkom ons duur probleme voordat hulle ontstaan.",
+			"card5Title": "Vars, Eksterne Perspektief",
+			"card5Body": "Om ekstern te wees, is 'n krag. Ons vergelyk jou praktyke oor bedrywe heen en ontbloot kwesbaarhede wat interne spanne — te naby aan die situasie — dikwels mis.",
+			"card6Title": "Geïntegreerde MH & Reg in een aanbieding",
+			"card6Body": "Geen verwysings, geen oordragte nie. Met MH-, arbeidsreg- en bedryfsverhoudinge-kundigheid op een plek, kry jy vinniger, meer samehangende ondersteuning — en advies wat die volle prentjie in ag neem."
+		},
+		"strengthen": {
+			"title": "Versterk Jou MH Vandag",
+			"body": "Gratis konsultasie om jou arbeidsnakomingsbehoeftes te evalueer en 'n pasgemaakte plan op te stel.",
+			"cta": "Skeduleer Nou"
+		},
+		"testimonials": {
+			"t1Quote": "Ons is met 'n KVBA-eis vir onbillike ontslag getref en het geen idee gehad wat om te doen nie. OptiHR het onmiddellik ingespring, alles professioneel hanteer en ons het gewen. Die verligting was onbeskryflik.",
+			"t1Name": "Sake-eienaar",
+			"t1Role": "Eienaar",
+			"t1Company": "Rekeningkundige Firma, Kaapstad",
+			"t2Quote": "OptiHR het ons dissiplinêre proses oorgedoen en ons bestuurders binne drie maande opgelei. Ons griewe het aansienlik gedaal en ons MH-span het uiteindelik die selfvertroue om kwessies reg te hanteer.",
+			"t2Name": "Groep MH-direkteur",
+			"t2Role": "MH-direkteur",
+			"t2Company": "Kleinhandelketting, Johannesburg",
+			"t3Quote": "Raymond verstaan skole op 'n manier wat geen ander MH-konsultant doen nie. Hy het ons gehelp om 'n vakbond-geskil te navigeer wat al jare lank gesweer het — sonder om ons personeelkultuur te benadeel. Ons voel uiteindelik beskerm.",
+			"t3Name": "Skoolhoof",
+			"t3Role": "Skoolhoof",
+			"t3Company": "Onafhanklike Skool, Pretoria"
+		}
 	}
 }

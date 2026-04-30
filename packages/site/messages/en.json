@@ -196,5 +196,78 @@
 			"t3Role": "Independent School",
 			"t3Company": "South Africa"
 		}
+	},
+	"About": {
+		"metaTitle": "About OptiHR — Specialist HR & Labour Law for South Africa",
+		"metaDescription": "Meet OptiHR — founded by Raymond Hauptfleisch, an admitted attorney, qualified HR practitioner, and former educator. Specialist HR and labour law support for South African businesses and independent schools.",
+		"ogTitle": "About OptiHR — Specialist HR & Labour Law for South Africa",
+		"ogDescription": "Founded by Raymond Hauptfleisch — admitted attorney, qualified HR practitioner, and former educator. Specialist HR and labour law support for South African businesses and independent schools.",
+		"banner": {
+			"anchorText": "Book Free Consultation",
+			"title": "About OptiHR — Specialist HR & Labour Law for South Africa",
+			"body": "OptiHR was founded by Raymond Hauptfleisch — admitted attorney, qualified HR practitioner, and former educator. A rare combination of legal authority, HR expertise, and sector insight, built to help South African businesses and independent schools handle HR with confidence."
+		},
+		"mission": {
+			"title": "Our Mission",
+			"heading": "Partnering for Proactive HR Compliance",
+			"description": "OptiHR partners with businesses and schools to handle HR compliance and industrial relations proactively. We prevent CCMA disputes and compliance issues, letting you focus on what you do best.",
+			"cta": "Schedule Consultation"
+		},
+		"raymond": {
+			"subtitle": "Unique Expertise Blend",
+			"title": "Raymond Hauptfleisch, Founder",
+			"body": "Meet the founder bringing legal, HR, and educational insights to SA businesses.",
+			"cta": "Consult Now",
+			"bullet1": "Admitted attorney specialising in Labour Court and CCMA representation",
+			"bullet2": "Former owner of specialist labour law firm with 200+ dispute resolutions",
+			"bullet3": "Qualified HR practitioner with hands-on experience",
+			"bullet4": "SACE-registered educator, understanding school-specific challenges"
+		},
+		"rhodene": {
+			"subtitle": "OptiHR Cape Town",
+			"title": "Rhodene Duncan — Cape Town Director",
+			"body": "Rhodene Duncan brings deep Cape Town-based HR expertise to OptiHR's growing national footprint.",
+			"cta": "Connect with Rhodene",
+			"bullet1": "Based in Cape Town — serving the Western Cape and surrounding regions",
+			"bullet2": "Specialist HR practitioner with extensive experience across multiple industries",
+			"bullet3": "Expert in employment equity, disciplinary processes, and labour compliance",
+			"bullet4": "Trusted by Cape Town businesses to deliver practical, legally sound HR solutions"
+		},
+		"whyChoose": {
+			"subtitle": "Why Choose OptiHR",
+			"heading": "The rare combination you won't find anywhere else",
+			"body": "Most HR consultants know HR. Most labour attorneys know law. OptiHR brings both together — along with deep insight into the education sector — to give your organisation a level of protection most businesses never access.",
+			"card1Title": "Legal Authority",
+			"card1Body": "Raymond is an admitted attorney with the right of appearance in the Labour Court and Labour Appeal Court — meaning every recommendation is backed by full legal authority, not just best-practice opinion.",
+			"card2Title": "95%+ CCMA Success Rate",
+			"card2Body": "Our track record speaks for itself. With over 200 dispute resolutions handled and a CCMA success rate exceeding 95%, OptiHR consistently delivers results where it matters most.",
+			"card3Title": "Education Sector Expertise",
+			"card3Body": "As a SACE-registered former educator, Raymond understands independent schools from the inside — SACE compliance, governance, and the unique pressures of the teaching profession.",
+			"card4Title": "Proactive Risk Management",
+			"card4Body": "We don't wait for disputes to land at the CCMA. By building sound policies, governance systems, and compliance frameworks upfront, we prevent costly problems before they arise.",
+			"card5Title": "Fresh, External Perspective",
+			"card5Body": "Being external is a strength. We benchmark your practices across industries, exposing vulnerabilities that internal teams — too close to the situation — often miss.",
+			"card6Title": "Integrated HR & Legal Under One Roof",
+			"card6Body": "No referrals, no handoffs. With HR, labour law, and IR expertise in one place, you get faster, more coherent support — and advice that accounts for the full picture."
+		},
+		"strengthen": {
+			"title": "Strengthen Your HR Today",
+			"body": "Free consultation to assess your labour compliance needs and build a custom plan.",
+			"cta": "Schedule Now"
+		},
+		"testimonials": {
+			"t1Quote": "We were hit with a CCMA unfair dismissal claim and had no idea what to do. OptiHR stepped in immediately, handled everything professionally, and we won. The relief was indescribable.",
+			"t1Name": "Business Owner",
+			"t1Role": "Owner",
+			"t1Company": "Accounting Firm, Cape Town",
+			"t2Quote": "OptiHR overhauled our disciplinary process and trained our managers in three months. Our grievances dropped significantly and our HR team finally has the confidence to handle issues correctly.",
+			"t2Name": "Group HR Director",
+			"t2Role": "HR Director",
+			"t2Company": "Retail Chain, Johannesburg",
+			"t3Quote": "Raymond understands schools in a way no other HR consultant does. He helped us navigate a union dispute that had been festering for years — without damaging our staff culture. We finally feel protected.",
+			"t3Name": "School Principal",
+			"t3Role": "Principal",
+			"t3Company": "Independent School, Pretoria"
+		}
 	}
 }

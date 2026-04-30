@@ -1,18 +1,31 @@
 import { AboutPage } from "@pages/about/ui"
 import type { Metadata, NextPage } from "next"
+import { getTranslations, setRequestLocale } from "next-intl/server"
 
-export const metadata: Metadata = {
-	title: "About OptiHR — Specialist HR & Labour Law for South Africa",
-	description:
-		"Meet OptiHR — founded by Raymond Hauptfleisch, an admitted attorney, qualified HR practitioner, and former educator. Specialist HR and labour law support for South African businesses and independent schools.",
-	openGraph: {
-		title: "About OptiHR — Specialist HR & Labour Law for South Africa",
-		description:
-			"Founded by Raymond Hauptfleisch — admitted attorney, qualified HR practitioner, and former educator. Specialist HR and labour law support for South African businesses and independent schools.",
-	},
+export async function generateMetadata({
+	params,
+}: {
+	params: Promise<{ locale: string }>
+}): Promise<Metadata> {
+	const { locale } = await params
+	const t = await getTranslations({ locale, namespace: "About" })
+
+	return {
+		title: t("metaTitle"),
+		description: t("metaDescription"),
+		openGraph: {
+			title: t("ogTitle"),
+			description: t("ogDescription"),
+		},
+	}
 }
 
-const Page: NextPage = () => {
+const Page: NextPage<{ params: Promise<{ locale: string }> }> = async ({
+	params,
+}) => {
+	const { locale } = await params
+	setRequestLocale(locale)
 	return <AboutPage />
 }
+
 export default Page
