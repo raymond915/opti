@@ -1,0 +1,102 @@
+{
+	"Nav": {
+		"home": "Tuis",
+		"aboutUs": "Oor Ons",
+		"services": "Dienste",
+		"aiInTheWorkplace": "KI in die Werkplek",
+		"pricing": "Pryse",
+		"popiaCompliance": "POPIA Nakoming",
+		"optiBuzz": "OptiBuzz",
+		"faq": "Gereelde vrae",
+		"contactUs": "Kontak Ons",
+		"bookConsultation": "Bespreek 'n Konsultasie",
+		"ourServices": "Ons dienste"
+	},
+	"Footer": {
+		"discoverOptiHR": "Ontdek OptiHR",
+		"whoWeSupport": "Wie Ons Bedien",
+		"connect": "Skakel",
+		"forSmallBusinesses": "Vir Klein Ondernemings",
+		"forLargeBusinesses": "Vir Groot Ondernemings",
+		"forIndependentSchools": "Vir Onafhanklike Skole",
+		"optiBuzzBlog": "OptiBuzz — Blog & Insigte",
+		"chatWhatsApp": "Gesels op WhatsApp",
+		"bookConsultation": "Bespreek 'n konsultasie",
+		"taglineLine1": "Jou maatskappy. Jou mense. Ons kundigheid.",
+		"taglineLine2": "Op terrein in Gauteng en Kaapstad. Afstand landwyd.",
+		"copyright": "© Kopiereg OptiHR {year}. Alle regte voorbehou.",
+		"designedBy": "Ontwerp & Ontwikkel deur",
+		"privacyPolicy": "Privaatheidsbeleid",
+		"termsConditions": "Bepalings en Voorwaardes"
+	},
+	"FooterCta": {
+		"heading": "Begin Vandag Jou Reis",
+		"body": "Bespreek 'n gratis konsultasie en vind uit presies waar jou onderneming staan — geen verbintenis nie, geen druk nie.",
+		"button": "Bespreek jou gratis konsultasie"
+	},
+	"Buttons": {
+		"bookFreeConsultation": "Bespreek jou gratis konsultasie",
+		"bookFreeConsultationAlt": "Bespreek 'n gratis konsultasie",
+		"scheduleConsultation": "Skeduleer Konsultasie",
+		"consultNow": "Konsulteer Nou",
+		"contactUs": "Kontak ons",
+		"contactUsCapital": "Kontak Ons",
+		"getInTouch": "Kontak maak",
+		"learnMore": "Meer inligting",
+		"learnMoreCapital": "Meer Inligting",
+		"readMore": "Lees meer",
+		"viewServices": "Sien dienste",
+		"exploreOurServices": "Verken ons dienste",
+		"discoverOptiAI": "Ontdek OptiAI",
+		"browseAllArticles": "Blaai deur alle artikels",
+		"browseByTopic": "Blaai per onderwerp",
+		"viewAllFaqs": "Sien alle gereelde vrae",
+		"contactUsToday": "Kontak ons vandag",
+		"getProposal": "Vra 'n voorstel aan",
+		"requestFreeAudit": "Vra 'n Gratis Bestuursoudit aan",
+		"discoverIndustryInsights": "Ontdek bedryfsinsigte",
+		"stayCompliantNow": "Bly Nou Nakomend",
+		"boostEquityEfforts": "Bevorder Gelykheidspogings",
+		"updateYourPolicies": "Opdateer jou beleide",
+		"bookSession": "Bespreek 'n Sessie",
+		"resolveDisputesFast": "Los Geskille Vinnig Op",
+		"requestEvaluation": "Vra Evaluering aan",
+		"scheduleAuditToday": "Skeduleer Vandag 'n Oudit",
+		"improvePerformance": "Verbeter Prestasie",
+		"getRetrenchmentHelp": "Kry Hulp met Aflegging",
+		"enforceDiscipline": "Pas Dissipline Toe",
+		"launchWellnessProgram": "Loods 'n Welstandsprogram",
+		"supportYourSchool": "Ondersteun Jou Skool"
+	},
+	"Badges": {
+		"saslawAhiMember": "SASLAW- & AHI-lid",
+		"thankYou": "Dankie",
+		"contactUs": "Kontak Ons",
+		"new": "Nuut",
+		"newAlert": "Nuwe Waarskuwing",
+		"recommended": "Aanbeveel",
+		"bestFor": "Beste vir",
+		"includes": "Sluit in",
+		"bestValue": "Beste Waarde",
+		"mostPopular": "Mees Gewild"
+	},
+	"FloatingContact": {
+		"chatWithOptiHR": "Gesels met OptiHR op WhatsApp",
+		"whatsAppUs": "WhatsApp ons",
+		"emailUs": "Stuur 'n e-pos",
+		"emailOptiHR": "Stuur OptiHR 'n e-pos",
+		"callOptiHR": "Bel OptiHR-kantoor"
+	},
+	"NotFound": {
+		"title": "Bladsy nie gevind nie",
+		"body": "Jammer, die bladsy waarna jy soek, bestaan nie of is geskuif.",
+		"returnHome": "Keer terug huis toe"
+	},
+	"LanguageToggle": {
+		"label": "Taal",
+		"english": "Engels",
+		"afrikaans": "Afrikaans",
+		"shortEnglish": "EN",
+		"shortAfrikaans": "AF"
+	}
+}

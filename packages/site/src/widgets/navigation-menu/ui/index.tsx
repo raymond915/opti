@@ -13,6 +13,7 @@ import {
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { useEffect, useState } from "react"
+import { LanguageToggle } from "@widgets/language-toggle"
 import { featuredItems } from "../model/featured-items"
 import { Connect } from "./connect"
 import { FeaturedItem } from "./featured-item"
@@ -200,6 +201,7 @@ export const NavigationMenu = () => {
 									</motion.nav>
 								)}
 							</AnimatePresence>
+							<LanguageToggle className="mr-2" />
 							<MenuButton
 								onClick={() => {
 									setIsMenuOpen(!isMenuOpen)

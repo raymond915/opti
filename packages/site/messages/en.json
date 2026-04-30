@@ -1,0 +1,102 @@
+{
+	"Nav": {
+		"home": "Home",
+		"aboutUs": "About Us",
+		"services": "Services",
+		"aiInTheWorkplace": "AI in the Workplace",
+		"pricing": "Pricing",
+		"popiaCompliance": "POPIA Compliance",
+		"optiBuzz": "OptiBuzz",
+		"faq": "FAQ",
+		"contactUs": "Contact Us",
+		"bookConsultation": "Book a Consultation",
+		"ourServices": "Our Services"
+	},
+	"Footer": {
+		"discoverOptiHR": "Discover OptiHR",
+		"whoWeSupport": "Who We Support",
+		"connect": "Connect",
+		"forSmallBusinesses": "For Small Businesses",
+		"forLargeBusinesses": "For Large Businesses",
+		"forIndependentSchools": "For Independent Schools",
+		"optiBuzzBlog": "OptiBuzz — Blog & Insights",
+		"chatWhatsApp": "Chat on WhatsApp",
+		"bookConsultation": "Book a consultation",
+		"taglineLine1": "Your company. Your people. Our expertise.",
+		"taglineLine2": "On-site in Gauteng and Cape Town. Remote nationwide.",
+		"copyright": "© Copyright OptiHR {year}. All rights reserved.",
+		"designedBy": "Designed & Developed by",
+		"privacyPolicy": "Privacy Policy",
+		"termsConditions": "Terms and Conditions"
+	},
+	"FooterCta": {
+		"heading": "Begin Your Journey Today",
+		"body": "Book a free consultation and find out exactly where your business stands — no commitment, no pressure.",
+		"button": "Book your free consultation"
+	},
+	"Buttons": {
+		"bookFreeConsultation": "Book your free consultation",
+		"bookFreeConsultationAlt": "Book a free consultation",
+		"scheduleConsultation": "Schedule Consultation",
+		"consultNow": "Consult Now",
+		"contactUs": "Contact us",
+		"contactUsCapital": "Contact Us",
+		"getInTouch": "Get in touch",
+		"learnMore": "Learn more",
+		"learnMoreCapital": "Learn More",
+		"readMore": "Read more",
+		"viewServices": "View services",
+		"exploreOurServices": "Explore our services",
+		"discoverOptiAI": "Discover OptiAI",
+		"browseAllArticles": "Browse all articles",
+		"browseByTopic": "Browse by topic",
+		"viewAllFaqs": "View all FAQs",
+		"contactUsToday": "Contact us today",
+		"getProposal": "Get a proposal",
+		"requestFreeAudit": "Request a Free Governance Audit",
+		"discoverIndustryInsights": "Discover industry insights",
+		"stayCompliantNow": "Stay Compliant Now",
+		"boostEquityEfforts": "Boost Equity Efforts",
+		"updateYourPolicies": "Update Your Policies",
+		"bookSession": "Book a Session",
+		"resolveDisputesFast": "Resolve Disputes Fast",
+		"requestEvaluation": "Request Evaluation",
+		"scheduleAuditToday": "Schedule Audit Today",
+		"improvePerformance": "Improve Performance",
+		"getRetrenchmentHelp": "Get Retrenchment Help",
+		"enforceDiscipline": "Enforce Discipline",
+		"launchWellnessProgram": "Launch Wellness Program",
+		"supportYourSchool": "Support Your School"
+	},
+	"Badges": {
+		"saslawAhiMember": "SASLAW & AHI Member",
+		"thankYou": "Thank You",
+		"contactUs": "Contact Us",
+		"new": "New",
+		"newAlert": "New Alert",
+		"recommended": "Recommended",
+		"bestFor": "Best for",
+		"includes": "Includes",
+		"bestValue": "Best Value",
+		"mostPopular": "Most Popular"
+	},
+	"FloatingContact": {
+		"chatWithOptiHR": "Chat with OptiHR on WhatsApp",
+		"whatsAppUs": "WhatsApp us",
+		"emailUs": "Email us",
+		"emailOptiHR": "Email OptiHR",
+		"callOptiHR": "Call OptiHR office"
+	},
+	"NotFound": {
+		"title": "Page not found",
+		"body": "Sorry, the page you're looking for doesn't exist or has moved.",
+		"returnHome": "Return home"
+	},
+	"LanguageToggle": {
+		"label": "Language",
+		"english": "English",
+		"afrikaans": "Afrikaans",
+		"shortEnglish": "EN",
+		"shortAfrikaans": "AF"
+	}
+}
