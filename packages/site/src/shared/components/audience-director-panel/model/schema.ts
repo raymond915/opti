@@ -1,24 +1,17 @@
 import { type } from "arktype"
 import type { HTMLAttributes } from "react"
 
-export const audienceItems: AudienceType[] = [
-	{
-		label: "For Small Businesses",
-		href: "/for-small-businesses",
-	},
-	{
-		label: "For Large Businesses",
-		href: "/for-large-businesses",
-	},
-	{
-		label: "For Independent Schools",
-		href: "/for-independent-schools",
-	},
-	{
-		label: "AI in the Workplace",
-		href: "/ai-in-the-workplace",
-	},
-]
+/**
+ * Audience director items — labelKey references "AudienceDirector.{key}"
+ * in messages/{locale}.json. The rendering panel looks up labels via
+ * useTranslations.
+ */
+export const audienceItems = [
+	{ labelKey: "forSmallBusinesses", href: "/for-small-businesses" },
+	{ labelKey: "forLargeBusinesses", href: "/for-large-businesses" },
+	{ labelKey: "forIndependentSchools", href: "/for-independent-schools" },
+	{ labelKey: "aiInTheWorkplace", href: "/ai-in-the-workplace" },
+] as const
 
 const AudienceSchema = type({
 	label: "string",

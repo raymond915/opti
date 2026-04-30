@@ -115,5 +115,86 @@
 		"send": "Stuur",
 		"openChat": "Maak klets oop",
 		"closeChat": "Maak klets toe"
+	},
+	"AudienceDirector": {
+		"howCanWeHelp": "Hoe kan ons help",
+		"forSmallBusinesses": "Vir Klein Ondernemings",
+		"forLargeBusinesses": "Vir Groot Ondernemings",
+		"forIndependentSchools": "Vir Onafhanklike Skole",
+		"aiInTheWorkplace": "KI in die Werkplek"
+	},
+	"Home": {
+		"metaTitle": "OptiHR — Spesialis-MH, Arbeidsreg & KI-konsultasie | Suid-Afrika",
+		"metaDescription": "OptiHR bied spesialis-MH, arbeidsreg en KI-konsultasie aan Suid-Afrikaanse ondernemings en onafhanklike skole. KVBA-verteenwoordiging, nakoming en praktiese MH-ondersteuning — sonder die koste van 'n voltydse aanstelling.",
+		"ogTitle": "OptiHR — Spesialis-MH, Arbeidsreg & KI-konsultasie",
+		"ogDescription": "Spesialis-MH, arbeidsreg en KI-konsultasie aan Suid-Afrikaanse ondernemings en onafhanklike skole — prakties, regsgegrond en sonder die koste van 'n voltydse aanstelling.",
+		"hero": {
+			"h1": "Kundige Arbeidsregnakoming vir Suid-Afrikaanse Ondernemings",
+			"subtitle": "Navigeer KVBA-geskille en MH-nakoming met selfvertroue. OptiHR versterk jou span met praktiese, voorkomende ondersteuning — sonder die koste van 'n voltydse aanstelling.",
+			"statYearsLabel": "Jare se MH- & Arbeidsreg-kundigheid",
+			"statYearsValue": "10+",
+			"statCasesLabel": "KVBA- & Bedingingsraad-sake Opgelos",
+			"statCasesValue": "100+",
+			"statOrgsLabel": "Organisasies Bygestaan",
+			"statOrgsValue": "50+"
+		},
+		"whoWeAre": {
+			"subtitle": "Wie ons is",
+			"headingPrefix": "Bestuur jou onderneming.",
+			"headingMain": "Laat OptiHR jou",
+			"headingSpan1": "MH-oplossings",
+			"headingSeparator1": ",",
+			"headingSpan2": "nakoming",
+			"headingSeparator2": " en",
+			"headingSpan3": "KI-strategie",
+			"headingSuffix": " vervolmaak.",
+			"body": "Gestig deur Raymond Hauptfleisch — toegelate prokureur, gekwalifiseerde MH-praktisyn en voormalige opvoeder — verwyder OptiHR die risiko uit MH. Ons stop nie by raad op papier nie; ons implementeer praktiese, regsgegronde oplossings wat jou onderneming beskerm en jou bevry om op groei te fokus. Deur OptiAI, ons KI-konsultasietak, help ons organisasies om intelligente outomatisering aan die werk te sit op maniere wat by hulle werklike bedryf pas."
+		},
+		"highlightConsultation": {
+			"subtitle": "Gereed om te begin?",
+			"title": "Bespreek 'n Gratis Konsultasie",
+			"body": "Moenie wag vir 'n KVBA-saak, 'n bedingingsraad-geskil of 'n nakomingsmislukking om jou te wys waar dinge skeefgeloop het nie. Bespreek 'n gratis konsultasie met OptiHR en stel behoorlike MH in plek voordat probleme eskaleer."
+		},
+		"featuredPosts": {
+			"subtitle": "OptiBuzz",
+			"heading": "Praktiese MH- en arbeidsreg-insigte vir Suid-Afrikaanse ondernemings.",
+			"post1Title": "Wat om te doen wanneer jy 'n KVBA-kennisgewing ontvang",
+			"post1Excerpt": "Het jy 'n KVBA-verwysingsvorm ontvang? Hier is presies wat om te doen, wat nie te doen nie, en hoe om jou onderneming te beskerm.",
+			"post1Category": "KVBA",
+			"post2Title": "Hoe om 'n Billike Dissiplinêre Verhoor in Suid-Afrika te Lei",
+			"post2Excerpt": "'n Stap-vir-stap-gids oor die uitvoering van 'n billike dissiplinêre verhoor — en die vermyding van duur KVBA-eise.",
+			"post2Category": "Nakoming",
+			"post3Title": "Hoe KI Jou Onderneming Ure per Week kan Bespaar",
+			"post3Excerpt": "Van die opstel van dokumente tot die opsom van vergaderings — hier is die alledaagse take waar KI nou werklike tydbesparing vir Suid-Afrikaanse KMO's lewer.",
+			"post3Category": "KI in die Werkplek"
+		},
+		"faq": {
+			"subtitle": "Algemene MH-vrae beantwoord",
+			"title": "Gereelde Vrae",
+			"body": "Kry vinnige antwoorde op die mees algemene vrae oor MH-nakoming en arbeidsreg.",
+			"q1Question": "Geld arbeidswette vir klein ondernemings?",
+			"q1Answer": "Ja — arbeidsreg geld vir elke onderneming, ongeag grootte. Selfs een personeelgeskil wat verkeerd hanteer word, kan by die KVBA beland en jou duur kos. Die Wet op Basiese Diensvoorwaardes (BCEA), Wet op Arbeidsverhoudinge (LRA) en Wet op Gelyke Indiensneming (EEA) geld vanaf die oomblik dat jy iemand in diens neem.",
+			"q2Question": "Wat gebeur as ons nie-nakomend bevind word?",
+			"q2Answer": "Nie-nakoming kan lei tot KVBA-geskille, boetes van die Departement van Arbeid, reputasieskade en duur toekennings. OptiHR help jou om dit te voorkom deur nakomingsgapings proaktief te sluit — voordat hulle aanspreeklikhede word.",
+			"q3Question": "Ons het reeds 'n MH-bestuurder. Waarom het ons OptiHR nodig?",
+			"q3Answer": "Selfs sterk MH-spanne kan nie alles dek nie. Die arbeidslandskap is wyd — van vakbonde en bedingingsrade tot KVBA-verteenwoordiging en wetgewende opdaterings. OptiHR werk saam met jou span en voeg spesialis-diepte by waar dit die meeste benodig word.",
+			"q4Question": "Wat is die KVBA en hoe kan OptiHR help?",
+			"q4Answer": "Die KVBA (Kommissie vir Versoening, Bemiddeling en Arbitrasie) hanteer werkpleksgeskille in Suid-Afrika. OptiHR het 'n suksessyfer van meer as 95% in KVBA-sake en kombineer voorbereiding, kundige verteenwoordiging en strategiese skikking-kundigheid."
+		},
+		"testimonials": {
+			"sectionTitle": "Wat Ons Kliënte Sê",
+			"t1Quote": "OptiHR het ons gered van wat 'n enorme verlies kon gewees het. Hulle het ons struktuur gegee, en ek weet nou dat ons beskerm is.",
+			"t1Name": "Eienaar",
+			"t1Role": "Rekeningkundige Firma",
+			"t1Company": "Gauteng",
+			"t2Quote": "OptiHR het ons gehelp om konsekwentheid oor die hele besigheid te bring. Hulle opleiding- en beleidraamwerke het ons bestuurders die gereedskap gegee om kwessies elke keer op die regte manier te hanteer.",
+			"t2Name": "Groep MH-direkteur",
+			"t2Role": "Kleinhandelmaatskappy",
+			"t2Company": "Landwyd",
+			"t3Quote": "OptiHR het ons die duidelikheid gegee wat ons nodig gehad het. Hulle het ons gehelp om ons bestuur te moderniseer, 'n sensitiewe kwessie op te los, en die regte stelsels in plek te sit. Ons voel nou beskerm en ondersteun.",
+			"t3Name": "Skoolhoof",
+			"t3Role": "Onafhanklike Skool",
+			"t3Company": "Suid-Afrika"
+		}
 	}
 }

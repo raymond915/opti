@@ -14,31 +14,41 @@ import { FeaturedPosts } from "@widgets/featured-posts/ui"
 import { ServiceRoller } from "@widgets/service-roller/ui"
 import { TestimonialSection } from "@widgets/testimonial/ui/testimonial-section"
 import type { NextPage } from "next"
+import { useTranslations } from "next-intl"
 import { HeroBanner } from "./hero-banner"
 
 export const HomePage: NextPage = () => {
+	const t = useTranslations("Home")
+	const tButtons = useTranslations("Buttons")
+
 	return (
 		<>
 			<HeroBanner />
 			<LargeParagraph
 				ctaHref="/services"
-				ctaLabel="Explore our services"
-				description="Founded by Raymond Hauptfleisch — admitted attorney, qualified HR practitioner, and former educator — OptiHR removes the risk from HR. We don't stop at advice on paper; we implement practical, legally sound solutions that protect your business and free you to focus on growth. Through OptiAI, our AI consulting arm, we help organisations put intelligent automation to work in ways that fit how they actually operate."
+				ctaLabel={tButtons("exploreOurServices")}
+				description={t("whoWeAre.body")}
 				heading={
 					<>
-						You run your business.
+						{t("whoWeAre.headingPrefix")}
 						<br />
-						Let OptiHR perfect your <span>HR solutions</span>, <span>compliance</span>, and <span>AI strategy</span>.
+						{t("whoWeAre.headingMain")}{" "}
+						<span>{t("whoWeAre.headingSpan1")}</span>
+						{t("whoWeAre.headingSeparator1")}{" "}
+						<span>{t("whoWeAre.headingSpan2")}</span>
+						{t("whoWeAre.headingSeparator2")}{" "}
+						<span>{t("whoWeAre.headingSpan3")}</span>
+						{t("whoWeAre.headingSuffix")}
 					</>
 				}
-				title="Who we are"
+				title={t("whoWeAre.subtitle")}
 			/>
 			<ServiceRoller />
 			<HighlightBlock
 				background="green"
-				body="Don't wait for a CCMA case, a bargaining council dispute, or a compliance failure to show you where things went wrong. Book a free consultation with OptiHR and put proper HR in place before issues escalate."
+				body={t("highlightConsultation.body")}
 				buttonHref="/contact"
-				buttonText="Book your free consultation"
+				buttonText={tButtons("bookFreeConsultation")}
 				media={{
 					type: "component",
 					mediaNode: (
@@ -49,8 +59,8 @@ export const HomePage: NextPage = () => {
 					),
 				}}
 				mediaPosition={"right"}
-				subtitle="Ready to get started?"
-				title="Book a Free Consultation"
+				subtitle={t("highlightConsultation.subtitle")}
+				title={t("highlightConsultation.title")}
 			>
 				<HighlightBlockSubtitle />
 				<HighlightBlockTitle />
@@ -61,80 +71,76 @@ export const HomePage: NextPage = () => {
 				posts={[
 					{
 						_id: "1",
-						title: "What to Do When You Receive a CCMA Notice",
-						excerpt: "Received a CCMA referral form? Here is exactly what to do, what not to do, and how to protect your business.",
+						title: t("featuredPosts.post1Title"),
+						excerpt: t("featuredPosts.post1Excerpt"),
 						featureImage: "",
 						slug: "what-to-do-when-you-receive-a-ccma-notice",
-						category: "CCMA",
+						category: t("featuredPosts.post1Category"),
 					},
 					{
 						_id: "2",
-						title: "How to Conduct a Fair Disciplinary Hearing in South Africa",
-						excerpt: "A step-by-step guide on running a fair disciplinary hearing — and avoiding costly CCMA claims.",
+						title: t("featuredPosts.post2Title"),
+						excerpt: t("featuredPosts.post2Excerpt"),
 						featureImage: "",
 						slug: "how-to-conduct-a-fair-disciplinary-hearing-south-africa",
-						category: "Compliance",
+						category: t("featuredPosts.post2Category"),
 					},
 					{
 						_id: "3",
-						title: "How AI Can Save Your Business Hours Every Week",
-						excerpt: "From drafting documents to summarising meetings — here are the everyday tasks where AI delivers real time savings for South African SMEs right now.",
+						title: t("featuredPosts.post3Title"),
+						excerpt: t("featuredPosts.post3Excerpt"),
 						featureImage: "",
 						slug: "how-ai-saves-your-business-hours-every-week",
-						category: "AI in the Workplace",
+						category: t("featuredPosts.post3Category"),
 					},
 				]}
 			/>
 			<AudienceDirectorSection />
 			<FaqSection
 				data={{
-					title: "Frequently Asked Questions",
-					subtitle: "Common HR questions answered",
-					body: "Get quick answers to the most common HR compliance and labour law questions.",
+					title: t("faq.title"),
+					subtitle: t("faq.subtitle"),
+					body: t("faq.body"),
 					cta: {
-						text: "View all FAQs",
+						text: tButtons("viewAllFaqs"),
 						navigateTo: "/faq",
 					},
 					questions: [
 						{
-							question: "Do labour laws apply to small businesses?",
-							answer:
-								"Yes — labour law applies to every business, no matter its size. Even one staff dispute handled incorrectly can end up at the CCMA and cost you dearly. The BCEA, LRA, and EEA apply from the moment you employ someone.",
+							question: t("faq.q1Question"),
+							answer: t("faq.q1Answer"),
 						},
 						{
-							question: "What happens if we're found non-compliant?",
-							answer:
-								"Non-compliance can lead to CCMA disputes, Department of Labour fines, reputational damage, and costly awards. OptiHR helps you prevent this by closing compliance gaps proactively — before they become liabilities.",
+							question: t("faq.q2Question"),
+							answer: t("faq.q2Answer"),
 						},
 						{
-							question: "We already have an HR manager. Why do we need OptiHR?",
-							answer:
-								"Even strong HR teams can't cover everything. The labour landscape is broad — from unions and bargaining councils to CCMA representation and legislative updates. OptiHR partners alongside your team, adding specialist depth where it's needed most.",
+							question: t("faq.q3Question"),
+							answer: t("faq.q3Answer"),
 						},
 						{
-							question: "What is the CCMA and how can OptiHR help?",
-							answer:
-								"The CCMA (Commission for Conciliation, Mediation and Arbitration) handles workplace disputes in South Africa. OptiHR has a 95%+ success rate in CCMA matters, combining preparation, expert representation, and strategic settlement expertise.",
+							question: t("faq.q4Question"),
+							answer: t("faq.q4Answer"),
 						},
 					],
 				}}
 			/>
 			<TestimonialSection
-				sectionTitle="What Our Clients Say"
+				sectionTitle={t("testimonials.sectionTitle")}
 				testimonials={
 					[
 						{
 							_id: "1",
-							name: "Owner",
-							role: "Accounting Firm",
-							company: "Gauteng",
+							name: t("testimonials.t1Name"),
+							role: t("testimonials.t1Role"),
+							company: t("testimonials.t1Company"),
 							testimonial: [
 								{
 									_type: "block",
 									children: [
 										{
 											_type: "span",
-											text: "OptiHR saved us from what could've been a huge loss. They gave us structure, and now I know we're protected.",
+											text: t("testimonials.t1Quote"),
 										},
 									],
 								},
@@ -142,16 +148,16 @@ export const HomePage: NextPage = () => {
 						},
 						{
 							_id: "2",
-							name: "Group HR Director",
-							role: "Retail Company",
-							company: "National",
+							name: t("testimonials.t2Name"),
+							role: t("testimonials.t2Role"),
+							company: t("testimonials.t2Company"),
 							testimonial: [
 								{
 									_type: "block",
 									children: [
 										{
 											_type: "span",
-											text: "OptiHR helped us bring consistency across the business. Their training and policy frameworks gave our managers the tools to handle issues the right way, every time.",
+											text: t("testimonials.t2Quote"),
 										},
 									],
 								},
@@ -159,16 +165,16 @@ export const HomePage: NextPage = () => {
 						},
 						{
 							_id: "3",
-							name: "Principal",
-							role: "Independent School",
-							company: "South Africa",
+							name: t("testimonials.t3Name"),
+							role: t("testimonials.t3Role"),
+							company: t("testimonials.t3Company"),
 							testimonial: [
 								{
 									_type: "block",
 									children: [
 										{
 											_type: "span",
-											text: "OptiHR gave us the clarity we needed. They helped us modernise our governance, resolve a sensitive issue, and put the right systems in place. We now feel protected and supported.",
+											text: t("testimonials.t3Quote"),
 										},
 									],
 								},

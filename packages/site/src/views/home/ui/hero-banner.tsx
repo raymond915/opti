@@ -3,12 +3,17 @@ import { Badge } from "@shared/components/badge"
 import { Button } from "@shared/components/button"
 import Logo from "@shared/components/logo"
 import { Stat } from "@shared/components/stat"
-import type { StatType } from "@shared/components/stat/model/schema"
 import { H1, P } from "@shared/components/typography"
 import { CircleCheck } from "lucide-react"
-import { stats } from "../model/hero-stats"
+import { useTranslations } from "next-intl"
+import { heroStatKeys } from "../model/hero-stats"
 
 export const HeroBanner = () => {
+	const t = useTranslations("Home.hero")
+	const tBadges = useTranslations("Badges")
+	const tButtons = useTranslations("Buttons")
+	const tAudience = useTranslations("AudienceDirector")
+
 	return (
 		<section className="contained-height nav-padding relative grid w-full grid-cols-1 gap-inner-padding overflow-clip rounded-outer bg-mint-6 p-4 md:grid-cols-12 md:p-inner-padding">
 			{/*Main Content*/}
@@ -17,14 +22,13 @@ export const HeroBanner = () => {
 					<div className="flex flex-col gap-fluid-3">
 						<Badge
 							icon={<CircleCheck />}
-							label={"SASLAW & AHI Member"}
+							label={tBadges("saslawAhiMember")}
 						/>
 						<H1 className="text-white xl:text-fluid-7">
-							Expert Labour Law Compliance for South African Businesses
+							{t("h1")}
 						</H1>
 						<P className="max-w-full text-pretty text-white/90 lg:max-w-3/4">
-							Navigate CCMA disputes and HR compliance with confidence. OptiHR strengthens your team
-							with practical, preventative support — without the cost of a full-time hire.
+							{t("subtitle")}
 						</P>
 					</div>
 					<Button
@@ -32,17 +36,17 @@ export const HeroBanner = () => {
 						href={"/contact"}
 						size="lg"
 					>
-						Book your free consultation
+						{tButtons("bookFreeConsultation")}
 					</Button>
 				</div>
 				{/*Stats — stacked on mobile (3 rows), inline on tablet+ */}
 				<div className="col-span-full grid grid-cols-3 items-end gap-4 text-white md:col-span-7 md:flex md:gap-section-gap">
-					{stats.map((stat: StatType) => (
+					{heroStatKeys.map((stat) => (
 						<Stat
 							className="col-span-1"
-							key={stat.label}
-							label={stat.label}
-							value={stat.value}
+							key={stat.labelKey}
+							label={t(stat.labelKey)}
+							value={t(stat.valueKey)}
 						/>
 					))}
 				</div>
@@ -51,7 +55,7 @@ export const HeroBanner = () => {
 			<div className="hidden md:col-span-5 md:grid md:grid-cols-subgrid md:justify-end">
 				<AudienceDirectorPanel
 					className="z-30 col-end-6 place-self-end"
-					heading={"How can we help you"}
+					heading={tAudience("howCanWeHelp")}
 				/>
 			</div>
 			<Logo

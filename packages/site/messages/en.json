@@ -115,5 +115,86 @@
 		"send": "Send",
 		"openChat": "Open chat",
 		"closeChat": "Close chat"
+	},
+	"AudienceDirector": {
+		"howCanWeHelp": "How can we help you",
+		"forSmallBusinesses": "For Small Businesses",
+		"forLargeBusinesses": "For Large Businesses",
+		"forIndependentSchools": "For Independent Schools",
+		"aiInTheWorkplace": "AI in the Workplace"
+	},
+	"Home": {
+		"metaTitle": "OptiHR — Specialist HR, Labour Law & AI Consulting | South Africa",
+		"metaDescription": "OptiHR delivers specialist HR, labour law, and AI consulting for South African businesses and independent schools. CCMA representation, compliance, and practical HR support — without the cost of a full-time hire.",
+		"ogTitle": "OptiHR — Specialist HR, Labour Law & AI Consulting",
+		"ogDescription": "Specialist HR, labour law, and AI consulting for South African businesses and independent schools — practical, legally sound, and without the cost of a full-time hire.",
+		"hero": {
+			"h1": "Expert Labour Law Compliance for South African Businesses",
+			"subtitle": "Navigate CCMA disputes and HR compliance with confidence. OptiHR strengthens your team with practical, preventative support — without the cost of a full-time hire.",
+			"statYearsLabel": "Years of HR & Labour Law Expertise",
+			"statYearsValue": "10+",
+			"statCasesLabel": "CCMA & Bargaining Council Cases Resolved",
+			"statCasesValue": "100+",
+			"statOrgsLabel": "Organisations Supported",
+			"statOrgsValue": "50+"
+		},
+		"whoWeAre": {
+			"subtitle": "Who we are",
+			"headingPrefix": "You run your business.",
+			"headingMain": "Let OptiHR perfect your",
+			"headingSpan1": "HR solutions",
+			"headingSeparator1": ",",
+			"headingSpan2": "compliance",
+			"headingSeparator2": ", and",
+			"headingSpan3": "AI strategy",
+			"headingSuffix": ".",
+			"body": "Founded by Raymond Hauptfleisch — admitted attorney, qualified HR practitioner, and former educator — OptiHR removes the risk from HR. We don't stop at advice on paper; we implement practical, legally sound solutions that protect your business and free you to focus on growth. Through OptiAI, our AI consulting arm, we help organisations put intelligent automation to work in ways that fit how they actually operate."
+		},
+		"highlightConsultation": {
+			"subtitle": "Ready to get started?",
+			"title": "Book a Free Consultation",
+			"body": "Don't wait for a CCMA case, a bargaining council dispute, or a compliance failure to show you where things went wrong. Book a free consultation with OptiHR and put proper HR in place before issues escalate."
+		},
+		"featuredPosts": {
+			"subtitle": "OptiBuzz",
+			"heading": "Practical HR and labour law insights for South African businesses.",
+			"post1Title": "What to Do When You Receive a CCMA Notice",
+			"post1Excerpt": "Received a CCMA referral form? Here is exactly what to do, what not to do, and how to protect your business.",
+			"post1Category": "CCMA",
+			"post2Title": "How to Conduct a Fair Disciplinary Hearing in South Africa",
+			"post2Excerpt": "A step-by-step guide on running a fair disciplinary hearing — and avoiding costly CCMA claims.",
+			"post2Category": "Compliance",
+			"post3Title": "How AI Can Save Your Business Hours Every Week",
+			"post3Excerpt": "From drafting documents to summarising meetings — here are the everyday tasks where AI delivers real time savings for South African SMEs right now.",
+			"post3Category": "AI in the Workplace"
+		},
+		"faq": {
+			"subtitle": "Common HR questions answered",
+			"title": "Frequently Asked Questions",
+			"body": "Get quick answers to the most common HR compliance and labour law questions.",
+			"q1Question": "Do labour laws apply to small businesses?",
+			"q1Answer": "Yes — labour law applies to every business, no matter its size. Even one staff dispute handled incorrectly can end up at the CCMA and cost you dearly. The BCEA, LRA, and EEA apply from the moment you employ someone.",
+			"q2Question": "What happens if we're found non-compliant?",
+			"q2Answer": "Non-compliance can lead to CCMA disputes, Department of Labour fines, reputational damage, and costly awards. OptiHR helps you prevent this by closing compliance gaps proactively — before they become liabilities.",
+			"q3Question": "We already have an HR manager. Why do we need OptiHR?",
+			"q3Answer": "Even strong HR teams can't cover everything. The labour landscape is broad — from unions and bargaining councils to CCMA representation and legislative updates. OptiHR partners alongside your team, adding specialist depth where it's needed most.",
+			"q4Question": "What is the CCMA and how can OptiHR help?",
+			"q4Answer": "The CCMA (Commission for Conciliation, Mediation and Arbitration) handles workplace disputes in South Africa. OptiHR has a 95%+ success rate in CCMA matters, combining preparation, expert representation, and strategic settlement expertise."
+		},
+		"testimonials": {
+			"sectionTitle": "What Our Clients Say",
+			"t1Quote": "OptiHR saved us from what could've been a huge loss. They gave us structure, and now I know we're protected.",
+			"t1Name": "Owner",
+			"t1Role": "Accounting Firm",
+			"t1Company": "Gauteng",
+			"t2Quote": "OptiHR helped us bring consistency across the business. Their training and policy frameworks gave our managers the tools to handle issues the right way, every time.",
+			"t2Name": "Group HR Director",
+			"t2Role": "Retail Company",
+			"t2Company": "National",
+			"t3Quote": "OptiHR gave us the clarity we needed. They helped us modernise our governance, resolve a sensitive issue, and put the right systems in place. We now feel protected and supported.",
+			"t3Name": "Principal",
+			"t3Role": "Independent School",
+			"t3Company": "South Africa"
+		}
 	}
 }

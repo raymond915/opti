@@ -1,6 +1,9 @@
+"use client"
+
 import { ButtonTrim } from "@shared/components/button"
 import { Subtitle } from "@shared/components/typography"
 import { motion } from "motion/react"
+import { useTranslations } from "next-intl"
 import Link from "next/link"
 import { cn } from "../../../lib/utils"
 import type { AudienceDirectorProps, AudienceProps } from "../model/schema"
@@ -71,6 +74,8 @@ export const AudienceDirectorPanel = ({
 	children,
 	...props
 }: AudienceDirectorPanelProps) => {
+	const t = useTranslations("AudienceDirector")
+
 	return (
 		<div className={cn("flex w-[24rem] flex-col gap-fluid-1", props.className)}>
 			{heading && <Subtitle className="text-white">{heading}</Subtitle>}
@@ -84,8 +89,8 @@ export const AudienceDirectorPanel = ({
 						return (
 							<AudienceSelector
 								href={audience.href}
-								key={audience.label}
-								label={audience.label}
+								key={audience.labelKey}
+								label={t(audience.labelKey)}
 							/>
 						)
 					})}
