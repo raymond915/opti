@@ -1,18 +1,30 @@
 import { PricingPage } from "@pages/pricing/ui"
 import type { Metadata, NextPage } from "next"
+import { getTranslations, setRequestLocale } from "next-intl/server"
 
-export const metadata: Metadata = {
-	title: "Pricing — Transparent HR & Labour Law Support",
-	description:
-		"Transparent OptiHR pricing — ad hoc, prepaid hour packages, and monthly retainers from R7,500/month. Specialist HR and labour law support for South African businesses.",
-	openGraph: {
-		title: "OptiHR Pricing — Transparent HR & Labour Law Support",
-		description:
-			"Flexible OptiHR pricing for South African businesses — from ad hoc projects to fixed monthly retainers, with no surprises.",
-	},
+export async function generateMetadata({
+	params,
+}: {
+	params: Promise<{ locale: string }>
+}): Promise<Metadata> {
+	const { locale } = await params
+	const t = await getTranslations({ locale, namespace: "Pricing" })
+
+	return {
+		title: t("metaTitle"),
+		description: t("metaDescription"),
+		openGraph: {
+			title: t("ogTitle"),
+			description: t("ogDescription"),
+		},
+	}
 }
 
-const Page: NextPage = () => {
+const Page: NextPage<{ params: Promise<{ locale: string }> }> = async ({
+	params,
+}) => {
+	const { locale } = await params
+	setRequestLocale(locale)
 	return <PricingPage />
 }
 

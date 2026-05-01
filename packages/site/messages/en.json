@@ -386,5 +386,407 @@
 		"rhodenePrefix": "Rhodene:",
 		"qrLabel": "Scan to WhatsApp us",
 		"qrAriaLabel": "Scan to message OptiHR on WhatsApp"
+	},
+	"Pricing": {
+		"metaTitle": "Pricing — OptiHR HR Retainers, Prepaid Hours & Project Rates",
+		"metaDescription": "Transparent pricing for OptiHR services — monthly HR retainers from R7,500, prepaid hours packages, ad hoc rates, POPIA compliance packages, and company secretarial services for South African businesses.",
+		"ogTitle": "OptiHR Pricing — Transparent HR & Labour Law Support",
+		"ogDescription": "Flexible OptiHR pricing for South African businesses — from ad hoc projects to fixed monthly retainers, with no surprises.",
+		"banner": {
+			"anchorText": "View packages",
+			"title": "Transparent Pricing. Flexible Options. No Surprises.",
+			"body": "OptiHR offers flexible pricing tailored to your business — whether you need a once-off project, prepaid hours with a fixed timeframe, or dedicated weekly HR support."
+		},
+		"approach": {
+			"subtitle": "Our Approach",
+			"h2": "How we price our services",
+			"body": "Every business is different. Our fees are based on the value we deliver and the work required — not inflated overheads or one-size-fits-all packages.",
+			"factors": {
+				"complexity": { "label": "Complexity", "detail": "A simple policy review costs less than a full retrenchment process with union negotiations." },
+				"time": { "label": "Time required", "detail": "Quick compliance checks differ from multi-month Employment Equity plan development." },
+				"resources": { "label": "Resources allocated", "detail": "Some projects need one consultant; others require legal partners or multi-disciplinary support." },
+				"urgency": { "label": "Urgency", "detail": "Standard timelines vs. emergency interventions, such as a CCMA case starting tomorrow." },
+				"size": { "label": "Organisation size", "detail": "10 employees vs. 500 employees changes scope significantly." }
+			}
+		},
+		"models": {
+			"subtitle": "Engagement Models",
+			"h2": "Three ways to work with us",
+			"options": {
+				"option1": { "title": "Ad Hoc / Project-Based", "desc": "Pay for specific projects as you need them — no ongoing commitment. Ideal for once-off needs like labour audits, retrenchment support, or policy development. Billed at R1,500/hour (excl. VAT)." },
+				"option2": { "title": "Prepaid Hours Packages", "desc": "Purchase a block of consulting hours upfront at discounted rates. Hours are tied to a validity window (3, 6, or 12 months) so you plan ahead and draw down support as needs arise — advisory, hearing attendance, policy work, and more." },
+				"option3": { "title": "Fixed Monthly Retainers", "desc": "From R7,500/month. Choose remote advisory support or a dedicated practitioner on-site every week, under a 12-month SLA. Predictable fees and proactive HR management." }
+			}
+		},
+		"prepaid": {
+			"subtitle": "Prepaid Hours",
+			"h2": "Buy hours. Use them when you need them.",
+			"body": "Prepaid hour packages give you consulting capacity at a discounted rate, linked to a fixed timeframe. Choose the bundle that fits your planning horizon and draw down hours for any OptiHR service within the validity period.",
+			"rates": {
+				"adHoc": { "label": "Ad hoc rate", "sub": "No commitment required" },
+				"prepaid": { "label": "Prepaid rate", "sub": "Save up to 13% vs ad hoc" },
+				"retainerAddOn": { "label": "Retainer add-on rate", "sub": "Retainer clients only" }
+			},
+			"hoursLabel": "hours",
+			"validPrefix": "valid",
+			"valid3": "3 months",
+			"valid6": "6 months",
+			"valid12": "12 months",
+			"perHour": "/hr",
+			"totalSeparator": "total",
+			"examplesLabel": "Example uses",
+			"enquireButton": "Enquire about this package",
+			"timeframesHeading": "How timeframes work",
+			"timeframesBody": "Hours are valid from the date of purchase. You plan when to use them — for example, 3 hours in month one for a policy review, 5 hours in month two for a disciplinary hearing. Hours not used within the validity window expire. We recommend agreeing a rough schedule upfront to get full value from your package.",
+			"packages": {
+				"start": {
+					"bestFor": "Ad hoc projects or trying OptiHR before committing to a retainer.",
+					"note": "Ideal for once-off projects",
+					"examples": [
+						"Employment contract review and redraft",
+						"1 disciplinary hearing (prep + attendance)",
+						"HR compliance health check",
+						"Staff handbook or policy review"
+					]
+				},
+				"flex": {
+					"bestFor": "Businesses with intermittent needs — use support when you need it, pause when you don't.",
+					"note": "Best value for project-based needs",
+					"examples": [
+						"Policy development project (3–4 bespoke policies)",
+						"2 disciplinary hearings across 6 months",
+						"Performance management framework setup",
+						"HR advisory across 6 months (~2–3 hrs/month)"
+					]
+				},
+				"build": {
+					"bestFor": "Organisations that want regular support without a fixed retainer — flexible hours across a full year.",
+					"note": "Maximum flexibility over 12 months",
+					"examples": [
+						"Ongoing HR advisory (~3 hrs/month for a year)",
+						"Full policy framework audit and overhaul",
+						"3–4 disciplinary hearings or CCMA appearances",
+						"Employment Equity plan development"
+					]
+				}
+			}
+		},
+		"retainers": {
+			"subtitle": "Monthly Retainers",
+			"h2": "Fixed support. Predictable monthly fees.",
+			"body": "All packages are subject to a 12-month SLA. Monthly retainer is payable in advance on the 1st of each month. All amounts exclude VAT (15%).",
+			"period": "/month",
+			"note": "excl. VAT · 12-month SLA",
+			"newBadge": "New",
+			"supportModel": "Support model",
+			"monthlyCapacity": "Monthly capacity",
+			"hearingsLabel": "Hearings / CCMA",
+			"bestForLabel": "Best for: ",
+			"getProposal": "Get a proposal",
+			"packages": {
+				"remote": {
+					"tagline": "Remote HR Advisory",
+					"onsiteWeekly": "Remote only",
+					"onsiteMonthly": "No on-site visits",
+					"hearings": "1 per annum",
+					"bestFor": "Small businesses (under 20 staff) needing professional HR advisory, document support, and legal-grade guidance — without on-site visits.",
+					"includes": [
+						"Unlimited telephonic and email advisory support",
+						"Video consultations by appointment",
+						"Employment contract drafting and review",
+						"HR document templates and letters",
+						"Basic policy review and updating",
+						"Disciplinary advisory — telephonic guidance while you chair",
+						"CCMA preparation support (remote)",
+						"Monthly HR compliance check-in",
+						"1 disciplinary hearing or CCMA appearance per annum (prep, full-day attendance, drafting)"
+					]
+				},
+				"essentials": {
+					"tagline": "Foundational On-Site HR Support",
+					"onsiteWeekly": "2 hours/week",
+					"onsiteMonthly": "~8 hours/month",
+					"hearings": "2 per annum",
+					"bestFor": "Businesses (20–50 staff) needing consistent, scheduled HR support with a practitioner on-site each week.",
+					"includes": [
+						"Weekly on-site visit (2 hrs) at agreed day",
+						"HR advisory and staff engagement support",
+						"Performance management support (PIPs, reviews, goal-setting)",
+						"Custom policy development for your organisation",
+						"Review and updating of existing policies",
+						"Proactive HR policy gap identification",
+						"Access to OptiHR standard document templates",
+						"Monthly HR summary report",
+						"Email and telephonic support between visits",
+						"2 disciplinary hearings or CCMA appearances per annum (prep, full-day attendance, drafting)"
+					]
+				},
+				"advantage": {
+					"tagline": "Expanded HR Partnership",
+					"onsiteWeekly": "3 hours/week",
+					"onsiteMonthly": "~13 hours/month",
+					"hearings": "2 per annum",
+					"bestFor": "Growing organisations (50–100 staff) needing more hands-on weekly support, deeper policy work, and stronger compliance management.",
+					"includes": [
+						"Everything in Essentials, plus:",
+						"Weekly on-site visit (3 hrs) at agreed day",
+						"Increased capacity for HR projects and document work",
+						"More complex policy development and implementation",
+						"Enhanced manager coaching and HR advisory",
+						"2 disciplinary hearings or CCMA appearances per annum (prep, full-day attendance, drafting)"
+					]
+				},
+				"premier": {
+					"tagline": "Comprehensive HR Management",
+					"onsiteWeekly": "4 hours/week",
+					"onsiteMonthly": "~18 hours/month",
+					"hearings": "2 per annum",
+					"bestFor": "Larger organisations (100–200 staff) needing significant weekly HR capacity, equity reporting, and proactive compliance management.",
+					"includes": [
+						"Everything in Advantage, plus:",
+						"Weekly on-site visit (4 hrs) at agreed day",
+						"Priority scheduling and same-week turnaround on urgent matters",
+						"Expanded policy development and HR project work",
+						"Employment equity and skills development advisory",
+						"Structured performance management frameworks and manager coaching",
+						"Formal incapacity proceedings linked to poor performance",
+						"Comprehensive HR policy audit and gap analysis with prioritised remediation plan",
+						"2 disciplinary hearings or CCMA appearances per annum (prep, full-day attendance, drafting)"
+					]
+				},
+				"platinum": {
+					"tagline": "Dedicated HR Executive Support",
+					"onsiteWeekly": "5 hours/week",
+					"onsiteMonthly": "~24 hours/month",
+					"hearings": "3 per annum",
+					"bestFor": "High-demand organisations (200+ staff), multi-site operations, or businesses requiring dedicated practitioner access and full-scope HR project management.",
+					"includes": [
+						"Everything in Premier, plus:",
+						"Weekly on-site visit (5 hrs) at agreed day",
+						"Dedicated HR practitioner with priority access and escalation support",
+						"Full-scope HR project management for complex or high-volume matters",
+						"3 disciplinary hearings or CCMA appearances per annum (prep, full-day attendance, drafting)",
+						"Preferential rates with RFH Inc. for Labour Court and employment litigation"
+					]
+				}
+			},
+			"addOn": {
+				"subtitle": "Retainer add-on",
+				"heading": "Need extra hours?",
+				"body": "Retainer clients can purchase additional on-site hours at <strong>R1,200/hour (excl. VAT)</strong> — compared to the standard ad hoc rate of R1,500/hour. Capped at 8 extra hours per month by default, with written agreement required in advance. Useful for retrenchments, policy overhauls, or peak periods without needing to move to a higher package tier."
+			}
+		},
+		"companySecretarial": {
+			"subtitle": "Standalone Service",
+			"h2": "Company Secretarial Services",
+			"body": "Private companies in South Africa are not legally required to appoint a company secretary — but the governance obligations are real. Missed CIPC filings, missing board resolutions, and poorly maintained statutory registers create legal, financial, and commercial risk. OptiHR's company secretarial retainer handles it all, with legal-grade precision.",
+			"code": "OPTI-SECRETARIAL",
+			"cardTitle": "Company Secretarial Retainer",
+			"price": "R22,500",
+			"perMonthSuffix": "/month excl. VAT",
+			"slaNote": "12-month SLA · payable monthly in advance",
+			"bestForLabel": "Best for",
+			"bestFor": "Private companies wanting professional governance without a full-time appointment — from owner-managed businesses to investor-backed companies that need audit-ready records and zero missed CIPC deadlines.",
+			"button": "Enquire about this service",
+			"includes": [
+				"Annual return preparation and submission to CIPC — deadlines managed on your behalf",
+				"Director appointments, resignations, and changes filed with CIPC",
+				"Share allotment, transfer, and buyback registrations",
+				"MOI amendments, special resolutions, and business name changes",
+				"Beneficial ownership disclosures and CIPC compliance monitoring",
+				"Maintenance of statutory registers — directors, shareholders, and beneficial owners",
+				"Share certificates and transfer documentation",
+				"Board meeting support — notices, agendas, minutes, and resolutions",
+				"AGM and shareholder meeting support — proxies and voting included",
+				"Document drafting and review — MOIs, shareholder agreements, director service agreements",
+				"Corporate governance advisory — fiduciary duties and Companies Act compliance"
+			],
+			"cards": [
+				{ "heading": "CIPC penalties add up fast", "body": "Annual returns must be filed within 30 business days of your company's anniversary. Late filings attract escalating penalties and can ultimately trigger deregistration — meaning you cannot legally trade, open bank accounts, or enter contracts." },
+				{ "heading": "Board resolutions are your legal proof", "body": "Significant company decisions require properly drafted, signed board resolutions. WhatsApp messages and verbal agreements have no legal standing. Proper resolutions protect directors personally." },
+				{ "heading": "Investor- and audit-ready governance", "body": "Statutory registers and governance records get scrutinised when you raise investment, apply for finance, or sell the business. Missing or incorrect records delay deals, reduce valuations, and sometimes kill transactions outright." },
+				{ "heading": "Legal expertise built in", "body": "OptiHR's founder is an admitted attorney with direct knowledge of the Companies Act and governance requirements. This is legal-grade governance support at a fraction of the cost of a full-time appointment." }
+			],
+			"footnote": "Company secretarial services can be taken as a standalone retainer or combined with an OptiHR HR retainer. Clients holding both services receive integrated governance and HR compliance support with a single point of accountability."
+		},
+		"popia": {
+			"subtitle": "Standalone Service",
+			"h2": "POPIA Compliance Packages",
+			"body": "POPIA compliance is not a once-off tick-box exercise — it requires implementation, staff training, and ongoing monitoring. OptiHR offers a structured two-phase approach: a once-off implementation to get you compliant, followed by an optional retainer to keep you that way.",
+			"phase1": {
+				"subtitle": "Phase 1 — Once-off Implementation",
+				"heading": "Get fully compliant from the ground up",
+				"body": "A complete POPIA implementation covering audit, Information Officer appointment, policies, consent procedures, breach protocols, and staff training — sized to your organisation.",
+				"footnote": "Organisations with 200+ staff, multiple entities, or complex data environments are quoted individually. Businesses in healthcare, financial services, or education (handling sensitive or learner data) may require additional scope — contact us for a tailored assessment.",
+				"button": "Get a proposal",
+				"note": "excl. VAT · once-off",
+				"tiers": {
+					"micro": {
+						"label": "Micro",
+						"size": "Up to 10 staff",
+						"includes": [
+							"POPIA compliance audit",
+							"Information Officer formal appointment and registration on the Information Regulator's eServices portal",
+							"POPIA compliance manual — written documentation for employees and the designated Information Officer",
+							"Core privacy policy and employee data processing notice",
+							"Website review and amendments — privacy policy page, cookie notice, and online data collection forms updated for compliance",
+							"Consent procedures and data processing register",
+							"Data breach response protocol",
+							"Staff training — instructional videos and scored knowledge tests (up to 10 users)",
+							"Training pass certificates maintained as documented compliance evidence"
+						]
+					},
+					"small": {
+						"label": "Small Business",
+						"size": "10–50 staff",
+						"includes": [
+							"Everything in Micro, plus:",
+							"Extended audit covering HR, IT, marketing, and supplier data flows",
+							"Supplier and vendor data processing agreements",
+							"Staff training — instructional videos and scored knowledge tests (up to 50 users)",
+							"Data subject access request (DSAR) procedure and templates",
+							"PAIA manual (section 51 manual) drafted and published"
+						]
+					},
+					"medium": {
+						"label": "Medium Business",
+						"size": "50–200 staff",
+						"includes": [
+							"Everything in Small Business, plus:",
+							"Full data mapping and information asset register",
+							"Departmental-level policy rollout and sign-off tracking",
+							"Staff training — instructional videos and scored knowledge tests (up to 200 users)",
+							"CCTV and monitoring policy where applicable",
+							"Biometric data or health data handling policies (if applicable)",
+							"Custom DSAR and breach notification workflow"
+						]
+					}
+				}
+			},
+			"phase2": {
+				"subtitle": "Phase 2 — Ongoing Retainer",
+				"heading": "Stay compliant as your business evolves",
+				"body": "POPIA is not a set-and-forget exercise. As your data landscape changes, staff turn over, and the Information Regulator issues new guidance, your compliance needs ongoing attention. Our POPIA retainer keeps you ahead of the obligation.",
+				"button": "Enquire about this plan",
+				"note": "excl. VAT · 12-month SLA",
+				"period": "/month",
+				"tiers": {
+					"essential": {
+						"name": "POPIA Essential",
+						"size": "Up to 20 staff",
+						"includes": [
+							"Ongoing compliance monitoring and policy updates",
+							"Data subject access request (DSAR) handling",
+							"Breach notification support if an incident occurs",
+							"Annual policy review and update",
+							"Access to updated training videos as legislation changes",
+							"Regulatory updates and guidance as POPIA evolves"
+						]
+					},
+					"business": {
+						"name": "POPIA Business",
+						"size": "20–100 staff",
+						"includes": [
+							"Everything in Essential, plus:",
+							"Quarterly compliance health checks",
+							"Vendor and supplier DPA reviews (up to 4/year)",
+							"New employee onboarding — POPIA training access",
+							"Priority support for urgent breaches or regulator correspondence"
+						]
+					},
+					"enterprise": {
+						"name": "POPIA Enterprise",
+						"size": "100+ staff",
+						"includes": [
+							"Everything in Business, plus:",
+							"Monthly compliance reporting to management",
+							"Unlimited vendor DPA reviews",
+							"Full-scope DSAR management and correspondence",
+							"Information Regulator liaison if required",
+							"Annual full compliance re-audit"
+						]
+					}
+				}
+			},
+			"training": {
+				"label": "Training Add-On",
+				"heading": "Staff Training Pack — standalone",
+				"price": "R3,500",
+				"priceSuffix": "excl. VAT · once-off",
+				"perUser": "Up to 20 users · R150/user thereafter",
+				"body": "If you already have your POPIA framework in place and simply need to train and assess your staff, this standalone training pack gives all employees access to structured instructional videos and scored knowledge tests — with pass certificates stored as evidence of your compliance programme. Suitable for annual compliance refreshers or onboarding new staff into an existing POPIA framework."
+			}
+		},
+		"rfh": {
+			"subtitle": "Exclusive to Retainer Clients",
+			"h2": "Preferential legal rates with RFH Inc.",
+			"body": "All active OptiHR retainer clients receive preferential professional fees at RFH Inc. (Raymond Francois Hauptfleisch Attorneys Inc.), Raymond's specialist labour law firm. When an HR matter escalates beyond advisory scope, you already have a direct connection to legal representation — no separate onboarding, no referral fees.",
+			"footnote": "Rates are confirmed directly with RFH Inc. upon request. Available exclusively to clients holding an active OptiHR retainer. OptiHR facilitates the introduction at no charge.",
+			"cards": [
+				{ "label": "Labour Court", "detail": "Representation in the Labour Court and Labour Appeal Court at preferential rates." },
+				{ "label": "CCMA Arbitrations", "detail": "Legal representation for complex arbitration matters that require an attorney of record." },
+				{ "label": "Unfair Dismissal Claims", "detail": "Defence against unfair dismissal and automatically unfair dismissal claims." },
+				{ "label": "Discrimination Disputes", "detail": "Representation in equality court and CCMA unfair discrimination matters." },
+				{ "label": "Retrenchment Disputes", "detail": "Section 189 retrenchment disputes and related procedural and substantive challenges." },
+				{ "label": "Business Transfers", "detail": "Section 197 transfer of business proceedings and employment continuity disputes." }
+			]
+		},
+		"whyRetainers": {
+			"subtitle": "Why Commit",
+			"h2": "Why choose a retainer?",
+			"benefits": [
+				{ "label": "Predictable budgeting", "detail": "Fixed monthly fees, no surprise invoices." },
+				{ "label": "Proactive support", "detail": "We prevent problems before they become CCMA cases." },
+				{ "label": "Relationship building", "detail": "We learn your business, culture, and people over time." },
+				{ "label": "Priority access", "detail": "Retainer clients get first access during busy periods." },
+				{ "label": "Cost savings vs. in-house", "detail": "An in-house HR manager costs R25,000–R45,000/month in salary alone — before benefits, office space, or legal expertise. Our retainers start at R7,500." },
+				{ "label": "RFH Inc. preferential rates", "detail": "Retainer clients receive discounted legal fees with RFH Inc. for Labour Court and employment litigation matters." }
+			]
+		},
+		"notIncluded": {
+			"subtitle": "Full Transparency",
+			"h2": "What's not included in any package",
+			"body": "To maintain transparency, here's what typically requires additional fees even in retainer packages.",
+			"items": [
+				"External legal representation — Labour Court litigation coordinated through our attorney network (attorney fees separate; preferential rates available to retainer clients via RFH Inc.)",
+				"Travel beyond 50 km radius of Johannesburg — travel costs billable at cost for out-of-area visits",
+				"Hearings / CCMA appearances beyond the included annual allocation — quoted separately; half-day appearances billed at 50% of full-day rate",
+				"Extensive forensic investigations — fraud, theft, or complex misconduct requiring forensic accountants",
+				"Psychometric testing — third-party assessments for recruitment or development",
+				"Background checks — criminal, credit, and qualification verification services"
+			]
+		},
+		"faq": {
+			"subtitle": "Common questions about pricing and engagement",
+			"title": "Pricing FAQs",
+			"body": "Everything you need to know before choosing your engagement model.",
+			"cta": "Book a free consultation",
+			"q1Question": "What exactly does 'on-site hours per week' mean?",
+			"q1Answer": "Each on-site retainer includes a set number of hours every week — for example, OptiEssentials includes 2 hours per week (roughly 8 hours per month). These are scheduled visits at agreed days and times when your HR practitioner is physically present at your premises handling HR work, staff matters, policy development, and manager support. The OPTI-REMOTE package operates entirely via phone, email, and video — no physical visits.",
+			"q2Question": "How do the prepaid hours timeframes work?",
+			"q2Answer": "When you purchase a prepaid hours package, all hours must be used within the validity period from purchase date. For example, the OPTI-FLEX package gives you 20 hours to use over 6 months — 5 hours in month one for a policy project, 3 hours in month three for a disciplinary hearing, and so on. We recommend agreeing a rough schedule upfront to get full value. Unused hours at the end of the validity period are forfeited.",
+			"q3Question": "What can prepaid hours be used for?",
+			"q3Answer": "Prepaid hours can be applied to almost any OptiHR service — on-site visits, disciplinary hearing preparation and attendance, policy development, HR advisory calls, compliance reviews, employment contract drafting, or CCMA representation. We agree the scope of each engagement before hours are drawn down.",
+			"q4Question": "What if I need more hours than my retainer includes?",
+			"q4Answer": "Retainer clients can purchase additional on-site hours at a preferential rate of R1,200/hour (excl. VAT), compared to the standard ad hoc rate of R1,500/hour. Additional hours must be agreed in writing before the visit and are capped at 8 extra hours per month by default. This lets you scale temporarily — during a retrenchment or policy overhaul — without upgrading your full package.",
+			"q5Question": "Can we start with prepaid hours and move to a retainer?",
+			"q5Answer": "Yes, and many clients do exactly this. Prepaid hours are a great way to experience OptiHR support before committing to a 12-month retainer. Any unused prepaid hours at the time of switching can be credited towards your first retainer invoice.",
+			"q6Question": "Is the OPTI-REMOTE package suitable if we already have an HR person?",
+			"q6Answer": "Yes — it's designed for exactly this. Many businesses have an office manager or admin person handling day-to-day HR, but no one with labour law expertise for the difficult situations. OPTI-REMOTE gives your team a qualified HR practitioner and admitted attorney to call on without the cost of weekly site visits.",
+			"q7Question": "When are retainer payments due?",
+			"q7Answer": "Monthly retainer fees are payable in advance on the 1st of each month. All amounts exclude VAT (15%), which will be added on invoice where applicable.",
+			"q8Question": "What's the difference between hearings included 'per annum' in retainers?",
+			"q8Answer": "Retainer packages include a set number of full disciplinary hearings or CCMA appearances per year. Each included hearing covers pre-hearing preparation and evidence gathering, full-day attendance, and post-hearing drafting. Additional hearings beyond the annual allocation are quoted separately — half-day appearances (under 4 hours) are billed at 50% of the full-day rate.",
+			"q9Question": "What are the RFH Inc. preferential rates?",
+			"q9Answer": "All active OptiHR retainer clients receive discounted professional fees from RFH Inc. (Raymond Francois Hauptfleisch Attorneys Inc.) for legal matters beyond HR advisory scope — including Labour Court representation, employment litigation, and related proceedings. OptiHR facilitates the introduction at no charge. Specific rates are confirmed directly with RFH Inc. upon request.",
+			"q10Question": "Can we upgrade or downgrade packages?",
+			"q10Answer": "Yes. Packages run on 12-month SLAs, but you can upgrade at any time mid-term if needs grow. Downgrades take effect at the next annual renewal. We recommend a review conversation at the 10-month mark to assess the right fit for the coming year."
+		},
+		"cta": {
+			"title": "Transparent pricing for professional HR support",
+			"body": "Stop guessing what HR support costs. Book a free consultation and get a customised proposal showing exactly what you'll pay and what you'll get — no surprises, no hidden fees.",
+			"button": "Request your free pricing consultation",
+			"imageAlt": "Transparent OptiHR pricing — request a consultation"
+		}
 	}
 }

@@ -386,5 +386,407 @@
 		"rhodenePrefix": "Rhodene:",
 		"qrLabel": "Skandeer om ons op WhatsApp te bereik",
 		"qrAriaLabel": "Skandeer om OptiHR op WhatsApp te bereik"
+	},
+	"Pricing": {
+		"metaTitle": "Pryse — OptiHR MH-behoudfooie, Voorafbetaalde Ure & Projektariewe",
+		"metaDescription": "Deursigtige pryse vir OptiHR-dienste — maandelikse MH-behoudfooie vanaf R7,500, voorafbetaalde uur-pakkette, ad hoc-tariewe, POPIA-nakomingspakkette en maatskappysekretariële dienste vir Suid-Afrikaanse ondernemings.",
+		"ogTitle": "OptiHR Pryse — Deursigtige MH- & Arbeidsregondersteuning",
+		"ogDescription": "Buigsame OptiHR-pryse vir Suid-Afrikaanse ondernemings — van ad hoc-projekte tot vaste maandelikse behoudfooie, sonder verrassings.",
+		"banner": {
+			"anchorText": "Sien pakkette",
+			"title": "Deursigtige Pryse. Buigsame Opsies. Geen Verrassings.",
+			"body": "OptiHR bied buigsame pryse wat by jou onderneming aangepas is — of jy nou 'n eenmalige projek, voorafbetaalde ure met 'n vaste tydraamwerk, of toegewyde weeklikse MH-ondersteuning nodig het."
+		},
+		"approach": {
+			"subtitle": "Ons Benadering",
+			"h2": "Hoe ons ons dienste beprys",
+			"body": "Elke onderneming is anders. Ons fooie is gebaseer op die waarde wat ons lewer en die werk wat vereis word — nie opgeblase oorhoofse koste of een-grootte-pas-almal-pakkette nie.",
+			"factors": {
+				"complexity": { "label": "Kompleksiteit", "detail": "'n Eenvoudige beleidsoorsig kos minder as 'n volle aflegging-proses met vakbond-onderhandelinge." },
+				"time": { "label": "Tyd benodig", "detail": "Vinnige nakomingskontroles verskil van veelmaande-Gelyke-Indiensneming-plan-ontwikkeling." },
+				"resources": { "label": "Toegewysde hulpbronne", "detail": "Sommige projekte het een konsultant nodig; ander vereis regsvennote of multidissiplinêre ondersteuning." },
+				"urgency": { "label": "Dringendheid", "detail": "Standaard-tydlyne teenoor noodingrypings, soos 'n KVBA-saak wat môre begin." },
+				"size": { "label": "Organisasiegrootte", "detail": "10 werknemers teenoor 500 werknemers verander omvang aansienlik." }
+			}
+		},
+		"models": {
+			"subtitle": "Verbintenis-modelle",
+			"h2": "Drie maniere om met ons te werk",
+			"options": {
+				"option1": { "title": "Ad Hoc / Projek-gebaseer", "desc": "Betaal vir spesifieke projekte soos jy hulle nodig het — geen deurlopende verbintenis nie. Ideaal vir eenmalige behoeftes soos arbeidsoudits, aflegging-ondersteuning of beleidsontwikkeling. Gefaktureer teen R1,500/uur (BTW uitgesluit)." },
+				"option2": { "title": "Voorafbetaalde Uur-pakkette", "desc": "Koop 'n pakket konsultasie-ure vooruit teen afslagtariewe. Ure is gekoppel aan 'n geldigheidsvenster (3, 6 of 12 maande) sodat jy vooruit beplan en ondersteuning trek soos behoeftes ontstaan — advisering, verhoor-bywoning, beleidswerk en meer." },
+				"option3": { "title": "Vaste Maandelikse Behoudfooie", "desc": "Vanaf R7,500/maand. Kies afstand-adviesondersteuning of 'n toegewyde praktisyn op terrein elke week, onder 'n 12-maande DVO. Voorspelbare fooie en proaktiewe MH-bestuur." }
+			}
+		},
+		"prepaid": {
+			"subtitle": "Voorafbetaalde Ure",
+			"h2": "Koop ure. Gebruik hulle wanneer jy hulle nodig het.",
+			"body": "Voorafbetaalde uur-pakkette gee jou konsultasie-kapasiteit teen 'n afslagtarief, gekoppel aan 'n vaste tydraamwerk. Kies die pakket wat by jou beplanningshorison pas en trek ure vir enige OptiHR-diens binne die geldigheidstydperk.",
+			"rates": {
+				"adHoc": { "label": "Ad hoc-tarief", "sub": "Geen verbintenis vereis" },
+				"prepaid": { "label": "Voorafbetaalde tarief", "sub": "Bespaar tot 13% teenoor ad hoc" },
+				"retainerAddOn": { "label": "Behoudfooi-byvoegingstarief", "sub": "Slegs behoudfooi-kliënte" }
+			},
+			"hoursLabel": "uur",
+			"validPrefix": "geldig",
+			"valid3": "3 maande",
+			"valid6": "6 maande",
+			"valid12": "12 maande",
+			"perHour": "/uur",
+			"totalSeparator": "totaal",
+			"examplesLabel": "Voorbeeld-gebruike",
+			"enquireButton": "Doen navraag oor hierdie pakket",
+			"timeframesHeading": "Hoe tydraamwerke werk",
+			"timeframesBody": "Ure is geldig vanaf die aankoopdatum. Jy beplan wanneer om hulle te gebruik — byvoorbeeld, 3 uur in maand een vir 'n beleidsoorsig, 5 uur in maand twee vir 'n dissiplinêre verhoor. Ure wat nie binne die geldigheidstydperk gebruik word nie, verval. Ons beveel aan dat 'n rowwe skedule vooraf ooreengekom word om volle waarde uit jou pakket te kry.",
+			"packages": {
+				"start": {
+					"bestFor": "Ad hoc-projekte of om OptiHR te probeer voordat jy tot 'n behoudfooi verbind.",
+					"note": "Ideaal vir eenmalige projekte",
+					"examples": [
+						"Diensskontrak-oorsig en herontwerp",
+						"1 dissiplinêre verhoor (voorbereiding + bywoning)",
+						"MH-nakomings-gesondheidsondersoek",
+						"Personeelhandboek- of beleidsoorsig"
+					]
+				},
+				"flex": {
+					"bestFor": "Ondernemings met onreëlmatige behoeftes — gebruik ondersteuning wanneer jy dit nodig het, sit vir 'n rukkie op skort wanneer nie.",
+					"note": "Beste waarde vir projek-gebaseerde behoeftes",
+					"examples": [
+						"Beleidsontwikkelingsprojek (3–4 pasgemaakte beleide)",
+						"2 dissiplinêre verhore oor 6 maande",
+						"Prestasiebestuur-raamwerk-opstelling",
+						"MH-advisering oor 6 maande (~2–3 uur/maand)"
+					]
+				},
+				"build": {
+					"bestFor": "Organisasies wat gereelde ondersteuning wil hê sonder 'n vaste behoudfooi — buigsame ure oor 'n volle jaar.",
+					"note": "Maksimum buigsaamheid oor 12 maande",
+					"examples": [
+						"Deurlopende MH-advisering (~3 uur/maand vir 'n jaar)",
+						"Volle beleidsraamwerk-oudit en hersiening",
+						"3–4 dissiplinêre verhore of KVBA-verskynings",
+						"Gelyke Indiensneming-plan-ontwikkeling"
+					]
+				}
+			}
+		},
+		"retainers": {
+			"subtitle": "Maandelikse Behoudfooie",
+			"h2": "Vaste ondersteuning. Voorspelbare maandelikse fooie.",
+			"body": "Alle pakkette is onderhewig aan 'n 12-maande DVO. Maandelikse behoudfooi is vooruit betaalbaar op die 1ste van elke maand. Alle bedrae sluit BTW (15%) uit.",
+			"period": "/maand",
+			"note": "uitgesluit BTW · 12-maande DVO",
+			"newBadge": "Nuut",
+			"supportModel": "Ondersteuningsmodel",
+			"monthlyCapacity": "Maandelikse kapasiteit",
+			"hearingsLabel": "Verhore / KVBA",
+			"bestForLabel": "Beste vir: ",
+			"getProposal": "Vra 'n voorstel aan",
+			"packages": {
+				"remote": {
+					"tagline": "Afstand-MH-advisering",
+					"onsiteWeekly": "Slegs afstand",
+					"onsiteMonthly": "Geen op-terrein-besoeke",
+					"hearings": "1 per jaar",
+					"bestFor": "Klein ondernemings (onder 20 personeel) wat professionele MH-advisering, dokumentondersteuning en regsgegrond-leiding nodig het — sonder op-terrein-besoeke.",
+					"includes": [
+						"Onbeperkte telefoniese en e-pos-adviesondersteuning",
+						"Video-konsultasies per afspraak",
+						"Diensskontrak-opstelling en -oorsig",
+						"MH-dokument-sjablone en briewe",
+						"Basiese beleidsoorsig en bywerking",
+						"Dissiplinêre advisering — telefoniese leiding terwyl jy voorsit",
+						"KVBA-voorbereiding-ondersteuning (afstand)",
+						"Maandelikse MH-nakomings-aanmelding",
+						"1 dissiplinêre verhoor of KVBA-verskyning per jaar (voorbereiding, voldagse bywoning, opstelling)"
+					]
+				},
+				"essentials": {
+					"tagline": "Grondliggende Op-terrein MH-ondersteuning",
+					"onsiteWeekly": "2 uur/week",
+					"onsiteMonthly": "~8 uur/maand",
+					"hearings": "2 per jaar",
+					"bestFor": "Ondernemings (20–50 personeel) wat konsekwente, geskeduleerde MH-ondersteuning nodig het met 'n praktisyn op terrein elke week.",
+					"includes": [
+						"Weeklikse op-terrein-besoek (2 uur) op ooreengekome dag",
+						"MH-advisering en personeel-skakeling-ondersteuning",
+						"Prestasiebestuur-ondersteuning (PVP'e, oorsigte, doelwitstelling)",
+						"Pasgemaakte beleidsontwikkeling vir jou organisasie",
+						"Oorsig en bywerking van bestaande beleide",
+						"Proaktiewe MH-beleidsgaping-identifisering",
+						"Toegang tot OptiHR-standaard-dokument-sjablone",
+						"Maandelikse MH-opsommingsverslag",
+						"E-pos- en telefoniese ondersteuning tussen besoeke",
+						"2 dissiplinêre verhore of KVBA-verskynings per jaar (voorbereiding, voldagse bywoning, opstelling)"
+					]
+				},
+				"advantage": {
+					"tagline": "Uitgebreide MH-vennootskap",
+					"onsiteWeekly": "3 uur/week",
+					"onsiteMonthly": "~13 uur/maand",
+					"hearings": "2 per jaar",
+					"bestFor": "Groeiende organisasies (50–100 personeel) wat meer hands-on weeklikse ondersteuning, dieper beleidswerk en sterker nakomingsbestuur nodig het.",
+					"includes": [
+						"Alles in die Essensiële pakket, plus:",
+						"Weeklikse op-terrein-besoek (3 uur) op ooreengekome dag",
+						"Verhoogde kapasiteit vir MH-projekte en dokumentwerk",
+						"Meer komplekse beleidsontwikkeling en implementering",
+						"Verbeterde bestuurder-afrigting en MH-advisering",
+						"2 dissiplinêre verhore of KVBA-verskynings per jaar (voorbereiding, voldagse bywoning, opstelling)"
+					]
+				},
+				"premier": {
+					"tagline": "Omvattende MH-bestuur",
+					"onsiteWeekly": "4 uur/week",
+					"onsiteMonthly": "~18 uur/maand",
+					"hearings": "2 per jaar",
+					"bestFor": "Groter organisasies (100–200 personeel) wat aansienlike weeklikse MH-kapasiteit, gelykheid-verslagdoening en proaktiewe nakomingsbestuur nodig het.",
+					"includes": [
+						"Alles in die Voordeel pakket, plus:",
+						"Weeklikse op-terrein-besoek (4 uur) op ooreengekome dag",
+						"Prioriteit-skedulering en dieselfde-week-omdraai vir dringende sake",
+						"Uitgebreide beleidsontwikkeling en MH-projekwerk",
+						"Gelyke-indiensneming- en vaardigheidsontwikkeling-advisering",
+						"Gestruktureerde prestasiebestuur-raamwerke en bestuurder-afrigting",
+						"Formele onvermoë-verrigtinge gekoppel aan swak prestasie",
+						"Omvattende MH-beleidsoudit en gaping-ontleding met geprioritiseerde regstellingsplan",
+						"2 dissiplinêre verhore of KVBA-verskynings per jaar (voorbereiding, voldagse bywoning, opstelling)"
+					]
+				},
+				"platinum": {
+					"tagline": "Toegewyde MH-Uitvoerende Ondersteuning",
+					"onsiteWeekly": "5 uur/week",
+					"onsiteMonthly": "~24 uur/maand",
+					"hearings": "3 per jaar",
+					"bestFor": "Hoë-aanvraag-organisasies (200+ personeel), multi-terrein-bedrywighede, of ondernemings wat toegewyde praktisyn-toegang en volle-omvang MH-projekbestuur vereis.",
+					"includes": [
+						"Alles in die Premier pakket, plus:",
+						"Weeklikse op-terrein-besoek (5 uur) op ooreengekome dag",
+						"Toegewyde MH-praktisyn met prioriteit-toegang en eskalasie-ondersteuning",
+						"Volle-omvang MH-projekbestuur vir komplekse of hoë-volume-sake",
+						"3 dissiplinêre verhore of KVBA-verskynings per jaar (voorbereiding, voldagse bywoning, opstelling)",
+						"Voorkeurtariewe met RFH Inc. vir Arbeidshof en indiensneming-litigasie"
+					]
+				}
+			},
+			"addOn": {
+				"subtitle": "Behoudfooi-byvoeging",
+				"heading": "Benodig ekstra ure?",
+				"body": "Behoudfooi-kliënte kan addisionele op-terrein-ure koop teen <strong>R1,200/uur (BTW uitgesluit)</strong> — in vergelyking met die standaard ad hoc-tarief van R1,500/uur. Beperk tot 8 ekstra ure per maand by verstek, met skriftelike ooreenkoms vereis vooraf. Nuttig vir afleggings, beleidshersiening of spitsperiodes sonder om na 'n hoër pakket-vlak te beweeg."
+			}
+		},
+		"companySecretarial": {
+			"subtitle": "Selfstandige Diens",
+			"h2": "Maatskappysekretariële Dienste",
+			"body": "Privaatmaatskappye in Suid-Afrika is nie regtens verplig om 'n maatskappysekretaris aan te stel nie — maar die bestuursverpligtinge is werklik. Gemiste CIPC-indienings, ontbrekende raadsbesluite en swak onderhoude statutêre registers skep regs-, finansiële en kommersiële risiko. OptiHR se maatskappysekretariële behoudfooi hanteer dit alles, met regsgegrond-presisie.",
+			"code": "OPTI-SECRETARIAL",
+			"cardTitle": "Maatskappysekretariële Behoudfooi",
+			"price": "R22,500",
+			"perMonthSuffix": "/maand uitgesluit BTW",
+			"slaNote": "12-maande DVO · maandeliks vooruit betaalbaar",
+			"bestForLabel": "Beste vir",
+			"bestFor": "Privaatmaatskappye wat professionele bestuur sonder 'n voltydse aanstelling wil hê — van eienaar-bestuurde ondernemings tot belegger-gerugsteunde maatskappye wat oudit-gereed-rekords en nul gemiste CIPC-spertye benodig.",
+			"button": "Doen navraag oor hierdie diens",
+			"includes": [
+				"Jaarlikse-opgawe-voorbereiding en -indiening by CIPC — spertye namens jou bestuur",
+				"Direkteur-aanstellings, -bedankings en -veranderings ingedien by CIPC",
+				"Aandele-toewysing, -oordrag en -terugkoop-registrasies",
+				"MOI-wysigings, spesiale besluite en besigheidsnaam-veranderings",
+				"Begunstigde-eienaarskap-openbaarmakings en CIPC-nakomingsmonitering",
+				"Onderhoud van statutêre registers — direkteure, aandeelhouers en begunstigde eienaars",
+				"Aandelesertifikate en oordragdokumentasie",
+				"Raadsvergadering-ondersteuning — kennisgewings, agendas, notules en besluite",
+				"AAV- en aandeelhouervergadering-ondersteuning — volmagte en stemming ingesluit",
+				"Dokument-opstelling en -oorsig — MOI's, aandeelhouer-ooreenkomste, direkteurs-diensooreenkomste",
+				"Korporatiewe bestuur-advisering — fidusiêre pligte en Maatskappywet-nakoming"
+			],
+			"cards": [
+				{ "heading": "CIPC-boetes loop vinnig op", "body": "Jaarlikse opgawes moet binne 30 sakedae van jou maatskappy se herdenking ingedien word. Laat indienings trek eskalerende boetes en kan uiteindelik deregistrasie veroorsaak — wat beteken jy kan nie regtens handel, bankrekeninge open of kontrakte sluit nie." },
+				{ "heading": "Raadsbesluite is jou regsbewys", "body": "Beduidende maatskappybesluite vereis behoorlik opgestelde, ondertekende raadsbesluite. WhatsApp-boodskappe en mondelinge ooreenkomste het geen regsstatus nie. Behoorlike besluite beskerm direkteure persoonlik." },
+				{ "heading": "Belegger- en oudit-gereed-bestuur", "body": "Statutêre registers en bestuursrekords word ondersoek wanneer jy belegging insamel, vir finansiering aansoek doen of die onderneming verkoop. Ontbrekende of verkeerde rekords vertraag transaksies, verminder waardasies en beëindig soms transaksies geheel en al." },
+				{ "heading": "Regskundigheid ingebou", "body": "OptiHR se stigter is 'n toegelate prokureur met direkte kennis van die Maatskappywet en bestuursvereistes. Dit is regsgegrond-bestuursondersteuning teen 'n breukdeel van die koste van 'n voltydse aanstelling." }
+			],
+			"footnote": "Maatskappysekretariële dienste kan as 'n selfstandige behoudfooi geneem word of gekombineer word met 'n OptiHR MH-behoudfooi. Kliënte wat beide dienste hou, ontvang geïntegreerde bestuur- en MH-nakomingsondersteuning met 'n enkele verantwoordingspunt."
+		},
+		"popia": {
+			"subtitle": "Selfstandige Diens",
+			"h2": "POPIA-nakomingspakkette",
+			"body": "POPIA-nakoming is nie 'n eenmalige merk-die-blokkie-oefening nie — dit vereis implementering, personeelopleiding en deurlopende monitering. OptiHR bied 'n gestruktureerde tweefase-benadering: 'n eenmalige implementering om jou nakomend te kry, gevolg deur 'n opsionele behoudfooi om jou so te hou.",
+			"phase1": {
+				"subtitle": "Fase 1 — Eenmalige Implementering",
+				"heading": "Word ten volle nakomend van die grond af op",
+				"body": "'n Volledige POPIA-implementering wat oudit, Inligtingsbeampte-aanstelling, beleide, toestemmingsprosedures, oortredingsprotokolle en personeelopleiding dek — gepas vir jou organisasie.",
+				"footnote": "Organisasies met 200+ personeel, veelvuldige entiteite of komplekse data-omgewings word individueel aangehaal. Ondernemings in gesondheidsorg, finansiële dienste of onderwys (wat sensitiewe of leerderdata hanteer) mag addisionele omvang vereis — kontak ons vir 'n pasgemaakte beoordeling.",
+				"button": "Vra 'n voorstel aan",
+				"note": "BTW uitgesluit · eenmalig",
+				"tiers": {
+					"micro": {
+						"label": "Mikro",
+						"size": "Tot 10 personeel",
+						"includes": [
+							"POPIA-nakomingsoudit",
+							"Formele aanstelling van Inligtingsbeampte en registrasie op die Inligtingsreguleerder se eDienste-portaal",
+							"POPIA-nakomingshandleiding — geskrewe dokumentasie vir werknemers en die aangewese Inligtingsbeampte",
+							"Kern-privaatheidsbeleid en werknemer-dataverwerking-kennisgewing",
+							"Webwerf-oorsig en -wysigings — privaatheidsbeleidsbladsy, koekie-kennisgewing en aanlyn data-insamelingsvorms bygewerk vir nakoming",
+							"Toestemmingsprosedures en dataverwerkingsregister",
+							"Data-oortreding-reaksieprotokol",
+							"Personeelopleiding — instruksievideos en aangetekende kennistoetse (tot 10 gebruikers)",
+							"Opleiding-slaagsertifikate gehandhaaf as gedokumenteerde nakomingsbewys"
+						]
+					},
+					"small": {
+						"label": "Klein Onderneming",
+						"size": "10–50 personeel",
+						"includes": [
+							"Alles in Mikro, plus:",
+							"Uitgebreide oudit wat MH-, IT-, bemarking- en verskaffer-datavloei dek",
+							"Verskaffer- en handelaar-dataverwerkingsooreenkomste",
+							"Personeelopleiding — instruksievideos en aangetekende kennistoetse (tot 50 gebruikers)",
+							"Data-subjek-toegangversoek (DSTV)-prosedure en sjablone",
+							"WBI-handleiding (artikel 51-handleiding) opgestel en gepubliseer"
+						]
+					},
+					"medium": {
+						"label": "Mediumonderneming",
+						"size": "50–200 personeel",
+						"includes": [
+							"Alles in Klein Onderneming, plus:",
+							"Volledige datakartering en inligtingsbatesregister",
+							"Departementele-vlak beleidsuitrol en goedkeurings-volging",
+							"Personeelopleiding — instruksievideos en aangetekende kennistoetse (tot 200 gebruikers)",
+							"CCTV- en moniteringsbeleid waar van toepassing",
+							"Biometriese data- of gesondheidsdata-hanteringsbeleide (indien van toepassing)",
+							"Pasgemaakte DSTV- en oortreding-kennisgewing-werkvloei"
+						]
+					}
+				}
+			},
+			"phase2": {
+				"subtitle": "Fase 2 — Deurlopende Behoudfooi",
+				"heading": "Bly nakomend soos jou onderneming ontwikkel",
+				"body": "POPIA is nie 'n stel-en-vergeet-oefening nie. Soos jou data-landskap verander, personeel omdraai, en die Inligtingsreguleerder nuwe leiding uitreik, het jou nakoming deurlopende aandag nodig. Ons POPIA-behoudfooi hou jou voor die verpligting.",
+				"button": "Doen navraag oor hierdie plan",
+				"note": "uitgesluit BTW · 12-maande DVO",
+				"period": "/maand",
+				"tiers": {
+					"essential": {
+						"name": "POPIA Essential",
+						"size": "Tot 20 personeel",
+						"includes": [
+							"Deurlopende nakomingsmonitering en beleidsopdaterings",
+							"Hantering van data-subjek-toegangversoeke (DSTV)",
+							"Oortreding-kennisgewing-ondersteuning indien 'n insident plaasvind",
+							"Jaarlikse beleidsoorsig en -bywerking",
+							"Toegang tot bygewerkte opleidingsvideos soos wetgewing verander",
+							"Regulatoriese opdaterings en leiding soos POPIA ontwikkel"
+						]
+					},
+					"business": {
+						"name": "POPIA Business",
+						"size": "20–100 personeel",
+						"includes": [
+							"Alles in Essensiële pakket, plus:",
+							"Kwartaallikse nakomings-gesondheidsondersoeke",
+							"Handelaar- en verskaffer-DVO-oorsigte (tot 4/jaar)",
+							"Nuwe-werknemer-inskakeling — POPIA-opleidingstoegang",
+							"Prioriteit-ondersteuning vir dringende oortredings of reguleerder-korrespondensie"
+						]
+					},
+					"enterprise": {
+						"name": "POPIA Enterprise",
+						"size": "100+ personeel",
+						"includes": [
+							"Alles in die Besigheids pakket, plus:",
+							"Maandelikse nakomingsverslagdoening aan bestuur",
+							"Onbeperkte handelaar-DVO-oorsigte",
+							"Volle-omvang DSTV-bestuur en -korrespondensie",
+							"Skakeling met die Inligtingsreguleerder indien nodig",
+							"Jaarlikse volle nakomings-heroudit"
+						]
+					}
+				}
+			},
+			"training": {
+				"label": "Opleiding-byvoeging",
+				"heading": "Personeelopleiding-pakket — selfstandig",
+				"price": "R3,500",
+				"priceSuffix": "BTW uitgesluit · eenmalig",
+				"perUser": "Tot 20 gebruikers · R150/gebruiker daarna",
+				"body": "Indien jy reeds jou POPIA-raamwerk in plek het en bloot personeel moet oplei en assesseer, gee hierdie selfstandige opleidingspakket alle werknemers toegang tot gestruktureerde instruksievideos en aangetekende kennistoetse — met slaagsertifikate gestoor as bewys van jou nakomingsprogram. Geskik vir jaarlikse nakomings-opfrissers of inskakeling van nuwe personeel in 'n bestaande POPIA-raamwerk."
+			}
+		},
+		"rfh": {
+			"subtitle": "Eksklusief vir Behoudfooi-kliënte",
+			"h2": "Voorkeurregstariewe met RFH Inc.",
+			"body": "Alle aktiewe OptiHR-behoudfooi-kliënte ontvang voorkeurprofessionele fooie by RFH Inc. (Raymond Francois Hauptfleisch Prokureurs Ing.), Raymond se spesialis-arbeidsregfirma. Wanneer 'n MH-saak buite die advies-omvang eskaleer, het jy reeds 'n direkte verbinding met regsverteenwoordiging — geen aparte inskakeling, geen verwysingsgelde nie.",
+			"footnote": "Tariewe word direk met RFH Inc. bevestig op versoek. Eksklusief beskikbaar vir kliënte wat 'n aktiewe OptiHR-behoudfooi hou. OptiHR fasiliteer die voorstelling kosteloos.",
+			"cards": [
+				{ "label": "Arbeidshof", "detail": "Verteenwoordiging in die Arbeidshof en Arbeidsappèlhof teen voorkeurtariewe." },
+				{ "label": "KVBA-arbitrasies", "detail": "Regsverteenwoordiging vir komplekse arbitrasie-sake wat 'n prokureur van rekord vereis." },
+				{ "label": "Onbillike-ontslag-eise", "detail": "Verdediging teen onbillike-ontslag- en outomaties-onbillike-ontslag-eise." },
+				{ "label": "Diskriminasie-geskille", "detail": "Verteenwoordiging in die gelykheidshof en KVBA-onbillike-diskriminasie-sake." },
+				{ "label": "Aflegging-geskille", "detail": "Artikel 189-aflegging-geskille en verwante prosedurele en substantiewe uitdagings." },
+				{ "label": "Sake-oordragte", "detail": "Artikel 197 sake-oordrag-verrigtinge en indiensneming-kontinuïteit-geskille." }
+			]
+		},
+		"whyRetainers": {
+			"subtitle": "Waarom verbind",
+			"h2": "Hoekom 'n behoudfooi kies?",
+			"benefits": [
+				{ "label": "Voorspelbare begroting", "detail": "Vaste maandelikse fooie, geen verrassings-fakture nie." },
+				{ "label": "Proaktiewe ondersteuning", "detail": "Ons voorkom probleme voordat hulle KVBA-sake word." },
+				{ "label": "Verhoudingsbou", "detail": "Ons leer jou onderneming, kultuur en mense oor tyd." },
+				{ "label": "Prioriteit-toegang", "detail": "Behoudfooi-kliënte kry eerste toegang tydens besige tye." },
+				{ "label": "Kostebesparings teenoor in-huis", "detail": "'n In-huis MH-bestuurder kos R25,000–R45,000/maand in salaris alleen — voor voordele, kantoorruimte of regskundigheid. Ons behoudfooie begin teen R7,500." },
+				{ "label": "RFH Inc.-voorkeurtariewe", "detail": "Behoudfooi-kliënte ontvang afslag-regsgelde by RFH Inc. vir Arbeidshof en indiensneming-litigasie-sake." }
+			]
+		},
+		"notIncluded": {
+			"subtitle": "Volle Deursigtigheid",
+			"h2": "Wat nie ingesluit word in enige pakket nie",
+			"body": "Om deursigtigheid te handhaaf, hier is wat tipies addisionele fooie vereis selfs in behoudfooi-pakkette.",
+			"items": [
+				"Eksterne regsverteenwoordiging — Arbeidshof-litigasie gekoördineer deur ons prokureursnetwerk (prokureursgelde apart; voorkeurtariewe beskikbaar vir behoudfooi-kliënte via RFH Inc.)",
+				"Reise buite 'n 50 km-radius van Johannesburg — reiskoste teen koste-prys faktureerbaar vir buite-area-besoeke",
+				"Verhore / KVBA-verskynings buite die ingeslote jaarlikse toewysing — apart aangehaal; halfdagse verskynings gefaktureer teen 50% van die voldagse tarief",
+				"Uitgebreide forensiese ondersoeke — bedrog, diefstal of komplekse wangedrag wat forensiese rekenmeesters vereis",
+				"Psigometriese toetsing — derdeparty-assesserings vir werwing of ontwikkeling",
+				"Agtergrondkontroles — kriminele, krediet- en kwalifikasie-verifikasie-dienste"
+			]
+		},
+		"faq": {
+			"subtitle": "Algemene vrae oor pryse en verbintenis",
+			"title": "Pryse-Gereelde vrae",
+			"body": "Alles wat jy moet weet voordat jy jou verbintenis-model kies.",
+			"cta": "Bespreek 'n gratis konsultasie",
+			"q1Question": "Wat beteken \"op-terrein-ure per week\" presies?",
+			"q1Answer": "Elke op-terrein-behoudfooi sluit 'n vaste aantal ure elke week in — byvoorbeeld, OptiEssentials sluit 2 uur per week in (ongeveer 8 uur per maand). Dit is geskeduleerde besoeke op ooreengekome dae en tye wanneer jou MH-praktisyn fisies op jou perseel is om MH-werk, personeelsake, beleidsontwikkeling en bestuurder-ondersteuning te hanteer. Die OPTI-REMOTE-pakket werk geheel en al via telefoon, e-pos en video — geen fisiese besoeke nie.",
+			"q2Question": "Hoe werk die voorafbetaalde ure se tydraamwerke?",
+			"q2Answer": "Wanneer jy 'n voorafbetaalde ure-pakket koop, moet alle ure binne die geldigheidstydperk vanaf die aankoopdatum gebruik word. Byvoorbeeld, die OPTI-FLEX-pakket gee jou 20 uur om oor 6 maande te gebruik — 5 uur in maand een vir 'n beleidsprojek, 3 uur in maand drie vir 'n dissiplinêre verhoor, ensovoorts. Ons beveel aan dat 'n rowwe skedule vooraf ooreengekom word om volle waarde te kry. Ongebruikte ure aan die einde van die geldigheidstydperk word verbeur.",
+			"q3Question": "Waarvoor kan voorafbetaalde ure gebruik word?",
+			"q3Answer": "Voorafbetaalde ure kan op byna enige OptiHR-diens toegepas word — op-terrein-besoeke, dissiplinêre-verhoor-voorbereiding en -bywoning, beleidsontwikkeling, MH-adviesoproepe, nakomingsoorsigte, diensskontrak-opstelling, of KVBA-verteenwoordiging. Ons stem oor die omvang van elke verbintenis ooreen voordat ure vasgestel word.",
+			"q4Question": "Wat as ek meer ure benodig as wat my behoudfooi insluit?",
+			"q4Answer": "Behoudfooi-kliënte kan addisionele op-terrein-ure koop teen 'n voorkeurtarief van R1,200/uur (uitgesluit BTW), in vergelyking met die standaard ad hoc-tarief van R1,500/uur. Addisionele ure moet skriftelik ooreengekom word voor die besoek en is beperk tot 8 ekstra ure per maand by verstek. Dit laat jou tydelik skaal — tydens 'n aflegging of beleidshersiening — sonder om jou volle pakket op te gradeer.",
+			"q5Question": "Kan ons met voorafbetaalde ure begin en na 'n behoudfooi beweeg?",
+			"q5Answer": "Ja, en baie kliënte doen presies dit. Voorafbetaalde ure is 'n uitstekende manier om OptiHR-ondersteuning te ervaar voordat jy tot 'n 12-maande-behoudfooi verbind. Enige ongebruikte voorafbetaalde ure ten tye van die oorskakeling kan na jou eerste behoudfooi-faktuur gekrediteer word.",
+			"q6Question": "Is die OPTI-REMOTE-pakket geskik as ons reeds 'n MH-persoon het?",
+			"q6Answer": "Ja — dit is presies daarvoor ontwerp. Baie ondernemings het 'n kantoorbestuurder of administratiewe persoon wat daaglikse MH hanteer, maar niemand met arbeidsreg-kundigheid vir die moeilike situasies nie. OPTI-REMOTE gee jou span 'n gekwalifiseerde MH-praktisyn en toegelate prokureur om op te roep sonder die koste van weeklikse terreinbesoeke.",
+			"q7Question": "Wanneer is behoudfooi-betalings verskuldig?",
+			"q7Answer": "Maandelikse behoudfooi-gelde is vooruit betaalbaar op die 1ste van elke maand. Alle bedrae sluit BTW (15%) uit, wat op faktuur bygevoeg sal word waar van toepassing.",
+			"q8Question": "Wat is die verskil tussen verhore wat \"per jaar\" in behoudfooie ingesluit is?",
+			"q8Answer": "Behoudfooi-pakkette sluit 'n vaste aantal volle dissiplinêre verhore of KVBA-verskynings per jaar in. Elke ingeslote verhoor dek voor-verhoor-voorbereiding en bewysversameling, voldagse bywoning en na-verhoor-opstelling. Addisionele verhore buite die jaarlikse toewysing word apart aangehaal — halfdagse verskynings (onder 4 uur) word teen 50% van die voldagse tarief gefaktureer.",
+			"q9Question": "Wat is die RFH Inc.-voorkeurtariewe?",
+			"q9Answer": "Alle aktiewe OptiHR-behoudfooi-kliënte ontvang afslag-professionele fooie van RFH Inc. (Raymond Francois Hauptfleisch Prokureurs Ing.) vir regssake buite die MH-advies-omvang — insluitend Arbeidshof-verteenwoordiging, indiensneming-litigasie en verwante verrigtinge. OptiHR fasiliteer die voorstelling kosteloos. Spesifieke tariewe word direk met RFH Inc. bevestig op versoek.",
+			"q10Question": "Kan ons pakkette opgegradeer of afgegradeer word?",
+			"q10Answer": "Ja. Pakkette werk op 12-maande-DVO's, maar jy kan op enige tyd middel-termyn opgradeer indien behoeftes groei. Afgraderings tree in werking by die volgende jaarlikse hernuwing. Ons beveel 'n oorsigsgesprek aan by die 10-maande-merk om die regte passing vir die komende jaar te beoordeel."
+		},
+		"cta": {
+			"title": "Deursigtige pryse vir professionele MH-ondersteuning",
+			"body": "Hou op raai wat MH-ondersteuning kos. Bespreek 'n gratis konsultasie en kry 'n pasgemaakte voorstel wat presies wys wat jy sal betaal en wat jy sal kry — geen verrassings, geen verborge fooie nie.",
+			"button": "Vra jou gratis pryse-konsultasie aan",
+			"imageAlt": "Deursigtige OptiHR-pryse — vra 'n konsultasie aan"
+		}
 	}
 }
