@@ -2,9 +2,18 @@
 import { ServiceCard } from "@entities/service"
 import { ContainedLayout } from "@shared/components/layout/contained-layout"
 import useEmblaCarousel from "embla-carousel-react"
-import { services } from "../model/content"
+import { useTranslations } from "next-intl"
+
+type RollerService = {
+	title: string
+	description: string
+	callToAction: string
+	href: string
+}
 
 export const ServiceRoller = () => {
+	const t = useTranslations("Widgets.serviceRoller")
+	const services = t.raw("items") as RollerService[]
 	// ANALYTICS: Use the click rate as a driver for position
 	const [emblaRef] = useEmblaCarousel({
 		loop: false,
@@ -25,7 +34,7 @@ export const ServiceRoller = () => {
 							description={service.description}
 							hasIcon={true}
 							href={service.href}
-							key={service.title}
+							key={service.href}
 							title={service.title}
 						/>
 					)

@@ -789,6 +789,78 @@
 			"imageAlt": "Deursigtige OptiHR-pryse — vra 'n konsultasie aan"
 		}
 	},
+	"Widgets": {
+		"featuredPosts": {
+			"subtitle": "OptiBuzz",
+			"heading": "Praktiese MH- en arbeidsreg-insigte vir Suid-Afrikaanse ondernemings.",
+			"browseButton": "Blaai deur alle artikels"
+		},
+		"audienceDirectorSection": {
+			"subtitle": "Wie ons bedien",
+			"h2": "Kundige MH-ondersteuning vir elke tipe organisasie",
+			"body": "Of jy nou 'n groeiende onderneming, 'n groot maatskappy of 'n onafhanklike skool is, OptiHR het die kundigheid om jou mense, jou nakoming en jou reputasie te beskerm.",
+			"ctaText": "Vind uit hoe ons help",
+			"panelHeading": "Vind jou oplossing",
+			"audiences": [
+				{
+					"label": "Klein Ondernemings",
+					"tagline": "Professionele MH sonder die voltydse koste",
+					"description": "Om 'n klein onderneming te bestuur is veeleisend — MH-nakoming behoort nie nog tot daardie las by te dra nie. OptiHR gee jou gekwalifiseerde, praktiese MH-ondersteuning slegs wanneer jy dit nodig het, teen 'n breukdeel van die koste van 'n permanente aanstelling.",
+					"highlights": [
+						"Arbeidsoudits & nakoming",
+						"Dissiplinêre & griewe-hantering",
+						"KVBA-verteenwoordiging"
+					]
+				},
+				{
+					"label": "Groot Ondernemings",
+					"tagline": "Spesialis-diepte vir komplekse MH-omgewings",
+					"description": "Selfs sterk MH-spanne kan nie elke hoek dek nie. Ons werk saam met jou MH-afdeling as 'n vertroude verlenging — hanteer vakbonde, bedingingsrade en hoë-risiko-geskille sodat jou span op strategie kan fokus.",
+					"highlights": [
+						"Kollektiewe bedinging & vakbond-skakeling",
+						"Beleidsontwikkeling & nakomings-raamwerke",
+						"Opleiding & fasilitering vir MH-spanne"
+					]
+				},
+				{
+					"label": "Onafhanklike Skole",
+					"tagline": "Ons verstaan beide die klaskamer en die hofsaal",
+					"description": "Onafhanklike skole staar unieke MH-uitdagings in die gesig wat tradisionele konsultante selde verstaan. Ons stigter is 'n toegelate prokureur, gekwalifiseerde MH-praktisyn en voormalige opvoeder — en gee skole 'n vennoot wat vir hul wêreld gebou is.",
+					"highlights": [
+						"SARO-nakoming & bestuursoorsigte",
+						"Personeelkontrakte & indiensnemingsraamwerke",
+						"Geskil-oplossing & beheerliggaam-ondersteuning"
+					]
+				},
+				{
+					"label": "KI in die Werkplek",
+					"tagline": "Strategie, bestuur en mensondersteuning vir KI-aanname",
+					"description": "Om KI in jou organisasie in te stel is net soveel 'n mense-uitdaging as 'n tegnologie-een. OptiHR help ondernemings en skole om KI-padkaarte te bou, MH-raamwerke by te werk en hul werkmag met selfvertroue deur die oorgang te lei.",
+					"highlights": [
+						"KI-gereedheids-beoordelings & padkartering",
+						"MH-beleid, kontrakte & POPIA-nakoming",
+						"Werkmag-heropleiding & veranderingbestuur"
+					]
+				}
+			]
+		},
+		"serviceRoller": {
+			"items": [
+				{ "title": "Maatskappysekretarisdienste", "description": "Professionele maatskappy-bestuur, CIPC-indienings en regsnakoming vir privaatondernemings.", "callToAction": "Vra 'n Gratis Oudit aan", "href": "/services/company-secretary-services" },
+				{ "title": "Nakoming", "description": "Omvattende ondersteuning wat statutêre, CIPC- en regulatoriese nakoming vir jou onderneming verseker.", "callToAction": "Bly Nou Nakomend", "href": "/services/compliance" },
+				{ "title": "Gelyke Indiensneming", "description": "Beleide en ondersteuning om werkplek-gelykheid te bereik en aan indiensnemingswette te voldoen.", "callToAction": "Bevorder Gelykheidspogings", "href": "/services/employment-equity" },
+				{ "title": "MH-beleidsontwikkeling", "description": "Pasgemaakte MH-beleide ontwerp om sakeprosesse en regsnakoming te versterk.", "callToAction": "Opdateer jou beleide", "href": "/services/hr-policy-development" },
+				{ "title": "MH-opleiding", "description": "Noodsaaklike MH-vaardighede- en nakomingsopleiding vir bestuurders en werknemers.", "callToAction": "Bespreek 'n Sessie", "href": "/services/hr-training" },
+				{ "title": "Bedryfsverhoudinge", "description": "Kundige bemiddeling, geskil-oplossing en ondersteuning vir gesonde bedryfsverhoudinge.", "callToAction": "Los Geskille Vinnig Op", "href": "/services/industrial-relations" },
+				{ "title": "Posevaluering", "description": "Objektiewe posevaluering om rol-duidelikheid en vergoedingstrukture te optimaliseer.", "callToAction": "Vra Evaluering aan", "href": "/services/job-evaluation" },
+				{ "title": "Arbeidsoudits", "description": "Deeglike oudits om arbeidsrisiko's te identifiseer en regsnakoming te handhaaf.", "callToAction": "Skeduleer Vandag 'n Oudit", "href": "/services/labour-audits" },
+				{ "title": "Prestasiebestuur", "description": "Strategieë en stelsels om werknemerprestasie en aanspreeklikheid te verhoog.", "callToAction": "Verbeter Prestasie", "href": "/services/performance-management" },
+				{ "title": "Afleggings", "description": "Leiding en beleid vir nakomende, billike en strategiese aflegging-prosesse.", "callToAction": "Kry Hulp met Aflegging", "href": "/services/retrenchments" },
+				{ "title": "Werkplekdissipline", "description": "Duidelike beleide en opleiding om dissipline in die werkplek te bestuur.", "callToAction": "Pas Dissipline Toe", "href": "/services/workplace-discipline" },
+				{ "title": "Werkplek-welstandsprogramme", "description": "Welstandinisiatiewe om produktiwiteit en werknemerwelstand te verhoog.", "callToAction": "Loods 'n Welstandsprogram", "href": "/services/workplace-wellness-programs" }
+			]
+		}
+	},
 	"AudienceShared": {
 		"mythLabel": "Mite",
 		"realityLabel": "Werklikheid",

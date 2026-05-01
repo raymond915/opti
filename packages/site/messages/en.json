@@ -789,6 +789,78 @@
 			"imageAlt": "Transparent OptiHR pricing — request a consultation"
 		}
 	},
+	"Widgets": {
+		"featuredPosts": {
+			"subtitle": "OptiBuzz",
+			"heading": "Practical HR and labour law insights for South African businesses.",
+			"browseButton": "Browse all articles"
+		},
+		"audienceDirectorSection": {
+			"subtitle": "Who we serve",
+			"h2": "Expert HR support for every type of organisation",
+			"body": "Whether you're a growing business, a large enterprise, or an independent school, OptiHR has the expertise to protect your people, your compliance, and your reputation.",
+			"ctaText": "Find out how we help",
+			"panelHeading": "Find your solution",
+			"audiences": [
+				{
+					"label": "Small Businesses",
+					"tagline": "Professional HR without the full-time cost",
+					"description": "Running a small business is demanding — HR compliance shouldn't add to that burden. OptiHR gives you qualified, practical HR support only when you need it, at a fraction of the cost of a permanent hire.",
+					"highlights": [
+						"Labour audits & compliance",
+						"Disciplinary & grievance handling",
+						"CCMA representation"
+					]
+				},
+				{
+					"label": "Large Businesses",
+					"tagline": "Specialist depth for complex HR environments",
+					"description": "Even strong HR teams can't cover every angle. We partner with your HR department as a trusted extension — handling unions, bargaining councils, and high-stakes disputes so your team can focus on strategy.",
+					"highlights": [
+						"Collective bargaining & union engagement",
+						"Policy development & compliance frameworks",
+						"Training & facilitation for HR teams"
+					]
+				},
+				{
+					"label": "Independent Schools",
+					"tagline": "We understand both the classroom and the courtroom",
+					"description": "Independent schools face unique HR challenges that traditional consultants rarely understand. Our founder is an admitted attorney, qualified HR practitioner, and former educator — giving schools a partner built for their world.",
+					"highlights": [
+						"SACE compliance & governance reviews",
+						"Staff contracts & employment frameworks",
+						"Dispute resolution & board support"
+					]
+				},
+				{
+					"label": "AI in the Workplace",
+					"tagline": "Strategy, governance, and people support for AI adoption",
+					"description": "Introducing AI into your organisation is as much a people challenge as a technology one. OptiHR helps businesses and schools build AI roadmaps, update HR frameworks, and lead their workforce through the transition with confidence.",
+					"highlights": [
+						"AI readiness assessments & roadmapping",
+						"HR policy, contracts & POPIA compliance",
+						"Workforce reskilling & change management"
+					]
+				}
+			]
+		},
+		"serviceRoller": {
+			"items": [
+				{ "title": "Company Secretary Services", "description": "Professional company governance, CIPC filings, and legal compliance for private businesses.", "callToAction": "Request Free Audit", "href": "/services/company-secretary-services" },
+				{ "title": "Compliance", "description": "Comprehensive support ensuring statutory, CIPC, and regulatory compliance for your business.", "callToAction": "Stay Compliant Now", "href": "/services/compliance" },
+				{ "title": "Employment Equity", "description": "Policies and support for achieving workplace equity and compliance with employment laws.", "callToAction": "Boost Equity Efforts", "href": "/services/employment-equity" },
+				{ "title": "HR Policy Development", "description": "Custom HR policies designed to strengthen business processes and legal compliance.", "callToAction": "Update Your Policies", "href": "/services/hr-policy-development" },
+				{ "title": "HR Training", "description": "Essential HR skills and compliance training for managers and employees.", "callToAction": "Book a Session", "href": "/services/hr-training" },
+				{ "title": "Industrial Relations", "description": "Expert mediation, dispute resolution, and support for healthy industrial relations.", "callToAction": "Resolve Disputes Fast", "href": "/services/industrial-relations" },
+				{ "title": "Job Evaluation", "description": "Objective job evaluation to optimize role clarity and compensation structures.", "callToAction": "Request Evaluation", "href": "/services/job-evaluation" },
+				{ "title": "Labour Audits", "description": "Thorough audits to identify labour risks and maintain legal compliance.", "callToAction": "Schedule Audit Today", "href": "/services/labour-audits" },
+				{ "title": "Performance Management", "description": "Strategies and systems for enhancing employee performance and accountability.", "callToAction": "Improve Performance", "href": "/services/performance-management" },
+				{ "title": "Retrenchments", "description": "Guidance and policy for compliant, fair, and strategic retrenchment processes.", "callToAction": "Get Retrenchment Help", "href": "/services/retrenchments" },
+				{ "title": "Workplace Discipline", "description": "Clear policies and training for managing discipline in the workplace.", "callToAction": "Enforce Discipline", "href": "/services/workplace-discipline" },
+				{ "title": "Workplace Wellness Programs", "description": "Wellness initiatives to boost productivity and employee wellbeing.", "callToAction": "Launch Wellness Program", "href": "/services/workplace-wellness-programs" }
+			]
+		}
+	},
 	"AudienceShared": {
 		"mythLabel": "Myth",
 		"realityLabel": "Reality",

@@ -3,6 +3,7 @@ import { AudienceDirectorPanel } from "@shared/components/audience-director-pane
 import { ContainedLayout } from "@shared/components/layout"
 import { SectionSubtitle } from "@shared/components/section-subtitle"
 import { H2, H3, P } from "@shared/components/typography"
+import { useTranslations } from "next-intl"
 import Image from "next/image"
 import Link from "next/link"
 import type { AudienceDirectorSectionProps } from "../model/schema"
@@ -53,46 +54,27 @@ const OptiHRLogoMark = ({ index }: { index: number }) => {
 	)
 }
 
-const audiences = [
-	{
-		label: "Small Businesses",
-		href: "/for-small-businesses",
-		tagline: "Professional HR without the full-time cost",
-		description:
-			"Running a small business is demanding — HR compliance shouldn't add to that burden. OptiHR gives you qualified, practical HR support only when you need it, at a fraction of the cost of a permanent hire.",
-		highlights: ["Labour audits & compliance", "Disciplinary & grievance handling", "CCMA representation"],
-	},
-	{
-		label: "Large Businesses",
-		href: "/for-large-businesses",
-		tagline: "Specialist depth for complex HR environments",
-		description:
-			"Even strong HR teams can't cover every angle. We partner with your HR department as a trusted extension — handling unions, bargaining councils, and high-stakes disputes so your team can focus on strategy.",
-		highlights: [
-			"Collective bargaining & union engagement",
-			"Policy development & compliance frameworks",
-			"Training & facilitation for HR teams",
-		],
-	},
-	{
-		label: "Independent Schools",
-		href: "/for-independent-schools",
-		tagline: "We understand both the classroom and the courtroom",
-		description:
-			"Independent schools face unique HR challenges that traditional consultants rarely understand. Our founder is an admitted attorney, qualified HR practitioner, and former educator — giving schools a partner built for their world.",
-		highlights: ["SACE compliance & governance reviews", "Staff contracts & employment frameworks", "Dispute resolution & board support"],
-	},
-	{
-		label: "AI in the Workplace",
-		href: "/ai-in-the-workplace",
-		tagline: "Strategy, governance, and people support for AI adoption",
-		description:
-			"Introducing AI into your organisation is as much a people challenge as a technology one. OptiHR helps businesses and schools build AI roadmaps, update HR frameworks, and lead their workforce through the transition with confidence.",
-		highlights: ["AI readiness assessments & roadmapping", "HR policy, contracts & POPIA compliance", "Workforce reskilling & change management"],
-	},
-]
+// Hrefs are stable per-audience and don't translate. Order matches the messages array.
+const audienceHrefs = [
+	"/for-small-businesses",
+	"/for-large-businesses",
+	"/for-independent-schools",
+	"/ai-in-the-workplace",
+] as const
+
+type AudienceMessage = {
+	label: string
+	tagline: string
+	description: string
+	highlights: string[]
+}
 
 export const AudienceDirectorSection = ({ ...props }: AudienceDirectorSectionProps) => {
+	const t = useTranslations("Widgets.audienceDirectorSection")
+	const audiences = (t.raw("audiences") as AudienceMessage[]).map((audience, i) => ({
+		...audience,
+		href: audienceHrefs[i] ?? "/",
+	}))
 	return (
 		<ContainedLayout
 			{...props}
@@ -100,11 +82,9 @@ export const AudienceDirectorSection = ({ ...props }: AudienceDirectorSectionPro
 		>
 			{/* Section header */}
 			<div className="flex flex-col gap-fluid-1">
-				<SectionSubtitle isDark title="Who we serve" />
-				<H2 className="text-mint-6">Expert HR support for every type of organisation</H2>
-				<P className="text-mint-5/70 max-w-2xl">
-					Whether you're a growing business, a large enterprise, or an independent school, OptiHR has the expertise to protect your people, your compliance, and your reputation.
-				</P>
+				<SectionSubtitle isDark title={t("subtitle")} />
+				<H2 className="text-mint-6">{t("h2")}</H2>
+				<P className="text-mint-5/70 max-w-2xl">{t("body")}</P>
 			</div>
 
 			{/* Audience cards */}
@@ -157,7 +137,7 @@ export const AudienceDirectorSection = ({ ...props }: AudienceDirectorSectionPro
 
 							{/* CTA */}
 							<div className="mt-fluid-1 flex items-center gap-2 text-sm font-medium text-mint-6 group-hover:gap-3 transition-all">
-								<span>Find out how we help</span>
+								<span>{t("ctaText")}</span>
 								<svg
 									aria-hidden="true"
 									className="h-4 w-4 transition-transform group-hover:translate-x-1"
@@ -189,7 +169,7 @@ export const AudienceDirectorSection = ({ ...props }: AudienceDirectorSectionPro
 					/>
 					<div className="absolute inset-0 bg-mint-6/70" />
 					<div className="absolute inset-0 flex items-center justify-center px-inner-padding">
-						<AudienceDirectorPanel heading="Find your solution">
+						<AudienceDirectorPanel heading={t("panelHeading")}>
 						</AudienceDirectorPanel>
 					</div>
 				</div>
