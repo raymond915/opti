@@ -1,18 +1,30 @@
 import { ServicesPage } from "@pages/service-archive/ui"
 import type { Metadata, NextPage } from "next"
+import { getTranslations, setRequestLocale } from "next-intl/server"
 
-export const metadata: Metadata = {
-	title: "Our Services — HR, Labour Law & AI Consulting",
-	description:
-		"OptiHR's full range of services — labour audits, HR policy development, CCMA representation, retrenchments, employment equity, training, wellness, and AI consulting through OptiAI.",
-	openGraph: {
-		title: "OptiHR Services — HR, Labour Law & AI Consulting",
-		description:
-			"From compliance and dispute resolution to training, wellness, and OptiAI — OptiHR covers every dimension of modern HR for South African businesses and independent schools.",
-	},
+export async function generateMetadata({
+	params,
+}: {
+	params: Promise<{ locale: string }>
+}): Promise<Metadata> {
+	const { locale } = await params
+	const t = await getTranslations({ locale, namespace: "Services" })
+
+	return {
+		title: t("metaTitle"),
+		description: t("metaDescription"),
+		openGraph: {
+			title: t("ogTitle"),
+			description: t("ogDescription"),
+		},
+	}
 }
 
-const Page: NextPage = () => {
+const Page: NextPage<{ params: Promise<{ locale: string }> }> = async ({
+	params,
+}) => {
+	const { locale } = await params
+	setRequestLocale(locale)
 	return <ServicesPage />
 }
 

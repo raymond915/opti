@@ -1455,5 +1455,123 @@
 			"regulatorEmailLabel": "Email:",
 			"regulatorWebsiteLabel": "Website:"
 		}
+	},
+	"Services": {
+		"metaTitle": "Our Services — OptiHR HR, Labour Law & AI Consulting",
+		"metaDescription": "Explore OptiHR's full range of services for South African businesses and independent schools — labour audits, CCMA representation, HR policy development, training, wellness, and AI consulting through OptiAI.",
+		"ogTitle": "OptiHR Services — HR, Labour Law & AI Consulting",
+		"ogDescription": "From compliance and dispute resolution to training, wellness, and OptiAI — OptiHR covers every dimension of modern HR for South African businesses and independent schools.",
+		"banner": {
+			"anchorText": "View services",
+			"title": "Our Services",
+			"body": "From compliance and dispute resolution to training and wellness — OptiHR covers every dimension of modern HR for South African businesses and independent schools. And through OptiAI, we help you put AI to work in ways that make your people more capable and your processes more efficient."
+		},
+		"aiHighlight": {
+			"subtitle": "Now introducing OptiAI",
+			"title": "HR meets AI — on your terms",
+			"body": "AI isn't about replacing your people — it's about making them better at what they do. OptiAI works alongside your existing HR and business processes, identifying where intelligent automation adds real value and implementing it at your pace.",
+			"button": "Discover OptiAI",
+			"alt": "OptiAI — AI in the workplace"
+		},
+		"faq": {
+			"subtitle": "Frequently Asked Questions",
+			"title": "Have questions about our services?",
+			"body": "Find answers to common questions about our HR consulting services and how we can help optimize your business.",
+			"cta": "Contact Us",
+			"q1Question": "What services do you offer?",
+			"q1Answer": "We offer a comprehensive range of HR consulting services including labour audits, job evaluation, performance management, workplace discipline, retrenchments, HR policy development, training, wellness programs, AI in the workplace through OptiAI, and specialised support for independent schools.",
+			"q2Question": "How long does a typical consultation take?",
+			"q2Answer": "The duration varies depending on the service and complexity of your needs. Initial consultations are usually 1-2 hours, while comprehensive audits or implementations can take several weeks to months.",
+			"q3Question": "What is OptiAI?",
+			"q3Answer": "OptiAI is our AI consulting service. Rather than selling off-the-shelf software, we assess your business, recommend AI interventions that fit how you actually work, implement them, and provide ongoing support. The goal is technology that adapts to your enterprise — not the other way around.",
+			"q4Question": "Do you work with businesses of all sizes?",
+			"q4Answer": "Yes, we provide tailored HR and AI solutions for small businesses, large corporations, and independent schools. Our approach is customised to meet the specific needs and scale of each client."
+		},
+		"cards": [
+			{ "key": "ai", "title": "AI in the Workplace — OptiAI", "body": "Tailored AI interventions that work the way your business does. We assess your needs, recommend the right tools, implement them properly, and evolve them over time. The software learns from your enterprise — not the other way around.", "callToAction": "Explore OptiAI", "pageUrl": "/ai-in-the-workplace" },
+			{ "key": "company-secretary-services", "title": "Company Secretary Services", "body": "Professional governance support for private companies — CIPC filings, statutory record-keeping, board resolutions, and compliance with the Companies Act.", "callToAction": "Request Free Audit", "pageUrl": "/services/company-secretary-services" },
+			{ "key": "compliance", "title": "Compliance", "body": "Comprehensive support ensuring statutory, CIPC, and regulatory compliance for your business — keeping you protected from fines, disputes, and reputational damage.", "callToAction": "Stay Compliant Now", "pageUrl": "/services/compliance" },
+			{ "key": "employment-equity", "title": "Employment Equity", "body": "Policies, plans, and support for achieving workplace equity and compliance with the Employment Equity Act — from workforce analysis to DOL reporting.", "callToAction": "Boost Equity Efforts", "pageUrl": "/services/employment-equity" },
+			{ "key": "hr-policy-development", "title": "HR Policy Development", "body": "Custom HR policies designed to strengthen your business processes and ensure full legal compliance — no copy-paste templates, only solutions built for your context.", "callToAction": "Update Your Policies", "pageUrl": "/services/hr-policy-development" },
+			{ "key": "hr-training", "title": "HR Training", "body": "Practical, hands-on HR skills and compliance training for managers and employees — covering disciplinary hearings, grievance handling, performance management, and more.", "callToAction": "Book a Session", "pageUrl": "/services/hr-training" },
+			{ "key": "industrial-relations", "title": "Industrial Relations", "body": "Expert mediation, dispute resolution, and union engagement support — protecting your business in CCMA matters, bargaining councils, and collective negotiations.", "callToAction": "Resolve Disputes Fast", "pageUrl": "/services/industrial-relations" },
+			{ "key": "job-evaluation", "title": "Job Evaluation", "body": "Objective job evaluation using recognised methodologies to optimise role clarity, career progression, and compensation structures across your organisation.", "callToAction": "Request Evaluation", "pageUrl": "/services/job-evaluation" },
+			{ "key": "labour-audits", "title": "Labour Audits", "body": "Thorough audits to identify labour risks in contracts, policies, payroll, and practices — ensuring you're compliant and ready for Department of Labour inspections.", "callToAction": "Schedule Audit Today", "pageUrl": "/services/labour-audits" },
+			{ "key": "performance-management", "title": "Performance Management", "body": "Strategies and systems for enhancing employee performance — from practical KPI frameworks and performance improvement plans to accountability structures that work.", "callToAction": "Improve Performance", "pageUrl": "/services/performance-management" },
+			{ "key": "retrenchments", "title": "Retrenchments", "body": "Guidance and support for compliant, fair, and strategically managed retrenchment processes — including Section 189 consultations and CCMA representation.", "callToAction": "Get Retrenchment Help", "pageUrl": "/services/retrenchments" },
+			{ "key": "workplace-discipline", "title": "Workplace Discipline", "body": "Clear policies, fair hearings, and practical training for managing discipline in the workplace — ensuring every process is legally sound and defensible.", "callToAction": "Enforce Discipline", "pageUrl": "/services/workplace-discipline" },
+			{ "key": "workplace-wellness-programs", "title": "Workplace Wellness Programs", "body": "Tailored wellness initiatives and employee assistance programmes designed to boost productivity, reduce burnout, and build a healthier, more loyal workforce.", "callToAction": "Launch Wellness Program", "pageUrl": "/services/workplace-wellness-programs" },
+			{ "key": "hr-support-for-independent-schools", "title": "HR Support for Independent Schools", "body": "Specialist HR for independent schools — contracts for educators and support staff, SACE compliance, governance reviews, union engagement, and CCMA representation.", "callToAction": "Support Your School", "pageUrl": "/services/hr-support-for-independent-schools" }
+		],
+		"details": {
+			"companySecretaryServices": {
+				"title": "Company Secretary Services",
+				"description": "Every private company has statutory obligations under the Companies Act — even ones without a dedicated company secretary. OptiHR handles CIPC filings, statutory record-keeping, board resolutions, annual returns, and director changes — keeping your governance house in order so you can focus on running the business."
+			},
+			"compliance": {
+				"title": "Compliance",
+				"description": "Compliance is non-negotiable. Whether it's labour law, CIPC requirements, employment equity, or industry-specific regulations, OptiHR ensures your business meets every statutory obligation. We take a proactive approach — closing gaps before they become liabilities, so you avoid fines, CCMA disputes, and reputational damage."
+			},
+			"employmentEquity": {
+				"title": "Employment Equity",
+				"description": "The Employment Equity Act applies to designated employers — and the bar keeps rising. From workforce analysis and EE plans to DOL reporting and committee training, OptiHR builds an EE programme that's both compliant and genuinely transformational. We help you avoid the substantial fines for non-compliance while creating a workplace that reflects South Africa's diversity."
+			},
+			"hrPolicyDevelopment": {
+				"title": "HR Policy Development",
+				"description": "Generic policy templates create more risk than they solve. OptiHR develops bespoke HR policies tailored to your business — your industry, your size, your culture, your legal obligations. From disciplinary codes and grievance procedures to remote work, leave, and POPIA-aligned data policies, we deliver documents that work in practice and stand up in court."
+			},
+			"hrSupportForIndependentSchools": {
+				"title": "HR Support for Independent Schools",
+				"description": "Independent schools face HR challenges no generic consultant understands. SACE compliance, educator contracts, governing body dynamics, parent-staff sensitivities, and union pressure all play out against an academic calendar that doesn't pause. OptiHR brings specialist insight — Raymond is a SACE-registered former educator and admitted attorney — to give your school HR support that fits how schools actually work."
+			},
+			"hrTraining": {
+				"title": "HR Training",
+				"description": "HR knowledge that stays in a binder doesn't protect your business. OptiHR delivers practical, scenario-based training to managers, supervisors, and HR teams — covering disciplinary hearings, grievance handling, performance management, fair recruitment, and CCMA preparation. Every session is built around real situations your people will face."
+			},
+			"industrialRelations": {
+				"title": "Industrial Relations",
+				"description": "Industrial relations done badly cost businesses millions. OptiHR provides expert representation in CCMA matters, bargaining council proceedings, and union negotiations — combined with proactive IR strategy that prevents disputes from arising in the first place. Our 95%+ CCMA success rate speaks for itself."
+			},
+			"jobEvaluation": {
+				"title": "Job Evaluation",
+				"description": "Without proper job evaluation, you're guessing — about pay, about role design, about career progression. OptiHR uses recognised methodologies to assess every role objectively, giving you a defensible structure for compensation, promotion decisions, and equal-pay-for-equal-work compliance."
+			},
+			"labourAudits": {
+				"title": "Labour Audits",
+				"description": "A Labour Audit is the best starting point for any business. It shows you exactly where you stand today, what risks you're facing, and what needs to be fixed first. Think of it as a health check for your business — it highlights problems before they become expensive disasters and gives you a clear action plan to move forward. Many businesses think they're compliant until an inspector arrives, a CCMA case is filed, or a penalty notice lands. A Labour Audit removes the guesswork."
+			},
+			"performanceManagement": {
+				"title": "Performance Management",
+				"description": "Performance management isn't an annual form-filling exercise — it's the operating system of a high-performing team. OptiHR designs practical KPI frameworks, performance improvement plans, and accountability structures that managers actually use and employees actually understand. We turn performance management into a tool for growth, not a paperwork burden."
+			},
+			"retrenchments": {
+				"title": "Retrenchments",
+				"description": "Retrenchments are legally complex and emotionally difficult. Get them wrong and you face CCMA disputes, reinstatement orders, and reputational damage. OptiHR manages the entire Section 189 process — from consultation notices and selection criteria to facilitator engagement and CCMA representation — so the process is fair, compliant, and as humane as possible."
+			},
+			"workplaceDiscipline": {
+				"title": "Workplace Discipline",
+				"description": "Inconsistent or unfair discipline is one of the fastest routes to a CCMA case. OptiHR builds clear disciplinary codes, trains managers to chair fair hearings, and represents employers when matters escalate. Every step of every process is documented and defensible — so you can act decisively without fear of unfair-dismissal awards."
+			},
+			"workplaceWellnessPrograms": {
+				"title": "Workplace Wellness Programs",
+				"description": "Burned-out, disengaged employees cost more than wellness programmes ever will. OptiHR designs tailored wellness initiatives and employee assistance programmes (EAPs) that fit your culture and budget — from mental health support and financial wellness to physical health benefits and confidential counselling access. The result: lower absenteeism, better retention, and a more productive team."
+			}
+		}
+	},
+	"IndividualServiceShared": {
+		"anchorText": "View services",
+		"whyOptiHRSubtitle": "Why OptiHR",
+		"whyOptiHRTitle": "How we help",
+		"processSubtitle": "Our Process",
+		"processTitle": "What we cover",
+		"deliverablesSubtitle": "Deliverables",
+		"deliverablesTitle": "What you get",
+		"audienceSubtitle": "Ideal For",
+		"audienceTitle": "Who we work with",
+		"advantageSubtitle": "Our Advantage",
+		"advantageTitle": "Why choose OptiHR",
+		"legalSubtitle": "Legal Framework",
+		"legalTitle": "Legislation that applies",
+		"faqTitle": "FAQ"
 	}
 }

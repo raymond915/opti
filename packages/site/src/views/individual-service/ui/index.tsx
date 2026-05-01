@@ -4,6 +4,7 @@ import { SectionSubtitle } from "@shared/components/section-subtitle"
 import { H2, H3, P } from "@shared/components/typography"
 import { ClientLogos } from "@widgets/client-logos"
 import { FaqSection } from "@widgets/faq-section"
+import { useTranslations } from "next-intl"
 import { notFound } from "next/navigation"
 import type { ServiceContent } from "../model/schema"
 
@@ -40,7 +41,14 @@ export const serviceMap: Record<string, unknown> = {
 	"workplace-wellness-programs": workplaceWellnessPrograms,
 }
 
+// Convert kebab-case slug to camelCase namespace key
+const slugToCamel = (slug: string) =>
+	slug.replace(/-([a-z])/g, (_, c: string) => c.toUpperCase())
+
 export const ServicePage = ({ slug }: { slug: string }) => {
+	const t = useTranslations("Services")
+	const tShared = useTranslations("IndividualServiceShared")
+
 	if (!slug) {
 		notFound()
 	}
@@ -50,6 +58,10 @@ export const ServicePage = ({ slug }: { slug: string }) => {
 		notFound()
 	}
 	const data = raw as ExtendedServiceContent
+
+	const detailKey = slugToCamel(slug)
+	const title = t(`details.${detailKey}.title`)
+	const description = t(`details.${detailKey}.description`)
 
 	const sections = data.sections ?? []
 	const itemSections = sections.filter((s) => s.type === "item")
@@ -61,16 +73,16 @@ export const ServicePage = ({ slug }: { slug: string }) => {
 		<>
 			<PageBanner
 				anchorId="services"
-				anchorText="View services"
-				body={data.description}
-				title={data.title}
+				anchorText={tShared("anchorText")}
+				body={description}
+				title={title}
 			/>
 
 			{data.whyOptiHR && data.whyOptiHR.length > 0 && (
 				<ContainedLayout className="max-h-none flex flex-col gap-fluid-4 bg-muted-1">
 					<div className="col-span-full flex flex-col gap-fluid-1">
-						<SectionSubtitle isDark title="Why OptiHR" />
-						<H2>How we help</H2>
+						<SectionSubtitle isDark title={tShared("whyOptiHRSubtitle")} />
+						<H2>{tShared("whyOptiHRTitle")}</H2>
 					</div>
 					<div className="col-span-full grid grid-cols-1 gap-inner-padding md:grid-cols-3">
 						{data.whyOptiHR.map((item) => (
@@ -94,8 +106,8 @@ export const ServicePage = ({ slug }: { slug: string }) => {
 			{itemSections.length > 0 && (
 				<ContainedLayout className="max-h-none flex flex-col gap-fluid-4 bg-white">
 					<div className="col-span-full flex flex-col gap-fluid-1">
-						<SectionSubtitle isDark title="Our Process" />
-						<H2 className="text-mint-6">What we cover</H2>
+						<SectionSubtitle isDark title={tShared("processSubtitle")} />
+						<H2 className="text-mint-6">{tShared("processTitle")}</H2>
 					</div>
 					<div className="col-span-full grid grid-cols-1 gap-x-inner-padding gap-y-fluid-2 md:grid-cols-2">
 						{itemSections.map((item, i) => (
@@ -115,8 +127,8 @@ export const ServicePage = ({ slug }: { slug: string }) => {
 			{benefitSections.length > 0 && (
 				<ContainedLayout className="max-h-none flex flex-col gap-fluid-4 bg-muted-1">
 					<div className="col-span-full flex flex-col gap-fluid-1">
-						<SectionSubtitle isDark title="Deliverables" />
-						<H2>What you get</H2>
+						<SectionSubtitle isDark title={tShared("deliverablesSubtitle")} />
+						<H2>{tShared("deliverablesTitle")}</H2>
 					</div>
 					<div className="col-span-full grid grid-cols-1 gap-x-inner-padding gap-y-fluid-2 md:grid-cols-2">
 						{benefitSections.map((item, i) => (
@@ -136,8 +148,8 @@ export const ServicePage = ({ slug }: { slug: string }) => {
 			{audienceSections.length > 0 && (
 				<ContainedLayout className="max-h-none flex flex-col gap-fluid-4 bg-white">
 					<div className="col-span-full flex flex-col gap-fluid-1">
-						<SectionSubtitle isDark title="Ideal For" />
-						<H2 className="text-mint-6">Who we work with</H2>
+						<SectionSubtitle isDark title={tShared("audienceSubtitle")} />
+						<H2 className="text-mint-6">{tShared("audienceTitle")}</H2>
 					</div>
 					<div className="col-span-full grid grid-cols-1 gap-inner-padding sm:grid-cols-2 lg:grid-cols-3">
 						{audienceSections.map((item, i) => (
@@ -155,8 +167,8 @@ export const ServicePage = ({ slug }: { slug: string }) => {
 			{warningSections.length > 0 && (
 				<ContainedLayout className="max-h-none flex flex-col gap-fluid-4 bg-mint-1/30">
 					<div className="col-span-full flex flex-col gap-fluid-1">
-						<SectionSubtitle isDark title="Our Advantage" />
-						<H2 className="text-mint-6">Why choose OptiHR</H2>
+						<SectionSubtitle isDark title={tShared("advantageSubtitle")} />
+						<H2 className="text-mint-6">{tShared("advantageTitle")}</H2>
 					</div>
 					<div className="col-span-full grid grid-cols-1 gap-inner-padding md:grid-cols-2">
 						{warningSections.map((item, i) => (
@@ -174,8 +186,8 @@ export const ServicePage = ({ slug }: { slug: string }) => {
 			{data.legalConsiderations && data.legalConsiderations.length > 0 && (
 				<ContainedLayout className="max-h-none flex flex-col gap-fluid-4 bg-mint-6">
 					<div className="col-span-full flex flex-col gap-fluid-1">
-						<SectionSubtitle isDark={false} title="Legal Framework" />
-						<H2 className="text-white">Legislation that applies</H2>
+						<SectionSubtitle isDark={false} title={tShared("legalSubtitle")} />
+						<H2 className="text-white">{tShared("legalTitle")}</H2>
 					</div>
 					<div className="col-span-full grid grid-cols-1 gap-inner-padding md:grid-cols-2">
 						{data.legalConsiderations.map((item) => (
@@ -198,7 +210,7 @@ export const ServicePage = ({ slug }: { slug: string }) => {
 
 			<FaqSection
 				data={{
-					title: "FAQ",
+					title: tShared("faqTitle"),
 					subtitle: data.faqSubtitle,
 					body: data.faqBody,
 					cta: data.faqCta,
