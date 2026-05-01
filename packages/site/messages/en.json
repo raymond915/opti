@@ -88,9 +88,27 @@
 		"callOptiHR": "Call OptiHR office"
 	},
 	"NotFound": {
-		"title": "Page not found",
-		"body": "Sorry, the page you're looking for doesn't exist or has moved.",
+		"badge": "404",
+		"h1": "Page Not Found",
+		"body": "Sorry, the page you're looking for doesn't exist or may have been moved. Let's get you back on track.",
+		"exploreServices": "Explore our services",
+		"separator": "or",
+		"reachOut": "Reach out",
+		"audienceHeading": "Our audiences",
 		"returnHome": "Return home"
+	},
+	"ThankYou": {
+		"metaTitle": "Thank You — OptiHR",
+		"metaDescription": "Your message has been received. A member of the OptiHR team will be in touch with you shortly.",
+		"ogTitle": "Thank You — OptiHR",
+		"ogDescription": "Thanks for reaching out to OptiHR. We'll be in touch shortly.",
+		"badge": "Thank You",
+		"h1": "Thank You!",
+		"body": "Your message has been received. A member of the OptiHR team will be in touch with you shortly. In the meantime, explore our insights or browse our full range of services.",
+		"discoverInsights": "Discover industry insights",
+		"subtitle": "More coming soon",
+		"viewServices": "Services",
+		"featuredExcerpt": "Explore OptiHR services while you wait."
 	},
 	"LanguageToggle": {
 		"label": "Language",

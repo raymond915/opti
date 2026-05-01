@@ -88,9 +88,27 @@
 		"callOptiHR": "Bel OptiHR-kantoor"
 	},
 	"NotFound": {
-		"title": "Bladsy nie gevind nie",
-		"body": "Jammer, die bladsy waarna jy soek, bestaan nie of is geskuif.",
+		"badge": "404",
+		"h1": "Bladsy Nie Gevind Nie",
+		"body": "Jammer, die bladsy waarna jy soek, bestaan nie of is dalk geskuif. Kom ons kry jou terug op koers.",
+		"exploreServices": "Verken ons dienste",
+		"separator": "of",
+		"reachOut": "Kontak ons",
+		"audienceHeading": "Ons gehore",
 		"returnHome": "Keer terug huis toe"
+	},
+	"ThankYou": {
+		"metaTitle": "Dankie — OptiHR",
+		"metaDescription": "Jou boodskap is ontvang. 'n Lid van die OptiHR-span sal binnekort met jou in aanraking kom.",
+		"ogTitle": "Dankie — OptiHR",
+		"ogDescription": "Dankie dat jy met OptiHR kontak gemaak het. Ons sal binnekort met jou in aanraking kom.",
+		"badge": "Dankie",
+		"h1": "Dankie!",
+		"body": "Jou boodskap is ontvang. 'n Lid van die OptiHR-span sal binnekort met jou in aanraking kom. Verken intussen ons insigte of blaai deur ons volle reeks dienste.",
+		"discoverInsights": "Ontdek bedryfsinsigte",
+		"subtitle": "Meer kom binnekort",
+		"viewServices": "Dienste",
+		"featuredExcerpt": "Verken intussen OptiHR se dienste."
 	},
 	"LanguageToggle": {
 		"label": "Taal",
