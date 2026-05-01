@@ -354,5 +354,19 @@
 			"q3Question": "What makes OptiHR the right choice for independent schools?",
 			"q3Answer": "Our founder is an admitted attorney with labour law expertise, a qualified HR practitioner, and a SACE-registered former educator. This rare combination means we understand both the classroom and the courtroom — giving schools a partner who can manage governance, compliance, and disputes with deep sector-specific insight."
 		}
+	},
+	"Contact": {
+		"metaTitle": "Contact OptiHR — Free HR & Compliance Consultations",
+		"metaDescription": "Get in touch with OptiHR for HR, labour law, and compliance support. Free consultations available for South African businesses and independent schools.",
+		"ogTitle": "Contact OptiHR — Free HR & Compliance Consultations",
+		"ogDescription": "Reach out for urgent HR support or to book a free compliance consultation. We work with businesses and independent schools across South Africa.",
+		"badge": "Contact Us",
+		"h1": "Contact OptiHR",
+		"body": "Whether you need urgent HR support or want to start with a free compliance consultation, we're ready to help. Reach out and let's protect your business together.",
+		"detailsHeading": "Prefer to reach out directly?",
+		"officeLabel": "(office)",
+		"rhodenePrefix": "Rhodene:",
+		"qrLabel": "Scan to WhatsApp us",
+		"qrAriaLabel": "Scan to message OptiHR on WhatsApp"
 	}
 }

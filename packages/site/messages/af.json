@@ -354,5 +354,19 @@
 			"q3Question": "Wat maak OptiHR die regte keuse vir onafhanklike skole?",
 			"q3Answer": "Ons stigter is 'n toegelate prokureur met arbeidsreg-kundigheid, 'n gekwalifiseerde MH-praktisyn en 'n SARO-geregistreerde voormalige opvoeder. Hierdie skaars kombinasie beteken ons verstaan beide die klaskamer en die hofsaal — wat skole 'n vennoot gee wat bestuur, nakoming en geskille met diepgaande sektor-spesifieke insig kan bestuur."
 		}
+	},
+	"Contact": {
+		"metaTitle": "Kontak OptiHR — Gratis MH- & Nakomingskonsultasies",
+		"metaDescription": "Skakel met OptiHR vir MH-, arbeidsreg- en nakomingsondersteuning. Gratis konsultasies beskikbaar vir Suid-Afrikaanse ondernemings en onafhanklike skole.",
+		"ogTitle": "Kontak OptiHR — Gratis MH- & Nakomingskonsultasies",
+		"ogDescription": "Skakel vir dringende MH-ondersteuning of bespreek 'n gratis nakomingskonsultasie. Ons werk met ondernemings en onafhanklike skole regoor Suid-Afrika.",
+		"badge": "Kontak Ons",
+		"h1": "Kontak OptiHR",
+		"body": "Of jy nou dringende MH-ondersteuning nodig het of met 'n gratis nakomingskonsultasie wil begin, ons is gereed om te help. Skakel met ons en kom ons beskerm jou onderneming saam.",
+		"detailsHeading": "Wil jy eerder direk skakel?",
+		"officeLabel": "(kantoor)",
+		"rhodenePrefix": "Rhodene:",
+		"qrLabel": "Skandeer om ons op WhatsApp te bereik",
+		"qrAriaLabel": "Skandeer om OptiHR op WhatsApp te bereik"
 	}
 }
