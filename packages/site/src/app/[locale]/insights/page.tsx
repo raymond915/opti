@@ -1,11 +1,33 @@
 import { InsightArchivePage } from "@pages/insight-archive/ui"
-import type { NextPage } from "next"
+import type { Metadata, NextPage } from "next"
+import { getTranslations, setRequestLocale } from "next-intl/server"
 
 interface PageProps {
+	params: Promise<{ locale: string }>
 	searchParams: Promise<{ category?: string }>
 }
 
-const Page: NextPage<PageProps> = async ({ searchParams }) => {
+export async function generateMetadata({
+	params,
+}: {
+	params: Promise<{ locale: string }>
+}): Promise<Metadata> {
+	const { locale } = await params
+	const t = await getTranslations({ locale, namespace: "Insights" })
+
+	return {
+		title: t("metaTitle"),
+		description: t("metaDescription"),
+		openGraph: {
+			title: t("ogTitle"),
+			description: t("ogDescription"),
+		},
+	}
+}
+
+const Page: NextPage<PageProps> = async ({ params, searchParams }) => {
+	const { locale } = await params
+	setRequestLocale(locale)
 	const { category } = await searchParams
 	return <InsightArchivePage selectedCategory={category ?? "all"} />
 }

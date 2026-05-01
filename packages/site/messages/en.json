@@ -1574,6 +1574,142 @@
 		"legalTitle": "Legislation that applies",
 		"faqTitle": "FAQ"
 	},
+	"Insights": {
+		"metaTitle": "OptiBuzz — HR & Labour Law Insights for South African Businesses | OptiHR",
+		"metaDescription": "Practical labour law guidance, CCMA insights, POPIA compliance tips, and HR best practice articles for South African employers — written by an admitted attorney.",
+		"ogTitle": "OptiBuzz — HR & Labour Law Insights for South African Businesses | OptiHR",
+		"ogDescription": "Practical labour law guidance, CCMA insights, POPIA compliance tips, and HR best practice articles for South African employers — written by an admitted attorney.",
+		"banner": {
+			"anchorText": "Read articles",
+			"title": "OptiBuzz — HR & Labour Law Insights for South African Businesses",
+			"body": "Practical guidance, plain-language legal insight, and employer-focused analysis on South African labour law, HR compliance, CCMA disputes, and workplace best practices — written by an admitted attorney with hands-on HR experience."
+		},
+		"about": {
+			"subtitle": "About OptiBuzz",
+			"h2": "Real answers to real HR and labour law questions",
+			"body": "OptiHR's blog and insights hub covers the issues South African employers actually face — from CCMA notices and disciplinary hearings to POPIA compliance and retrenchment processes. Every article is written by Raymond Hauptfleisch, admitted attorney and qualified HR practitioner, to give you accurate, actionable guidance you can rely on.",
+			"cards": [
+				{ "label": "Labour Law", "detail": "LRA, BCEA, and EEA explained in plain language for employers." },
+				{ "label": "CCMA Guidance", "detail": "What to expect, how to prepare, and how to protect your business." },
+				{ "label": "HR Best Practice", "detail": "Practical frameworks for discipline, performance, and compliance." }
+			]
+		},
+		"archive": {
+			"subtitle": "All Articles",
+			"h2": "Browse by topic",
+			"emptyState": "No articles found in this category yet."
+		},
+		"categories": {
+			"all": "All Articles",
+			"ccma": "CCMA",
+			"compliance": "Compliance",
+			"performance-management": "Performance Management",
+			"independent-schools": "Independent Schools",
+			"ai-in-the-workplace": "AI in the Workplace"
+		},
+		"meta": {
+			"minRead": "min read",
+			"readMore": "Read More"
+		},
+		"months": {
+			"January": "January",
+			"February": "February",
+			"March": "March",
+			"April": "April",
+			"May": "May",
+			"June": "June",
+			"July": "July",
+			"August": "August",
+			"September": "September",
+			"October": "October",
+			"November": "November",
+			"December": "December"
+		},
+		"article": {
+			"breadcrumbHome": "OptiBuzz",
+			"authorSubtitle": "Admitted Attorney · Qualified HR Practitioner",
+			"ctaButton": "Book a free consultation",
+			"moreSubtitle": "OptiBuzz",
+			"moreH2": "More articles",
+			"viewAll": "View all articles",
+			"finalCta": {
+				"title": "Need expert HR support?",
+				"body": "OptiHR provides hands-on HR and labour law support to South African businesses and schools. Book a free consultation to discuss your needs.",
+				"button": "Book a free consultation"
+			},
+			"notFound": {
+				"title": "Article not found",
+				"body": "This article may have moved or been removed.",
+				"back": "Back to OptiBuzz"
+			}
+		},
+		"articles": {
+			"what-to-do-when-you-receive-a-ccma-notice": {
+				"title": "What to Do When You Receive a CCMA Notice in South Africa",
+				"excerpt": "Received a CCMA referral form from a former employee? Here is exactly what to do, what not to do, and how to protect your business at conciliation and arbitration."
+			},
+			"how-to-conduct-a-fair-disciplinary-hearing-south-africa": {
+				"title": "How to Conduct a Fair Disciplinary Hearing in South Africa",
+				"excerpt": "A step-by-step guide for South African employers on running a procedurally and substantively fair disciplinary hearing — and avoiding costly CCMA claims."
+			},
+			"legal-retrenchment-process-south-africa": {
+				"title": "How to Legally Retrench Employees in South Africa: A Section 189 Guide",
+				"excerpt": "Retrenchment is one of the highest-risk HR processes in South Africa. This guide explains the Section 189 consultation process, what must be disclosed, and how to avoid an unfair dismissal finding."
+			},
+			"popia-compliance-for-employers-south-africa": {
+				"title": "POPIA Compliance for Employers: What South African Businesses Must Do",
+				"excerpt": "The Protection of Personal Information Act is now fully in force. Here is what South African employers must do to protect employee and client data — and avoid Information Regulator enforcement."
+			},
+			"managing-poor-performance-without-ccma": {
+				"title": "Managing Poor Performance Without Landing at the CCMA",
+				"excerpt": "Dismissing an employee for poor performance in South Africa requires a specific process. Get it wrong and you face reinstatement or compensation. Here is how to do it correctly."
+			},
+			"employment-equity-reporting-guide-south-africa": {
+				"title": "Employment Equity Reporting: A Practical Guide for South African Employers",
+				"excerpt": "Are you a designated employer under the Employment Equity Act? Here is what you need to report, when to report it, and the penalties for non-compliance in 2026."
+			},
+			"hr-for-independent-schools-south-africa": {
+				"title": "HR for Independent Schools: What Every Principal Needs to Know",
+				"excerpt": "Independent schools in South Africa face unique HR challenges that public school systems simply do not. From SACE compliance to governing body disputes, here is what principals need to understand."
+			},
+			"what-must-be-in-an-employment-contract-south-africa": {
+				"title": "What Must Be in an Employment Contract in South Africa?",
+				"excerpt": "A legally compliant employment contract is your first line of defence in any dispute. Here is what the Basic Conditions of Employment Act requires — and what you should add beyond the minimum."
+			},
+			"how-ai-saves-your-business-hours-every-week": {
+				"title": "How AI Can Save Your Business Hours Every Week: Practical Use Cases for South African SMEs",
+				"excerpt": "AI is not just for tech companies. From drafting documents to summarising meetings, here are the everyday tasks where AI delivers real time savings for South African businesses right now."
+			},
+			"ai-tools-for-hr-south-africa": {
+				"title": "AI Tools for HR: What South African Employers Can Actually Use Right Now",
+				"excerpt": "HR teams are drowning in admin while legal risk accumulates in the background. Here is where AI delivers real, practical value in the HR function — and what South African employers need to know before they start."
+			},
+			"getting-started-with-ai-in-your-business": {
+				"title": "Getting Started with AI in Your Business: A Practical Guide for South African Business Owners",
+				"excerpt": "You know AI can help. You are not sure where to start. This no-nonsense guide walks you through how to introduce AI into your business in a way that actually sticks — without the overwhelm."
+			},
+			"understanding-the-patterson-job-grading-system": {
+				"title": "Understanding the Patterson Job Grading System: A Guide for South African Employers",
+				"excerpt": "The Patterson Job Grading System is South Africa's most widely used job evaluation method. Here is what it is, how the bands work, and why it matters for pay equity, employment equity reporting, and managing your workforce fairly."
+			},
+			"why-your-pty-ltd-needs-company-secretary-services": {
+				"title": "Why Your (Pty) Ltd Needs Company Secretary Services — Even If the Law Doesn't Require It",
+				"excerpt": "Private companies in South Africa are not legally required to appoint a company secretary — but the governance obligations remain. Missed CIPC deadlines, missing board resolutions, and poorly maintained statutory registers can have serious legal and commercial consequences. Here is what you are risking without proper company secretarial support."
+			},
+			"hr-policies-every-south-african-employer-needs": {
+				"title": "HR Policies Every South African Employer Needs — And Why \"Common Sense\" Won't Save You at the CCMA",
+				"excerpt": "South African labour law is clear: you cannot dismiss an employee for breaking a rule they were never told about. If your workplace rules exist only in your head, you are already exposed. Here is what every South African business needs in writing."
+			},
+			"employment-contracts-south-africa-what-every-employer-must-know": {
+				"title": "Employment Contracts in South Africa: What Every Employer Must Include — and What to Avoid",
+				"excerpt": "A signed employment contract is not just good practice — it is a legal requirement under the Basic Conditions of Employment Act. But many South African employers are using contracts that expose them to serious risk. Here is what must be in writing, what to watch out for, and why generic templates often create more problems than they solve."
+			},
+			"job-evaluation-and-salary-benchmarking-south-africa": {
+				"title": "Job Evaluation and Salary Benchmarking: Why Getting It Right Protects Your Business and Keeps Your Best People",
+				"excerpt": "Paying people fairly is not just good management — in South Africa it is a legal obligation. Job evaluation gives you a defensible structure for how roles are graded and paid. Salary benchmarking tells you whether your pay is competitive in the market. Together, they are two of the most powerful tools an employer has."
+			}
+		}
+	},
 	"ContactForm": {
 		"optional": "(Optional)",
 		"steps": {

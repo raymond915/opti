@@ -5,6 +5,7 @@ import { SectionSubtitle } from "@shared/components/section-subtitle"
 import { H2, H4, P } from "@shared/components/typography"
 import { articles, categories } from "@pages/individual-insight/article-content/articles"
 import type { NextPage } from "next"
+import { useTranslations } from "next-intl"
 import Link from "next/link"
 
 interface InsightArchivePageProps {
@@ -12,34 +13,52 @@ interface InsightArchivePageProps {
 }
 
 export const InsightArchivePage: NextPage<InsightArchivePageProps> = ({ selectedCategory = "all" }) => {
+	const t = useTranslations("Insights")
+	const aboutCards = t.raw("about.cards") as { label: string; detail: string }[]
 	const filteredArticles = selectedCategory === "all"
 		? articles
 		: articles.filter((a) => a.categorySlug === selectedCategory)
+
+	const localizedTitle = (slug: string, fallback: string): string => {
+		try {
+			return t(`articles.${slug}.title`)
+		} catch {
+			return fallback
+		}
+	}
+	const localizedExcerpt = (slug: string, fallback: string): string => {
+		try {
+			return t(`articles.${slug}.excerpt`)
+		} catch {
+			return fallback
+		}
+	}
+	const localizedCategory = (slug: string, fallback: string): string => {
+		try {
+			return t(`categories.${slug}`)
+		} catch {
+			return fallback
+		}
+	}
 
 	return (
 		<>
 			<PageBanner
 				anchorId="archive"
-				anchorText="Read articles"
-				body="Practical guidance, plain-language legal insight, and employer-focused analysis on South African labour law, HR compliance, CCMA disputes, and workplace best practices — written by an admitted attorney with hands-on HR experience."
-				title="OptiBuzz — HR & Labour Law Insights for South African Businesses"
+				anchorText={t("banner.anchorText")}
+				body={t("banner.body")}
+				title={t("banner.title")}
 			/>
 
 			{/* What OptiBuzz is */}
 			<ContainedLayout className="max-h-none flex flex-col gap-fluid-4 bg-muted-1">
 				<div className="col-span-full flex flex-col gap-fluid-1">
-					<SectionSubtitle isDark title="About OptiBuzz" />
-					<H2 className="text-mint-6">Real answers to real HR and labour law questions</H2>
-					<P className="text-mint-5/80 max-w-2xl">
-						OptiHR's blog and insights hub covers the issues South African employers actually face — from CCMA notices and disciplinary hearings to POPIA compliance and retrenchment processes. Every article is written by Raymond Hauptfleisch, admitted attorney and qualified HR practitioner, to give you accurate, actionable guidance you can rely on.
-					</P>
+					<SectionSubtitle isDark title={t("about.subtitle")} />
+					<H2 className="text-mint-6">{t("about.h2")}</H2>
+					<P className="text-mint-5/80 max-w-2xl">{t("about.body")}</P>
 				</div>
 				<div className="col-span-full grid grid-cols-1 gap-inner-padding sm:grid-cols-3">
-					{[
-						{ label: "Labour Law", detail: "LRA, BCEA, and EEA explained in plain language for employers." },
-						{ label: "CCMA Guidance", detail: "What to expect, how to prepare, and how to protect your business." },
-						{ label: "HR Best Practice", detail: "Practical frameworks for discipline, performance, and compliance." },
-					].map((item) => (
+					{aboutCards.map((item) => (
 						<div key={item.label} className="flex flex-col gap-2 rounded-inner bg-white p-inner-padding border border-mint-2/20">
 							<H4 className="text-mint-6">{item.label}</H4>
 							<P className="text-mint-5/80 text-sm">{item.detail}</P>
@@ -51,14 +70,15 @@ export const InsightArchivePage: NextPage<InsightArchivePageProps> = ({ selected
 			{/* Article grid */}
 			<ContainedLayout className="max-h-none flex flex-col gap-fluid-4 bg-white" id="archive">
 				<div className="col-span-full flex flex-col gap-fluid-1">
-					<SectionSubtitle isDark title="All Articles" />
-					<H2 className="text-mint-6">Browse by topic</H2>
+					<SectionSubtitle isDark title={t("archive.subtitle")} />
+					<H2 className="text-mint-6">{t("archive.h2")}</H2>
 				</div>
 
 				{/* Category filter links */}
 				<div className="col-span-full flex flex-wrap gap-2">
 					{categories.map((cat) => {
 						const isActive = cat.slug.current === selectedCategory
+						const label = localizedCategory(cat.slug.current, cat.title)
 						return (
 							<Link
 								key={cat.slug.current}
@@ -69,7 +89,7 @@ export const InsightArchivePage: NextPage<InsightArchivePageProps> = ({ selected
 										: "rounded-full border border-mint-2/30 bg-muted-1 px-4 py-1.5 text-xs font-medium text-mint-5 transition-colors hover:bg-mint-6 hover:text-white hover:border-mint-6"
 								}
 							>
-								{cat.title}
+								{label}
 							</Link>
 						)
 					})}
@@ -82,8 +102,8 @@ export const InsightArchivePage: NextPage<InsightArchivePageProps> = ({ selected
 							<BlogPostThumbnail
 								key={article.slug}
 								slug={article.slug}
-								title={article.title}
-								excerpt={article.excerpt}
+								title={localizedTitle(article.slug, article.title)}
+								excerpt={localizedExcerpt(article.slug, article.excerpt)}
 								featureImage={article.featureImage}
 								className="col-span-1"
 							/>
@@ -91,7 +111,7 @@ export const InsightArchivePage: NextPage<InsightArchivePageProps> = ({ selected
 					</div>
 				) : (
 					<div className="col-span-full py-fluid-4 text-center">
-						<P className="text-mint-5/60">No articles found in this category yet.</P>
+						<P className="text-mint-5/60">{t("archive.emptyState")}</P>
 					</div>
 				)}
 			</ContainedLayout>

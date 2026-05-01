@@ -1574,6 +1574,142 @@
 		"legalTitle": "Wetgewing wat van toepassing is",
 		"faqTitle": "Gereelde vrae"
 	},
+	"Insights": {
+		"metaTitle": "OptiBuzz — MH- & Arbeidsreg-insigte vir Suid-Afrikaanse Ondernemings | OptiHR",
+		"metaDescription": "Praktiese arbeidsreg-leiding, KVBA-insigte, POPIA-nakomingswenke en MH-beste-praktyk-artikels vir Suid-Afrikaanse werkgewers — geskryf deur 'n toegelate prokureur.",
+		"ogTitle": "OptiBuzz — MH- & Arbeidsreg-insigte vir Suid-Afrikaanse Ondernemings | OptiHR",
+		"ogDescription": "Praktiese arbeidsreg-leiding, KVBA-insigte, POPIA-nakomingswenke en MH-beste-praktyk-artikels vir Suid-Afrikaanse werkgewers — geskryf deur 'n toegelate prokureur.",
+		"banner": {
+			"anchorText": "Lees artikels",
+			"title": "OptiBuzz — MH- & Arbeidsreg-insigte vir Suid-Afrikaanse Ondernemings",
+			"body": "Praktiese leiding, eenvoudige-taal regsadvies en werkgewer-gerigte ontleding oor Suid-Afrikaanse arbeidsreg, MH-nakoming, KVBA-geskille en werkplek-beste praktyke — geskryf deur 'n toegelate prokureur met praktiese MH-ervaring."
+		},
+		"about": {
+			"subtitle": "Oor OptiBuzz",
+			"h2": "Werklike antwoorde op werklike MH- en arbeidsreg-vrae",
+			"body": "OptiHR se blog- en insigte-tuiste dek die kwessies wat Suid-Afrikaanse werkgewers werklik in die gesig staar — van KVBA-kennisgewings en dissiplinêre verhore tot POPIA-nakoming en aflegging-prosesse. Elke artikel word geskryf deur Raymond Hauptfleisch, toegelate prokureur en gekwalifiseerde MH-praktisyn, om jou akkurate, uitvoerbare leiding te gee waarop jy kan staatmaak.",
+			"cards": [
+				{ "label": "Arbeidsreg", "detail": "WAV, WBD en WGI in eenvoudige taal verduidelik vir werkgewers." },
+				{ "label": "KVBA-leiding", "detail": "Wat om te verwag, hoe om voor te berei, en hoe om jou onderneming te beskerm." },
+				{ "label": "MH-Beste Praktyk", "detail": "Praktiese raamwerke vir dissipline, prestasie en nakoming." }
+			]
+		},
+		"archive": {
+			"subtitle": "Alle Artikels",
+			"h2": "Blaai per onderwerp",
+			"emptyState": "Geen artikels nog in hierdie kategorie gevind nie."
+		},
+		"categories": {
+			"all": "Alle Artikels",
+			"ccma": "KVBA",
+			"compliance": "Nakoming",
+			"performance-management": "Prestasiebestuur",
+			"independent-schools": "Onafhanklike Skole",
+			"ai-in-the-workplace": "KI in die Werkplek"
+		},
+		"meta": {
+			"minRead": "min lees",
+			"readMore": "Lees Meer"
+		},
+		"months": {
+			"January": "Januarie",
+			"February": "Februarie",
+			"March": "Maart",
+			"April": "April",
+			"May": "Mei",
+			"June": "Junie",
+			"July": "Julie",
+			"August": "Augustus",
+			"September": "September",
+			"October": "Oktober",
+			"November": "November",
+			"December": "Desember"
+		},
+		"article": {
+			"breadcrumbHome": "OptiBuzz",
+			"authorSubtitle": "Toegelate Prokureur · Gekwalifiseerde MH-praktisyn",
+			"ctaButton": "Bespreek 'n gratis konsultasie",
+			"moreSubtitle": "OptiBuzz",
+			"moreH2": "Meer artikels",
+			"viewAll": "Sien alle artikels",
+			"finalCta": {
+				"title": "Het jy kundige MH-ondersteuning nodig?",
+				"body": "OptiHR bied praktiese MH- en arbeidsreg-ondersteuning aan Suid-Afrikaanse ondernemings en skole. Bespreek 'n gratis konsultasie om jou behoeftes te bespreek.",
+				"button": "Bespreek 'n gratis konsultasie"
+			},
+			"notFound": {
+				"title": "Artikel nie gevind nie",
+				"body": "Hierdie artikel is dalk geskuif of verwyder.",
+				"back": "Terug na OptiBuzz"
+			}
+		},
+		"articles": {
+			"what-to-do-when-you-receive-a-ccma-notice": {
+				"title": "Wat om te doen wanneer jy 'n KVBA-kennisgewing in Suid-Afrika ontvang",
+				"excerpt": "Het jy 'n KVBA-verwysingsvorm van 'n voormalige werknemer ontvang? Hier is presies wat om te doen, wat nie te doen nie, en hoe om jou onderneming by versoening en arbitrasie te beskerm."
+			},
+			"how-to-conduct-a-fair-disciplinary-hearing-south-africa": {
+				"title": "Hoe om 'n Billike Dissiplinêre Verhoor in Suid-Afrika te Lei",
+				"excerpt": "'n Stap-vir-stap-gids vir Suid-Afrikaanse werkgewers oor die uitvoering van 'n prosedureel en substantief billike dissiplinêre verhoor — en die vermyding van duur KVBA-eise."
+			},
+			"legal-retrenchment-process-south-africa": {
+				"title": "Hoe om Werknemers Wettig in Suid-Afrika af te lê: 'n Artikel 189-Gids",
+				"excerpt": "Aflegging is een van die hoogste-risiko MH-prosesse in Suid-Afrika. Hierdie gids verduidelik die Artikel 189-konsultasieproses, wat geopenbaar moet word, en hoe om 'n onbillike-ontslag-bevinding te vermy."
+			},
+			"popia-compliance-for-employers-south-africa": {
+				"title": "POPIA-nakoming vir Werkgewers: Wat Suid-Afrikaanse Ondernemings Moet Doen",
+				"excerpt": "Die Wet op die Beskerming van Persoonlike Inligting is nou ten volle van krag. Hier is wat Suid-Afrikaanse werkgewers moet doen om werknemer- en kliëntdata te beskerm — en Inligtingsreguleerder-afdwinging te vermy."
+			},
+			"managing-poor-performance-without-ccma": {
+				"title": "Hantering van Swak Prestasie sonder om by die KVBA te beland",
+				"excerpt": "Om 'n werknemer in Suid-Afrika weens swak prestasie te ontslaan, vereis 'n spesifieke proses. Doen dit verkeerd en jy staar herinstelling of vergoeding in die gesig. Hier is hoe om dit korrek te doen."
+			},
+			"employment-equity-reporting-guide-south-africa": {
+				"title": "Gelyke-indiensneming-verslagdoening: 'n Praktiese Gids vir Suid-Afrikaanse Werkgewers",
+				"excerpt": "Is jy 'n aangewese werkgewer onder die Wet op Gelyke Indiensneming? Hier is wat jy moet verslag doen, wanneer om dit te verslag doen, en die boetes vir nie-nakoming in 2026."
+			},
+			"hr-for-independent-schools-south-africa": {
+				"title": "MH vir Onafhanklike Skole: Wat Elke Skoolhoof Moet Weet",
+				"excerpt": "Onafhanklike skole in Suid-Afrika staar unieke MH-uitdagings in die gesig wat openbare skoolstelsels eenvoudig nie het nie. Van SARO-nakoming tot beheerliggaam-geskille, hier is wat skoolhoofde moet verstaan."
+			},
+			"what-must-be-in-an-employment-contract-south-africa": {
+				"title": "Wat Moet in 'n Diensskontrak in Suid-Afrika Wees?",
+				"excerpt": "'n Regsnakomende diensskontrak is jou eerste verdedigingslinie in enige geskil. Hier is wat die Wet op Basiese Diensvoorwaardes vereis — en wat jy bo en behalwe die minimum behoort by te voeg."
+			},
+			"how-ai-saves-your-business-hours-every-week": {
+				"title": "Hoe KI Jou Onderneming Ure per Week kan Bespaar: Praktiese Gebruiksgevalle vir Suid-Afrikaanse KMO's",
+				"excerpt": "KI is nie net vir tegnologie-maatskappye nie. Van die opstel van dokumente tot die opsom van vergaderings — hier is die alledaagse take waar KI nou werklike tydbesparing vir Suid-Afrikaanse ondernemings lewer."
+			},
+			"ai-tools-for-hr-south-africa": {
+				"title": "KI-gereedskap vir MH: Wat Suid-Afrikaanse Werkgewers Werklik Nou kan Gebruik",
+				"excerpt": "MH-spanne verdrink in administrasie terwyl regsrisiko op die agtergrond ophoop. Hier is waar KI werklike, praktiese waarde in die MH-funksie lewer — en wat Suid-Afrikaanse werkgewers moet weet voordat hulle begin."
+			},
+			"getting-started-with-ai-in-your-business": {
+				"title": "Begin met KI in Jou Onderneming: 'n Praktiese Gids vir Suid-Afrikaanse Sake-Eienaars",
+				"excerpt": "Jy weet KI kan help. Jy is nie seker waar om te begin nie. Hierdie reguit gids loop jou deur hoe om KI op 'n manier in jou onderneming bekend te stel wat werklik vasstaan — sonder oorweldiging."
+			},
+			"understanding-the-patterson-job-grading-system": {
+				"title": "Verstaan die Patterson-Posgraderingstelsel: 'n Gids vir Suid-Afrikaanse Werkgewers",
+				"excerpt": "Die Patterson-Posgraderingstelsel is Suid-Afrika se mees gebruikte posevaluering-metode. Hier is wat dit is, hoe die bande werk, en waarom dit saak maak vir betalings-gelykheid, gelyke-indiensneming-verslagdoening en die billike bestuur van jou werkmag."
+			},
+			"why-your-pty-ltd-needs-company-secretary-services": {
+				"title": "Hoekom Jou (Edms) Bpk Maatskappysekretarisdienste Benodig — Selfs As die Wet Dit Nie Vereis Nie",
+				"excerpt": "Privaatmaatskappye in Suid-Afrika is nie regtens verplig om 'n maatskappysekretaris aan te stel nie — maar die bestuursverpligtinge bly. Gemiste CIPC-spertye, ontbrekende raadsbesluite en swak onderhoude statutêre registers kan ernstige regs- en kommersiële gevolge hê. Hier is wat jy waag sonder behoorlike maatskappysekretariële ondersteuning."
+			},
+			"hr-policies-every-south-african-employer-needs": {
+				"title": "MH-beleide wat Elke Suid-Afrikaanse Werkgewer Benodig — En Hoekom \"Gesonde Verstand\" Jou nie by die KVBA sal Red Nie",
+				"excerpt": "Suid-Afrikaanse arbeidsreg is duidelik: jy kan nie 'n werknemer ontslaan omdat hulle 'n reël gebreek het waarvan hulle nooit vertel is nie. As jou werkplekreëls slegs in jou kop bestaan, is jy reeds blootgestel. Hier is wat elke Suid-Afrikaanse onderneming op skrif benodig."
+			},
+			"employment-contracts-south-africa-what-every-employer-must-know": {
+				"title": "Diensskontrakte in Suid-Afrika: Wat Elke Werkgewer Moet Insluit — en Wat om te Vermy",
+				"excerpt": "'n Ondertekende diensskontrak is nie net goeie praktyk nie — dit is 'n regsvereiste onder die Wet op Basiese Diensvoorwaardes. Maar baie Suid-Afrikaanse werkgewers gebruik kontrakte wat hulle aan ernstige risiko blootstel. Hier is wat op skrif moet wees, waarvoor om uit te kyk, en waarom generiese sjablone dikwels meer probleme as oplossings skep."
+			},
+			"job-evaluation-and-salary-benchmarking-south-africa": {
+				"title": "Posevaluering en Salaris-Vergelyking: Hoekom Om Dit Reg te Kry Jou Onderneming Beskerm en Jou Beste Mense Behou",
+				"excerpt": "Om mense billik te betaal is nie net goeie bestuur nie — in Suid-Afrika is dit 'n regsverpligting. Posevaluering gee jou 'n verdedigbare struktuur vir hoe rolle gegradeer en betaal word. Salaris-vergelyking sê vir jou of jou betaling mededingend in die mark is. Saam is hulle twee van die kragtigste gereedskap wat 'n werkgewer het."
+			}
+		}
+	},
 	"ContactForm": {
 		"optional": "(Opsioneel)",
 		"steps": {

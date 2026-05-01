@@ -1,6 +1,7 @@
 import { ActionButton } from "@shared/components/button"
 import { H4, P } from "@shared/components/typography"
 import { cn } from "@shared/lib/utils"
+import { useTranslations } from "next-intl"
 import Image from "next/image"
 import Link from "next/link"
 import type { BlogPostThumbnailProps } from "../model/schema"
@@ -13,6 +14,7 @@ export const BlogPostThumbnail = ({
 	featureImage,
 	className,
 }: BlogPostThumbnailProps) => {
+	const t = useTranslations("Insights.meta")
 	const hasImage = Boolean(featureImage)
 
 	return (
@@ -43,7 +45,7 @@ export const BlogPostThumbnail = ({
 					size="sm"
 					type="button"
 				>
-					Read More
+					{t("readMore")}
 				</ActionButton>
 			</div>
 			<div className="absolute -inset-4 rounded-outer bg-muted-2/50 opacity-0 transition-opacity group-hover:opacity-100" />
