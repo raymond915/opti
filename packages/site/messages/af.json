@@ -1194,5 +1194,266 @@
 			"q5Question": "Kan skole spesifiek voordeel trek uit KI-aanname-ondersteuning?",
 			"q5Answer": "Beslis. Skole staar 'n unieke kruising van uitdagings in die gesig: SARO-verpligtinge, beheerliggaam-aanspreeklikheid, POPIA-nakoming vir leerderdata, personeel-vakbond-sensitiwiteite, en 'n dikwels onderbenutte administratiewe funksie. OptiHR het spesifieke ervaring om onafhanklike skole deur KI-aanname te ondersteun met al hierdie faktore in gedagte."
 		}
+	},
+	"Popia": {
+		"metaTitle": "POPIA-nakoming vir Suid-Afrikaanse Ondernemings — OptiHR",
+		"metaDescription": "OptiHR lewer POPIA-nakomingsoudits, aanstellings van Inligtingsbeamptes, privaatheidsbeleide en deurlopende databeskermingsondersteuning vir Suid-Afrikaanse ondernemings. Vermy R10 miljoen-boetes.",
+		"ogTitle": "POPIA-nakoming vir Suid-Afrikaanse Ondernemings — OptiHR",
+		"ogDescription": "POPIA-nakomingsoudits, aanstellings van Inligtingsbeamptes en deurlopende databeskermingsondersteuning — gebou vir Suid-Afrikaanse ondernemings.",
+		"banner": {
+			"anchorText": "Ons POPIA-dienste",
+			"title": "POPIA-nakoming vir Suid-Afrikaanse Ondernemings",
+			"body": "Die Wet op die Beskerming van Persoonlike Inligting is Suid-Afrikaanse wet. Nie-nakoming dra boetes van tot R10 miljoen. OptiHR help jou onderneming om volle POPIA-nakoming te bereik en te handhaaf."
+		},
+		"intro": {
+			"subtitle": "Wat is POPIA?",
+			"h2": "Suid-Afrika se databeskermingswet",
+			"para1": "Die Wet op die Beskerming van Persoonlike Inligting (POPIA), Wet 4 van 2013, het ten volle afdwingbaar geword op 1 Julie 2021. Dit reguleer hoe organisasies persoonlike inligting versamel, stoor, gebruik, deel en vernietig — wat beide werknemerdata en kliëntdata dek.",
+			"para2": "Elke Suid-Afrikaanse onderneming wat persoonlike inligting verwerk, moet voldoen. POPIA is nie opsioneel nie — en die gevolge van nie-nakoming sluit boetes van tot R10 miljoen, gevangenisstraf, siviele eise en ernstige reputasieskade in.",
+			"risksHeading": "Die risiko's van nie-nakoming",
+			"risks": [
+				{ "label": "Boetes van tot R10 miljoen", "detail": "Of gevangenisstraf van tot 10 jaar vir verantwoordelike partye, onder artikel 107 van POPIA." },
+				{ "label": "Reputasieskade", "detail": "'n Data-oortreding of nakomingsmislukking kan jou verhouding met kliënte en personeel permanent benadeel." },
+				{ "label": "Siviele eise", "detail": "Data-subjekte wie se inligting verkeerd hanteer word, kan siviele skade-eise teen jou organisasie aanhangig maak." },
+				{ "label": "Regulatoriese ondersoeke", "detail": "Die Inligtingsreguleerder het die mag om nie-nakomende organisasies te ondersoek, te ouditeer en teen hulle af te dwing." }
+			]
+		},
+		"services": {
+			"subtitle": "Wat ons doen",
+			"h2": "Ons POPIA-nakomingsdienste",
+			"items": [
+				{ "title": "POPIA-nakomingsoudit", "body": "Ons evalueer hoe jou onderneming persoonlike inligting versamel, stoor, gebruik en deel — en identifiseer gapings en nie-nakomende praktyke voordat hulle boetes lok." },
+				{ "title": "Aanstelling van Inligtingsbeampte", "body": "POPIA vereis dat elke onderneming 'n Inligtingsbeampte aanstel. Ons hanteer die formele aanstelling en bied opleiding sodat jou beampte hul verantwoordelikhede verstaan." },
+				{ "title": "Privaatheidsbeleid-ontwikkeling", "body": "Ons stel POPIA-nakomende privaatheidsbeleide, toestemmingsvorms en dataverwerkingsooreenkomste op en implementeer dit aangepas vir jou besigheidsbedrywighede." },
+				{ "title": "Toestemmingsprosedures", "body": "Ons stel duidelike toestemmingsprosedures vas vir die versameling en gebruik van persoonlike inligting van werknemers, kliënte en derde partye — wat alle wettige verwerkingsvoorwaardes dek." },
+				{ "title": "Data-oortreding-protokolle", "body": "Ons ontwikkel insident-reaksieplanne en data-oortreding-kennisgewingsprosedures, om te verseker dat jy wettig en dadelik reageer indien 'n oortreding voorkom." },
+				{ "title": "Deurlopende POPIA-bestuur", "body": "Vir behoudfooi-kliënte bied ons deurlopende POPIA-nakomingsmonitering, beleidsopdaterings soos wetgewing ontwikkel, en ondersteuning vir data-subjek-toegangsversoeke." },
+				{ "title": "Personeelopleiding — Video's & Kennistoetse", "body": "Ons bied gestruktureerde POPIA-opleiding aan alle personeel deur instruksievideos en geassesseerde kennistoetse — wat gedokumenteerde bewys skep dat werknemers hul databeskermingsverpligtinge verstaan. Opleidingrekords en slaagsertifikate word as bewys van jou nakomingsprogram gehandhaaf." }
+			]
+		},
+		"audience": {
+			"subtitle": "Wie Dit Raak",
+			"h2": "Geld POPIA vir jou onderneming?",
+			"body": "POPIA geld vir enige organisasie wat in Suid-Afrika bedryf en persoonlike inligting verwerk. Indien enige van die volgende van toepassing is, moet jy nakomend wees.",
+			"items": [
+				"Enige onderneming wat werknemer- of kliëntdata versamel",
+				"Organisasies wat sensitiewe persoonlike inligting hanteer (gesondheids-, finansiële of biometriese data)",
+				"Ondernemings wat CCTV, toegangsbeheer of moniteringstelsels gebruik",
+				"Maatskappye wat personeel inskakel met agtergrondkontroles of geloofsbrief-verifikasie",
+				"Skole en onderwysinstellings wat leerder- en ouerrekords hou",
+				"Gesondheidsorgverskaffers, regsfirmas en finansiële diensorganisasies",
+				"Enige Suid-Afrikaanse entiteit wat persoonlike inligting verwerk"
+			]
+		},
+		"legislation": {
+			"subtitle": "Regsraamwerk",
+			"h2": "Wetgewing wat van toepassing is",
+			"items": [
+				{ "title": "Wet op die Beskerming van Persoonlike Inligting (POPIA)", "subtitle": "Wet 4 van 2013", "body": "Suid-Afrika se primêre databeskermings-wetgewing. Reguleer die versameling, stoor, gebruik en deel van persoonlike inligting. Het ten volle afdwingbaar geword op 1 Julie 2021." },
+				{ "title": "Wet op Elektroniese Kommunikasie en Transaksies (WEKT)", "subtitle": "Wet 25 van 2002", "body": "Reguleer elektroniese kommunikasie en transaksies, insluitend vereistes rakende datasekuriteit en elektroniese rekords." },
+				{ "title": "Wet op Arbeidsverhoudinge (WAV)", "subtitle": "Wet 66 van 1995", "body": "Belyn met POPIA in die konteks van werknemer-monitering, dissiplinêre rekords en werkplek-bewaking." },
+				{ "title": "Wet op Basiese Diensvoorwaardes (WBD)", "subtitle": "Wet 75 van 1997", "body": "Werknemer-rekord-retensievereistes moet bestuur word in nakoming van beide die WBD en POPIA." }
+			]
+		},
+		"faq": {
+			"title": "POPIA-Gereelde vrae",
+			"subtitle": "Algemene vrae oor POPIA-nakoming",
+			"body": "Duidelike antwoorde om jou te help om jou verpligtinge onder Suid-Afrikaanse databeskermingswet te verstaan.",
+			"cta": "Bespreek 'n POPIA-nakomingskonsultasie",
+			"q1Question": "Geld POPIA vir my klein onderneming?",
+			"q1Answer": "Ja. POPIA geld vir enige persoon of organisasie wat persoonlike inligting in Suid-Afrika verwerk, ongeag grootte. As jy werknemername, kontakbesonderhede of enige ander persoonlike data versamel, geld POPIA vir jou.",
+			"q2Question": "Wat gebeur as ons nie 'n Inligtingsbeampte aangestel het nie?",
+			"q2Answer": "Versuim om 'n Inligtingsbeampte by die Inligtingsreguleerder aan te stel en te registreer, is 'n oortreding van POPIA. Dit kan lei tot afdwingingsaksie, boetes en reputasieskade. Ons kan onmiddellik met hierdie aanstellingsproses help.",
+			"q3Question": "Ons het reeds 'n privaatheidsbeleid van ons webwerf-verskaffer. Is dit genoeg?",
+			"q3Answer": "Gewoonlik nie. Generiese privaatheidsbeleide weerspieël dikwels nie hoe jou onderneming werklik data verwerk nie, en hulle dek selde werknemerdata, MH-prosesse of verskafferkontrakte. Ons hersien jou volle data-landskap en skep beleide wat jou bedrywighede werklik weerspieël.",
+			"q4Question": "Hoe beïnvloed POPIA ons MH-prosesse?",
+			"q4Answer": "Aansienlik. Werwing, werknemerlêers, betaalstaat, dissiplinêre rekords, CCTV-opnames en prestasiedata behels almal persoonlike inligting. Elkeen moet wettig hanteer word, met behoorlike toestemming, retensie-perke en sekuriteitsmaatreëls in plek.",
+			"q5Question": "Wat is 'n data-subjek-toegangversoek?",
+			"q5Answer": "Onder POPIA het enige persoon wie se data jy hou ('n werknemer, kliënt of verskaffer) die reg om toegang tot daardie inligting te versoek, regstellings te vra of skrapping te versoek. Ons help jou om 'n nakomende proses vir die hantering van hierdie versoeke te vestig.",
+			"q6Question": "Hoe vinnig kan OptiHR ons nakomend kry?",
+			"q6Answer": "'n Basiese POPIA-nakomings-implementering — oudit, aanstelling van Inligtingsbeampte en kernbeleide — neem tipies 4 tot 8 weke afhangende van die grootte en kompleksiteit van jou organisasie. Ons kan onmiddellik begin."
+		},
+		"cta": {
+			"title": "Word POPIA-nakomend — voor die Reguleerder kom klop.",
+			"body": "POPIA-nakoming is nie 'n eenmalige oefening nie — dit is 'n deurlopende verpligting. OptiHR bied pragmatiese, ondernemingsvriendelike POPIA-nakomingsondersteuning wat jou organisasie beskerm sonder om jou bedrywighede te ontwrig.",
+			"button": "Bespreek jou POPIA-nakomingskonsultasie",
+			"alt": "POPIA-nakoming — beskerming van persoonlike inligting"
+		}
+	},
+	"Legal": {
+		"metaTitle": "Regs- en Privaatheidsinligting — OptiHR",
+		"metaDescription": "OptiHR se Privaatheidskennis (POPIA), Gebruiksbepalings en Koekiebeleid vir Suid-Afrikaanse ondernemings en besoekers.",
+		"ogTitle": "Regs- en Privaatheidsinligting — OptiHR",
+		"ogDescription": "Privaatheidskennis (POPIA), Gebruiksbepalings en Koekiebeleid vir OptiHR.",
+		"banner": {
+			"anchorText": "Lees beleide",
+			"title": "Regs- en Privaatheidsinligting",
+			"body": "Hierdie bladsy bevat OptiHR se Privaatheidskennis (POPIA), Gebruiksbepalings en Koekiebeleid. Lees asseblief hierdie dokumente noukeurig."
+		},
+		"toc": {
+			"heading": "Op hierdie bladsy",
+			"items": [
+				"1. Privaatheidskennis (POPIA)",
+				"2. Persoonlike Inligting wat Ons Versamel",
+				"3. Wettige Basis vir Verwerking",
+				"4. Hoe Ons Jou Inligting Gebruik",
+				"5. Retensie van Persoonlike Inligting",
+				"6. Deel met Derde Partye",
+				"7. Jou Regte Onder POPIA",
+				"8. Inligtingsbeampte",
+				"9. Koekiebeleid",
+				"10. Gebruiksbepalings",
+				"11. Kontak & Klagtes"
+			]
+		},
+		"section1": {
+			"title": "1. Privaatheidskennis (POPIA)",
+			"para1Pre": "OptiHR (Edms) Bpk (\"OptiHR\", \"ons\") is daartoe verbind om jou privaatheid te beskerm en om jou persoonlike inligting verantwoordelik en wettig te hanteer. Hierdie Privaatheidskennis word uitgereik in nakoming van die ",
+			"para1Strong": "Wet op die Beskerming van Persoonlike Inligting 4 van 2013 (POPIA)",
+			"para1Post": " en verduidelik hoe ons persoonlike inligting versamel, gebruik, stoor en beskerm.",
+			"para2": "Hierdie kennis geld vir alle persoonlike inligting wat versamel word deur ons webwerf, kontakvorms, diensverbintenisse en enige ander interaksie met OptiHR. Deur jou persoonlike inligting aan ons te verskaf, erken jy dat jy hierdie kennis gelees en verstaan het.",
+			"para3": "Laaste opgedateer: Maart 2026"
+		},
+		"section2": {
+			"title": "2. Persoonlike Inligting wat Ons Versamel",
+			"sub1Title": "Inligting wat jy direk verskaf",
+			"sub1Body": "Wanneer jy ons kontak, 'n navraag indien, 'n konsultasie bespreek of ons dienste gebruik, kan ons die volgende versamel:",
+			"sub1Items": [
+				"Volle naam en postitel",
+				"Onderneming-naam en bedryf",
+				"E-posadres (persoonlik en/of werk)",
+				"Telefoon- en selfoonnommer",
+				"Fisiese en posadres",
+				"Inligting oor jou MH- en indiensneming-uitdagings wat met ons gedeel word"
+			],
+			"sub2Title": "Inligting outomaties versamel",
+			"sub2Body": "Wanneer jy ons webwerf besoek, versamel ons outomaties sekere tegniese inligting, insluitend:",
+			"sub2Items": [
+				"IP-adres en benaderde geografiese ligging",
+				"Blaaier-tipe, -weergawe en bedryfstelsel",
+				"Bladsye besoek, tyd op die werf bestee, en verwysende URL's",
+				"Koekie- en soortgelyke volg-data (sien ons Koekiebeleid hieronder)"
+			],
+			"sub3Title": "Inligting ontvang tydens dienslewering",
+			"sub3BodyPre": "Wanneer ons MH-konsultasiedienste lewer, kan ons werknemer-verwante persoonlike inligting namens ons kliënte ontvang of verwerk. In sulke gevalle tree OptiHR op as 'n ",
+			"sub3BodyStrong": "operateur",
+			"sub3BodyPost": " wat inligting namens die verantwoordelike party (ons kliënt) verwerk, en ons doen dit streng onder kontrak en slegs vir die ooreengekome doel."
+		},
+		"section3": {
+			"title": "3. Wettige Basis vir Verwerking",
+			"body": "Onder POPIA verwerk ons persoonlike inligting slegs waar ten minste een van die volgende wettige voorwaardes van toepassing is:",
+			"items": [
+				{ "label": "Toestemming", "body": " — Jy het spesifieke, ingeligte en vrywillige toestemming gegee (bv. die indien van 'n kontakvorm of inteken op kommunikasie)." },
+				{ "label": "Kontraktuele noodsaaklikheid", "body": " — Verwerking is nodig om 'n kontrak met jou uit te voer, of om stappe op jou versoek te neem voor die aangaan van 'n kontrak." },
+				{ "label": "Regsverpligting", "body": " — Verwerking word vereis om aan 'n verpligting onder Suid-Afrikaanse wet te voldoen." },
+				{ "label": "Wettige belang", "body": " — Verwerking is nodig vir ons wettige sakebelange, mits hierdie nie jou regte en belange oortref nie." }
+			]
+		},
+		"section4": {
+			"title": "4. Hoe Ons Jou Inligting Gebruik",
+			"body": "Ons gebruik persoonlike inligting slegs vir die doeleindes waarvoor dit versamel is, insluitend:",
+			"items": [
+				"Om op jou navrae te reageer en MH-konsultasiedienste te lewer",
+				"Om jou diensverbintenis en verwante kontrakte te verwerk en te bestuur",
+				"Om relevante kommunikasie, voorstelle of opdaterings te stuur (waar jy toegestem het)",
+				"Om ons regs- en regulatoriese verpligtinge onder Suid-Afrikaanse wet na te kom",
+				"Om ons webwerf en dienste te verbeter deur geanonimiseerde analitiek",
+				"Om OptiHR se wettige sakebelange te beskerm, insluitend bedrogvoorkoming"
+			],
+			"closing": "Ons verkoop, verhuur of ruil nie jou persoonlike inligting aan enige derde party vir hulle eie bemarkings- of kommersiële doeleindes nie."
+		},
+		"section5": {
+			"title": "5. Retensie van Persoonlike Inligting",
+			"body": "Ons behou persoonlike inligting slegs solank as wat nodig is om die doel waarvoor dit versamel is, te vervul, of soos vereis deur toepaslike wet:",
+			"items": [
+				{ "label": "Navraag- en kontakvormdata", "body": " — 3 jaar vanaf laaste kontak, tensy 'n deurlopende diensverhouding voortduur." },
+				{ "label": "Kliënt-diensrekords en kontrakte", "body": " — 5 jaar na die afsluiting van die diensverbintenis, soos vereis deur die WBD en algemene kontraktereg." },
+				{ "label": "Finansiële en faktuur-rekords", "body": " — 5 jaar soos vereis deur die Maatskappywet en SAID-regulasies." },
+				{ "label": "Webwerf-analitiekdata", "body": " — Tot 26 maande in geanonimiseerde of saamgevoegde vorm." }
+			],
+			"closing": "Sodra die toepaslike retensietydperk verstryk, word persoonlike inligting veilig geskrap of permanent geanonimiseer."
+		},
+		"section6": {
+			"title": "6. Deel met Derde Partye",
+			"body": "Ons kan jou persoonlike inligting met vertroude derde partye deel slegs in die volgende omstandighede:",
+			"items": [
+				{ "label": "Diensverskaffers", "body": " — IT-, gasheer- en sagteware-verskaffers wat data namens ons verwerk onder skriftelike ooreenkomste wat POPIA-nakomende dataverwerkingsbepalings bevat." },
+				{ "label": "Regs- en professionele adviseurs", "body": " — Prokureurs of ander professionele persone waar nodig om dienste te lewer of regsverpligtinge na te kom." },
+				{ "label": "Regulatoriese owerhede", "body": " — Waar vereis deur wet, hofbevel of wettige regeringsversoek." }
+			],
+			"closing1": "Alle derde-party-verwerkers is kontraktueel verbind om jou inligting slegs te verwerk soos deur ons opgedra en in nakoming van POPIA.",
+			"closing2": "OptiHR oordra nie persoonlike inligting buite Suid-Afrika sonder om te verseker dat voldoende en toepaslike beskermingsmaatreëls in plek is nie, soos vereis deur artikel 72 van POPIA."
+		},
+		"section7": {
+			"title": "7. Jou Regte Onder POPIA",
+			"body": "As 'n data-subjek het jy die volgende regte onder POPIA, wat jy te eniger tyd kan uitoefen:",
+			"items": [
+				{ "label": "Reg op toegang", "body": " — Versoek 'n rekord van die persoonlike inligting wat ons oor jou hou." },
+				{ "label": "Reg op regstelling of skrapping", "body": " — Versoek dat onakkurate, irrelevante, verouderde of onvolledige inligting reggestel of geskrap word." },
+				{ "label": "Reg om beswaar te maak", "body": " — Maak beswaar teen die verwerking van jou persoonlike inligting op redelike gronde." },
+				{ "label": "Reg om toestemming terug te trek", "body": " — Waar verwerking op toestemming gebaseer is, trek daardie toestemming te eniger tyd terug. Terugtrekking beïnvloed nie die wettigheid van vorige verwerking nie." }
+			],
+			"complaintLabel": "Reg om 'n klagte in te dien",
+			"complaintPre": " — Indien jy glo dat jou regte geskend is, kan jy 'n klagte indien by die ",
+			"complaintRegulator": "Inligtingsreguleerder van Suid-Afrika",
+			"complaintMid": " by ",
+			"complaintLinkText": "www.justice.gov.za/inforeg",
+			"complaintBetween": " of stuur 'n e-pos na ",
+			"complaintEmail": "complaints.IR@justice.gov.za",
+			"complaintEnd": ".",
+			"closing": "Om enige van hierdie regte uit te oefen, dien asseblief 'n skriftelike versoek by ons Inligtingsbeampte in (sien afdeling 8). Ons sal binne 30 dae na ontvangs reageer."
+		},
+		"section8": {
+			"title": "8. Inligtingsbeampte",
+			"body1": "In nakoming van artikel 55 van POPIA het OptiHR 'n Inligtingsbeampte aangestel wat verantwoordelik is om die organisasie se nakoming van POPIA te verseker en om alle data-subjek-versoeke en -klagtes te hanteer.",
+			"cardHeading": "Inligtingsbeampte se Besonderhede",
+			"nameLabel": "Naam:",
+			"name": "Raymond Hauptfleisch",
+			"orgLabel": "Organisasie:",
+			"org": "OptiHR (Edms) Bpk",
+			"emailLabel": "E-pos:",
+			"phoneLabel": "Telefoon:",
+			"body2": "Alle data-subjek-toegangversoeke, versoeke om regstelling of skrapping, besware teen verwerking, of POPIA-verwante klagtes moet skriftelik aan die Inligtingsbeampte gerig word by die kontakbesonderhede hierbo."
+		},
+		"section9": {
+			"title": "9. Koekiebeleid",
+			"body": "Ons webwerf gebruik koekies en soortgelyke volg-tegnologieë om jou blaai-ervaring te verbeter, werfverkeer te ontleed en te verstaan hoe besoekers met ons inhoud omgaan.",
+			"sub1Title": "Wat is koekies?",
+			"sub1Body": "Koekies is klein tekslêers wat op jou toestel gestoor word wanneer jy 'n webwerf besoek. Hulle laat die webwerf toe om jou toestel by terugbesoeke te herken en sekere voorkeure of aksies te onthou.",
+			"sub2Title": "Tipes koekies wat ons gebruik",
+			"sub2Items": [
+				{ "label": "Streng noodsaaklike koekies", "body": " — Noodsaaklik vir die webwerf om korrek te funksioneer. Hierdie kan nie gedeaktiveer word nie aangesien hulle vir kern-funksionaliteit benodig word." },
+				{ "label": "Analitiese / prestasie-koekies", "body": " — Help ons om te verstaan hoe besoekers met ons webwerf omgaan deur geanonimiseerde of saamgevoegde data te versamel. Ons gebruik hierdie inligting om ons webwerf te verbeter." },
+				{ "label": "Funksionele koekies", "body": " — Laat die webwerf toe om keuses wat jy gemaak het (soos vormvordering) te onthou om 'n verbeterde, persoonlike ervaring te bied." }
+			],
+			"sub3Title": "Bestuur van jou koekie-voorkeure",
+			"sub3Body": "Jy kan koekies te eniger tyd beheer en bestuur deur jou blaaier-instellings. Let asseblief daarop dat die deaktivering van sekere koekies die funksionaliteit van dele van ons webwerf kan beïnvloed. Jy kan ook jou koekie-toestemmingsvoorkeure bestuur met die banier wat by jou eerste besoek aan ons webwerf gewys word."
+		},
+		"section10": {
+			"title": "10. Gebruiksbepalings",
+			"body1": "Deur die OptiHR-webwerf te besoek en te gebruik, stem jy in tot hierdie gebruiksbepalings. Die inhoud wat op hierdie werf gepubliseer word, word slegs vir algemene inligtingsdoeleindes verskaf. Terwyl ons sorg dra om akkuraatheid te verseker, waarborg OptiHR nie dat die inligting volledig, aktueel of foutvry is nie.",
+			"body2Pre": "",
+			"body2Strong": "Niks op hierdie webwerf vorm regsadvies nie.",
+			"body2Post": " Kontak ons asseblief direk vir professionele advies spesifiek vir jou omstandighede.",
+			"sub1Title": "Intellektuele eiendom",
+			"sub1Body": "Alle inhoud, teks, logo's, grafika en materiaal op hierdie webwerf is die intellektuele eiendom van OptiHR (Edms) Bpk. Hulle mag nie sonder voorafgaande skriftelike toestemming van OptiHR gereproduseer, versprei, gewysig of in enige vorm gebruik word nie.",
+			"sub2Title": "Skakels na derde-party-webwerwe",
+			"sub2Body": "Ons webwerf kan skakels na derde-party-webwerwe bevat. OptiHR is nie verantwoordelik vir die privaatheidspraktyke, akkuraatheid of inhoud van daardie webwerwe nie en ons moedig jou aan om hul privaatheidskennisse onafhanklik te lees.",
+			"sub3Title": "Beperking van aanspreeklikheid",
+			"sub3Body": "OptiHR sal nie aanspreeklik wees vir enige direkte, indirekte of gevolglike verlies of skade wat voortspruit uit die vertroue op inligting op hierdie webwerf nie. Gebruik van hierdie werf is geheel en al op jou eie risiko."
+		},
+		"section11": {
+			"title": "11. Kontak & Klagtes",
+			"body1": "Vir enige vrae of bekommernisse oor hierdie Privaatheidskennis, jou persoonlike inligting of hierdie bepalings, kontak asseblief ons Inligtingsbeampte:",
+			"contactCardOrg": "OptiHR (Edms) Bpk",
+			"contactCardEmailLabel": "E-pos:",
+			"contactCardPhoneLabel": "Telefoon:",
+			"body2Pre": "Indien jy nie tevrede is met hoe ons jou persoonlike inligting of jou versoek hanteer het nie, het jy die reg om 'n klagte direk by die ",
+			"body2Strong": "Inligtingsreguleerder van Suid-Afrika",
+			"body2Post": " in te dien:",
+			"regulatorOrg": "Inligtingsreguleerder (Suid-Afrika)",
+			"regulatorEmailLabel": "E-pos:",
+			"regulatorWebsiteLabel": "Webwerf:"
+		}
 	}
 }
