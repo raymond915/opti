@@ -788,5 +788,250 @@
 			"button": "Request your free pricing consultation",
 			"imageAlt": "Transparent OptiHR pricing — request a consultation"
 		}
+	},
+	"AudienceShared": {
+		"mythLabel": "Myth",
+		"realityLabel": "Reality",
+		"caseStudyLabel": "Case Study",
+		"contactButton": "Contact us",
+		"viewAllFaqs": "View all FAQs",
+		"bookConsultation": "Book a free consultation",
+		"finalButton": "Book your free consultation"
+	},
+	"ForSmallBusinesses": {
+		"metaTitle": "HR & Compliance Support for Small Businesses | OptiHR South Africa",
+		"metaDescription": "OptiHR gives small businesses in South Africa professional HR and IR support without the cost of a full-time hire. Labour audits, disciplinary handling, CCMA representation, and more.",
+		"ogTitle": "HR & Compliance Support for Small Businesses | OptiHR",
+		"ogDescription": "Running a small business is demanding — HR shouldn't be another burden. OptiHR provides expert, practical HR support only when you need it, at a fraction of the cost.",
+		"banner": {
+			"anchorText": "How we help",
+			"title": "HR & Compliance Support for Small Businesses in South Africa",
+			"body": "Running a small business is already demanding — HR compliance shouldn't be another weight on your shoulders. OptiHR gives you professional HR support without the cost of a full-time hire."
+		},
+		"intro": {
+			"h2": "Every business deserves proper HR — no matter its size.",
+			"body": "Too often, businesses hand HR to someone unqualified and only discover the risk when they're hit with a costly CCMA award. OptiHR exists to remove that risk. We don't stop at compliance — competent HR builds trust, lifts morale, and strengthens loyalty among your staff."
+		},
+		"highlights": {
+			"block1": {
+				"title": "Practical, hands-on support",
+				"body": "We do the heavy lifting — not just advice on paper, but implementation that works in your day-to-day. From contracts and policies to disciplinary processes, we handle it so you don't have to.",
+				"alt": "OptiHR practical HR support for small businesses"
+			},
+			"block2": {
+				"title": "Risk-proof legal compliance",
+				"body": "Every contract, policy, and procedure is checked against South African labour law to keep you protected. We spot risks early and address issues before they escalate into CCMA cases or toxic workplaces.",
+				"alt": "Labour law compliance and legal protection"
+			},
+			"block3": {
+				"title": "Tailored to your size",
+				"body": "No copy-paste templates. Our solutions fit your people, your sector, and your challenges. Qualified HR professionals available when you need them — without the cost of a permanent hire.",
+				"alt": "Tailored HR solutions for small businesses"
+			}
+		},
+		"myths": {
+			"subtitle": "Myth vs. Reality",
+			"h2": "What small business owners get wrong about HR",
+			"body": "These assumptions leave businesses exposed. Here's what the law actually says.",
+			"items": [
+				{ "myth": "We're small, so HR doesn't really apply to us.", "reality": "Labour law applies to every business, no matter its size. Even one staff dispute handled incorrectly can end up at the CCMA and cost you dearly." },
+				{ "myth": "Our office manager can handle HR.", "reality": "Without HR training, they're exposed — and so is your business. HR decisions are legal decisions, and one mistake can undo years of hard work." },
+				{ "myth": "If there are no issues right now, we must be fine.", "reality": "Problems only surface when things go wrong — and by then it's often too late. Proper HR keeps you safe and prevents costly surprises." },
+				{ "myth": "HR support is too expensive for a small business.", "reality": "You don't need a full-time HR manager. With OptiHR, you get expert support only when you need it — at a fraction of the cost." },
+				{ "myth": "HR is just paperwork.", "reality": "Done properly, HR builds trust, boosts morale, and keeps staff loyal — while protecting you from legal and financial risk." }
+			]
+		},
+		"caseStudy": {
+			"h2": "Small accounting firm — 10 employees",
+			"para1": "A small accounting firm in Gauteng had no formal HR setup. The owner asked his receptionist to \"handle HR\" alongside her admin tasks. Things seemed fine — until an employee challenged a dismissal, claiming unfair treatment.",
+			"para2": "The business suddenly faced the threat of CCMA action, and the owner realised their processes were non-existent. OptiHR stepped in quickly: we reviewed contracts, fixed compliance gaps, and guided the disciplinary process step by step.",
+			"para3": "The case was resolved internally, avoiding CCMA escalation entirely. Staff saw that processes were now clear and consistent, which improved trust in management.",
+			"outcomes": [
+				"CCMA escalation avoided",
+				"Compliance gaps closed within weeks",
+				"Staff trust in management restored"
+			],
+			"quote": "OptiHR saved us from what could've been a huge loss. They gave us structure, and now I know we're protected.",
+			"attribution": "Accounting Firm Owner, Gauteng"
+		},
+		"cta": {
+			"title": "Focus on growing your business. We'll handle the HR.",
+			"body": "Don't wait for the CCMA, a bargaining council, or a trade union to show you where things went wrong. Get ahead of the risk. Book a free compliance consultation with OptiHR today and put proper HR in place before issues escalate.",
+			"alt": "HR consultation — OptiHR"
+		},
+		"faq": {
+			"subtitle": "Small business HR questions answered",
+			"title": "Common questions from small business owners",
+			"body": "We hear these questions all the time. Here are straight answers.",
+			"q1Question": "We don't know if we're compliant. Where do we start?",
+			"q1Answer": "Labour law applies no matter your size. We close the gaps with audits, policies, and contracts so you don't get caught out. A free compliance consultation is the best first step — we'll tell you exactly where you stand.",
+			"q2Question": "HR was given to someone without HR training. Is that a problem?",
+			"q2Answer": "\"I thought they knew what they were doing\" is something we hear all the time. Businesses often think they're fine while there are no issues. The real problem comes when conflict arises. We step in with qualified expertise to back every decision with law and best practice.",
+			"q3Question": "We can't afford a full-time HR manager. What are our options?",
+			"q3Answer": "You don't need one. With OptiHR, you get professional HR support only when you need it — at a fraction of the cost of a permanent hire. We offer flexible support models tailored to your budget and team size.",
+			"q4Question": "We're nervous about the CCMA. What should we know?",
+			"q4Answer": "Rightly so. Too often, policies exist only in the owner's head. We put proper systems in writing and represent you when needed, keeping costly awards off your books. Our CCMA success rate is over 95%.",
+			"q5Question": "A staff issue is getting out of hand. Can you help right now?",
+			"q5Answer": "Yes. Whether it's a dismissal, a grievance, or a performance issue, we give you clear, lawful processes to handle problems confidently. We also step in to manage the process directly if needed."
+		}
+	},
+	"ForLargeBusinesses": {
+		"metaTitle": "Specialist HR & IR Support for Large Businesses | OptiHR South Africa",
+		"metaDescription": "OptiHR partners with large business HR departments as a trusted extension of your team — handling unions, bargaining councils, compliance, and CCMA disputes so your team can focus on strategy.",
+		"ogTitle": "Specialist HR & IR Support for Large Businesses | OptiHR",
+		"ogDescription": "Even strong HR teams can't cover everything. OptiHR adds specialist depth where it's needed most — from compliance and case law to union negotiations and CCMA representation.",
+		"banner": {
+			"anchorText": "How we help",
+			"title": "Specialist HR & IR Support for Large Businesses in South Africa",
+			"body": "Even strong HR teams can't do it all. OptiHR partners with your HR department as a trusted extension of your team — shouldering the compliance burden, reducing legal risk, and giving your practitioners the breathing room to focus on strategy."
+		},
+		"intro": {
+			"h2": "We don't replace your HR team — we strengthen it.",
+			"body": "Large businesses face complex labour relations, bargaining councils, unions, and high-stakes disputes where the margin for error is small. OptiHR adds specialist depth where it's needed most — from compliance and case law to union negotiations and CCMA representation."
+		},
+		"highlights": {
+			"block1": {
+				"title": "Specialist support for high-risk HR and IR areas",
+				"body": "OptiHR handles complex industrial relations, union negotiations, compliance, and legal risks — letting in-house HR focus on their strengths while staying protected from costly disputes and reputational damage.",
+				"alt": "Diverse HR team working together"
+			},
+			"block2": {
+				"title": "Proactive legislative and compliance management",
+				"body": "Constant monitoring of South African labour law and case law ensures businesses stay up-to-date, with practical guidance and systems designed to meet evolving legal requirements and avoid HR process missteps.",
+				"alt": "Proactive legislative and compliance management"
+			},
+			"block3": {
+				"title": "Objective, external perspective and holistic employee care",
+				"body": "By offering impartial HR expertise and designing frameworks for wellness, engagement, and hybrid work, OptiHR prevents issues that internal teams might miss, keeping both the workforce and business reputation strong.",
+				"alt": "Workforce strategy and employee wellbeing"
+			}
+		},
+		"myths": {
+			"subtitle": "Myth vs. Reality",
+			"h2": "What large businesses assume about HR — and what's actually true",
+			"body": "These are the assumptions most common at leadership level. They're also the ones that lead to the most expensive HR failures.",
+			"items": [
+				{ "myth": "Our HR department has everything covered.", "reality": "Even the best HR teams can't cover every angle. The HR landscape is incredibly broad — compliance, unions, wellness, recruitment — and no team can specialise in everything." },
+				{ "myth": "If we follow our policies, we're safe.", "reality": "Policies alone aren't enough — how they're applied matters. Inconsistency across sites or managers is what most often gets tested at the CCMA or Labour Court." },
+				{ "myth": "We'll deal with unions when problems come up.", "reality": "Waiting until conflict arises is costly. Proactive engagement builds open channels so issues are handled constructively — not combatively." },
+				{ "myth": "If there hasn't been an issue yet, we must be fine.", "reality": "Risks only surface when challenged. By then, the gaps in process or compliance are already exposed. Prevention is always cheaper than reaction." },
+				{ "myth": "External consultants won't understand our company.", "reality": "Being external is a strength. OptiHR brings fresh perspective, cross-industry experience, and the ability to benchmark your practices against what works elsewhere." }
+			]
+		},
+		"caseStudy": {
+			"h2": "National retail chain — 800 staff across multiple branches",
+			"para1": "A large retail company with multiple branches had a capable HR department, but struggled with consistency across sites. Disciplinary and grievance procedures were applied differently in each branch, and an employee dismissal in one region was challenged at the CCMA. Without standardised processes, the company was exposed to costly awards and reputational damage.",
+			"para2": "OptiHR was engaged to work alongside the HR team. We conducted a compliance review across all branches, identified gaps, and facilitated workshops with HR practitioners and line managers. Together, we standardised disciplinary processes, introduced clear policies, and trained managers to apply them consistently.",
+			"outcomes": [
+				"CCMA matter resolved in the company's favour",
+				"Consistent HR processes rolled out across all branches",
+				"Reduced inter-branch conflict and stronger compliance confidence"
+			],
+			"quote": "OptiHR helped us bring consistency across the business. Their training and policy frameworks gave our managers the tools to handle issues the right way, every time.",
+			"attribution": "Group HR Director, National Retail Company"
+		},
+		"cta": {
+			"title": "Let OptiHR focus on labour law. Your team focuses on everything else.",
+			"body": "Don't wait for a CCMA case, bargaining council dispute, or union conflict to test your HR processes. Partner with OptiHR now to strengthen compliance, reduce risk, and give your HR team the support they need.",
+			"alt": "Professional HR consultation"
+		},
+		"faq": {
+			"subtitle": "Large business HR questions answered",
+			"title": "Questions from large business HR teams",
+			"body": "Common questions we hear from HR directors and business leaders at scale.",
+			"q1Question": "Our HR team is overstretched. How can OptiHR help?",
+			"q1Answer": "From recruitment to exit interviews, HR is covering everything. OptiHR takes on complex IR and compliance matters so your team can focus where they add the most value — culture, engagement, and strategy.",
+			"q2Question": "It's impossible to keep up with legislation and case law. What's the solution?",
+			"q2Answer": "The labour landscape changes constantly. OptiHR monitors legislation, case law, and precedent — then translates it into practical steps for your business, keeping you current without burdening your internal team.",
+			"q3Question": "We're confident in HR generally, but not when it comes to unions or bargaining councils.",
+			"q3Answer": "Collective bargaining and union engagement are high-stakes areas that require specialist expertise. We bring the experience to negotiate, represent, and resolve — while keeping your business protected.",
+			"q4Question": "Can external HR consultants really understand our company?",
+			"q4Answer": "Being external is a strength. OptiHR brings a fresh perspective, experience across industries, and the ability to benchmark your practices against what works elsewhere. We expose risks that internal teams, who are too close to the situation, might miss.",
+			"q5Question": "A single HR misstep could end up at the CCMA or Labour Court. How do we stay safe?",
+			"q5Answer": "Even with strong HR, one mistake in process can escalate. We ensure your systems and responses are legally sound so you're prepared if matters reach those forums. Our CCMA success rate is over 95%."
+		}
+	},
+	"ForIndependentSchools": {
+		"metaTitle": "HR & Labour Compliance for Independent Schools | OptiHR South Africa",
+		"metaDescription": "OptiHR provides specialist HR, governance, and labour compliance support for independent schools in South Africa. SACE compliance, union engagement, staff contracts, and dispute resolution.",
+		"ogTitle": "HR & Labour Compliance for Independent Schools | OptiHR",
+		"ogDescription": "Unlike public schools, independent schools carry the full HR burden themselves. OptiHR's founder is an admitted attorney, qualified HR practitioner, and former educator — uniquely equipped to help.",
+		"banner": {
+			"anchorText": "How we help",
+			"title": "HR & Labour Compliance for Independent Schools in South Africa",
+			"body": "Unlike public schools, independent schools must manage everything themselves: educators, support staff, policies, governance, and accountability to parents and boards. OptiHR is uniquely positioned to help — our founder is an admitted attorney, qualified HR practitioner, and former educator."
+		},
+		"intro": {
+			"h2": "We understand both the classroom and the courtroom.",
+			"body": "Independent schools face unique HR challenges that traditional HR support rarely covers — SACE requirements, staff unions, CCMA disputes, and governance obligations. OptiHR brings a rare combination of legal, HR, and educational expertise to protect your school and your reputation."
+		},
+		"highlights": {
+			"block1": {
+				"title": "SACE & union expertise",
+				"body": "Schools face unique obligations that general HR practitioners aren't equipped for: SACE registration and compliance, union or CCMA disputes involving educators, and collective agreements. We ensure these are managed lawfully and consistently, protecting the school from risk and reputational damage.",
+				"alt": "SACE and HR compliance for independent schools"
+			},
+			"block2": {
+				"title": "Governance & policy support",
+				"body": "Many independent schools operate under constitutions that no longer reflect today's labour and governance realities. We help review and modernise governance frameworks, develop policies for staff, learners, and parents, and ensure boards can act fairly, effectively, and in line with best practice.",
+				"alt": "Governance and policy support for independent schools"
+			},
+			"block3": {
+				"title": "Staff morale & employment frameworks",
+				"body": "The pressures of teaching, parent expectations, and governance demands can drain staff morale. We help schools design HR practices that support well-being, reduce turnover, and build loyalty — recognising the unique pressures of the teaching profession. We also draft and review contracts for educators, support staff, and extra-mural coaches.",
+				"alt": "Staff engagement and workforce strategy for schools"
+			},
+			"block4": {
+				"title": "Dispute resolution & legal protection",
+				"body": "A CCMA case isn't just costly — it can damage your school's reputation with parents, learners, and staff. By the time a case lands at the CCMA, the gaps in your governance and processes are already on display. We provide specialist representation and build the systems that prevent disputes before they escalate.",
+				"alt": "Legal protection and HR advice for schools"
+			}
+		},
+		"myths": {
+			"subtitle": "Myth vs. Reality",
+			"h2": "What independent schools get wrong about HR and governance",
+			"body": "These beliefs are widespread among school leadership. They're also the beliefs that leave schools most exposed.",
+			"items": [
+				{ "myth": "Our constitution has stood us in good stead for years — it will continue to do so.", "reality": "Times have changed. Many constitutions are outdated and boards often aren't agile enough to deal with today's HR and IR challenges. Constitutions need regular review to remain effective." },
+				{ "myth": "Our HR practitioner can handle everything.", "reality": "School HR is unusually broad — from educators to coaches, from parents to unions. Even strong HR practitioners need specialist support with compliance, governance, and disputes." },
+				{ "myth": "If we've never had a CCMA case, we must be fine.", "reality": "A CCMA case isn't just costly — it can damage your school's reputation with parents, learners, and staff. By the time a case arrives, your governance gaps are already on display." },
+				{ "myth": "SACE is just a formality.", "reality": "SACE compliance is serious. Missteps with registration, conduct, or reporting can damage both your school's reputation and its legal standing." },
+				{ "myth": "Parents won't get involved in staff issues.", "reality": "Independent schools answer to parents and boards who expect transparency and fairness. Without robust governance, disputes quickly become reputational crises." },
+				{ "myth": "Unions aren't really a factor for us.", "reality": "Even where membership is limited, unions and collective agreements can impact your school. Early, constructive engagement prevents conflict and keeps relationships manageable." }
+			]
+		},
+		"caseStudy": {
+			"h2": "Well-regarded independent school — 60 staff members",
+			"para1": "A well-regarded independent school faced difficulties when a staff grievance over workload was escalated directly to the board. The constitution was outdated, policies were inconsistent, and the HR practitioner was unsure how to proceed without risking reputational damage or a CCMA referral.",
+			"para2": "OptiHR supported both the HR team and the board. We reviewed the constitution and governance processes, updated staff policies, and guided the grievance process step by step. At the same time, we drafted compliant contracts for the school's extra-mural coaches — closing another gap that could have caused problems later.",
+			"para3": "The grievance was resolved fairly and lawfully, without escalating to the CCMA. Staff morale improved and trust in the board's processes was restored.",
+			"outcomes": [
+				"Grievance resolved — no CCMA referral",
+				"Governance and constitution modernised",
+				"HR practitioner confidence significantly increased"
+			],
+			"quote": "OptiHR gave us the clarity we needed. They helped us modernise our governance, resolve a sensitive issue, and put the right systems in place. We now feel protected and supported.",
+			"attribution": "Principal, Independent School"
+		},
+		"cta": {
+			"title": "Ready to safeguard your school?",
+			"body": "Let OptiHR focus on what we do best — labour law, compliance, governance, and staff support — so you can focus on what matters most: education. Together, we'll create a fair, compliant, and supportive environment for staff, learners, and parents.",
+			"alt": "HR consultation — OptiHR"
+		},
+		"faq": {
+			"subtitle": "Common questions from school principals and HR practitioners",
+			"title": "Independent school HR questions answered",
+			"body": "Questions we hear regularly from independent school leadership.",
+			"q1Question": "Our constitution is outdated. Can OptiHR help us modernise it?",
+			"q1Answer": "Yes. Many independent schools still operate under constitutions that no longer reflect today's labour and governance realities. We review and update governance frameworks so boards can act fairly, effectively, and in line with current standards.",
+			"q2Question": "How do you handle educator contracts and extra-mural staff?",
+			"q2Answer": "We draft and review employment contracts for all school staff categories — permanent teachers, fixed-term appointments, support staff, part-time coaches, and extra-mural facilitators — ensuring each contract is labour law compliant and SACE-aligned.",
+			"q3Question": "We're unsure how to deal with unions or collective agreements.",
+			"q3Answer": "Negotiating with unions and applying collective agreements can be complex and high-stakes. We bring the legal and IR expertise to manage these relationships constructively, interpreting and implementing collective agreements while protecting the school's interests.",
+			"q4Question": "SACE, CCMA, and compliance requirements feel overwhelming. Where do we start?",
+			"q4Answer": "Start with a free consultation. We assess your current compliance position, identify gaps in contracts, policies, and governance, and give you a clear, prioritised action plan to get fully protected.",
+			"q5Question": "What makes OptiHR different from other HR consultants for schools?",
+			"q5Answer": "Our founder is an admitted attorney, qualified HR practitioner, and SACE-registered former educator. This rare combination means we understand both the classroom and the courtroom — bringing insight into the teaching profession and the legal frameworks that govern it."
+		}
 	}
 }

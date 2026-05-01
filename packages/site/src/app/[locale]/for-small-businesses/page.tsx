@@ -1,19 +1,30 @@
 import { ForSmallBusinessesPage } from "@pages/for-small-businesses/ui"
-import type { Metadata } from "next"
-import type { NextPage } from "next"
+import type { Metadata, NextPage } from "next"
+import { getTranslations, setRequestLocale } from "next-intl/server"
 
-export const metadata: Metadata = {
-	title: "HR & Compliance Support for Small Businesses | OptiHR South Africa",
-	description:
-		"OptiHR gives small businesses in South Africa professional HR and IR support without the cost of a full-time hire. Labour audits, disciplinary handling, CCMA representation, and more.",
-	openGraph: {
-		title: "HR & Compliance Support for Small Businesses | OptiHR",
-		description:
-			"Running a small business is demanding — HR shouldn't be another burden. OptiHR provides expert, practical HR support only when you need it, at a fraction of the cost.",
-	},
+export async function generateMetadata({
+	params,
+}: {
+	params: Promise<{ locale: string }>
+}): Promise<Metadata> {
+	const { locale } = await params
+	const t = await getTranslations({ locale, namespace: "ForSmallBusinesses" })
+
+	return {
+		title: t("metaTitle"),
+		description: t("metaDescription"),
+		openGraph: {
+			title: t("ogTitle"),
+			description: t("ogDescription"),
+		},
+	}
 }
 
-const Page: NextPage = () => {
+const Page: NextPage<{ params: Promise<{ locale: string }> }> = async ({
+	params,
+}) => {
+	const { locale } = await params
+	setRequestLocale(locale)
 	return <ForSmallBusinessesPage />
 }
 

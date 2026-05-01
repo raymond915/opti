@@ -1,19 +1,30 @@
 import ForLargeBusinessesPage from "@pages/for-large-businesses/ui"
-import type { Metadata } from "next"
-import type { NextPage } from "next"
+import type { Metadata, NextPage } from "next"
+import { getTranslations, setRequestLocale } from "next-intl/server"
 
-export const metadata: Metadata = {
-	title: "Specialist HR & IR Support for Large Businesses | OptiHR South Africa",
-	description:
-		"OptiHR partners with large business HR departments as a trusted extension of your team — handling unions, bargaining councils, compliance, and CCMA disputes so your team can focus on strategy.",
-	openGraph: {
-		title: "Specialist HR & IR Support for Large Businesses | OptiHR",
-		description:
-			"Even strong HR teams can't cover everything. OptiHR adds specialist depth where it's needed most — from compliance and case law to union negotiations and CCMA representation.",
-	},
+export async function generateMetadata({
+	params,
+}: {
+	params: Promise<{ locale: string }>
+}): Promise<Metadata> {
+	const { locale } = await params
+	const t = await getTranslations({ locale, namespace: "ForLargeBusinesses" })
+
+	return {
+		title: t("metaTitle"),
+		description: t("metaDescription"),
+		openGraph: {
+			title: t("ogTitle"),
+			description: t("ogDescription"),
+		},
+	}
 }
 
-const Page: NextPage = () => {
+const Page: NextPage<{ params: Promise<{ locale: string }> }> = async ({
+	params,
+}) => {
+	const { locale } = await params
+	setRequestLocale(locale)
 	return <ForLargeBusinessesPage />
 }
 

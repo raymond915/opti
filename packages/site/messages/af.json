@@ -788,5 +788,250 @@
 			"button": "Vra jou gratis pryse-konsultasie aan",
 			"imageAlt": "Deursigtige OptiHR-pryse — vra 'n konsultasie aan"
 		}
+	},
+	"AudienceShared": {
+		"mythLabel": "Mite",
+		"realityLabel": "Werklikheid",
+		"caseStudyLabel": "Gevallestudie",
+		"contactButton": "Kontak ons",
+		"viewAllFaqs": "Sien alle Gereelde vrae",
+		"bookConsultation": "Bespreek 'n gratis konsultasie",
+		"finalButton": "Bespreek jou gratis konsultasie"
+	},
+	"ForSmallBusinesses": {
+		"metaTitle": "MH- & Nakomingsondersteuning vir Klein Ondernemings | OptiHR Suid-Afrika",
+		"metaDescription": "OptiHR gee klein ondernemings in Suid-Afrika professionele MH- en BV-ondersteuning sonder die koste van 'n voltydse aanstelling. Arbeidsoudits, dissiplinêre hantering, KVBA-verteenwoordiging, en meer.",
+		"ogTitle": "MH- & Nakomingsondersteuning vir Klein Ondernemings | OptiHR",
+		"ogDescription": "Om 'n klein onderneming te bestuur is veeleisend — MH behoort nie nog 'n las te wees nie. OptiHR bied kundige, praktiese MH-ondersteuning slegs wanneer jy dit nodig het, teen 'n breukdeel van die koste.",
+		"banner": {
+			"anchorText": "Hoe ons help",
+			"title": "MH- & Nakomingsondersteuning vir Klein Ondernemings in Suid-Afrika",
+			"body": "Om 'n klein onderneming te bestuur, is reeds veeleisend — MH-nakoming behoort nie nog 'n las op jou skouers te wees nie. OptiHR bied jou professionele MH-ondersteuning sonder die koste van 'n voltydse aanstelling."
+		},
+		"intro": {
+			"h2": "Elke onderneming verdien behoorlike MH — ongeag grootte.",
+			"body": "Te dikwels word MH oorhandig aan iemand sonder kwalifikasie, en die risiko word eers ontdek wanneer 'n duur KVBA-toekenning toegeken word. OptiHR is daar om daardie risiko uit die weg te ruim. Ons stop nie by nakoming nie — bevoegde MH bou vertroue, verhoog moraal en versterk lojaliteit onder jou personeel."
+		},
+		"highlights": {
+			"block1": {
+				"title": "Praktiese, hands-on ondersteuning",
+				"body": "Ons doen die swaar werk — nie net raad op papier nie, maar implementering wat in jou daaglikse bedryf werk. Van kontrakte en beleide tot dissiplinêre prosesse — ons hanteer dit sodat jy nie hoef nie.",
+				"alt": "OptiHR praktiese MH-ondersteuning vir klein ondernemings"
+			},
+			"block2": {
+				"title": "Risiko-vrye regsnakoming",
+				"body": "Elke kontrak, beleid en prosedure word teen Suid-Afrikaanse arbeidsreg getoets om jou te beskerm. Ons identifiseer risiko's vroeg en spreek kwessies aan voordat hulle in KVBA-sake of toksiese werkplekke ontaard.",
+				"alt": "Arbeidsregnakoming en regsbeskerming"
+			},
+			"block3": {
+				"title": "Pasgemaak vir jou grootte",
+				"body": "Geen kopieer-en-plak template nie. Ons oplossings pas by jou mense, jou sektor en jou uitdagings. Gekwalifiseerde MH-professionele beskikbaar wanneer jy hulle nodig het — sonder die koste van 'n permanente aanstelling.",
+				"alt": "Pasgemaakte MH-oplossings vir klein ondernemings"
+			}
+		},
+		"myths": {
+			"subtitle": "Mite teenoor Werklikheid",
+			"h2": "Wat klein-ondernemers verkeerd het oor MH",
+			"body": "Hierdie aannames laat ondernemings blootgestel. Hier is wat die wet werklik sê.",
+			"items": [
+				{ "myth": "Ons is klein, dus geld MH nie regtig vir ons nie.", "reality": "Arbeidsreg geld vir elke onderneming, ongeag grootte. Selfs een personeelgeskil wat verkeerd hanteer word, kan by die KVBA beland en jou duur kos." },
+				{ "myth": "Ons kantoorbestuurder kan MH hanteer.", "reality": "Sonder MH-opleiding is hulle blootgestel — en so ook jou onderneming. MH-besluite is regsbesluite, en een fout kan jare se harde werk ongedaan maak." },
+				{ "myth": "As daar nou geen probleme is nie, moet ons reg wees.", "reality": "Probleme kom eers na vore wanneer dinge skeefloop — en teen daardie tyd is dit dikwels te laat. Behoorlike MH hou jou veilig en voorkom duur verrassings." },
+				{ "myth": "MH-ondersteuning is te duur vir 'n klein onderneming.", "reality": "Jy het nie 'n voltydse MH-bestuurder nodig nie. Met OptiHR kry jy kundige ondersteuning slegs wanneer jy dit nodig het — teen 'n breukdeel van die koste." },
+				{ "myth": "MH is net papierwerk.", "reality": "Behoorlik gedoen, bou MH vertroue, verhoog moraal en hou personeel lojaal — terwyl dit jou beskerm teen regs- en finansiële risiko." }
+			]
+		},
+		"caseStudy": {
+			"h2": "Klein rekeningkundige firma — 10 werknemers",
+			"para1": "'n Klein rekeningkundige firma in Gauteng het geen formele MH-opstelling gehad nie. Die eienaar het sy ontvangsdame gevra om \"MH te hanteer\" saam met haar administratiewe take. Dinge het reg gelyk — totdat 'n werknemer 'n ontslag betwis het en onbillike behandeling beweer het.",
+			"para2": "Die onderneming het skielik die dreigement van KVBA-optrede in die gesig gestaar, en die eienaar het besef hulle prosesse was nie-bestaande. OptiHR het vinnig ingespring: ons het kontrakte hersien, nakomingsgapings reggemaak en die dissiplinêre proses stap vir stap gelei.",
+			"para3": "Die saak is intern opgelos en KVBA-eskalasie is heeltemal vermy. Personeel het gesien dat prosesse nou duidelik en konsekwent was, wat vertroue in bestuur verbeter het.",
+			"outcomes": [
+				"KVBA-eskalasie vermy",
+				"Nakomingsgapings binne weke gesluit",
+				"Personeelvertroue in bestuur herstel"
+			],
+			"quote": "OptiHR het ons gered van wat 'n enorme verlies kon gewees het. Hulle het ons struktuur gegee, en ek weet nou dat ons beskerm is.",
+			"attribution": "Eienaar, Rekeningkundige Firma, Gauteng"
+		},
+		"cta": {
+			"title": "Fokus op die groei van jou onderneming. Ons hanteer die MH.",
+			"body": "Moenie wag vir die KVBA, 'n bedingingsraad of 'n vakbond om jou te wys waar dinge skeefgeloop het nie. Loop die risiko vooruit. Bespreek vandag 'n gratis nakomingskonsultasie met OptiHR en stel behoorlike MH in plek voordat probleme eskaleer.",
+			"alt": "MH-konsultasie — OptiHR"
+		},
+		"faq": {
+			"subtitle": "MH-vrae van klein ondernemings beantwoord",
+			"title": "Algemene vrae van klein-ondernemers",
+			"body": "Ons hoor hierdie vrae heeltyd. Hier is reguit antwoorde.",
+			"q1Question": "Ons weet nie of ons nakomend is nie. Waar begin ons?",
+			"q1Answer": "Arbeidsreg geld ongeag jou grootte. Ons sluit die gapings met oudits, beleide en kontrakte sodat jy nie uitgevang word nie. 'n Gratis nakomingskonsultasie is die beste eerste stap — ons vertel jou presies waar jy staan.",
+			"q2Question": "MH is aan iemand sonder MH-opleiding gegee. Is dit 'n probleem?",
+			"q2Answer": "\"Ek het gedink hulle weet wat hulle doen\" is iets wat ons gereeld hoor. Ondernemings dink dikwels hulle is reg terwyl daar geen probleme is nie. Die werklike probleem kom wanneer konflik ontstaan. Ons spring in met gekwalifiseerde kundigheid om elke besluit met reg en beste praktyk te rugsteun.",
+			"q3Question": "Ons kan nie 'n voltydse MH-bestuurder bekostig nie. Wat is ons opsies?",
+			"q3Answer": "Jy het nie een nodig nie. Met OptiHR kry jy professionele MH-ondersteuning slegs wanneer jy dit nodig het — teen 'n breukdeel van die koste van 'n permanente aanstelling. Ons bied buigsame ondersteuningsmodelle aan wat by jou begroting en spangrootte pas.",
+			"q4Question": "Ons is bekommerd oor die KVBA. Wat moet ons weet?",
+			"q4Answer": "Tereg so. Te dikwels bestaan beleide net in die eienaar se kop. Ons sit behoorlike stelsels op skrif en verteenwoordig jou wanneer nodig, en hou duur toekennings van jou boeke af weg. Ons KVBA-suksessyfer is bo 95%.",
+			"q5Question": "'n Personeelkwessie raak hand uit. Kan julle nou dadelik help?",
+			"q5Answer": "Ja. Of dit nou 'n ontslag, 'n grief of 'n prestasiekwessie is, ons gee jou duidelike, wettige prosesse om probleme met selfvertroue te hanteer. Ons spring ook in om die proses direk te bestuur indien nodig."
+		}
+	},
+	"ForLargeBusinesses": {
+		"metaTitle": "Spesialis-MH- & BV-ondersteuning vir Groot Ondernemings | OptiHR Suid-Afrika",
+		"metaDescription": "OptiHR werk saam met groot ondernemings se MH-afdelings as 'n vertroude verlenging van jou span — hanteer vakbonde, bedingingsrade, nakoming en KVBA-geskille sodat jou span op strategie kan fokus.",
+		"ogTitle": "Spesialis-MH- & BV-ondersteuning vir Groot Ondernemings | OptiHR",
+		"ogDescription": "Selfs sterk MH-spanne kan nie alles dek nie. OptiHR voeg spesialis-diepte by waar dit die meeste benodig word — van nakoming en regspraak tot vakbond-onderhandelinge en KVBA-verteenwoordiging.",
+		"banner": {
+			"anchorText": "Hoe ons help",
+			"title": "Spesialis-MH- & BV-ondersteuning vir Groot Ondernemings in Suid-Afrika",
+			"body": "Selfs sterk MH-spanne kan nie alles doen nie. OptiHR werk saam met jou MH-afdeling as 'n vertroude verlenging van jou span — dra die nakomingslas, verminder regsrisiko, en gee jou praktisyns die asemruimte om op strategie te fokus."
+		},
+		"intro": {
+			"h2": "Ons vervang nie jou MH-span nie — ons versterk dit.",
+			"body": "Groot ondernemings staar komplekse bedryfsverhoudinge, bedingingsrade, vakbonde en hoë-risiko-geskille in die gesig waar die marge vir fout klein is. OptiHR voeg spesialis-diepte by waar dit die meeste benodig word — van nakoming en regspraak tot vakbond-onderhandelinge en KVBA-verteenwoordiging."
+		},
+		"highlights": {
+			"block1": {
+				"title": "Spesialis-ondersteuning vir hoë-risiko MH- en BV-gebiede",
+				"body": "OptiHR hanteer komplekse bedryfsverhoudinge, vakbond-onderhandelinge, nakoming en regsrisiko's — sodat interne MH op hul sterkpunte kan fokus terwyl hulle beskerm bly teen duur geskille en reputasieskade.",
+				"alt": "Diverse MH-span werk saam"
+			},
+			"block2": {
+				"title": "Proaktiewe wetgewende en nakomingsbestuur",
+				"body": "Voortdurende monitering van Suid-Afrikaanse arbeidsreg en regspraak verseker dat ondernemings op datum bly, met praktiese leiding en stelsels ontwerp om aan ontwikkelende regsvereistes te voldoen en MH-proses-foute te vermy.",
+				"alt": "Proaktiewe wetgewende en nakomingsbestuur"
+			},
+			"block3": {
+				"title": "Objektiewe, eksterne perspektief en holistiese werknemersorg",
+				"body": "Deur onpartydige MH-kundigheid te bied en raamwerke vir welstand, betrokkenheid en hibriede werk te ontwerp, voorkom OptiHR kwessies wat interne spanne dalk sou mis, en hou beide die werkmag en die onderneming se reputasie sterk.",
+				"alt": "Werkmag-strategie en werknemerwelstand"
+			}
+		},
+		"myths": {
+			"subtitle": "Mite teenoor Werklikheid",
+			"h2": "Wat groot ondernemings aanneem oor MH — en wat werklik waar is",
+			"body": "Hierdie is die aannames wat die algemeenste op leierskapvlak voorkom. Hulle is ook dié wat tot die duurste MH-mislukkings lei.",
+			"items": [
+				{ "myth": "Ons MH-afdeling het alles gedek.", "reality": "Selfs die beste MH-spanne kan nie elke hoek dek nie. Die MH-landskap is ongelooflik wyd — nakoming, vakbonde, welstand, werwing — en geen span kan in alles spesialiseer nie." },
+				{ "myth": "As ons by ons beleide bly, is ons veilig.", "reality": "Beleide alleen is nie genoeg nie — hoe hulle toegepas word, maak saak. Onkonsekwentheid oor terreine of bestuurders heen is wat die meeste by die KVBA of Arbeidshof getoets word." },
+				{ "myth": "Ons sal vakbonde hanteer wanneer probleme opduik.", "reality": "Om te wag tot konflik ontstaan, is duur. Proaktiewe skakeling bou oop kanale sodat kwessies konstruktief — nie strydlustig nie — hanteer word." },
+				{ "myth": "As daar nog nie 'n probleem was nie, moet ons reg wees.", "reality": "Risiko's kom eers na vore wanneer hulle uitgedaag word. Teen daardie tyd is die gapings in proses of nakoming reeds blootgestel. Voorkoming is altyd goedkoper as reaksie." },
+				{ "myth": "Eksterne konsultante sal nie ons maatskappy verstaan nie.", "reality": "Om ekstern te wees, is 'n krag. OptiHR bring 'n vars perspektief, oor-bedryf-ervaring en die vermoë om jou praktyke te meet teen wat elders werk." }
+			]
+		},
+		"caseStudy": {
+			"h2": "Nasionale kleinhandelketting — 800 personeel oor verskeie takke",
+			"para1": "'n Groot kleinhandelmaatskappy met verskeie takke het 'n bekwame MH-afdeling gehad, maar gesukkel met konsekwentheid oor terreine heen. Dissiplinêre en griewe-prosedures is in elke tak verskillend toegepas, en 'n werknemer-ontslag in een streek is by die KVBA betwis. Sonder gestandaardiseerde prosesse was die maatskappy blootgestel aan duur toekennings en reputasieskade.",
+			"para2": "OptiHR is genooi om saam met die MH-span te werk. Ons het 'n nakomingsoorsig oor alle takke uitgevoer, gapings geïdentifiseer en werkswinkels met MH-praktisyns en lynbestuurders gefasiliteer. Saam het ons dissiplinêre prosesse gestandaardiseer, duidelike beleide ingestel en bestuurders opgelei om dit konsekwent toe te pas.",
+			"outcomes": [
+				"KVBA-saak in die maatskappy se guns opgelos",
+				"Konsekwente MH-prosesse oor alle takke heen ontplooi",
+				"Verminderde inter-tak-konflik en sterker nakomingsvertroue"
+			],
+			"quote": "OptiHR het ons gehelp om konsekwentheid oor die hele besigheid te bring. Hulle opleiding- en beleidraamwerke het ons bestuurders die gereedskap gegee om kwessies elke keer op die regte manier te hanteer.",
+			"attribution": "Groep MH-direkteur, Nasionale Kleinhandelmaatskappy"
+		},
+		"cta": {
+			"title": "Laat OptiHR op arbeidsreg fokus. Jou span fokus op alles anders.",
+			"body": "Moenie wag vir 'n KVBA-saak, bedingingsraad-geskil of vakbond-konflik om jou MH-prosesse te toets nie. Werk nou saam met OptiHR om nakoming te versterk, risiko te verminder en jou MH-span die ondersteuning te gee wat hulle nodig het.",
+			"alt": "Professionele MH-konsultasie"
+		},
+		"faq": {
+			"subtitle": "MH-vrae van groot ondernemings beantwoord",
+			"title": "Vrae van MH-spanne van groot ondernemings",
+			"body": "Algemene vrae wat ons hoor van MH-direkteure en sakeleiers op skaal.",
+			"q1Question": "Ons MH-span is oorbelas. Hoe kan OptiHR help?",
+			"q1Answer": "Van werwing tot uittree-onderhoude — MH dek alles. OptiHR neem komplekse BV- en nakomingsake oor sodat jou span kan fokus waar hulle die meeste waarde toevoeg — kultuur, betrokkenheid en strategie.",
+			"q2Question": "Dit is onmoontlik om wetgewing en regspraak by te hou. Wat is die oplossing?",
+			"q2Answer": "Die arbeidslandskap verander voortdurend. OptiHR moniteer wetgewing, regspraak en presedent — en omskep dit dan in praktiese stappe vir jou onderneming, sodat jy op datum bly sonder om jou interne span te belas.",
+			"q3Question": "Ons is selfvertrouend in MH oor die algemeen, maar nie wanneer dit by vakbonde of bedingingsrade kom nie.",
+			"q3Answer": "Kollektiewe bedinging en vakbond-skakeling is hoë-risiko-gebiede wat spesialis-kundigheid vereis. Ons bring die ervaring om te onderhandel, te verteenwoordig en op te los — terwyl jou onderneming beskerm bly.",
+			"q4Question": "Kan eksterne MH-konsultante regtig ons maatskappy verstaan?",
+			"q4Answer": "Om ekstern te wees, is 'n krag. OptiHR bring 'n vars perspektief, ervaring oor bedrywe heen, en die vermoë om jou praktyke te meet teen wat elders werk. Ons ontbloot risiko's wat interne spanne — wat te naby aan die situasie is — dalk sou mis.",
+			"q5Question": "'n Enkele MH-fout kan by die KVBA of Arbeidshof beland. Hoe bly ons veilig?",
+			"q5Answer": "Selfs met sterk MH kan een fout in die proses eskaleer. Ons verseker dat jou stelsels en reaksies regsgegrond is, sodat jy gereed is indien sake daardie forums bereik. Ons KVBA-suksessyfer is bo 95%."
+		}
+	},
+	"ForIndependentSchools": {
+		"metaTitle": "MH- & Arbeidsnakoming vir Onafhanklike Skole | OptiHR Suid-Afrika",
+		"metaDescription": "OptiHR bied spesialis-MH-, bestuur- en arbeidsnakomingsondersteuning vir onafhanklike skole in Suid-Afrika. SARO-nakoming, vakbond-skakeling, personeelkontrakte en geskil-oplossing.",
+		"ogTitle": "MH- & Arbeidsnakoming vir Onafhanklike Skole | OptiHR",
+		"ogDescription": "Anders as openbare skole dra onafhanklike skole self die volle MH-las. OptiHR se stigter is 'n toegelate prokureur, gekwalifiseerde MH-praktisyn en voormalige opvoeder — uniek toegerus om te help.",
+		"banner": {
+			"anchorText": "Hoe ons help",
+			"title": "MH- & Arbeidsnakoming vir Onafhanklike Skole in Suid-Afrika",
+			"body": "Anders as openbare skole moet onafhanklike skole alles self bestuur: opvoeders, ondersteuningspersoneel, beleide, bestuur en aanspreeklikheid teenoor ouers en beheerliggame. OptiHR is uniek geplaas om te help — ons stigter is 'n toegelate prokureur, gekwalifiseerde MH-praktisyn en voormalige opvoeder."
+		},
+		"intro": {
+			"h2": "Ons verstaan beide die klaskamer en die hofsaal.",
+			"body": "Onafhanklike skole staar unieke MH-uitdagings in die gesig wat tradisionele MH-ondersteuning selde dek — SARO-vereistes, personeelvakbonde, KVBA-geskille en bestuursverpligtinge. OptiHR bring 'n skaars kombinasie van regs-, MH- en onderwyskundigheid om jou skool en jou reputasie te beskerm."
+		},
+		"highlights": {
+			"block1": {
+				"title": "SARO- & vakbond-kundigheid",
+				"body": "Skole staar unieke verpligtinge in die gesig waarvoor algemene MH-praktisyns nie toegerus is nie: SARO-registrasie en -nakoming, vakbond- of KVBA-geskille rakende opvoeders, en kollektiewe ooreenkomste. Ons verseker dat hierdie wettig en konsekwent bestuur word, om die skool te beskerm teen risiko en reputasieskade.",
+				"alt": "SARO- en MH-nakoming vir onafhanklike skole"
+			},
+			"block2": {
+				"title": "Bestuur- & beleidsondersteuning",
+				"body": "Baie onafhanklike skole funksioneer onder konstitusies wat nie meer vandag se arbeids- en bestuursrealiteite weerspieël nie. Ons help om bestuursraamwerke te hersien en te moderniseer, beleide vir personeel, leerders en ouers te ontwikkel, en te verseker dat beheerliggame billik, doeltreffend en in lyn met beste praktyk kan optree.",
+				"alt": "Bestuur- en beleidsondersteuning vir onafhanklike skole"
+			},
+			"block3": {
+				"title": "Personeelmoraal- & indiensnemingsraamwerke",
+				"body": "Die druk van onderrig, ouerverwagtinge en bestuursvereistes kan personeelmoraal uitput. Ons help skole om MH-praktyke te ontwerp wat welstand ondersteun, omset verminder en lojaliteit bou — terwyl ons die unieke druk van die onderwysberoep erken. Ons stel ook kontrakte op en hersien dit vir opvoeders, ondersteuningspersoneel en buitemuurse afrigters.",
+				"alt": "Personeel-skakeling en werkmag-strategie vir skole"
+			},
+			"block4": {
+				"title": "Geskil-oplossing & regsbeskerming",
+				"body": "'n KVBA-saak is nie net duur nie — dit kan jou skool se reputasie met ouers, leerders en personeel benadeel. Teen die tyd dat 'n saak by die KVBA land, is die gapings in jou bestuur en prosesse reeds in die openbaar. Ons bied spesialis-verteenwoordiging en bou die stelsels wat geskille voorkom voordat hulle eskaleer.",
+				"alt": "Regsbeskerming en MH-advies vir skole"
+			}
+		},
+		"myths": {
+			"subtitle": "Mite teenoor Werklikheid",
+			"h2": "Wat onafhanklike skole verkeerd het oor MH en bestuur",
+			"body": "Hierdie oortuigings is wydverspreid onder skoolleierskap. Hulle is ook die oortuigings wat skole die meeste blootgestel laat.",
+			"items": [
+				{ "myth": "Ons grondwet het ons vir jare goed gedien — dit sal voortgaan om dit te doen.", "reality": "Tye het verander. Baie grondwette is verouderd en beheerliggame is dikwels nie ratte genoeg om vandag se MH- en BV-uitdagings te hanteer nie. Grondwette benodig gereelde hersiening om effektief te bly." },
+				{ "myth": "Ons MH-praktisyn kan alles hanteer.", "reality": "Skool-MH is buitengewoon wyd — van opvoeders tot afrigters, van ouers tot vakbonde. Selfs sterk MH-praktisyns benodig spesialis-ondersteuning met nakoming, bestuur en geskille." },
+				{ "myth": "As ons nog nooit 'n KVBA-saak gehad het nie, moet ons reg wees.", "reality": "'n KVBA-saak is nie net duur nie — dit kan jou skool se reputasie met ouers, leerders en personeel benadeel. Teen die tyd dat 'n saak opduik, is jou bestuursgapings reeds in die openbaar." },
+				{ "myth": "SARO is net 'n formaliteit.", "reality": "SARO-nakoming is ernstig. Foute met registrasie, gedrag of verslagdoening kan beide jou skool se reputasie en regsposisie benadeel." },
+				{ "myth": "Ouers sal hulle nie met personeelkwessies bemoei nie.", "reality": "Onafhanklike skole is verantwoordelik aan ouers en beheerliggame wat deursigtigheid en billikheid verwag. Sonder stewige bestuur word geskille vinnig reputasie-krisisse." },
+				{ "myth": "Vakbonde is nie regtig 'n faktor vir ons nie.", "reality": "Selfs waar lidmaatskap beperk is, kan vakbonde en kollektiewe ooreenkomste jou skool beïnvloed. Vroeë, konstruktiewe skakeling voorkom konflik en hou verhoudings hanteerbaar." }
+			]
+		},
+		"caseStudy": {
+			"h2": "Hoog aangeskrewe onafhanklike skool — 60 personeellede",
+			"para1": "'n Hoog aangeskrewe onafhanklike skool het probleme ervaar toe 'n personeelgrief oor werklas direk na die beheerliggaam ge-eskaleer is. Die konstitusie was verouderd, beleide was onkonsekwent, en die MH-praktisyn was onseker hoe om voort te gaan sonder om reputasieskade of 'n KVBA-verwysing te riskeer.",
+			"para2": "OptiHR het beide die MH-span en die beheerliggaam ondersteun. Ons het die grondwet en bestuursprosesse hersien, personeelbeleide bygewerk en die griewe-proses stap vir stap gelei. Terselfdertyd het ons nakomende kontrakte vir die skool se buitemuurse afrigters opgestel — wat 'n ander gaping gesluit het wat later probleme kon veroorsaak het.",
+			"para3": "Die grief is billik en wettig opgelos, sonder om na die KVBA te eskaleer. Personeelmoraal het verbeter en vertroue in die beheerliggaam se prosesse is herstel.",
+			"outcomes": [
+				"Grief opgelos — geen KVBA-verwysing",
+				"Bestuur en grondwet gemoderniseer",
+				"MH-praktisyn-selfvertroue aansienlik verhoog"
+			],
+			"quote": "OptiHR het ons die duidelikheid gegee wat ons nodig gehad het. Hulle het ons gehelp om ons bestuur te moderniseer, 'n sensitiewe kwessie op te los, en die regte stelsels in plek te sit. Ons voel nou beskermd en ondersteun.",
+			"attribution": "Skoolhoof, Onafhanklike Skool"
+		},
+		"cta": {
+			"title": "Gereed om jou skool te beskerm?",
+			"body": "Laat OptiHR fokus op wat ons die beste doen — arbeidsreg, nakoming, bestuur en personeelondersteuning — sodat jy kan fokus op wat die meeste saak maak: onderwys. Saam skep ons 'n billike, nakomende en ondersteunende omgewing vir personeel, leerders en ouers.",
+			"alt": "MH-konsultasie — OptiHR"
+		},
+		"faq": {
+			"subtitle": "Algemene vrae van skoolhoofde en MH-praktisyns",
+			"title": "MH-vrae oor onafhanklike skole beantwoord",
+			"body": "Vrae wat ons gereeld van onafhanklike skole se leierskap hoor.",
+			"q1Question": "Ons grondwet is verouderd. Kan OptiHR ons help om dit te moderniseer?",
+			"q1Answer": "Ja. Baie onafhanklike skole funksioneer steeds onder grondwette wat nie meer vandag se arbeids- en bestuursrealiteite weerspieël nie. Ons hersien en werk bestuursraamwerke by sodat beheerliggame billik, doeltreffend en in lyn met huidige standaarde kan optree.",
+			"q2Question": "Hoe hanteer julle opvoederkontrakte en buitemuurse personeel?",
+			"q2Answer": "Ons stel diensskontrakte op en hersien dit vir alle skoolpersoneel-kategorieë — permanente onderwysers, vastetermyn-aanstellings, ondersteuningspersoneel, deeltydse afrigters en buitemuurse fasiliteerders — om te verseker dat elke kontrak arbeidsreg-nakomend en SARO-belyn is.",
+			"q3Question": "Ons is onseker hoe om met vakbonde of kollektiewe ooreenkomste te werk.",
+			"q3Answer": "Onderhandelinge met vakbonde en die toepassing van kollektiewe ooreenkomste kan kompleks en 'n hoë-risiko wees. Ons bring die regs- en BV-kundigheid om hierdie verhoudings konstruktief te bestuur, kollektiewe ooreenkomste te interpreteer en te implementeer terwyl die skool se belange beskerm word.",
+			"q4Question": "SARO, KVBA en nakomingsvereistes voel oorweldigend. Waar begin ons?",
+			"q4Answer": "Begin met 'n gratis konsultasie. Ons evalueer jou huidige nakomingsposisie, identifiseer gapings in kontrakte, beleide en bestuur, en gee jou 'n duidelike, geprioritiseerde aksieplan om ten volle beskerm te wees.",
+			"q5Question": "Wat maak OptiHR anders as ander MH-konsultante vir skole?",
+			"q5Answer": "Ons stigter is 'n toegelate prokureur, gekwalifiseerde MH-praktisyn en SARO-geregistreerde voormalige opvoeder. Hierdie skaars kombinasie beteken ons verstaan beide die klaskamer en die hofsaal — en bring insig in die onderwysberoep en die regsraamwerke wat dit beheer."
+		}
 	}
 }
