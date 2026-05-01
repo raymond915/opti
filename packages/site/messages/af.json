@@ -1033,5 +1033,166 @@
 			"q5Question": "Wat maak OptiHR anders as ander MH-konsultante vir skole?",
 			"q5Answer": "Ons stigter is 'n toegelate prokureur, gekwalifiseerde MH-praktisyn en SARO-geregistreerde voormalige opvoeder. Hierdie skaars kombinasie beteken ons verstaan beide die klaskamer en die hofsaal — en bring insig in die onderwysberoep en die regsraamwerke wat dit beheer."
 		}
+	},
+	"AiInTheWorkplace": {
+		"metaTitle": "KI in die Werkplek — Strategie, Bestuur & Mensondersteuning | OptiHR Suid-Afrika",
+		"metaDescription": "OptiHR help Suid-Afrikaanse ondernemings en skole om KI met selfvertroue te aanvaar. KI-gereedheids-beoordelings, MH-beleid- en bestuursraamwerke, POPIA-nakoming, werkmag-heropleiding en veranderingbestuur.",
+		"ogTitle": "KI in die Werkplek | OptiHR Suid-Afrika",
+		"ogDescription": "Om KI in jou organisasie in te stel, is net soveel 'n mense-uitdaging as 'n tegnologie-een. OptiHR gee jou die strategie, regsraamwerke en veranderingbestuur-kundigheid om dit reg te kry.",
+		"banner": {
+			"anchorText": "Hoe ons help",
+			"title": "KI in die Werkplek",
+			"body": "Die meeste organisasies hoor KI en dink ChatGPT. OptiAI, aangedryf deur OptiHR, help ondernemings en skole om te verstaan wat KI realisties vir hulle kan doen — en maak dit dan gebeur. Geen sagteware-verkope nie. Geen een-grootte-pas-almal-uitrolle nie. Net persoonlike, konsultant-geleide ingrypings wat by jou mense, jou prosesse en jou begroting pas."
+		},
+		"intro": {
+			"h2": "KI is nie 'n bedreiging vir jou mense nie. Reg gebruik, maak dit hulle beter in alles wat hulle doen.",
+			"para1": "Wanneer die meeste mense \"KI\" hoor, sien hulle ChatGPT — 'n slimmer soekenjin, 'n hulpmiddel wat dinge vir jou skryf. Dis 'n redelike beginpunt, maar dit krap skaars aan die oppervlak. KI dek nou honderde doelgerigte gereedskap wat administrasie outomatiseer, navorsing versnel, foute verminder en jou mense bevry om meer tyd te bestee aan werk wat werklik saak maak.",
+			"para2": "Werknemers vrees KI dikwels omdat hulle dink dit kom vir hulle werk. Die werklikheid is anders: organisasies wat KI deurdag implementeer, vind dat hulle mense meer produktief, meer selfversekerd en meer waardevol word — nie oortollig nie. Die doel is nie om jou werkmag te vervang nie. Dit is om hulle beter te maak in wat hulle doen, en jou onderneming meer doeltreffend en meer winsgewend te maak in die proses.",
+			"para3": "En hier is die skuif wat alles verander: jy koop nie meer sagteware en leer dan hoe om dit te gebruik nie. Met KI leer die sagteware van jou onderneming — jou terminologie, jou werkvloei, jou data, jou manier van doen. Die onderneming bly in beheer. Die sagteware pas by jou aan."
+		},
+		"paradigm": {
+			"subtitle": "'n Nuwe verhouding met sagteware",
+			"h2": "Die sagteware leer van jou onderneming. Nie andersom nie.",
+			"para1": "Vir dekades het die aanvaarding van tegnologie beteken om 'n stelsel te koop en dan maande — soms jare — daaraan te bestee om dit te leer, personeel te oplei om dit te gebruik en jou prosesse te hervorm om by sy beperkings te pas. Die onderneming het na die sagteware gebuig.",
+			"para2": "KI keer dit heeltemal om. 'n Goed-gekonfigureerde KI-oplossing word gebou rondom hoe jou organisasie werklik funksioneer — jou terminologie, jou werkvloei, jou besluitpatrone, jou data. Dit leer jou onderneming. Met tyd word dit 'n hulpmiddel wat voel asof dit spesifiek vir jou gemaak is — want dit is.",
+			"para3": "Dit is hoekom OptiAI nie met 'n voorkeurproduk arriveer nie. Elke verbintenis begin met die verstaan van jou onderneming eerste — sodat wat ook al aanbeveel, gekonfigureer en geïmplementeer word, heeltemal om jou geskik is.",
+			"oldLabel": "Die ou model",
+			"oldSteps": [
+				"Koop voorafvervaardigde sagteware",
+				"Spandeer maande om dit te leer gebruik",
+				"Heroplei personeel om by die stelsel te pas",
+				"Pas jou prosesse aan rondom die sagteware se beperkings",
+				"Hoop dit pas nog oor twee jaar by jou onderneming"
+			],
+			"newLabel": "Die KI-model",
+			"newSteps": [
+				"Begin met hoe jou onderneming werklik werk",
+				"Konfigureer KI rondom jou werkvloei en taal",
+				"Personeel skakel met gereedskap wat bekend voel, nie vreemd nie",
+				"Die stelsel leer en verbeter mettertyd uit jou data",
+				"Sagteware wat ontwikkel soos jou onderneming ontwikkel"
+			]
+		},
+		"approach": {
+			"subtitle": "Die OptiAI-benadering",
+			"h2": "Nis. Persoonlik. Gebou rondom jou onderneming.",
+			"body": "OptiAI, aangedryf deur OptiHR, verkoop nie KI-produkte nie. Ons arriveer nie met 'n voorkeurplatform of 'n voorafverpakte oplossing nie. Elke verbintenis begin met die verstaan van jou onderneming — jou mense, jou werkvloei, jou terminologie, jou pynpunte. Dan en eers dan identifiseer ons waar KI 'n werklike, meetbare verskil kan maak.",
+			"steps": [
+				{ "step": "01", "title": "Evalueer", "description": "Ons spandeer tyd binne jou onderneming — neem werkvloei waar, voer onderhoude met personeel en identifiseer waar tyd verlore raak, waar foute insluip en waar die werklike geleenthede lê. Geen aannames nie." },
+				{ "step": "02", "title": "Beveel aan", "description": "Ons karteer praktiese KI-opsies vir jou spesifieke uitdagings. Elke aanbeveling kom met 'n eerlike beeld van wat dit gaan kos, watter opleiding betrokke is, hoe die implementering lyk en wat die realistiese opbrengs is." },
+				{ "step": "03", "title": "Implementeer", "description": "Ons bestuur die uitrol teen 'n tempo wat by jou span pas. Personeel word behoorlik opgelei — nie net 'n hulpmiddel gewys en gelos om uit te werk nie. Ons bly betrokke totdat aanname gevestig is en die voordele meetbaar is." },
+				{ "step": "04", "title": "Deurlopende ondersteuning", "description": "KI staan nie stil nie, en ons ook nie. Onder 'n gestruktureerde DVO besoek jou konsultant gereeld — spreek bekommernisse aan, beantwoord nuwe vrae, hersien wat werk en stel nuwe vermoëns voor soos jou behoeftes ontwikkel." },
+				{ "step": "05", "title": "Ontwikkel & ontplooi", "description": "Met tyd groei jou KI-vermoë. Wat begin as een of twee gerigte gereedskap kan uitbrei na 'n breër digitale ekosisteem — altyd teen die regte tempo, altyd in jou belang, nooit verder gestoot as wat sin maak vir jou organisasie nie." },
+				{ "step": "06", "title": "Nooit een grootte pas almal nie", "description": "'n Klein rekeningkundige firma, 'n laerskool en 'n logistieke maatskappy het almal verskillende behoeftes. Ons behandel hulle so. Die gereedskap, die benadering, die tydlyn en die belegging word almal gekalibreer vir jou spesifieke konteks." }
+			]
+		},
+		"highlights": {
+			"block1": {
+				"title": "Weet waar jy is voordat jy besluit waarheen jy gaan",
+				"body": "Voordat jy in KI-gereedskap belê, het jy 'n eerlike beoordeling van jou organisasie se gereedheid nodig — stelsels, vaardighede, kultuur en risiko. OptiAI voer gestruktureerde gereedheids-oorsigte uit, karteer jou huidige menseprosesse en identifiseer outomatiseringsgeleenthede wat by jou grootte, begroting en risiko-aptyt pas. Ons kyk na gereedskap dwarsoor die mark, weeg die werklike koste van opleiding en implementering op, en gee jou 'n eerlike beeld van wat KI realisties vir jou organisasie kan doen — sonder verskaffer-agenda en niks om te verkoop nie.",
+				"button": "Begin jou beoordeling",
+				"alt": "KI-gereedheids-beoordeling en padkartering vir organisasies"
+			},
+			"block2": {
+				"title": "Jou kontrakte en beleide is nie vir die KI-era geskryf nie",
+				"body": "Die gebruik van KI in werwing, prestasiebestuur, monitering of besluitneming skep regs- en bestuursrisiko's wat die meeste organisasies nie aangespreek het nie. OptiAI ouditeer jou bestaande diensskontrakte, MH-beleide en data-bestuursraamwerke, en werk hulle dan by om KI-gebruik te weerspieël — wat deursigtigheidsverpligtinge, werknemer-toestemming, algoritmiese billikheid en POPIA-nakoming dek. Ons verseker jou KI-aanname is nie net slim nie, maar regsgegrond verdedigbaar.",
+				"button": "Hersien my beleide",
+				"alt": "MH-beleid- en bestuursraamwerke vir die KI-era"
+			},
+			"block3": {
+				"title": "Wanneer KI goed bekendgestel word, aanvaar werknemers dit nie net nie — hulle vra vir meer.",
+				"body": "Die verskil tussen KI-weerstand en KI-entoesiasme kom op een ding neer: of werknemers voel dat KI met hulle of vír hulle gebeur. OptiAI ontwerp implementeringsprogramme wat met werknemer-voordeel begin — wys mense hoe KI die administrasie wat hulle nie hou nie verwyder, die herhalende take wat hul energie dreineer versnel, en hulle gereedskap gee wat hul werk werklik beter maak. Wanneer personeel KI as hul voordeel sien — nie bestuur se doeltreffendheidsoefening nie — volg aanname natuurlik.",
+				"button": "Help my span om die voordeel te sien",
+				"alt": "Werkmag-heropleiding en veranderingbestuur"
+			}
+		},
+		"useCases": {
+			"subtitle": "Waar KI 'n verskil maak",
+			"h2": "Praktiese KI-toepassings wat jou onderneming vandag kan gebruik",
+			"body": "KI is nie 'n futuristiese konsep nie — dit is reeds ingebed in gereedskap wat die meeste ondernemings daagliks gebruik. Die vraag is of jy waarde daaruit kry, of net die oppervlak krap. Hier is wat tans beskikbaar is oor algemene sakefunksies heen.",
+			"categories": [
+				{ "icon": "✉️", "title": "E-pos & kommunikasie", "items": ["Stel e-posse op, verfyn en personaliseer in sekondes", "Outo-kategoriseer en prioritiseer jou inboks", "Stel antwoorde voor gebaseer op e-poskonteks", "Som lang e-posdrade onmiddellik op"] },
+				{ "icon": "📅", "title": "Kalenders & skedulering", "items": ["KI-skeduleringsassistente wat vergaderingstye outomaties vind", "Blokkeer outomaties fokustyd en beskerm dieptewerk", "Berei vergadering-opdragte en agendas voor uit jou dagboek", "Transkribeer en som vergaderings in reële tyd op"] },
+				{ "icon": "📊", "title": "Paneelborde & verslagdoening", "items": ["Genereer outomaties weeklikse en maandelikse verslae uit jou data", "Natuurlike-taal-navrae — vra jou data 'n vraag", "Anomalie-opsporing en tendens-waarskuwings", "Reële-tyd KPI-paneelborde sonder 'n ontwikkelaar"] },
+				{ "icon": "💰", "title": "Bestuursrekeninge & finansies", "items": ["Outomatiseer boekhou-inskrywings en rekonsiliasie", "Genereer bestuursrekening-verhale uit syfers", "Bespeur ongewone transaksies en kontantvloeirisiko's vroeg", "Stel raadsgereed-finansiële opsommings outomaties op"] },
+				{ "icon": "⏱️", "title": "Tydstate & MH-administrasie", "items": ["KI-ondersteunde tydstaat-voltooiing en -goedkeuring", "Outomatiese verlof-volging en konflik-opsporing", "Stel diensdokumente, beleide en kontrakte op", "Stroomlyn inskakeling met outomatiese kontrolelyste"] },
+				{ "icon": "🔧", "title": "Nis- & bedryfsagteware", "items": ["KI-integrasies vir praktykbestuur, regs- en mediese platforms", "Skooladministrasie- en rooster-gereedskap", "KVB-verryking en verkooppyplyn-outomatisering", "Pasgemaakte KI-werkvloei gebou rondom jou spesifieke prosesse"] }
+			]
+		},
+		"examples": {
+			"subtitle": "In die praktyk",
+			"h2": "Hoe lyk dit werklik in 'n regte onderneming",
+			"body": "Dit is nie hipotetiese scenario's nie. Dit is die soort situasies wat OptiAI-konsultante elke week teëkom — en die praktiese verskil wat KI maak wanneer dit vir 'n spesifieke onderneming gekonfigureer is.",
+			"exampleLabel": "Voorbeeld",
+			"situationLabel": "Die situasie",
+			"actionLabel": "Wat OptiAI gedoen het",
+			"resultLabel": "Die resultaat",
+			"items": [
+				{ "sector": "Professionele dienstefirma", "challenge": "'n Klein rekeningkundige firma het 3–4 uur elke maandeinde spandeer om bestuursverslae uit hul rekeningkunde-stelsel saam te stel. Elke verslag het vereis dat syfers in 'n sigblad ingetrek, 'n verhaal geskryf en dit vir die kliënt geformateer word.", "solution": "OptiAI het 'n KI-werkvloei gekonfigureer wat direk met hul rekeningkunde-platform gekoppel is. Elke maandeinde genereer die stelsel outomaties 'n geformateerde bestuursverslag — insluitend 'n eenvoudige-taal-verhaal wat afwykings verduidelik en risiko's vlag. Die vennoot hersien en stuur. Totale tyd: onder 20 minute.", "result": "3+ uur bespaar per kliënt per maand. Toegepas oor 12 kliënte, is dit meer as 'n volle werkdag wat elke maand teruggewen word." },
+				{ "sector": "Onafhanklike skool", "challenge": "Die skool se administratiewe span het verlofversoeke handmatig verwerk, uitstaande tydstate gejaag en roetine-personeelkorrespondensie opgestel — wat ongeveer 6 uur per week van 'n senior administrateur se tyd opgeneem het.", "solution": "OptiAI het KI-ondersteunde MH-administrasie-gereedskap bekendgestel wat gekonfigureer is rondom die skool se bestaande beleide en personeelstruktuur. Verlofversoeke word nou outomaties verwerk, tydstaat-herinneringe word sonder handmatige opvolg gestuur, en roetine-briewe word uit sjablone opgestel wat die skool reeds gebruik.", "result": "Die administrateur het byna 'n volle dag per week teruggewen — tyd wat nou aan bestuursondersteuning, ouerkommunikasie en strategiese beplanning bestee word." },
+				{ "sector": "Verkoopsgedrewe KMO", "challenge": "'n Verkoopspan van vyf het aansienlike tyd na elke kliëntoproep spandeer om notas op te skryf, die KVB by te werk en opvolg-e-posse op te stel — dikwels glad nie gedoen nie, wat tot verlore konteks en verlore geleenthede gelei het.", "solution": "OptiAI het 'n KI-vergaderingsassistent gekonfigureer wat by oproepe aansluit, 'n gestruktureerde opsomming opstel, die KVB outomaties bywerk en 'n persoonlike opvolg-e-pos in die maatskappy se toon opstel — gereed vir die verkoopspersoon om binne minute te hersien en te stuur.", "result": "KVB-akkuraatheid het dramaties verbeter. Opvolg-reaksietye het van dae na ure gedaal. Die span het gerapporteer dat hulle meer tyd aan verkoop en minder tyd aan administrasie spandeer." },
+				{ "sector": "Mediese praktyk", "challenge": "Ontvangspersoneel het afspraak-bevestigings, kansellasie-opvolgings en roetine-pasiëntnavrae handmatig hanteer — 'n hoë volume herhalende kommunikasie wat minder tyd vir in-praktyk-ondersteuning gelaat het.", "solution": "OptiAI het 'n KI-kommunikasielaag gekonfigureer wat afspraak-herinneringe, herskedulering-aansporings en Gereelde vrae-antwoorde outomaties hanteer — met die praktyk se eie taal, beleide en toon. Enige iets wat menslike oordeel vereis, word onmiddellik gevlag.", "result": "Ontvangstyd wat aan roetine-kommunikasie spandeer is, het met meer as die helfte gedaal. Personeel het gerapporteer dat hulle minder oorweldig voel — en pasiënte het vinniger, meer konsekwente reaksies ontvang." }
+			]
+		},
+		"benefits": {
+			"subtitle": "Vir jou mense",
+			"h2": "Wat KI werklik vir werknemers doen",
+			"body": "'n Goed-geïmplementeerde KI-hulpmiddel neem nie werk by jou span weg nie — dit neem die sleurwerk weg. Hier is wat werknemers tipies wen wanneer KI deurdag bekendgestel word.",
+			"items": [
+				{ "title": "Minder administratiewe sleurwerk", "description": "Die opstel van roetine-dokumente, opsom van vergaderings, formateer van verslae, beantwoording van standaard-navrae — KI hanteer die herhalende take wat tyd en energie dreineer, en bevry werknemers om te fokus op werk wat werklik hul kundigheid vereis." },
+				{ "title": "Vinniger, beter navorsing", "description": "In plaas daarvan om ure aan soek, lees en sintetiseer van inligting te bestee, kan werknemers KI-gereedskap gebruik om relevante insigte in minute na vore te bring. Die bespaarde tyd gaan terug in strategiese denke, adviseer en besluit." },
+				{ "title": "Hoër kwaliteit-uitset", "description": "KI help werknemers om beter geskrewe werk te lewer — duideliker e-posse, meer gestruktureerde voorstelle, skerper aanbiedinge — sonder om bekwame skrywers te wees. Die resultaat is 'n meer professionele uitset met minder moeite." },
+				{ "title": "Minder foute met roetine-take", "description": "Herhalende prosesse is waar menslike fout insluip. KI-gereedskap pas konsekwente logika toe op berekeninge, data-invoer, skedulering en nakomingskontroles — wat duur foute en die stres om dit te identifiseer, verminder." },
+				{ "title": "Selfvertroue om meer te doen", "description": "Wanneer werknemers gereedskap het wat hul werk ondersteun, neem hulle meer aan. KI verlaag die hindernis tot take wat buite bereik gevoel het — van data-ontleding tot kliëntgerigte inhoud — en brei uit wat individue kan lewer." },
+				{ "title": "Meer tyd vir betekenisvolle werk", "description": "Die beste uitkoms van KI-aanvaarding is nie net doeltreffendheid nie — dit is hertoewysing. Wanneer die sleurwerk verminder, spandeer werknemers meer tyd aan die dele van hul werk wat werklik boeiend, kreatief en die moeite werd is om goed te doen." }
+			]
+		},
+		"myths": {
+			"subtitle": "Mite teenoor Werklikheid",
+			"h2": "Wat organisasies verkeerd het oor KI-aanname",
+			"body": "Hierdie wanopvattings vertraag organisasies — en laat hulle soms blootgestel. Hier is wat die bewyse werklik wys.",
+			"items": [
+				{ "myth": "KI beteken net ChatGPT — dit is basies Google met beter skryfwerk.", "reality": "ChatGPT is een toepassing wat op een KI-model gebou is. Die KI-landskap strek nou oor honderde gereedskap wat dokument-outomatisering, data-ontleding, skedulering, kliëntediens, nakomingsmonitering en veel meer dek — met nuwe vermoëns wat elke maand na vore kom. Die meeste praktiese waarde vir ondernemings kom nie van ChatGPT self nie, maar van doelgerigte gereedskap wat in spesifieke werkvloei inpas en spesifieke probleme oplos." },
+				{ "myth": "KI sal die grootste deel van ons werkmag vervang.", "reality": "KI vergroot tipies rolle eerder as om hulle te vervang. Die organisasies wat die grootste winste sien, is dié wat werkvloei herontwerp het om KI-vermoë met menslike oordeel te paar — nie dié wat probeer het om hoofgetalle uit te skakel nie. Werknemers wat leer om met KI te werk, word meer waardevol, nie minder nie." },
+				{ "myth": "Jy moet 'n tegnologie-maatskappy wees om voordeel te trek uit KI.", "reality": "KI-gereedskap word toenemend toeganklik vir enige organisasie. Skole, professionele dienstefirmas en klein ondernemings vind praktiese toepassings in administrasie, kommunikasie, skedulering en nakoming — sonder om 'n tegnologie-span nodig te hê." },
+				{ "myth": "Ons kan die beleide later uitsorteer.", "reality": "Bestuursgapings haal organisasies vinnig in. POPIA, indiensnemingsreg en billikheidsverpligtinge geld vanaf die oomblik dat jy KI in mensverwante besluite begin gebruik. Om die raamwerk vroeg reg te kry, is veel goedkoper as om 'n KVBA-geskil of regulatoriese oortreding later reg te maak." },
+				{ "myth": "Ons personeel sal dit self uitwerk.", "reality": "Ongestruktureerde KI-aanname skep onkonsekwentheid, foute en sekuriteitsrisiko's. Organisasies wat in gestruktureerde inskakeling, duidelike gebruiksriglyne en rolspesifieke opleiding belê, sien meetbare beter uitkomste — en minder duur foute." },
+				{ "myth": "KI-aanname is 'n eenmalige projek.", "reality": "KI is 'n deurlopende vermoë, nie 'n eenmalige implementering nie. Die organisasies wat voor bly, is dié met 'n deurlopende leerkultuur, gereelde beleids-oorsigte en 'n interne kampioen-struktuur wat KI-gebruik laat ontwikkel saam met die gereedskap." }
+			]
+		},
+		"caseStudy": {
+			"h2": "Onafhanklike skool — Pretoria",
+			"para1": "Toe Ashford Academy se beheerliggaam besluit het om KI-gereedskap vir administrasie en personeelbestuur te verken, het hulle gou besef dat die besluit veel verder strek as sagteware. Diensskontrakte het geen melding gemaak van digitale monitering nie, MH-beleide is nie in ses jaar hersien nie, en twee senior personeellede was diep ongemaklik met die voorgestelde veranderinge.",
+			"para2": "OptiHR is ingebring om die oorgang te lei. Ons het 'n volle gereedheids-beoordeling uitgevoer, diensskontrakte en IT-gebruiksbeleide bygewerk om KI-gereedskap-gebruik en POPIA-verpligtinge te weerspieël, en twee gestruktureerde personeel-skakelingsessies aangebied wat ontwerp is om bekommernisse oop te bring en openlik aan te spreek.",
+			"para3": "Die gefaseerde uitrol het personeel beheer gegee oor hoe KI-gereedskap hul werkvloei binnegekom het. Teen die einde van die eerste kwartaal was aanvaarding voor skedule en geen formele griewe is geopper nie.",
+			"outcomes": [
+				"Diensskontrakte en IT-gebruiksbeleide bygewerk vir KI",
+				"Personeel-skakelingsessies het weerstand aansienlik verminder",
+				"Gefaseerde uitrol betyds voltooi sonder formele griewe"
+			],
+			"quote": "Ons het gedink ons koop sagteware. OptiHR het ons gehelp besef ons herontwerp hoe ons werk — en hulle het seker gemaak ons het dit gedoen op 'n manier wat ons span werklik kon ondersteun.",
+			"attribution": "Hoof van Bedrywighede, Ashford Academy",
+			"attributionNote": "(naam verander vir vertroulikheid)"
+		},
+		"cta": {
+			"title": "Gereed om jou KI-transformasie te lei?",
+			"body": "Of jy nou net begin om KI te verken of 'n integrasie bestuur wat reeds aan die gang is, OptiAI — aangedryf deur OptiHR — gee jou die strategie, raamwerke en mensekundigheid om met selfvertroue voort te beweeg. Bespreek 'n gratis konsultasie en kry uit presies waar jou organisasie staan.",
+			"alt": "Rhodene Duncan — OptiHR KI- en MH-strategiekonsultant"
+		},
+		"faq": {
+			"subtitle": "KI in die werkplek — jou vrae beantwoord",
+			"title": "Algemene vrae oor KI-aanname",
+			"body": "Praktiese antwoorde op die vrae wat ons die meeste hoor van organisasies wat KI verken of implementeer.",
+			"q1Question": "Help julle ons om te kies watter KI-gereedskap om te gebruik?",
+			"q1Answer": "Ja — as deel van ons padkaart-diens evalueer ons KI-gereedskap wat relevant is vir jou sektor en gebruiksgeval, beoordeel hul versoenbaarheid met jou bestaande stelsels, en bied verskaffer-neutrale aanbevelings. Ons verkoop nie sagteware nie, so ons leiding is altyd in jou belang.",
+			"q2Question": "Hoe moet ons diensskontrakte verander as ons KI begin gebruik?",
+			"q2Answer": "Verskeie areas moet bygewerk word: digitale monitering- en bewakingsklousules, toestemming vir dataverwerking, prestasiebestuur-taal (indien KI-gereedskap in evaluerings gebruik word), en intellektuele eiendomsbepalings rondom KI-gegenereerde werk. OptiHR ouditeer jou bestaande dokumente en berei die nodige wysigings voor.",
+			"q3Question": "Wat is POPIA se relevansie vir KI-aanname?",
+			"q3Answer": "POPIA reguleer hoe jy persoonlike inligting verwerk — insluitend data wat gebruik word om KI-stelsels op te lei of te bedryf. As jou KI-gereedskap werknemer- of leerderdata verwerk, het jy 'n wettige basis, data-subjekkennisgewings en 'n dataverwerkingsooreenkoms met die verskaffer nodig. Nie-nakoming dra aansienlike strawwe en reputasierisiko.",
+			"q4Question": "Hoe hanteer ons personeel wat weier om nuwe KI-gereedskap te gebruik?",
+			"q4Answer": "Dit is 'n algemene scenario en selde so konfronterend as wat dit klink. OptiHR help jou om dit te navigeer deur gestruktureerde skakeling, duidelike veranderingskommunikasie, redelike akkommodasie, en — waar nodig — bygewerkte prestasieraamwerke wat nuwe rolverwagtinge weerspieël. Dissiplinêre optrede is amper nooit die regte eerste stap nie.",
+			"q5Question": "Kan skole spesifiek voordeel trek uit KI-aanname-ondersteuning?",
+			"q5Answer": "Beslis. Skole staar 'n unieke kruising van uitdagings in die gesig: SARO-verpligtinge, beheerliggaam-aanspreeklikheid, POPIA-nakoming vir leerderdata, personeel-vakbond-sensitiwiteite, en 'n dikwels onderbenutte administratiewe funksie. OptiHR het spesifieke ervaring om onafhanklike skole deur KI-aanname te ondersteun met al hierdie faktore in gedagte."
+		}
 	}
 }
