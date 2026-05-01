@@ -1,17 +1,21 @@
 import { defaultValues } from "@features/contact-form/config"
 import { withForm } from "@features/contact-form/lib/form"
-import { fieldConfig } from "@features/contact-form/model/field-config"
 import {
 	PrimaryServiceInterestSchema,
 	UrgencyLevelSchema,
 } from "@features/contact-form/model/schema"
 import { FormField, SelectInput, TextAreaInput } from "@shared/components/form-components"
+import type { SelectItemType } from "@shared/components/form-components"
+import { useTranslations } from "next-intl"
 import { contactFormVariants, createAsyncValidator, createValidator } from "../../lib"
 import { ContactFormLayout } from "../contact-form-layout"
 
 export const StepTwo = withForm({
 	defaultValues: defaultValues,
 	render: ({ form }) => {
+		const t = useTranslations("ContactForm")
+		const primaryServiceOptions = t.raw("options.primaryServiceInterest") as SelectItemType[]
+		const urgencyOptions = t.raw("options.urgencyLevel") as SelectItemType[]
 		return (
 			<ContactFormLayout
 				animate="in"
@@ -24,24 +28,24 @@ export const StepTwo = withForm({
 				<form.AppField
 					name={"stepTwo.primaryServiceInterest"}
 					validators={{
-						onChangeAsync: createAsyncValidator(PrimaryServiceInterestSchema),
+						onChangeAsync: createAsyncValidator(PrimaryServiceInterestSchema, t),
 						onChangeAsyncDebounceMs: 500,
-						onBlur: createValidator(PrimaryServiceInterestSchema),
+						onBlur: createValidator(PrimaryServiceInterestSchema, t),
 					}}
 				>
 					{(field) => (
 						<FormField
 							field={field}
 							key="primaryServiceInterest"
-							label={fieldConfig.stepTwo.primaryServiceInterest.label}
+							label={t("fields.primaryServiceInterest.label")}
 						>
 							{({ field: f, isInvalid }) => (
 								<SelectInput
 									invalid={isInvalid}
-									items={fieldConfig.stepTwo.primaryServiceInterest.options}
+									items={primaryServiceOptions}
 									onBlur={() => f.handleBlur()}
 									onValueChange={(value) => f.handleChange(value?.value)}
-									placeholder={fieldConfig.stepTwo.primaryServiceInterest.placeholder}
+									placeholder={t("fields.primaryServiceInterest.placeholder")}
 									value={f.state.value || null}
 								/>
 							)}
@@ -51,24 +55,24 @@ export const StepTwo = withForm({
 				<form.AppField
 					name="stepTwo.urgencyLevel"
 					validators={{
-						onChangeAsync: createAsyncValidator(UrgencyLevelSchema),
+						onChangeAsync: createAsyncValidator(UrgencyLevelSchema, t),
 						onChangeAsyncDebounceMs: 500,
-						onBlur: createValidator(UrgencyLevelSchema),
+						onBlur: createValidator(UrgencyLevelSchema, t),
 					}}
 				>
 					{(field) => (
 						<FormField
 							field={field}
 							key="urgencyLevel"
-							label={fieldConfig.stepTwo.urgencyLevel.label}
+							label={t("fields.urgencyLevel.label")}
 						>
 							{({ field: f, isInvalid }) => (
 								<SelectInput
 									invalid={isInvalid}
-									items={fieldConfig.stepTwo.urgencyLevel.options}
+									items={urgencyOptions}
 									onBlur={() => f.handleBlur()}
 									onValueChange={(value) => f.handleChange(value?.value)}
-									placeholder={fieldConfig.stepTwo.urgencyLevel.placeholder}
+									placeholder={t("fields.urgencyLevel.placeholder")}
 									value={f.state.value || null}
 								/>
 							)}
@@ -79,16 +83,16 @@ export const StepTwo = withForm({
 					{(field) => (
 						<FormField
 							field={field}
-							isOptional={fieldConfig.stepTwo.challengeDescription.optional}
+							isOptional
 							key="challengeDescription"
-							label={fieldConfig.stepTwo.challengeDescription.label}
+							label={t("fields.challengeDescription.label")}
 						>
 							{({ field: f, isInvalid }) => (
 								<TextAreaInput
 									invalid={isInvalid}
 									onBlur={() => f.handleBlur()}
 									onChange={(e) => f.handleChange(e.target.value)}
-									placeholder={fieldConfig.stepTwo.challengeDescription.placeholder}
+									placeholder={t("fields.challengeDescription.placeholder")}
 									value={f.state.value ?? ""}
 								/>
 							)}

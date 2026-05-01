@@ -1,15 +1,21 @@
 import { regex, type } from "arktype"
 import type { HTMLAttributes } from "react"
 
+// Validator messages emit translation keys. The client validators in
+// `lib/advanced-validation.ts` look these up against the ContactForm.validation
+// namespace to render the user's locale. The server action passes them through
+// as-is — TanStack Form propagates them back to the client where they're rendered
+// via the same translation lookup in <FormField>.
+
 export const CompanyNameSchema = type("string").narrow((value, ctx) => {
 	if (value === undefined) {
 		return ctx.reject({
-			message: "Your company name is required.",
+			message: "validation.companyNameRequired",
 		})
 	}
 	if (value.trim().length < 1)
 		return ctx.reject({
-			message: "Your company name is required.",
+			message: "validation.companyNameRequired",
 		})
 	return true
 })
@@ -17,7 +23,7 @@ export const CompanyNameSchema = type("string").narrow((value, ctx) => {
 export const BusinessTypeSchema = type("string").narrow((value, ctx) => {
 	if (value === undefined || value === null) {
 		return ctx.reject({
-			message: "Your business type is required.",
+			message: "validation.businessTypeRequired",
 		})
 	}
 	const validOptions = [
@@ -27,12 +33,12 @@ export const BusinessTypeSchema = type("string").narrow((value, ctx) => {
 	]
 	if (value === "") {
 		return ctx.reject({
-			message: "Your business type is required.",
+			message: "validation.businessTypeRequired",
 		})
 	}
 	if (!validOptions.includes(value)) {
 		return ctx.reject({
-			message: "Invalid business type",
+			message: "validation.businessTypeInvalid",
 		})
 	}
 	return true
@@ -41,7 +47,7 @@ export const BusinessTypeSchema = type("string").narrow((value, ctx) => {
 export const PrimaryServiceInterestSchema = type("string").narrow((value, ctx) => {
 	if (value === undefined || value === null) {
 		return ctx.reject({
-			message: "Please select a service that you are interested in.",
+			message: "validation.primaryServiceInterestRequired",
 		})
 	}
 	const validOptions = [
@@ -58,12 +64,12 @@ export const PrimaryServiceInterestSchema = type("string").narrow((value, ctx) =
 	]
 	if (value === "") {
 		return ctx.reject({
-			message: "Please select a service that you are interested in.",
+			message: "validation.primaryServiceInterestRequired",
 		})
 	}
 	if (!validOptions.includes(value)) {
 		return ctx.reject({
-			message: "Invalid service option",
+			message: "validation.primaryServiceInterestInvalid",
 		})
 	}
 	return true
@@ -72,7 +78,7 @@ export const PrimaryServiceInterestSchema = type("string").narrow((value, ctx) =
 export const UrgencyLevelSchema = type("string").narrow((value, ctx) => {
 	if (value === undefined || value === null) {
 		return ctx.reject({
-			message: "Please select an urgency level.",
+			message: "validation.urgencyLevelRequired",
 		})
 	}
 	const validOptions = [
@@ -82,12 +88,12 @@ export const UrgencyLevelSchema = type("string").narrow((value, ctx) => {
 	]
 	if (value === "") {
 		return ctx.reject({
-			message: "Please select an urgency level.",
+			message: "validation.urgencyLevelRequired",
 		})
 	}
 	if (!validOptions.includes(value)) {
 		return ctx.reject({
-			message: "Invalid urgency level",
+			message: "validation.urgencyLevelInvalid",
 		})
 	}
 	return true
@@ -98,13 +104,13 @@ export const ChallengeDescriptionSchema = type("string").optional()
 export const LocationSchema = type("string").narrow((value, ctx) => {
 	if (value === undefined || value === null || value === "") {
 		return ctx.reject({
-			message: "Please tell us where you're based.",
+			message: "validation.locationRequired",
 		})
 	}
 	const validOptions = ["Gauteng", "Cape Town and Surrounds", "Other"]
 	if (!validOptions.includes(value)) {
 		return ctx.reject({
-			message: "Invalid location",
+			message: "validation.locationInvalid",
 		})
 	}
 	return true
@@ -115,13 +121,13 @@ export const LocationOtherSchema = type("string").optional()
 export const FullNameSchema = type("string").narrow((value, ctx) => {
 	if (value === undefined || value === null) {
 		return ctx.reject({
-			message: "Your full name is required.",
+			message: "validation.fullNameRequired",
 		})
 	}
 	const minLength = 3
 	if (value.trim().length <= minLength) {
 		return ctx.reject({
-			message: `Your full name must be longer than ${minLength} characters.`,
+			message: "validation.fullNameTooShort",
 		})
 	}
 	return true
@@ -130,12 +136,12 @@ export const FullNameSchema = type("string").narrow((value, ctx) => {
 export const WorkEmailSchema = type("string").narrow((value, ctx) => {
 	if (value === undefined || value === null) {
 		return ctx.reject({
-			message: "Your work email is required.",
+			message: "validation.workEmailRequired",
 		})
 	}
 	if (value.trim().length < 1) {
 		return ctx.reject({
-			message: "Your work email is required.",
+			message: "validation.workEmailRequired",
 		})
 	}
 	const emailRegex = regex(
@@ -144,7 +150,7 @@ export const WorkEmailSchema = type("string").narrow((value, ctx) => {
 	)
 	if (!emailRegex.test(value)) {
 		return ctx.reject({
-			message: "Please enter a valid email address.",
+			message: "validation.workEmailInvalid",
 		})
 	}
 	return true
@@ -159,13 +165,13 @@ export const PhoneNumberSchema = type("string").narrow((value, ctx) => {
 	}
 	if (value.trim().length > 15) {
 		return ctx.reject({
-			message: "Your phone number cannot be more than 15 characters.",
+			message: "validation.phoneNumberTooLong",
 		})
 	}
 	const phoneRegex = regex("^[+]?[0-9\\s\\-\\(\\)]{7,15}[0-9]$", "i")
 	if (!phoneRegex.test(value)) {
 		return ctx.reject({
-			message: "Invalid phone number format.",
+			message: "validation.phoneNumberInvalid",
 		})
 	}
 	return true

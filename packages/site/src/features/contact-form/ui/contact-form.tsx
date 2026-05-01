@@ -4,6 +4,7 @@ import { P } from "@shared/components/typography"
 import { cn } from "@shared/lib/utils"
 import { initialFormState, mergeForm, useStore, useTransform } from "@tanstack/react-form-nextjs"
 import { AnimatePresence, motion } from "motion/react"
+import { useTranslations } from "next-intl"
 import { serialize } from "object-to-formdata"
 import { type MouseEvent, startTransition, useActionState, useMemo, useState } from "react"
 import { formOpts } from "../config"
@@ -26,6 +27,7 @@ export const stepFields = {
 } as const
 
 export const ContactForm = () => {
+	const t = useTranslations("ContactForm")
 	const [state, action] = useActionState(submitContactForm, initialFormState)
 	const [step, setStep] = useState<1 | 2 | 3>(1)
 
@@ -97,11 +99,11 @@ export const ContactForm = () => {
 				{/* POPIA consent notice — shown on final step before submit */}
 				{step === 3 && (
 					<p className="text-fluid-n1 leading-snug text-mint-5/60">
-						By submitting this form you consent to OptiHR processing your personal information to respond to your enquiry, in accordance with our{" "}
+						{t("privacy.prefix")}
 						<a className="text-mint-4 underline hover:text-mint-6" href="/legal#privacy-notice">
-							Privacy Notice (POPIA)
+							{t("privacy.linkText")}
 						</a>
-						. You may withdraw consent at any time by emailing hello@optihr.co.za.
+						{t("privacy.suffix")}
 					</p>
 				)}
 				<div className="grid w-full grid-cols-1 sm:grid-cols-2 gap-inner-padding pb-fluid-4">
@@ -114,7 +116,7 @@ export const ContactForm = () => {
 							}}
 							showTrim={false}
 						>
-							Back
+							{t("buttons.back")}
 						</ActionButton>
 					)}
 					<form.Subscribe
@@ -134,10 +136,14 @@ export const ContactForm = () => {
 									})
 								}
 							}
-							const text = isNextStep ? "Next" : isSubmitting ? "Submitting..." : "Submit"
+							const text = isNextStep
+								? t("buttons.next")
+								: isSubmitting
+									? t("buttons.submitting")
+									: t("buttons.submit")
 							return (
 								<div className="sm:col-start-2 flex items-center gap-inner-padding place-self-end">
-									<P className="text-fluid-n1 text-mint-1 opacity-60.">{`Step ${String(step)} of 3`}</P>
+									<P className="text-fluid-n1 text-mint-1 opacity-60.">{t("stepIndicator", { step })}</P>
 									<ActionButton
 										className={cn(
 											"disabled:opacity-50",

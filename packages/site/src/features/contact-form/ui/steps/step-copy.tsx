@@ -2,19 +2,19 @@
 
 import { SectionSubtitle } from "@shared/components/section-subtitle"
 import { H2, P } from "@shared/components/typography"
-import { type StepCopyType, stepCopy } from "../../model/step-copy"
+import { useTranslations } from "next-intl"
 
 interface Props {
 	step: 1 | 2 | 3
 }
 
 export const StepCopy = ({ step }: Props) => {
-	const current = stepCopy[`step${step}` as keyof StepCopyType]
+	const t = useTranslations("ContactForm")
 	return (
 		<div className="space-y-4">
-			<SectionSubtitle title={`Step ${step} of 3`} />
-			<H2>{current.heading}</H2>
-			<P>{current.body}</P>
+			<SectionSubtitle title={t("stepIndicator", { step })} />
+			<H2>{t(`steps.step${step}.heading`)}</H2>
+			<P>{t(`steps.step${step}.body`)}</P>
 		</div>
 	)
 }

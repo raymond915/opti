@@ -1573,5 +1573,124 @@
 		"legalSubtitle": "Regsraamwerk",
 		"legalTitle": "Wetgewing wat van toepassing is",
 		"faqTitle": "Gereelde vrae"
+	},
+	"ContactForm": {
+		"optional": "(Opsioneel)",
+		"steps": {
+			"step1": {
+				"heading": "Vertel Ons van Jou Onderneming",
+				"body": "Deel jou maatskappynaam, tipe (klein onderneming, korporatief of onafhanklike skool) en personeelgetalle vinnig. Kry persoonlike MH-oplossings wat by jou grootte en behoeftes pas."
+			},
+			"step2": {
+				"heading": "Watter MH-uitdagings Het Jy?",
+				"body": "Kies hoofdienste soos arbeidsoudits, prestasiebestuur of MH vir private skole. Spesifiseer dringendheid en beskryf jou uitdagings vir geteikende kundige ondersteuning."
+			},
+			"step3": {
+				"heading": "Kom Ons Skakel",
+				"body": "Verskaf jou volle naam, werk-e-pos en telefoonnommer. Ons MH-konsultante sal binne 24 uur kontak maak met jou gratis pasgemaakte konsultasie."
+			}
+		},
+		"stepIndicator": "Stap {step} van 3",
+		"fields": {
+			"companyName": {
+				"label": "Maatskappynaam",
+				"placeholder": "Voer jou maatskappy se naam in"
+			},
+			"businessType": {
+				"label": "Tipe Onderneming",
+				"placeholder": "Kies jou tipe onderneming"
+			},
+			"location": {
+				"label": "Waar is jy gebaseer?",
+				"placeholder": "Kies jou ligging"
+			},
+			"locationOther": {
+				"label": "Spesifiseer asseblief jou ligging",
+				"placeholder": "bv. Durban, KwaZulu-Natal"
+			},
+			"primaryServiceInterest": {
+				"label": "In watter dienste stel jy belang?",
+				"placeholder": "Kies een of meer dienste"
+			},
+			"urgencyLevel": {
+				"label": "Dringendheid",
+				"placeholder": "Kies dringendheidsvlak"
+			},
+			"challengeDescription": {
+				"label": "Beskryf jou uitdagings",
+				"description": "Verskaf asseblief 'n kort beskrywing van jou huidige uitdagings",
+				"placeholder": "Vertel ons meer oor jou uitdagings..."
+			},
+			"fullName": {
+				"label": "Volle naam",
+				"placeholder": "Voer jou volle naam in"
+			},
+			"workEmail": {
+				"label": "Werk-e-pos",
+				"placeholder": "jou@maatskappy.com"
+			},
+			"phoneNumber": {
+				"label": "Telefoonnommer",
+				"placeholder": "bv. +27 123 456 789"
+			}
+		},
+		"options": {
+			"businessType": [
+				{ "value": "Small Business", "label": "Klein Onderneming" },
+				{ "value": "Large Business", "label": "Groot Onderneming" },
+				{ "value": "Independent School", "label": "Onafhanklike Skool" }
+			],
+			"location": [
+				{ "value": "Gauteng", "label": "Gauteng" },
+				{ "value": "Cape Town and Surrounds", "label": "Kaapstad en Omgewing" },
+				{ "value": "Other", "label": "Ander — spesifiseer asseblief" }
+			],
+			"primaryServiceInterest": [
+				{ "value": "Labour Audits", "label": "Arbeidsoudits" },
+				{ "value": "Job Evaluation & Salary Benchmarking", "label": "Posevaluering & Salaris-vergelyking" },
+				{ "value": "Performance Management & Employee Retention", "label": "Prestasiebestuur & Werknemer-behoud" },
+				{ "value": "Workplace Discipline & Dispute Resolution", "label": "Werkplekdissipline & Geskil-oplossing" },
+				{ "value": "Retrenchments & Restructuring", "label": "Afleggings & Herstrukturering" },
+				{ "value": "HR Policy Development & Implementation", "label": "MH-beleidsontwikkeling & -implementering" },
+				{ "value": "HR Training & Development", "label": "MH-opleiding & -ontwikkeling" },
+				{ "value": "Workplace Wellness Programs", "label": "Werkplek-welstandsprogramme" },
+				{ "value": "HR Support for Private Schools", "label": "MH-ondersteuning vir Privaat Skole" },
+				{ "value": "All of the above", "label": "Al die bogenoemde" }
+			],
+			"urgencyLevel": [
+				{ "value": "Immediate", "label": "Onmiddellik" },
+				{ "value": "1–3 Months", "label": "1–3 Maande" },
+				{ "value": "Exploring my options", "label": "Verken my opsies" }
+			]
+		},
+		"validation": {
+			"companyNameRequired": "Jou maatskappynaam word vereis.",
+			"businessTypeRequired": "Jou tipe onderneming word vereis.",
+			"businessTypeInvalid": "Ongeldige tipe onderneming",
+			"locationRequired": "Vertel ons asseblief waar jy gebaseer is.",
+			"locationInvalid": "Ongeldige ligging",
+			"primaryServiceInterestRequired": "Kies asseblief 'n diens waarin jy belang stel.",
+			"primaryServiceInterestInvalid": "Ongeldige diensopsie",
+			"urgencyLevelRequired": "Kies asseblief 'n dringendheidsvlak.",
+			"urgencyLevelInvalid": "Ongeldige dringendheidsvlak",
+			"fullNameRequired": "Jou volle naam word vereis.",
+			"fullNameTooShort": "Jou volle naam moet langer as 3 karakters wees.",
+			"workEmailRequired": "Jou werk-e-pos word vereis.",
+			"workEmailInvalid": "Voer asseblief 'n geldige e-posadres in.",
+			"phoneNumberTooLong": "Jou telefoonnommer mag nie meer as 15 karakters wees nie.",
+			"phoneNumberInvalid": "Ongeldige telefoonnommer-formaat.",
+			"validationFailed": "Validering het misluk"
+		},
+		"buttons": {
+			"back": "Terug",
+			"next": "Volgende",
+			"submit": "Dien in",
+			"submitting": "Besig om in te dien..."
+		},
+		"privacy": {
+			"prefix": "Deur hierdie vorm in te dien, stem jy in dat OptiHR jou persoonlike inligting verwerk om op jou navraag te reageer, in ooreenstemming met ons ",
+			"linkText": "Privaatheidskennis (POPIA)",
+			"suffix": ". Jy kan toestemming te eniger tyd terugtrek deur 'n e-pos te stuur na hello@optihr.co.za."
+		}
 	}
 }

@@ -1,18 +1,19 @@
 import { defaultValues } from "@features/contact-form/config"
 import { withForm } from "@features/contact-form/lib/form"
-import { fieldConfig } from "@features/contact-form/model/field-config"
 import {
 	FullNameSchema,
 	PhoneNumberSchema,
 	WorkEmailSchema,
 } from "@features/contact-form/model/schema"
 import { FormField, TextInput } from "@shared/components/form-components"
+import { useTranslations } from "next-intl"
 import { contactFormVariants, createAsyncValidator, createValidator } from "../../lib"
 import { ContactFormLayout } from "../contact-form-layout"
 
 export const StepThree = withForm({
 	defaultValues: defaultValues,
 	render: ({ form }) => {
+		const t = useTranslations("ContactForm")
 		return (
 			<ContactFormLayout
 				animate="in"
@@ -25,9 +26,9 @@ export const StepThree = withForm({
 				<form.AppField
 					name={"stepThree.fullName"}
 					validators={{
-						onChangeAsync: createAsyncValidator(FullNameSchema),
+						onChangeAsync: createAsyncValidator(FullNameSchema, t),
 						onChangeAsyncDebounceMs: 500,
-						onBlur: createValidator(FullNameSchema),
+						onBlur: createValidator(FullNameSchema, t),
 					}}
 				>
 					{(field) => {
@@ -35,14 +36,14 @@ export const StepThree = withForm({
 							<FormField
 								field={field}
 								key="fullName"
-								label={fieldConfig.stepThree.fullName.label}
+								label={t("fields.fullName.label")}
 							>
 								{({ field: f, isInvalid }) => (
 									<TextInput
 										invalid={isInvalid}
 										onBlur={() => f.handleBlur()}
 										onChange={(e) => f.handleChange(e.target.value)}
-										placeholder={fieldConfig.stepThree.fullName.placeholder}
+										placeholder={t("fields.fullName.placeholder")}
 										value={f.state.value ?? ""}
 									/>
 								)}
@@ -53,9 +54,9 @@ export const StepThree = withForm({
 				<form.AppField
 					name="stepThree.workEmail"
 					validators={{
-						onChangeAsync: createAsyncValidator(WorkEmailSchema),
+						onChangeAsync: createAsyncValidator(WorkEmailSchema, t),
 						onChangeAsyncDebounceMs: 500,
-						onBlur: createValidator(WorkEmailSchema),
+						onBlur: createValidator(WorkEmailSchema, t),
 					}}
 				>
 					{(field) => {
@@ -63,14 +64,14 @@ export const StepThree = withForm({
 							<FormField
 								field={field}
 								key="workEmail"
-								label={fieldConfig.stepThree.workEmail.label}
+								label={t("fields.workEmail.label")}
 							>
 								{({ field: f, isInvalid }) => (
 									<TextInput
 										invalid={isInvalid}
 										onBlur={() => f.handleBlur()}
 										onChange={(e) => f.handleChange(e.target.value)}
-										placeholder={fieldConfig.stepThree.workEmail.placeholder}
+										placeholder={t("fields.workEmail.placeholder")}
 										value={f.state.value || ""}
 									/>
 								)}
@@ -81,25 +82,25 @@ export const StepThree = withForm({
 				<form.AppField
 					name="stepThree.phoneNumber"
 					validators={{
-						onChangeAsync: createAsyncValidator(PhoneNumberSchema),
+						onChangeAsync: createAsyncValidator(PhoneNumberSchema, t),
 						onChangeAsyncDebounceMs: 500,
-						onBlur: createValidator(PhoneNumberSchema),
+						onBlur: createValidator(PhoneNumberSchema, t),
 					}}
 				>
 					{(field) => {
 						return (
 							<FormField
 								field={field}
-								isOptional={fieldConfig.stepThree.phoneNumber.optional}
+								isOptional
 								key="phoneNumber"
-								label={fieldConfig.stepThree.phoneNumber.label}
+								label={t("fields.phoneNumber.label")}
 							>
 								{({ field: f, isInvalid }) => (
 									<TextInput
 										invalid={isInvalid}
 										onBlur={() => f.handleBlur()}
 										onChange={(e) => f.handleChange(e.target.value)}
-										placeholder={fieldConfig.stepThree.phoneNumber.placeholder}
+										placeholder={t("fields.phoneNumber.placeholder")}
 										value={f.state.value || ""}
 									/>
 								)}
