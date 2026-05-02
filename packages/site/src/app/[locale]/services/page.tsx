@@ -1,6 +1,7 @@
 import { ServicesPage } from "@pages/service-archive/ui"
 import type { Metadata, NextPage } from "next"
 import { getTranslations, setRequestLocale } from "next-intl/server"
+import { getAlternates } from "@/i18n/alternates"
 
 export async function generateMetadata({
 	params,
@@ -13,6 +14,7 @@ export async function generateMetadata({
 	return {
 		title: t("metaTitle"),
 		description: t("metaDescription"),
+		alternates: getAlternates("/services", locale),
 		openGraph: {
 			title: t("ogTitle"),
 			description: t("ogDescription"),

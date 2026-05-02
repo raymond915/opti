@@ -1,6 +1,7 @@
 import { InsightArchivePage } from "@pages/insight-archive/ui"
 import type { Metadata, NextPage } from "next"
 import { getTranslations, setRequestLocale } from "next-intl/server"
+import { getAlternates } from "@/i18n/alternates"
 
 interface PageProps {
 	params: Promise<{ locale: string }>
@@ -18,6 +19,7 @@ export async function generateMetadata({
 	return {
 		title: t("metaTitle"),
 		description: t("metaDescription"),
+		alternates: getAlternates("/insights", locale),
 		openGraph: {
 			title: t("ogTitle"),
 			description: t("ogDescription"),

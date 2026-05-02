@@ -1,6 +1,7 @@
 import ForLargeBusinessesPage from "@pages/for-large-businesses/ui"
 import type { Metadata, NextPage } from "next"
 import { getTranslations, setRequestLocale } from "next-intl/server"
+import { getAlternates } from "@/i18n/alternates"
 
 export async function generateMetadata({
 	params,
@@ -13,6 +14,7 @@ export async function generateMetadata({
 	return {
 		title: t("metaTitle"),
 		description: t("metaDescription"),
+		alternates: getAlternates("/for-large-businesses", locale),
 		openGraph: {
 			title: t("ogTitle"),
 			description: t("ogDescription"),

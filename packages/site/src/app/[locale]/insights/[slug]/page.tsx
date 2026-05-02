@@ -3,6 +3,7 @@ import { articles } from "@pages/individual-insight/article-content/articles"
 import type { Metadata, NextPage } from "next"
 import { getTranslations, setRequestLocale } from "next-intl/server"
 import { notFound } from "next/navigation"
+import { getAlternates } from "@/i18n/alternates"
 
 interface PageProps {
 	params: Promise<{ locale: string; slug: string }>
@@ -33,6 +34,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 	return {
 		title: { absolute: `${title} — OptiBuzz | OptiHR` },
 		description: excerpt,
+		alternates: getAlternates(`/insights/${slug}`, locale),
 		openGraph: {
 			title: `${title} — OptiBuzz | OptiHR`,
 			description: excerpt,

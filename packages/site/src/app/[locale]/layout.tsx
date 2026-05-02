@@ -24,7 +24,12 @@ const beVietnamPro = Be_Vietnam_Pro({
 	],
 })
 
+const SITE_URL = (
+	process.env.NEXT_PUBLIC_SITE_URL || "https://opti-site-tau.vercel.app"
+).replace(/\/$/, "")
+
 export const metadata: Metadata = {
+	metadataBase: new URL(SITE_URL),
 	title: {
 		default: "OptiHR — Specialist HR, Labour Law & AI Consulting | South Africa",
 		template: "%s | OptiHR",

@@ -5,6 +5,7 @@ import {
 } from "@pages/individual-service/ui"
 import type { Metadata } from "next"
 import { getTranslations, setRequestLocale } from "next-intl/server"
+import { getAlternates } from "@/i18n/alternates"
 
 interface PageProps {
 	params: Promise<{ locale: string; service: string }>
@@ -34,6 +35,7 @@ export async function generateMetadata({
 	return {
 		title: { absolute: `${title} — OptiHR Services | OptiHR` },
 		description,
+		alternates: getAlternates(`/services/${service}`, locale),
 		openGraph: {
 			title: `${title} — OptiHR Services`,
 			description,
